@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Numis Item",
+  "type": "object",
+  "required": [
+    "id",
+    "country",
+    "type",
+    "denomination"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "coin",
+        "note"
+      ]
+    },
+    "denomination": {
+      "type": "string"
+    },
+    "currency_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "era": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string"
+    },
+    "material": {
+      "type": "string"
+    },
+    "composition": {
+      "type": "string"
+    },
+    "weight_g": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "diameter_mm": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "size_mm": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "string"
+    },
+    "mint": {
+      "type": "string"
+    },
+    "catalog_ref": {
+      "type": "string"
+    },
+    "serial_number": {
+      "type": "string"
+    },
+    "security_features": {
+      "type": "string"
+    },
+    "obverse_text": {
+      "type": "string"
+    },
+    "reverse_text": {
+      "type": "string"
+    },
+    "acquired_on": {
+      "type": "string"
+    },
+    "acquired_from": {
+      "type": "string"
+    },
+    "price": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "provenance": {
+      "type": "string"
+    },
+    "story": {
+      "type": "string"
+    },
+    "learn_more_url": {
+      "type": "string"
+    },
+    "image_obverse": {
+      "type": "string"
+    },
+    "image_reverse": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
