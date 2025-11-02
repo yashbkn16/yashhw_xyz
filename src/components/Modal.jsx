@@ -5,7 +5,7 @@ import { X, MapPin, Calendar, Coins, BookOpen, Star, Award, Globe } from 'lucide
 
 export default function Modal({ item, onClose }) {
   const [activeTab, setActiveTab] = useState('details')
-  const [imageLoaded, setImageLoaded] = useState(false)
+  // Note: imageLoaded state removed - will be needed when images are re-enabled
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -246,8 +246,15 @@ export default function Modal({ item, onClose }) {
             >
               {activeTab === 'details' && (
                 <div className="modal-grid">
-                  {/* Images Section */}
-                  <motion.div className="modal-images" variants={itemVariants}>
+                  {/* Images Section - Temporarily disabled */}
+                  {/* TODO: FUTURE ENHANCEMENT - Currency Images
+                      When complete collection with images is ready:
+                      1. Uncomment the modal-images section below
+                      2. Ensure image_front and image_back are populated in collection.json
+                      3. Consider image optimization and lazy loading
+                      4. Add image zoom functionality on click
+                  */}
+                  {/* <motion.div className="modal-images" variants={itemVariants}>
                     <div className="modal-image">
                       <img
                         src={item.image_front || item.image || item.image_obverse || '/favicon.svg'}
@@ -265,10 +272,10 @@ export default function Modal({ item, onClose }) {
                         alt={`${item.denomination} back`}
                       />
                     </div>
-                  </motion.div>
+                  </motion.div> */}
 
                   {/* Details Section */}
-                  <motion.div className="modal-info" variants={itemVariants}>
+                  <motion.div className="modal-info" variants={itemVariants} style={{ gridColumn: '1 / -1' }}>
                     <div className="modal-section">
                       <h3><Coins size={20} />Specifications</h3>
                       <div className="info-grid">

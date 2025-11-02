@@ -55,16 +55,17 @@ export default function Card({ item, onOpen }) {
     }
   }
 
-  const imageVariants = {
-    hover: {
-      scale: 1.1,
-      rotateY: 8,
-      transition: {
-        duration: 0.4,
-        ease: "easeOut"
-      }
-    }
-  }
+  // TODO: Re-enable when images are added back
+  // const imageVariants = {
+  //   hover: {
+  //     scale: 1.1,
+  //     rotateY: 8,
+  //     transition: {
+  //       duration: 0.4,
+  //       ease: "easeOut"
+  //     }
+  //   }
+  // }
 
   const getCountryCode = (country) => {
     const countryMap = {
@@ -139,9 +140,16 @@ export default function Card({ item, onOpen }) {
         }}
       />
 
-      {/* Card Image */}
+      {/* Card Image Section */}
+      {/* TODO: FUTURE ENHANCEMENT - Add currency images when full collection is ready
+          - Uncomment the img tag below
+          - Use item.image_front for front view
+          - Use item.image_back for back view in modal
+          - Consider lazy loading for performance
+      */}
       <div className="card-image">
-        <motion.img
+        {/* Image temporarily disabled - will be added with complete collection */}
+        {/* <motion.img
           src={item.image_front || item.image}
           alt={`${item.country} ${item.denomination}`}
           variants={imageVariants}
@@ -150,7 +158,18 @@ export default function Card({ item, onOpen }) {
           style={{
             filter: `drop-shadow(0 ${isHovered ? 15 : 8}px ${isHovered ? 20 : 12}px rgba(0, 0, 0, 0.1))`
           }}
-        />
+        /> */}
+        
+        {/* Placeholder content - shows denomination as large text */}
+        <div style={{
+          fontSize: 'clamp(1.2rem, 4vw, 2rem)',
+          fontWeight: '700',
+          color: 'var(--accent-primary)',
+          textAlign: 'center',
+          padding: 'var(--space-md)'
+        }}>
+          {item.denomination}
+        </div>
         
         {/* Type badge */}
         <motion.div

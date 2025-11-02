@@ -197,6 +197,8 @@ export default function App() {
       <header 
         className="site"
         style={{
+          position: 'sticky',
+          top: 0,
           background: scrollY > 50 
             ? 'rgba(255, 255, 255, 0.95)' 
             : 'rgba(255, 255, 255, 0.85)',
@@ -204,7 +206,14 @@ export default function App() {
         }}
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        <div className="wrap inner">
+        <div className="inner" style={{ 
+          maxWidth: '1400px', 
+          margin: '0 auto',
+          paddingLeft: 'var(--space-lg)',
+          paddingRight: 'var(--space-lg)',
+          width: '100%',
+          boxSizing: 'border-box'
+        }}>
           <motion.div 
             className="brand"
             whileHover={{ scale: 1.02 }}
@@ -223,8 +232,8 @@ export default function App() {
       </header>
 
       <main className="wrap" style={{ position: 'relative' }}>
-        {/* Indian Rupee Symbol Background */}
-        <div style={{
+        {/* Indian Rupee Symbol Background - Hidden on mobile */}
+        <div className="inr-background" style={{
           position: 'fixed',
           top: '15%',
           right: '5%',
@@ -239,7 +248,7 @@ export default function App() {
         }}>
           ₹
         </div>
-        <div style={{
+        <div className="inr-background" style={{
           position: 'fixed',
           bottom: '15%',
           left: '5%',
@@ -255,7 +264,7 @@ export default function App() {
         }}>
           ₹
         </div>
-        <div style={{
+        <div className="inr-background" style={{
           position: 'fixed',
           top: '50%',
           left: '50%',
@@ -309,7 +318,11 @@ export default function App() {
             }}>
               {/* Search Input with Icon */}
               <div style={{ position: 'relative', gridColumn: 'span 2' }}>
-                <div style={{ position: 'relative' }}>
+                <div style={{ 
+                  position: 'relative',
+                  display: 'flex',
+                  alignItems: 'center'
+                }}>
                   <span style={{
                     position: 'absolute',
                     left: 'var(--space-md)',
@@ -343,7 +356,8 @@ export default function App() {
                       transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
                       fontFamily: 'inherit',
                       lineHeight: '1.5',
-                      height: '44px'
+                      height: '44px',
+                      boxSizing: 'border-box'
                     }}
                   />
                   {query && (
@@ -364,6 +378,8 @@ export default function App() {
                         borderRadius: '50%',
                         width: '28px',
                         height: '28px',
+                        minWidth: '28px',
+                        minHeight: '28px',
                         cursor: 'pointer',
                         display: 'flex',
                         alignItems: 'center',
@@ -371,7 +387,10 @@ export default function App() {
                         fontSize: '0.9rem',
                         color: '#92400e',
                         fontWeight: '600',
-                        transition: 'all 0.2s ease'
+                        transition: 'all 0.2s ease',
+                        zIndex: 2,
+                        padding: 0,
+                        flexShrink: 0
                       }}
                       whileHover={{ 
                         background: 'rgba(196, 154, 108, 0.25)',

@@ -1,3 +1,22 @@
+"""
+FUTURE ENHANCEMENT: Currency Image Addition Script
+===================================================
+This script adds image URLs to the collection.json file.
+
+STATUS: Currently disabled - images removed from website
+REASON: Waiting for complete collection with proper images
+
+TO RE-ENABLE:
+1. Update image_urls dictionary with actual currency images
+2. Run this script: python admin/add_currency_images.py
+3. Uncomment image code in:
+   - src/components/Card.jsx (lines ~143-160)
+   - src/components/Modal.jsx (lines ~250-272)
+4. Test image loading and performance
+
+NOTE: Consider using a proper image CDN or local storage
+"""
+
 import json
 import os
 
