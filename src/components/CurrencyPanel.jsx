@@ -64,6 +64,9 @@ export default function CurrencyPanel({ country, onClose }) {
 
   if (!country) return null
 
+  // Check if mobile
+  const isMobile = window.innerWidth <= 768
+
   return createPortal(
     <AnimatePresence>
       <motion.div
@@ -81,7 +84,7 @@ export default function CurrencyPanel({ country, onClose }) {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          padding: 'var(--space-md)'
+          padding: isMobile ? 'var(--space-sm)' : 'var(--space-md)'
         }}
       >
             {/* Panel */}
@@ -95,12 +98,14 @@ export default function CurrencyPanel({ country, onClose }) {
                 background: 'linear-gradient(135deg, rgba(255,255,255,0.95), rgba(255,255,255,0.9))',
                 backdropFilter: 'blur(20px)',
                 borderRadius: 'var(--radius-lg)',
-                padding: 'var(--space-lg)',
-                maxWidth: '500px',
+                padding: isMobile ? 'var(--space-md)' : 'var(--space-lg)',
+                maxWidth: isMobile ? '90vw' : '500px',
                 width: '100%',
                 boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(255,255,255,0.2)',
                 border: '1px solid rgba(255,255,255,0.3)',
-                position: 'relative'
+                position: 'relative',
+                maxHeight: isMobile ? '85vh' : 'auto',
+                overflowY: isMobile ? 'auto' : 'visible'
               }}
             >
               {/* Close button */}
@@ -130,13 +135,13 @@ export default function CurrencyPanel({ country, onClose }) {
               </button>
 
               {/* Header */}
-              <div style={{ marginBottom: 'var(--space-lg)', textAlign: 'center' }}>
+              <div style={{ marginBottom: isMobile ? 'var(--space-md)' : 'var(--space-lg)', textAlign: 'center' }}>
                 <motion.div
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ delay: 0.1, type: 'spring', stiffness: 200 }}
                   style={{
-                    fontSize: '3rem',
+                    fontSize: isMobile ? '2rem' : '3rem',
                     marginBottom: 'var(--space-sm)'
                   }}
                 >
@@ -144,7 +149,7 @@ export default function CurrencyPanel({ country, onClose }) {
                 </motion.div>
                 <h2 style={{
                   margin: 0,
-                  fontSize: '1.5rem',
+                  fontSize: isMobile ? '1.2rem' : '1.5rem',
                   fontWeight: '700',
                   background: 'linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))',
                   WebkitBackgroundClip: 'text',
@@ -156,7 +161,7 @@ export default function CurrencyPanel({ country, onClose }) {
                 <p style={{
                   margin: 'var(--space-xs) 0 0 0',
                   color: 'var(--text-secondary)',
-                  fontSize: '0.9rem'
+                  fontSize: isMobile ? '0.8rem' : '0.9rem'
                 }}>
                   Live Exchange Rate to INR
                 </p>
@@ -166,7 +171,7 @@ export default function CurrencyPanel({ country, onClose }) {
               <div style={{
                 background: 'linear-gradient(135deg, #f0f9ff, #e0f2fe)',
                 borderRadius: 'var(--radius-md)',
-                padding: 'var(--space-xl)',
+                padding: isMobile ? 'var(--space-md)' : 'var(--space-xl)',
                 marginBottom: 'var(--space-md)',
                 border: '2px solid rgba(59, 130, 246, 0.2)',
                 boxShadow: '0 4px 6px -1px rgba(59, 130, 246, 0.1)'
@@ -204,19 +209,19 @@ export default function CurrencyPanel({ country, onClose }) {
                       {/* From Currency */}
                       <div style={{
                         background: 'white',
-                        padding: 'var(--space-md) var(--space-lg)',
+                        padding: isMobile ? 'var(--space-sm) var(--space-md)' : 'var(--space-md) var(--space-lg)',
                         borderRadius: 'var(--radius-md)',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
-                        minWidth: '140px',
+                        minWidth: isMobile ? '100px' : '140px',
                         textAlign: 'center'
                       }}>
-                        <div style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', marginBottom: '4px', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                        <div style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)', marginBottom: '4px', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
                           From
                         </div>
-                        <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--accent-primary)', marginBottom: '4px' }}>
+                        <div style={{ fontSize: isMobile ? '1.5rem' : '2rem', fontWeight: '700', color: 'var(--accent-primary)', marginBottom: '4px' }}>
                           {currencySymbol}1
                         </div>
-                        <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: '600' }}>
+                        <div style={{ fontSize: isMobile ? '0.75rem' : '0.85rem', color: 'var(--text-secondary)', fontWeight: '600' }}>
                           {currencyCode}
                         </div>
                       </div>
@@ -225,7 +230,7 @@ export default function CurrencyPanel({ country, onClose }) {
                       <motion.div
                         animate={{ x: [0, 8, 0] }}
                         transition={{ duration: 1.5, repeat: Infinity }}
-                        style={{ fontSize: '2rem', color: 'var(--accent-primary)' }}
+                        style={{ fontSize: isMobile ? '1.5rem' : '2rem', color: 'var(--accent-primary)' }}
                       >
                         →
                       </motion.div>
@@ -233,20 +238,20 @@ export default function CurrencyPanel({ country, onClose }) {
                       {/* To Currency (INR) */}
                       <div style={{
                         background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
-                        padding: 'var(--space-md) var(--space-lg)',
+                        padding: isMobile ? 'var(--space-sm) var(--space-md)' : 'var(--space-md) var(--space-lg)',
                         borderRadius: 'var(--radius-md)',
                         boxShadow: '0 4px 12px rgba(245, 158, 11, 0.2)',
                         border: '2px solid #f59e0b',
-                        minWidth: '140px',
+                        minWidth: isMobile ? '100px' : '140px',
                         textAlign: 'center'
                       }}>
-                        <div style={{ fontSize: '0.75rem', color: '#92400e', marginBottom: '4px', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                        <div style={{ fontSize: '0.7rem', color: '#92400e', marginBottom: '4px', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
                           To
                         </div>
-                        <div style={{ fontSize: '2rem', fontWeight: '700', color: '#b45309', marginBottom: '4px' }}>
+                        <div style={{ fontSize: isMobile ? '1.5rem' : '2rem', fontWeight: '700', color: '#b45309', marginBottom: '4px' }}>
                           ₹{rate ? rate.toFixed(2) : '0.00'}
                         </div>
-                        <div style={{ fontSize: '0.85rem', color: '#92400e', fontWeight: '600' }}>
+                        <div style={{ fontSize: isMobile ? '0.75rem' : '0.85rem', color: '#92400e', fontWeight: '600' }}>
                           INR
                         </div>
                       </div>

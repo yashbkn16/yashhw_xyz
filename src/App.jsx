@@ -189,22 +189,17 @@ export default function App() {
   }
 
   return (
-    <motion.div
-      variants={pageVariants}
-      initial="hidden"
-      animate="visible"
-    >
+    <>
+      {/* Header OUTSIDE motion wrapper for sticky to work */}
       <header 
         className="site"
         style={{
-          position: 'sticky',
-          top: 0,
           background: scrollY > 50 
             ? 'rgba(255, 255, 255, 0.95)' 
             : 'rgba(255, 255, 255, 0.85)',
-          cursor: 'pointer'
         }}
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        title="Click to scroll to top"
       >
         <div className="inner" style={{ 
           maxWidth: '1400px', 
@@ -216,7 +211,8 @@ export default function App() {
         }}>
           <motion.div 
             className="brand"
-            whileHover={{ scale: 1.02 }}
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.98 }}
             transition={{ type: "spring", stiffness: 400 }}
           >
             <span className="dot" aria-hidden="true"></span>
@@ -231,7 +227,13 @@ export default function App() {
         </div>
       </header>
 
-      <main className="wrap" style={{ position: 'relative' }}>
+      <motion.div
+        variants={pageVariants}
+        initial="hidden"
+        animate="visible"
+        style={{ width: '100%', overflowX: 'hidden' }}
+      >
+        <main className="wrap" style={{ position: 'relative', width: '100%', maxWidth: '1400px', margin: '0 auto', overflowX: 'hidden' }}>
         {/* Indian Rupee Symbol Background - Hidden on mobile */}
         <div className="inr-background" style={{
           position: 'fixed',
@@ -898,7 +900,8 @@ export default function App() {
           </div>
         </motion.footer>
       </main>
-    </motion.div>
+      </motion.div>
+    </>
   )
 }
 
