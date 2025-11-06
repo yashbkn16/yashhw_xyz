@@ -69,7 +69,7 @@ export default function Stats({ items }){
       }}>
         Collection Overview
       </h3>
-      <div className="stats" style={{
+      <div className="stats-grid" style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
         gap: 'var(--space-md)',

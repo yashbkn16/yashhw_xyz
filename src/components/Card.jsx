@@ -1,22 +1,8 @@
 
 import React, { useState } from 'react'
-import { motion } from 'framer-motion'
-import { useInView } from 'react-intersection-observer'
 
 export default function Card({ item, onOpen }) {
   const [isHovered, setIsHovered] = useState(false)
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
-  const { ref, inView } = useInView({
-    threshold: 0.1,
-    triggerOnce: true
-  })
-
-  const handleMouseMove = (e) => {
-    const rect = e.currentTarget.getBoundingClientRect()
-    const x = (e.clientX - rect.left - rect.width / 2) / 10
-    const y = (e.clientY - rect.top - rect.height / 2) / 10
-    setMousePosition({ x, y })
-  }
 
   const getRarityColor = (rarity) => {
     switch (rarity?.toLowerCase()) {
@@ -37,35 +23,6 @@ export default function Card({ item, onOpen }) {
       default: return 'linear-gradient(135deg, #f7fafc, #edf2f7)'
     }
   }
-
-  const cardVariants = {
-    hidden: { 
-      opacity: 0, 
-      y: 50,
-      scale: 0.9
-    },
-    visible: { 
-      opacity: 1, 
-      y: 0,
-      scale: 1,
-      transition: {
-        duration: 0.6,
-        ease: "easeOut"
-      }
-    }
-  }
-
-  // TODO: Re-enable when images are added back
-  // const imageVariants = {
-  //   hover: {
-  //     scale: 1.1,
-  //     rotateY: 8,
-  //     transition: {
-  //       duration: 0.4,
-  //       ease: "easeOut"
-  //     }
-  //   }
-  // }
 
   const getCountryCode = (country) => {
     const countryMap = {
@@ -100,31 +57,15 @@ export default function Card({ item, onOpen }) {
   }
 
   return (
-    <motion.div
-      ref={ref}
+    <div
       className={`card rarity-${item.rarity?.toLowerCase().replace(' ', '-')}`}
-      variants={cardVariants}
-      initial="hidden"
-      animate={inView ? "visible" : "hidden"}
       onClick={() => onOpen(item)}
       onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => {
-        setIsHovered(false)
-        setMousePosition({ x: 0, y: 0 })
-      }}
-      onMouseMove={handleMouseMove}
+      onMouseLeave={() => setIsHovered(false)}
       style={{
-        transform: isHovered 
-          ? `perspective(1000px) rotateX(${mousePosition.y * 0.1}deg) rotateY(${mousePosition.x * 0.1}deg) translateZ(20px)`
-          : 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0px)',
         background: getRarityGradient(item.rarity),
         cursor: 'pointer'
       }}
-      whileHover={{
-        scale: 1.02,
-        transition: { duration: 0.3 }
-      }}
-      whileTap={{ scale: 0.98 }}
     >
       {/* Rarity indicator */}
       <div 
@@ -162,21 +103,25 @@ export default function Card({ item, onOpen }) {
         
         {/* Placeholder content - shows denomination as large text */}
         <div style={{
-          fontSize: 'clamp(1.2rem, 4vw, 2rem)',
+          fontSize: 'clamp(1rem, 3vw, 1.5rem)',
           fontWeight: '700',
           color: 'var(--accent-primary)',
           textAlign: 'center',
-          padding: 'var(--space-md)'
+          padding: 'var(--space-sm)',
+          maxWidth: '100%',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          display: '-webkit-box',
+          WebkitLineClamp: 2,
+          WebkitBoxOrient: 'vertical',
+          wordBreak: 'break-word'
         }}>
           {item.denomination}
         </div>
         
         {/* Type badge */}
-        <motion.div
+        <div
           className="type-badge"
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.3 }}
           style={{
             position: 'absolute',
             top: '6px',
@@ -192,13 +137,11 @@ export default function Card({ item, onOpen }) {
           }}
         >
           {item.type === 'coin' ? '🪙' : '💵'}
-        </motion.div>
+        </div>
 
         {/* Hover overlay with quick info */}
-        <motion.div
+        <div
           className="card-overlay"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: isHovered ? 1 : 0 }}
           style={{
             position: 'absolute',
             inset: 0,
@@ -208,14 +151,16 @@ export default function Card({ item, onOpen }) {
             padding: 'var(--space-sm)',
             color: 'white',
             fontSize: '0.65rem',
-            fontWeight: '500'
+            fontWeight: '500',
+            opacity: isHovered ? 1 : 0,
+            transition: 'opacity 0.3s ease'
           }}
         >
           <div>
             <div>💰 {item.material || 'Unknown'}</div>
             {item.weight && <div>⚖️ {item.weight}</div>}
           </div>
-        </motion.div>
+        </div>
       </div>
 
       {/* Card Content */}
@@ -249,24 +194,22 @@ export default function Card({ item, onOpen }) {
 
         {/* Theme/Description */}
         {item.theme && (
-          <motion.div
+          <div
             className="card-theme"
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ 
-              opacity: isHovered ? 1 : 0, 
-              height: isHovered ? 'auto' : 0
-            }}
             style={{
               color: 'var(--text-secondary)',
               fontSize: '0.7rem',
               marginBottom: isHovered ? 'var(--space-xs)' : 0,
               fontStyle: 'italic',
               overflow: 'hidden',
-              lineHeight: 1.3
+              lineHeight: 1.3,
+              opacity: isHovered ? 1 : 0,
+              height: isHovered ? 'auto' : 0,
+              transition: 'all 0.3s ease'
             }}
           >
             "{item.theme.length > 50 ? item.theme.substring(0, 50) + '...' : item.theme}"
-          </motion.div>
+          </div>
         )}
 
         {/* Meta Information */}
@@ -287,14 +230,8 @@ export default function Card({ item, onOpen }) {
         </div>
 
         {/* Educational hint - only show on hover for compact view */}
-        <motion.div
+        <div
           className="educational-hint"
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ 
-            opacity: isHovered ? 1 : 0, 
-            y: isHovered ? 0 : 10,
-            height: isHovered ? 'auto' : 0
-          }}
           style={{
             marginTop: isHovered ? 'var(--space-xs)' : 0,
             padding: isHovered ? 'var(--space-xs)' : 0,
@@ -303,25 +240,15 @@ export default function Card({ item, onOpen }) {
             fontSize: '0.65rem',
             color: 'var(--accent-primary)',
             fontWeight: '500',
-            overflow: 'hidden'
+            overflow: 'hidden',
+            opacity: isHovered ? 1 : 0,
+            height: isHovered ? 'auto' : 0,
+            transition: 'all 0.3s ease'
           }}
         >
           💡 Click to learn more
-        </motion.div>
+        </div>
       </div>
-
-      {/* 3D depth effect */}
-      <div
-        style={{
-          position: 'absolute',
-          inset: '2px',
-          background: 'linear-gradient(145deg, rgba(255,255,255,0.1), rgba(0,0,0,0.05))',
-          borderRadius: 'var(--radius-lg)',
-          pointerEvents: 'none',
-          opacity: isHovered ? 1 : 0,
-          transition: 'opacity 0.3s ease'
-        }}
-      />
-    </motion.div>
+    </div>
   )
 }

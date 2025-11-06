@@ -132,26 +132,6 @@ export default function App() {
     setShowSuggestions(false)
   }
 
-  const pageVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        duration: 0.6,
-        staggerChildren: 0.1
-      }
-    }
-  }
-
-  const sectionVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6 }
-    }
-  }
-
   if (loading) {
     return (
       <div style={{
@@ -161,29 +141,19 @@ export default function App() {
         height: '100vh',
         background: 'var(--bg-primary)'
       }}>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          style={{
-            textAlign: 'center',
-            color: 'var(--text-secondary)'
-          }}
-        >
-          <motion.div
-            style={{
-              width: '40px',
-              height: '40px',
-              border: '3px solid var(--border-medium)',
-              borderTop: '3px solid var(--accent-primary)',
-              borderRadius: '50%',
-              margin: '0 auto var(--space-lg) auto'
-            }}
-            animate={{ rotate: 360 }}
-            transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
-          />
+        <div style={{ textAlign: 'center', color: 'var(--text-secondary)' }}>
+          <div style={{
+            width: '40px',
+            height: '40px',
+            border: '3px solid var(--border-medium)',
+            borderTop: '3px solid var(--accent-primary)',
+            borderRadius: '50%',
+            margin: '0 auto var(--space-lg) auto',
+            animation: 'spin 1s linear infinite'
+          }} />
           <h3>Loading Currency Collection...</h3>
           <p>Preparing your numismatic journey</p>
-        </motion.div>
+        </div>
       </div>
     )
   }
@@ -209,30 +179,17 @@ export default function App() {
           width: '100%',
           boxSizing: 'border-box'
         }}>
-          <motion.div 
-            className="brand"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.98 }}
-            transition={{ type: "spring", stiffness: 400 }}
-          >
+          <div className="brand">
             <span className="dot" aria-hidden="true"></span>
             <h1>Yash Jain</h1>
-          </motion.div>
-          <motion.p 
-            className="tag"
-            variants={sectionVariants}
-          >
+          </div>
+          <p className="tag">
             Collecting currencies, debugging code
-          </motion.p>
+          </p>
         </div>
       </header>
 
-      <motion.div
-        variants={pageVariants}
-        initial="hidden"
-        animate="visible"
-        style={{ width: '100%', overflowX: 'hidden' }}
-      >
+      <div style={{ width: '100%', overflowX: 'hidden' }}>
         <main className="wrap" style={{ position: 'relative', width: '100%', maxWidth: '1400px', margin: '0 auto', overflowX: 'hidden' }}>
         {/* Indian Rupee Symbol Background - Hidden on mobile */}
         <div className="inr-background" style={{
@@ -283,22 +240,15 @@ export default function App() {
           ₹
         </div>
         
-        <motion.div variants={sectionVariants}>
+        <div>
           <Hero collectionData={data} />
-        </motion.div>
+        </div>
 
-        <motion.section 
-          className="panel stats"
-          variants={sectionVariants}
-        >
+        <section className="panel stats">
           <Stats items={filtered} />
-        </motion.section>
+        </section>
 
-        <motion.section 
-          className="panel"
-          variants={sectionVariants}
-          style={{ position: 'relative', zIndex: 1 }}
-        >
+        <section className="panel" style={{ position: 'relative', zIndex: 2 }}>
           {/* Modern Glass-morphism Filter Bar */}
           <div style={{
             background: 'linear-gradient(135deg, rgba(255,255,255,0.95), rgba(249,250,251,0.9))',
@@ -309,7 +259,7 @@ export default function App() {
             boxShadow: '0 8px 32px rgba(196, 154, 108, 0.12)',
             marginBottom: 'var(--space-lg)',
             position: 'relative',
-            zIndex: 1
+            zIndex: 2
           }}>
             {/* Main Filter Controls */}
             <div style={{ 
@@ -514,7 +464,7 @@ export default function App() {
               </div>
               
               {/* Year Filter - Custom Elegant Dropdown */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-xs)' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-xs)', position: 'relative', zIndex: 20 }}>
                 <label style={{ 
                   fontSize: '0.75rem', 
                   fontWeight: '600', 
@@ -524,7 +474,7 @@ export default function App() {
                 }}>
                   Year
                 </label>
-                <div ref={yearDropdownRef} style={{ position: 'relative' }}>
+                <div ref={yearDropdownRef} style={{ position: 'relative', zIndex: 20 }}>
                   <motion.button
                     onClick={() => setShowYearDropdown(!showYearDropdown)}
                     whileHover={{ 
@@ -586,7 +536,7 @@ export default function App() {
                         border: '1px solid rgba(196, 154, 108, 0.2)',
                         borderRadius: 'var(--radius-lg)',
                         boxShadow: '0 20px 60px rgba(0,0,0,0.15), 0 0 0 1px rgba(196, 154, 108, 0.1)',
-                        zIndex: 100,
+                        zIndex: 10010,
                         maxHeight: '320px',
                         overflowY: 'auto',
                         overflowX: 'hidden',
@@ -862,33 +812,26 @@ export default function App() {
               </motion.div>
             )}
           </div>
-        </motion.section>
+        </section>
 
-        <motion.section 
-          className="panel"
-          variants={sectionVariants}
-          style={{ position: 'relative', zIndex: 1 }}
-        >
+        <section className="panel" style={{ position: 'relative', zIndex: 1 }}>
           <Tabs 
             countries={countries} 
             active={activeCountry} 
             onChange={setActiveCountry} 
             counts={countByCountry(filtered, data)} 
           />
-        </motion.section>
+        </section>
 
-        <motion.section variants={sectionVariants} style={{ position: 'relative', zIndex: 1, marginTop: 'var(--space-md)' }}>
+        <section style={{ position: 'relative', zIndex: 1, marginTop: 'var(--space-md)' }}>
           <Grid items={filtered} onOpen={setActiveItem} />
-        </motion.section>
+        </section>
 
         {activeItem && (
           <Modal item={activeItem} onClose={() => setActiveItem(null)} />
         )}
 
-        <motion.footer 
-          className="site"
-          variants={sectionVariants}
-        >
+        <footer className="site">
           <div>
             <p style={{ 
               fontSize: '0.85rem', 
@@ -898,9 +841,9 @@ export default function App() {
               Every coin tells a story • Every journey adds a treasure
             </p>
           </div>
-        </motion.footer>
+        </footer>
       </main>
-      </motion.div>
+      </div>
     </>
   )
 }

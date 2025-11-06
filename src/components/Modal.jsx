@@ -111,18 +111,13 @@ export default function Modal({ item, onClose }) {
     return code ? `https://flagcdn.com/w80/${code}.png` : null
   }
 
-  const getCountryFlag = (country) => {
-    return getFlagUrl(country)
-  }
-
-  const getRarityDetails = (rarity) => {
-    const rarityInfo = {
+  const getRarityInfo = (rarity) => {
+    return {
       'Common': { icon: '⚪', description: 'Widely available and frequently found' },
       'Uncommon': { icon: '🟢', description: 'Less frequently encountered, moderate value' },
       'Rare': { icon: '🟡', description: 'Difficult to find, significant collector value' },
       'Very Rare': { icon: '🟠', description: 'Extremely scarce, museum-quality specimen' }
-    }
-    return rarityInfo[rarity] || rarityInfo['Common']
+    }[rarity] || { icon: '⚪', description: 'Widely available and frequently found' }
   }
 
   const tabs = [
@@ -132,20 +127,21 @@ export default function Modal({ item, onClose }) {
   ]
 
   return (
-    <AnimatePresence>
-      <motion.div
-        className="modal-backdrop"
-        variants={backdropVariants}
-        initial="hidden"
-        animate="visible"
-        exit="exit"
-        onClick={onClose}
-      >
+    <AnimatePresence mode="wait">
+      {item && (
         <motion.div
-          className="modal"
-          variants={modalVariants}
-          onClick={(e) => e.stopPropagation()}
+          className="modal-backdrop"
+          variants={backdropVariants}
+          initial="hidden"
+          animate="visible"
+          exit="exit"
+          onClick={onClose}
         >
+          <motion.div
+            className="modal"
+            variants={modalVariants}
+            onClick={(e) => e.stopPropagation()}
+          >
           {/* Modal Header */}
           <div className="modal-header">
             <motion.div
@@ -515,6 +511,7 @@ export default function Modal({ item, onClose }) {
           </div>
         </motion.div>
       </motion.div>
+      )}
     </AnimatePresence>
   )
 }
