@@ -83,16 +83,27 @@ export default function Hero({ collectionData = [] }) {
           </span>
         </motion.h2>
         
-        <motion.p variants={itemVariants}>
-          It started when Dad's close friend, <strong>Dr. Ramniwas</strong>, returned from the US 
-          and gifted me a few US Dollars. That spark turned into an obsession. Now my family:<strong> Mom</strong>, 
-          <strong> Dad</strong>, <strong> Sister (Gauri)</strong>, and even <strong>Rusty 🐕 </strong> 
-          know the drill - <b>bring back currencies</b>. Friends traveling abroad? Same deal. 
-        </motion.p>
+        <motion.section variants={itemVariants}>
+          <p>
+            It started when Dad's close friend, <strong>Dr. Ramniwas</strong>, returned from the US
+            and gifted me a few dollars, sparking my interest in collecting fancy-looking money.
+            Now my family — <strong>Mom</strong>, <strong>Dad</strong>, <strong>Sister (Gauri)</strong>, and even
+            <strong> Rusty 🐕</strong>, know the drill: <em>bring home currencies</em>.
+            Friends traveling abroad? Same deal.
+          </p>
 
-        <motion.p variants={itemVariants}>  
-          Once I've stacked enough duplicates, I trade with fellow numismatists. It's basically Pokémon, but with money.
-        </motion.p>
+          <p>
+            <span role="note">Thank you so much, you know who you are! 🙏</span> <br/>
+            Special shoutout to <strong>Snigdha Sanghi</strong>, certified cutie certifier.
+          </p>
+        </motion.section>
+
+        <motion.section variants={itemVariants}>
+          <p>
+            Once I've stacked enough duplicates, I trade with fellow numismatists.
+            It's basically Pokémon, but with money.
+          </p>
+        </motion.section>
           
       </motion.div>
 {/* Special thanks to <strong>Snigdha Sanghi</strong>, my lovely girlfriend, and professional cutie certifier. */}
