@@ -13,9 +13,8 @@
     "diameter": "17.5 mm",
     "mintage": "High circulation",
     "condition": "Circulated",
-    "image_front": "https://images.unsplash.com/photo-1621981386829-9b458a2caf3c?w=400&h=400&fit=crop&q=80",
-    "image_back": "https://images.unsplash.com/photo-1621981386829-9b458a2caf3c?w=400&h=400&fit=crop&q=80",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "This small but historic coin represents the final years of British colonial Hong Kong. Issued just seven years before the 1997 handover to China, it features Queen Elizabeth II on the obverse and bilingual legends reflecting Hong Kong's unique cultural blend. The nickel-brass composition made these coins durable for everyday commerce in one of Asia's busiest financial centers.",
     "fun_facts": [
       "Hong Kong retained its own currency after the 1997 handover under the 'one country, two systems' framework.",
@@ -23,11 +22,6 @@
       "After 1993, the design was replaced with the bauhinia flower, symbolizing Hong Kong's identity.",
       "These coins were minted by the Royal Mint in the UK during the colonial period."
     ],
-    "country_info": {
-      "capital": "—",
-      "currency_history": "Hong Kong dollar introduced in 1863; retained under ‘one country, two systems’.",
-      "interesting_fact": "Hong Kong is a Special Administrative Region, not a sovereign state."
-    },
     "tags": [
       "hong-kong",
       "10-cents",
@@ -35,8 +29,7 @@
       "elizabeth-ii"
     ],
     "face_value": 0.1,
-    "currency_code": "HKD",
-    "estimated_value": 0.15
+    "currency_code": "HKD"
   },
   {
     "id": "mus-2010-1rupee",
@@ -52,9 +45,8 @@
     "diameter": "26.5 mm",
     "mintage": "Standard circulation",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "This cupronickel rupee honors Sir Seewoosagur Ramgoolam, Mauritius's first Prime Minister and 'Father of the Nation.' The 2010 issue marked the last year of this specific composition before the series transitioned to different materials. Mauritius, a small island nation in the Indian Ocean, has a rich numismatic history tied to its colonial past and diverse cultural heritage.",
     "fun_facts": [
       "The Mauritian rupee replaced the dollar in 1877 during British colonial rule.",
@@ -62,11 +54,6 @@
       "The extinct dodo bird, famously from Mauritius, appears on the national coat of arms.",
       "Mauritius uses a decimal system with 100 cents = 1 rupee."
     ],
-    "country_info": {
-      "capital": "Port Louis",
-      "currency_history": "Mauritian rupee introduced in 1877, replacing the dollar.",
-      "interesting_fact": "The extinct dodo appears on the coat of arms."
-    },
     "tags": [
       "mauritius",
       "1-rupee",
@@ -74,8 +61,7 @@
       "coat-of-arms"
     ],
     "face_value": 1.0,
-    "currency_code": "MUR",
-    "estimated_value": 1.0
+    "currency_code": "MUR"
   },
   {
     "id": "chn-1993-1yuan",
@@ -91,19 +77,13 @@
     "diameter": "25 mm",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Used widely in the 1990s before Fifth Series redesign.",
     "fun_facts": [
       "Peony symbolizes wealth in Chinese culture.",
       "Renminbi introduced in 1949 to unify currency."
     ],
-    "country_info": {
-      "capital": "Beijing",
-      "currency_history": "Renminbi introduced in 1948–49; Fifth Series began in 1999.",
-      "interesting_fact": "Beijing hosted the 2008 Olympics."
-    },
     "tags": [
       "china",
       "1-yuan",
@@ -111,8 +91,7 @@
       "nickel-plated-steel"
     ],
     "face_value": 1.0,
-    "currency_code": "CNY",
-    "estimated_value": 1.5
+    "currency_code": "CNY"
   },
   {
     "id": "chn-2008-1yuan",
@@ -128,19 +107,13 @@
     "diameter": "25 mm",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Part of Fifth Series introduced in 1999.",
     "fun_facts": [
       "Edge lettering added for anti-counterfeit.",
       "2008 coincides with Beijing Olympics."
     ],
-    "country_info": {
-      "capital": "Beijing",
-      "currency_history": "Fifth Series coins launched in 1999.",
-      "interesting_fact": "Beijing hosted the 2008 Summer Olympics."
-    },
     "tags": [
       "china",
       "1-yuan",
@@ -148,8 +121,7 @@
       "edge-lettering"
     ],
     "face_value": 1.0,
-    "currency_code": "CNY",
-    "estimated_value": 1.0
+    "currency_code": "CNY"
   },
   {
     "id": "chn-2011-1yuan",
@@ -165,19 +137,13 @@
     "diameter": "25 mm",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Continuation of Fifth Series design.",
     "fun_facts": [
       "Edge ‘RMB’ repeats three times.",
       "Renminbi means ‘People’s Currency’."
     ],
-    "country_info": {
-      "capital": "Beijing",
-      "currency_history": "Renminbi maintained Fifth Series until 2019 updates.",
-      "interesting_fact": "Beijing hosted Winter Olympics in 2022."
-    },
     "tags": [
       "china",
       "1-yuan",
@@ -185,8 +151,7 @@
       "edge-lettering"
     ],
     "face_value": 1.0,
-    "currency_code": "CNY",
-    "estimated_value": 1.0
+    "currency_code": "CNY"
   },
   {
     "id": "hun-1998-100forint",
@@ -202,19 +167,13 @@
     "diameter": "23.8 mm",
     "mintage": "≈ 60,007,000 (circulation)",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Modern bimetal 100 Ft type used 1996–2011; part of the post‑1990 forint coinage. The forint itself was reintroduced on 1 Aug 1946 after hyperinflation of the pengő.",
     "fun_facts": [
       "Bimetallic 100 Ft arrived in 1996 and ran until the 200 forint coin replaced the banknote (2009) alongside it.",
       "‘Forint’ derives from the historic gold florin; the currency was reintroduced in 1946 during post‑war stabilization."
     ],
-    "country_info": {
-      "capital": "Budapest",
-      "currency_history": "Forint (HUF) reintroduced 1946, replacing the pengő during the world’s worst recorded hyperinflation.",
-      "interesting_fact": "Budapest, formed by uniting Buda, Pest and Óbuda in 1873, straddles the Danube."
-    },
     "tags": [
       "hungary",
       "100-forint",
@@ -222,8 +181,7 @@
       "1998"
     ],
     "face_value": 100.0,
-    "currency_code": "HUF",
-    "estimated_value": 150.0
+    "currency_code": "HUF"
   },
   {
     "id": "tha-TBD-1baht",
@@ -239,19 +197,13 @@
     "diameter": "20.0 mm",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Thailand decimalized to baht/satang long ago; 1‑baht coins are ubiquitous and changed composition in 2009 for cost and vending compatibility.",
     "fun_facts": [
       "The baht is divided into 100 satang; the 1‑baht coin kept the same 20 mm diameter across recent series.",
       "‘Baht’ originated as a weight unit for silver before becoming currency."
     ],
-    "country_info": {
-      "capital": "Bangkok",
-      "currency_history": "Modern baht dates to 1897 reforms; decimal baht = 100 satang.",
-      "interesting_fact": "Bangkok (Krung Thep) has been Thailand’s capital since 1782."
-    },
     "tags": [
       "thailand",
       "1-baht",
@@ -259,8 +211,7 @@
       "rama-x"
     ],
     "face_value": 1.0,
-    "currency_code": "THB",
-    "estimated_value": 1.0
+    "currency_code": "THB"
   },
   {
     "id": "tha-TBD-10baht",
@@ -276,19 +227,13 @@
     "diameter": "26 mm",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Thailand’s first bimetallic coin; similar size to the €2 and modeled on Italy’s 500 lire format.",
     "fun_facts": [
       "Braille dots at 12 o’clock mark the denomination for the visually impaired.",
       "Early minting support came from the Italian State Mint; later production localized."
     ],
-    "country_info": {
-      "capital": "Bangkok",
-      "currency_history": "Baht decimal unit since 1897.",
-      "interesting_fact": "The coin often appears on transit/vending machines due to consistent dimensions."
-    },
     "tags": [
       "thailand",
       "10-baht",
@@ -296,8 +241,7 @@
       "wat-arun"
     ],
     "face_value": 10.0,
-    "currency_code": "THB",
-    "estimated_value": 10.0
+    "currency_code": "THB"
   },
   {
     "id": "tha-TBD-20baht-note",
@@ -313,19 +257,13 @@
     "diameter": "",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Thailand upgraded its most‑used denomination to polymer in 2022 for durability while keeping size and color unchanged (138 × 72 mm).",
     "fun_facts": [
       "Polymer 20‑baht introduced on 24‑Mar‑2022 retains the classic green but adds clear windows and tactile ‘20’.",
       "Size stayed constant at 138×72 mm across recent series—handy for album layouts."
     ],
-    "country_info": {
-      "capital": "Bangkok",
-      "currency_history": "The baht is issued by the Bank of Thailand; Series 17 notes began in 2018 and moved the 20‑baht to polymer in 2022.",
-      "interesting_fact": "Paper and polymer 20‑baht notes both remain legal tender."
-    },
     "tags": [
       "thailand",
       "20-baht",
@@ -335,8 +273,7 @@
       "series-17"
     ],
     "face_value": 20.0,
-    "currency_code": "THB",
-    "estimated_value": 30.0
+    "currency_code": "THB"
   },
   {
     "id": "btn-TBD-1ngultrum-note",
@@ -352,19 +289,13 @@
     "diameter": "",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "The ngultrum (Nu.)—introduced in 1974 and pegged 1:1 to the Indian rupee—features Bhutan’s sacred symbols; the 1‑Nu moved to a hybrid substrate in 2013.",
     "fun_facts": [
       "Bhutan’s currency remains pegged at parity to INR; Indian notes circulate widely alongside Nu.",
       "Thimphu, the capital since 1962, sits at ~2,000 m in the Himalayas."
     ],
-    "country_info": {
-      "capital": "Thimphu",
-      "currency_history": "Ngultrum introduced 1974; peg to Indian rupee at par since launch.",
-      "interesting_fact": "Bhutan’s notes showcase dzongs (fortress‑monasteries) like Simtokha and Paro Taktsang."
-    },
     "tags": [
       "bhutan",
       "1-ngultrum",
@@ -373,8 +304,7 @@
       "simtokha-dzong"
     ],
     "face_value": 1.0,
-    "currency_code": "BTN",
-    "estimated_value": 1.5
+    "currency_code": "BTN"
   },
   {
     "id": "npl-2022-5paisa",
@@ -390,27 +320,20 @@
     "diameter": "18 mm",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Smallest denomination in modern Nepalese coinage; aluminium for cost efficiency.",
     "fun_facts": [
       "Nepalese rupee pegged to Indian rupee at 1:0.625 since 1993.",
       "Nepal introduced decimal coinage in 1932."
     ],
-    "country_info": {
-      "capital": "Kathmandu",
-      "currency_history": "Nepalese rupee replaced the mohar in 1932; pegged to INR since 1951.",
-      "interesting_fact": "Kathmandu Valley hosts seven UNESCO World Heritage sites."
-    },
     "tags": [
       "nepal",
       "5-paisa",
       "aluminium"
     ],
     "face_value": 0.05,
-    "currency_code": "NPR",
-    "estimated_value": 0.05
+    "currency_code": "NPR"
   },
   {
     "id": "npl-2015-50rupees-note",
@@ -426,19 +349,13 @@
     "diameter": "135 × 70 mm",
     "mintage": "",
     "condition": "",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "",
+    "image_front": "",
+    "image_back": "",
     "story": "Part of the wildlife-themed series issued by Nepal Rastra Bank.",
     "fun_facts": [
       "Mount Everest appears on all higher denominations.",
       "Nepalese notes feature native fauna and flora."
     ],
-    "country_info": {
-      "capital": "Kathmandu",
-      "currency_history": "Modern notes issued by NRB since 1956.",
-      "interesting_fact": "Nepal is home to eight of the world’s ten tallest mountains."
-    },
     "tags": [
       "nepal",
       "50-rupees",
@@ -446,8 +363,7 @@
       "everest"
     ],
     "face_value": 50.0,
-    "currency_code": "NPR",
-    "estimated_value": 75.0
+    "currency_code": "NPR"
   },
   {
     "id": "omn-TBD-50baisa",
@@ -463,27 +379,20 @@
     "diameter": "23 mm",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Fractional coin of the Omani rial; 1000 baisa = 1 rial.",
     "fun_facts": [
       "Oman introduced the rial in 1970 replacing the Indian rupee and Maria Theresa thaler.",
       "The khanjar dagger is a national symbol appearing on coins and notes."
     ],
-    "country_info": {
-      "capital": "Muscat",
-      "currency_history": "Omani rial introduced in 1970; subdivided into 1000 baisa.",
-      "interesting_fact": "Oman’s coastline stretches over 3,000 km along the Arabian Sea."
-    },
     "tags": [
       "oman",
       "50-baisa",
       "cupronickel"
     ],
     "face_value": 50.0,
-    "currency_code": "OMR",
-    "estimated_value": 50.0
+    "currency_code": "OMR"
   },
   {
     "id": "aus-1952-1shilling",
@@ -499,9 +408,8 @@
     "diameter": "23.5 mm",
     "mintage": "7,200,000",
     "condition": "Circulated",
-    "image_front": "https://images.unsplash.com/photo-1589992830689-819a8d6d1d7e?w=400&h=400&fit=crop&q=80",
-    "image_back": "https://images.unsplash.com/photo-1589992830689-819a8d6d1d7e?w=400&h=400&fit=crop&q=80",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "This pre-decimal Australian shilling features the iconic Merino ram, symbolizing Australia's world-famous wool industry. King George VI appears on the obverse in this, the final year of his reign before Queen Elizabeth II's ascension. Made of 50% silver, these coins were withdrawn from circulation when Australia decimalized in 1966, converting to dollars and cents.",
     "fun_facts": [
       "The Merino sheep design represented Australia's agricultural wealth and global wool exports.",
@@ -509,20 +417,14 @@
       "George VI's 1952 coins are sought after as they were his last year before passing in February.",
       "Australian pre-decimal coins used the British pound system: 12 pence = 1 shilling, 20 shillings = 1 pound."
     ],
-    "country_info": {
-      "capital": "Canberra",
-      "currency_history": "Australian pound replaced by dollar in 1966.",
-      "interesting_fact": "Australia is the only country that is also a continent."
-    },
     "tags": [
       "australia",
       "shilling",
       "silver",
       "merino"
     ],
-    "face_value": 1.0,
-    "currency_code": "AUD",
-    "estimated_value": 16.0
+    "face_value": 0.1,
+    "currency_code": "AUD"
   },
   {
     "id": "aus-1957-2shilling",
@@ -538,28 +440,21 @@
     "diameter": "28.5 mm",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Florin = 2 shillings; withdrawn during decimalization in 1966.",
     "fun_facts": [
       "Florin coins were introduced in 1910.",
       "Australia’s coat of arms features kangaroo and emu—animals that cannot walk backward."
     ],
-    "country_info": {
-      "capital": "Canberra",
-      "currency_history": "Decimalization in 1966 replaced pounds with dollars.",
-      "interesting_fact": "Australia pioneered polymer banknotes in 1988."
-    },
     "tags": [
       "australia",
       "florin",
       "silver",
       "coat-of-arms"
     ],
-    "face_value": 2.0,
-    "currency_code": "AUD",
-    "estimated_value": 32.0
+    "face_value": 0.2,
+    "currency_code": "AUD"
   },
   {
     "id": "are-TBD-1dirham",
@@ -575,19 +470,13 @@
     "diameter": "24.0–28.5 mm",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "UAE’s first coinage debuted in 1973; the iconic dallah has remained on the 1‑dirham through design/metal changes (large 28.5 mm Cu‑Ni → smaller Cu‑Ni → magnetic nickel‑plated steel in the 2010s).",
     "fun_facts": [
       "The 1‑dirham’s large‑type weighs ~11.3 g at 28.5 mm; later types are ~24–25 mm and ~6.4 g.",
       "Dallah symbolizes hospitality across the Gulf."
     ],
-    "country_info": {
-      "capital": "Abu Dhabi",
-      "currency_history": "Dirham introduced 1973; subunit is the fils (100 fils = 1 dirham).",
-      "interesting_fact": "The UAE moved lower denominations to heptagonal shapes (e.g., 50 fils) to aid recognition."
-    },
     "tags": [
       "uae",
       "1-dirham",
@@ -596,8 +485,7 @@
       "nickel-plated-steel"
     ],
     "face_value": 1.0,
-    "currency_code": "AED",
-    "estimated_value": 1.0
+    "currency_code": "AED"
   },
   {
     "id": "are-2022-5dirhams-note",
@@ -613,19 +501,13 @@
     "diameter": "143 × 66",
     "mintage": "",
     "condition": "",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "",
+    "image_front": "",
+    "image_back": "",
     "story": "First 5‑dirham **polymer** for the UAE; introduced alongside the existing paper note to improve durability and security.",
     "fun_facts": [
       "Polymer 5 & 10 AED were both launched in April 2022 and keep the familiar colours for easy recognition.",
       "Oumolat Security Printing in Abu Dhabi prints the new polymer notes."
     ],
-    "country_info": {
-      "capital": "Abu Dhabi",
-      "currency_history": "CBUAE began migrating lower denominations to polymer from late 2021 (AED 50) and 2022 (AED 5, 10).",
-      "interesting_fact": "Transparent windows are a hallmark of polymer banknotes."
-    },
     "tags": [
       "uae",
       "5-aed",
@@ -634,8 +516,7 @@
       "dhayah-fort"
     ],
     "face_value": 5.0,
-    "currency_code": "AED",
-    "estimated_value": 7.5
+    "currency_code": "AED"
   },
   {
     "id": "sgp-1985-10cents",
@@ -651,19 +532,13 @@
     "diameter": "18.5 mm",
     "mintage": "45,040,000",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Part of the 1985 Floral Series that replaced the 1967 ‘Marine’ designs; retained multilingual legends with a new botanical motif.",
     "fun_facts": [
       "There are two minor varieties (‘ribbon up’ and ‘ribbon down’ on the arms).",
       "The Floral Series ran until 2013, later replaced by the Third Series with new sizes and security edges."
     ],
-    "country_info": {
-      "capital": "Singapore",
-      "currency_history": "S$ introduced 1967; BCCS then MAS as the issuer.",
-      "interesting_fact": "National flower Vanda Miss Joaquim appears on contemporary notes, not coins."
-    },
     "tags": [
       "singapore",
       "10-cents",
@@ -671,8 +546,7 @@
       "star-jasmine"
     ],
     "face_value": 0.1,
-    "currency_code": "SGD",
-    "estimated_value": 0.15
+    "currency_code": "SGD"
   },
   {
     "id": "phl-1993-1piso",
@@ -688,19 +562,13 @@
     "diameter": "21.6 mm",
     "mintage": "Not specified",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Transitional **Improved Flora & Fauna** type issued as the new BSP took over in 1993; lighter stainless‑steel planchet with plain edge.",
     "fun_facts": [
       "This whole Flora & Fauna series was demonetized on **3 Jan 1998** as newer BSP coins rolled out.",
       "The tamaraw is an endangered dwarf buffalo endemic to Mindoro."
     ],
-    "country_info": {
-      "capital": "Manila",
-      "currency_history": "New Generation Currency (NGC) banknotes launched in 2010; new BSP coin designs followed afterwards.",
-      "interesting_fact": "Current 1‑piso (NGC) shows Rizal with a waling‑waling orchid on reverse and is nickel‑plated steel."
-    },
     "tags": [
       "philippines",
       "1-piso",
@@ -709,8 +577,7 @@
       "tamaraw"
     ],
     "face_value": 1.0,
-    "currency_code": "PHP",
-    "estimated_value": 1.5
+    "currency_code": "PHP"
   },
   {
     "id": "mys-2012-1ringgit-note",
@@ -726,19 +593,13 @@
     "diameter": "120 × 65",
     "mintage": "",
     "condition": "",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "",
+    "image_front": "",
+    "image_back": "",
     "story": "Malaysia’s first widely circulating polymer note denomination in the 2011– series; compact size with a durable Guardian® substrate.",
     "fun_facts": [
       "Polymer 1 MYR lacks a conventional security thread or watermark—clear window replaces them.",
       "Design keeps Malaysia’s colour tradition (blue) across series for quick recognition."
     ],
-    "country_info": {
-      "capital": "Kuala Lumpur (legislative) / Putrajaya (administrative)",
-      "currency_history": "Ringgit notes modernized in 2011–2012 series; polymer used for lower denominations.",
-      "interesting_fact": "The wau bulan is especially associated with Kelantan and Terengganu."
-    },
     "tags": [
       "malaysia",
       "1-ringgit",
@@ -747,8 +608,7 @@
       "songket"
     ],
     "face_value": 1.0,
-    "currency_code": "MYR",
-    "estimated_value": 1.5
+    "currency_code": "MYR"
   },
   {
     "id": "usa-1979-10c",
@@ -764,9 +624,8 @@
     "diameter": "17.91 mm",
     "mintage": "315,440,000 (Philadelphia)",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "The Roosevelt dime honors President Franklin D. Roosevelt, who died in 1945. This design, introduced in 1946, replaced the Mercury dime and has remained largely unchanged. The 1979-dated coins were struck in cupron ickel-clad composition, adopted in 1965 when silver was removed from circulating US coinage due to rising metal prices.",
     "fun_facts": [
       "Roosevelt was chosen for the dime because of his work with the March of Dimes polio charity.",
@@ -774,19 +633,13 @@
       "Modern dimes are the smallest US coin in diameter but contain more copper than pennies.",
       "The 'P' mint mark (Philadelphia) wasn't added to dimes until 1980, so 1979 has no mint mark."
     ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "Small-size Federal Reserve Notes since 1929; clad coins since 1965 for most denominations.",
-      "interesting_fact": "All modern US notes share the same dimensions."
-    },
     "tags": [
       "dime",
       "roosevelt",
       "clad"
     ],
     "face_value": 0.1,
-    "currency_code": "USD",
-    "estimated_value": 0.15
+    "currency_code": "USD"
   },
   {
     "id": "usa-1984-10c",
@@ -802,27 +655,17 @@
     "diameter": "17.91 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 10 Cents coin from United States of America was issued in 1984.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "dime",
       "roosevelt",
       "clad"
     ],
     "face_value": 0.1,
-    "currency_code": "USD",
-    "estimated_value": 0.15
+    "currency_code": "USD"
   },
   {
     "id": "usa-1985-10c",
@@ -838,27 +681,17 @@
     "diameter": "17.91 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 10 Cents coin from United States of America was issued in 1985.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "dime",
       "roosevelt",
       "clad"
     ],
     "face_value": 0.1,
-    "currency_code": "USD",
-    "estimated_value": 0.15
+    "currency_code": "USD"
   },
   {
     "id": "usa-1991-10c",
@@ -874,27 +707,17 @@
     "diameter": "17.91 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 10 Cents coin from United States of America was issued in 1991.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "dime",
       "roosevelt",
       "clad"
     ],
     "face_value": 0.1,
-    "currency_code": "USD",
-    "estimated_value": 0.15
+    "currency_code": "USD"
   },
   {
     "id": "usa-2001-10c",
@@ -910,27 +733,17 @@
     "diameter": "17.91 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 10 Cents coin from United States of America was issued in 2001.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "dime",
       "roosevelt",
       "clad"
     ],
     "face_value": 0.1,
-    "currency_code": "USD",
-    "estimated_value": 0.15
+    "currency_code": "USD"
   },
   {
     "id": "usa-2005-10c",
@@ -946,27 +759,17 @@
     "diameter": "17.91 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 10 Cents coin from United States of America was issued in 2005.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "dime",
       "roosevelt",
       "clad"
     ],
     "face_value": 0.1,
-    "currency_code": "USD",
-    "estimated_value": 0.1
+    "currency_code": "USD"
   },
   {
     "id": "usa-1967-1cent",
@@ -982,26 +785,19 @@
     "diameter": "19.05 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Bronze Lincoln cents continued until the composition changed in 1982.",
     "fun_facts": [
       "1965–1967 circulation coins carried no mint marks."
     ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
     "tags": [
       "cent",
       "lincoln",
       "bronze"
     ],
     "face_value": 0.01,
-    "currency_code": "USD",
-    "estimated_value": 0.02
+    "currency_code": "USD"
   },
   {
     "id": "usa-1971-1cent",
@@ -1017,27 +813,17 @@
     "diameter": "19.05 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 1 Cent coin from United States of America was issued in 1971.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "cent",
       "lincoln",
       "bronze"
     ],
     "face_value": 0.01,
-    "currency_code": "USD",
-    "estimated_value": 0.02
+    "currency_code": "USD"
   },
   {
     "id": "usa-1982-1cent",
@@ -1053,26 +839,19 @@
     "diameter": "19.05 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Mid‑1982 the cent changed from bronze to copper‑plated zinc due to metal costs.",
     "fun_facts": [
       "1982 exists in multiple varieties (large/small date; bronze/zinc)."
     ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
     "tags": [
       "cent",
       "lincoln",
       "transition"
     ],
     "face_value": 0.01,
-    "currency_code": "USD",
-    "estimated_value": 0.01
+    "currency_code": "USD"
   },
   {
     "id": "usa-1987-1cent",
@@ -1088,27 +867,17 @@
     "diameter": "19.05 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 1 Cent coin from United States of America was issued in 1987.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "cent",
       "lincoln",
       "zinc"
     ],
     "face_value": 0.01,
-    "currency_code": "USD",
-    "estimated_value": 0.01
+    "currency_code": "USD"
   },
   {
     "id": "usa-1994-1cent",
@@ -1124,27 +893,17 @@
     "diameter": "19.05 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 1 Cent coin from United States of America was issued in 1994.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "cent",
       "lincoln",
       "zinc"
     ],
     "face_value": 0.01,
-    "currency_code": "USD",
-    "estimated_value": 0.01
+    "currency_code": "USD"
   },
   {
     "id": "usa-1999-1cent",
@@ -1160,27 +919,17 @@
     "diameter": "19.05 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 1 Cent coin from United States of America was issued in 1999.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "cent",
       "lincoln",
       "zinc"
     ],
     "face_value": 0.01,
-    "currency_code": "USD",
-    "estimated_value": 0.01
+    "currency_code": "USD"
   },
   {
     "id": "usa-2007-1cent",
@@ -1196,27 +945,17 @@
     "diameter": "19.05 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 1 Cent coin from United States of America was issued in 2007.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "cent",
       "lincoln",
       "zinc"
     ],
     "face_value": 0.01,
-    "currency_code": "USD",
-    "estimated_value": 0.01
+    "currency_code": "USD"
   },
   {
     "id": "usa-2010-1cent",
@@ -1232,27 +971,17 @@
     "diameter": "19.05 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "2010 introduced the Union Shield reverse replacing the Memorial.",
-    "fun_facts": [
-      "This 1 Cent coin from United States of America was issued in 2010.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "cent",
       "lincoln",
       "shield"
     ],
     "face_value": 0.01,
-    "currency_code": "USD",
-    "estimated_value": 0.01
+    "currency_code": "USD"
   },
   {
     "id": "usa-1976-5c",
@@ -1268,26 +997,16 @@
     "diameter": "21.21 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Standard Cu‑Ni composition resumed after WWII ‘silver nickels’.",
-    "fun_facts": [
-      "This 5 Cents coin from United States of America was issued in 1976.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "nickel",
       "jefferson"
     ],
     "face_value": 0.05,
-    "currency_code": "USD",
-    "estimated_value": 0.08
+    "currency_code": "USD"
   },
   {
     "id": "usa-1997-5c",
@@ -1303,26 +1022,16 @@
     "diameter": "21.21 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 5 Cents coin from United States of America was issued in 1997.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "nickel",
       "jefferson"
     ],
     "face_value": 0.05,
-    "currency_code": "USD",
-    "estimated_value": 0.08
+    "currency_code": "USD"
   },
   {
     "id": "usa-1998-5c",
@@ -1338,26 +1047,16 @@
     "diameter": "21.21 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 5 Cents coin from United States of America was issued in 1998.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "nickel",
       "jefferson"
     ],
     "face_value": 0.05,
-    "currency_code": "USD",
-    "estimated_value": 0.08
+    "currency_code": "USD"
   },
   {
     "id": "usa-2006-5c",
@@ -1373,26 +1072,16 @@
     "diameter": "21.21 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 5 Cents coin from United States of America was issued in 2006.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "nickel",
       "jefferson"
     ],
     "face_value": 0.05,
-    "currency_code": "USD",
-    "estimated_value": 0.05
+    "currency_code": "USD"
   },
   {
     "id": "usa-2007-5c",
@@ -1408,26 +1097,16 @@
     "diameter": "21.21 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 5 Cents coin from United States of America was issued in 2007.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "nickel",
       "jefferson"
     ],
     "face_value": 0.05,
-    "currency_code": "USD",
-    "estimated_value": 0.05
+    "currency_code": "USD"
   },
   {
     "id": "usa-1980-25c",
@@ -1443,26 +1122,16 @@
     "diameter": "24.26 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Standard clad quarter introduced in 1965.",
-    "fun_facts": [
-      "This 25 Cents coin from United States of America was issued in 1980.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "quarter",
       "washington"
     ],
     "face_value": 0.25,
-    "currency_code": "USD",
-    "estimated_value": 0.38
+    "currency_code": "USD"
   },
   {
     "id": "usa-1988-25c",
@@ -1478,26 +1147,16 @@
     "diameter": "24.26 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 25 Cents coin from United States of America was issued in 1988.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "quarter",
       "washington"
     ],
     "face_value": 0.25,
-    "currency_code": "USD",
-    "estimated_value": 0.38
+    "currency_code": "USD"
   },
   {
     "id": "usa-2000-25c",
@@ -1513,26 +1172,16 @@
     "diameter": "24.26 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Statehood quarter program (1999–2008) changed the reverse each state.",
-    "fun_facts": [
-      "This 25 Cents coin from United States of America was issued in 2000.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "quarter",
       "statehood"
     ],
     "face_value": 0.25,
-    "currency_code": "USD",
-    "estimated_value": 0.38
+    "currency_code": "USD"
   },
   {
     "id": "usa-2000-1d-coin",
@@ -1548,26 +1197,19 @@
     "diameter": "26.5 mm",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Launched in 2000 as the first ‘golden’ small‑size dollar coin.",
     "fun_facts": [
       "From 2009 the series continued as the Native American $1 with annually changing reverses."
     ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
     "tags": [
       "dollar",
       "sacagawea",
       "golden-dollar"
     ],
     "face_value": 1.0,
-    "currency_code": "USD",
-    "estimated_value": 1.5
+    "currency_code": "USD"
   },
   {
     "id": "usa-2003-1d-note",
@@ -1583,26 +1225,19 @@
     "diameter": "",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Small-size US notes measure 156 × 66 mm across all denominations.",
     "fun_facts": [
       "The $1 is the only current note without a security thread or watermark."
     ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
     "tags": [
       "banknote",
       "one-dollar",
       "FRN"
     ],
     "face_value": 1.0,
-    "currency_code": "USD",
-    "estimated_value": 2.25
+    "currency_code": "USD"
   },
   {
     "id": "usa-2006-1d-note",
@@ -1618,27 +1253,17 @@
     "diameter": "",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "",
-    "fun_facts": [
-      "This 1 Dollar coin from United States of America was issued in 2006.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "banknote",
       "one-dollar",
       "FRN"
     ],
     "face_value": 1.0,
-    "currency_code": "USD",
-    "estimated_value": 1.5
+    "currency_code": "USD"
   },
   {
     "id": "usa-2006-5d-note",
@@ -1654,27 +1279,17 @@
     "diameter": "",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Pre‑2008 design; same note dimensions as all US FRNs.",
-    "fun_facts": [
-      "This 5 Dollars coin from United States of America was issued in 2006.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "banknote",
       "five-dollar",
       "FRN"
     ],
     "face_value": 5.0,
-    "currency_code": "USD",
-    "estimated_value": 7.5
+    "currency_code": "USD"
   },
   {
     "id": "usa-2004-10d-note",
@@ -1690,27 +1305,17 @@
     "diameter": "",
     "mintage": "",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "2004 redesign introduced subtle background colors and enhanced anti‑counterfeiting features.",
-    "fun_facts": [
-      "This 10 Dollars coin from United States of America was issued in 2004.",
-      "Part of the US Dollar series."
-    ],
-    "country_info": {
-      "capital": "Washington, D.C.",
-      "currency_history": "",
-      "interesting_fact": ""
-    },
+    "fun_facts": [],
     "tags": [
       "banknote",
       "ten-dollar",
       "FRN"
     ],
     "face_value": 10.0,
-    "currency_code": "USD",
-    "estimated_value": 22.5
+    "currency_code": "USD"
   },
   {
     "id": "ind-1943-2annas-georgevi",
@@ -1726,19 +1331,13 @@
     "diameter": "25.0mm (square with rounded corners)",
     "mintage": "343,680,000",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "War-time 2 annas with the iconic square-on-point planchet used in late colonial India.",
     "fun_facts": [
       "Legends appear in multiple scripts (Devanagari, Urdu, Bengali, Telugu).",
       "Bombay issues show a tiny diamond-like ornament near the date."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "India decimalised in 1957 (100 paise = 1 rupee), replacing the old anna–pice–pie system.",
-      "interesting_fact": "RBI is India’s sole banknote issuer; coinage is issued by the Government of India."
-    },
     "tags": [
       "2-anna",
       "George VI",
@@ -1746,8 +1345,7 @@
       "British India"
     ],
     "face_value": 0.125,
-    "currency_code": "INR",
-    "estimated_value": 0.25
+    "currency_code": "INR"
   },
   {
     "id": "ind-1967-5paise-devanagari",
@@ -1763,19 +1361,13 @@
     "diameter": "22mm (corner-to-corner rhombus)",
     "mintage": "608,533,000 (Bombay variety)",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Early decimal “square” 5 paise, feather-light aluminium that defined pocket change in the late 60s.",
     "fun_facts": [
       "The denomination dropped the word ‘Naya’ (New) in 1964.",
       "1967 introduced aluminium planchets to cut minting cost."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Decimal coinage launched in 1957; minor coins (25p and below) were demonetised in 2011.",
-      "interesting_fact": "Language panel on notes reflects India’s multilingual character."
-    },
     "tags": [
       "5p",
       "aluminium",
@@ -1783,8 +1375,7 @@
       "decimal"
     ],
     "face_value": 0.05,
-    "currency_code": "INR",
-    "estimated_value": 0.1
+    "currency_code": "INR"
   },
   {
     "id": "ind-1963-25naye-paise",
@@ -1800,19 +1391,13 @@
     "diameter": "18.7–19mm",
     "mintage": "101,565,000 (Bombay)",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "A classic of India’s early decimal era; the ‘Naye’ prefix would vanish a year later.",
     "fun_facts": [
       "Two close/far ‘25’ numeral variants exist.",
       "Demonetised along with all 25p coins on June 30, 2011."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "‘Naye Paise’ (New Paise) 1957–1964 to distinguish from annas; renamed ‘Paise’ from 1964.",
-      "interesting_fact": "RBI’s museum documents the full transition from annas to paise."
-    },
     "tags": [
       "25p",
       "nickel",
@@ -1820,8 +1405,7 @@
       "early-decimal"
     ],
     "face_value": 0.25,
-    "currency_code": "INR",
-    "estimated_value": 0.5
+    "currency_code": "INR"
   },
   {
     "id": "ind-1991-25paise-rhino",
@@ -1837,19 +1421,13 @@
     "diameter": "19mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "The famous ‘Rhino’ 25 paise—India’s last quarter-rupee design before the 2011 demonetisation of 25p & lower.",
     "fun_facts": [
       "1991 Noida/Hyd/Mumbai/Kolkata mintmarks exist.",
       "Ferritic stainless steel made the coins tougher and cheaper."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "25p coins issued 1957–2002; demonetised on 30 June 2011.",
-      "interesting_fact": "Stainless-steel rhino design ran from 1988 to 2002."
-    },
     "tags": [
       "25p",
       "stainless-steel",
@@ -1857,8 +1435,7 @@
       "late-decimal"
     ],
     "face_value": 0.25,
-    "currency_code": "INR",
-    "estimated_value": 0.38
+    "currency_code": "INR"
   },
   {
     "id": "ind-1988-1rupee-fao-rainfed",
@@ -1874,19 +1451,13 @@
     "diameter": "26mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Commemorates rainfed agriculture—vital for India’s monsoon-driven farming ecosystem.",
     "fun_facts": [
       "Issued under FAO’s ‘Food for All’ theme.",
       "Shows a farmer with monsoon clouds in the backdrop."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Cu-Ni rupees (26mm/6g) were standard in the 1980s–90s before SS planchets took over.",
-      "interesting_fact": "RBI details MG-series security features for notes; coins are by Govt. of India."
-    },
     "tags": [
       "FAO",
       "agriculture",
@@ -1894,8 +1465,7 @@
       "₹1"
     ],
     "face_value": 1.0,
-    "currency_code": "INR",
-    "estimated_value": 1.5
+    "currency_code": "INR"
   },
   {
     "id": "ind-2009-2rupees-louis-braille",
@@ -1911,19 +1481,13 @@
     "diameter": "27mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Features Louis Braille’s portrait and Braille ‘L.BRL’—a tactile tribute to accessible literacy.",
     "fun_facts": [
       "Official RBI dimensions list FSS with 27mm diameter.",
       "Released alongside a ₹100 silver coin."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "The ₹ symbol (₹) was adopted in 2010 and appeared on later coinage/notes.",
-      "interesting_fact": "Many Indian commemoratives have both circulating (₹2/₹5/₹10) and non-circulating silver versions."
-    },
     "tags": [
       "Braille",
       "accessibility",
@@ -1931,8 +1495,7 @@
       "bicentenary"
     ],
     "face_value": 2.0,
-    "currency_code": "INR",
-    "estimated_value": 2.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-1998-2rupees-sri-aurobindo",
@@ -1948,19 +1511,13 @@
     "diameter": "25.9–26.5mm (hendecagonal)",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "11‑sided Cu‑Ni ₹2 honoring philosopher-poet Sri Aurobindo; a favourite among shape collectors.",
     "fun_facts": [
       "Multiple Asoka-lion die varieties (A–D) exist.",
       "Noida (°), Mumbai (♦/M), Kolkata (no mark) mintmarks can be found."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Hendecagonal ₹2 types spanned the late 1990s before the round SS types.",
-      "interesting_fact": "Mint marks: ♦ Mumbai, * Hyderabad, ° Noida, (no mark) Kolkata."
-    },
     "tags": [
       "₹2",
       "hendecagon",
@@ -1968,8 +1525,7 @@
       "CuNi"
     ],
     "face_value": 2.0,
-    "currency_code": "INR",
-    "estimated_value": 3.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-1999-2rupees-chhatrapati-shivaji",
@@ -1985,19 +1541,13 @@
     "diameter": "25.9–26mm (hendecagonal)",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Portrait issue celebrating the Maratha leader; popular across Mumbai/Noida/Kolkata/Hyd mint varieties.",
     "fun_facts": [
       "Proofs exist from Mumbai (M).",
       "Also struck in higher denominations (₹50/₹100) for sets."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Late 90s saw several portrait ₹2 commemoratives before the ₹5 became the standard commemorative workhorse.",
-      "interesting_fact": "RBI press/Numista list multiple lion-style varieties on some 1999 issues."
-    },
     "tags": [
       "Shivaji",
       "₹2",
@@ -2005,8 +1555,7 @@
       "CuNi"
     ],
     "face_value": 2.0,
-    "currency_code": "INR",
-    "estimated_value": 3.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-1985-5rupees-indira-gandhi",
@@ -2022,19 +1571,13 @@
     "diameter": "31.1mm",
     "mintage": "59,288,000 (Mumbai)",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Large-format ₹5 memorial coin issued one year after India’s former PM passed away.",
     "fun_facts": [
       "Security edge grooving on a Cu‑Ni ₹5 is unusual and collectible.",
       "Proofs have a ‘B’ mintmark."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Big Cu‑Ni ₹5 (31mm) preceded the later nickel-brass 23mm format.",
-      "interesting_fact": "The denomination ‘₹5’ later migrated to smaller, nickel-brass planchets (2010s)."
-    },
     "tags": [
       "Indira Gandhi",
       "₹5",
@@ -2042,8 +1585,7 @@
       "memorial"
     ],
     "face_value": 5.0,
-    "currency_code": "INR",
-    "estimated_value": 7.5
+    "currency_code": "INR"
   },
   {
     "id": "ind-2005-5rupees-dandi-march-75",
@@ -2059,19 +1601,13 @@
     "diameter": "23mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Depicts Gandhi leading marchers—an iconic civil-disobedience moment against the British salt tax.",
     "fun_facts": [
       "Known in both Cu‑Ni and FSS die-pair varieties.",
       "Pairs nicely with your 25p Rhino for a ‘salt’ mini-theme."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "RBI/Govt frequently commemorate freedom-struggle milestones on ₹5/₹10 coins.",
-      "interesting_fact": "Official issue title carries bilingual legends with the 1930–2005 dates."
-    },
     "tags": [
       "Gandhi",
       "Salt March",
@@ -2079,8 +1615,7 @@
       "stainless-steel"
     ],
     "face_value": 5.0,
-    "currency_code": "INR",
-    "estimated_value": 5.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2010-2rupees-cwg-delhi",
@@ -2096,19 +1631,13 @@
     "diameter": "27mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Carries the Delhi 2010 CWG logo; issued alongside a nickel‑brass ₹5 and a silver ₹100 for sets.",
     "fun_facts": [
       "Reverse legend includes the actual dates “3–14 OCTOBER 2010”.",
       "Part of a 3‑denomination commemorative program."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "RBI press releases specify design/metal for each commemorative circulation coin.",
-      "interesting_fact": "The CWG set is one of the most widely recognized sports-themed Indian issues."
-    },
     "tags": [
       "sports",
       "CWG",
@@ -2116,8 +1645,7 @@
       "₹2"
     ],
     "face_value": 2.0,
-    "currency_code": "INR",
-    "estimated_value": 2.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2012-5rupees-mata-vaishno-devi",
@@ -2133,19 +1661,13 @@
     "diameter": "23mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Popular religious commemorative showing the Vaishno Devi iconography with ‘Silver Jubilee’ inscription.",
     "fun_facts": [
       "Issued in both ₹5 and ₹10 denominations.",
       "Circulation began in 2013 despite 2012 date."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Nickel‑brass became the default alloy for modern ₹5 commemoratives.",
-      "interesting_fact": "Press releases detail mint composition as Cu 75% / Zn 20% / Ni 5%."
-    },
     "tags": [
       "Vaishno Devi",
       "religion",
@@ -2153,8 +1675,7 @@
       "nickel-brass"
     ],
     "face_value": 5.0,
-    "currency_code": "INR",
-    "estimated_value": 5.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2016-5rupees-allahabad-high-court-150",
@@ -2170,19 +1691,13 @@
     "diameter": "23mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Uncommon",
+    "image_front": "",
+    "image_back": "",
     "story": "Shows the Court’s façade emerging from a law book with ‘1866–2016’ dual date.",
     "fun_facts": [
       "A ₹150 silver coin accompanied this theme for sets.",
       "Release & bookings were handled via Mumbai Mint in early 2016."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Legal tender status is as per Coinage Act; RBI only circulates the coins minted by GoI.",
-      "interesting_fact": "One of the few judiciary‑themed modern Indian coins."
-    },
     "tags": [
       "Allahabad HC",
       "legal",
@@ -2190,8 +1705,7 @@
       "₹5"
     ],
     "face_value": 5.0,
-    "currency_code": "INR",
-    "estimated_value": 15.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2011-5rupees-madan-mohan-malaviya",
@@ -2207,19 +1721,13 @@
     "diameter": "23mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Commemorates the BHU founder and freedom-era statesman ‘Mahamana’.",
     "fun_facts": [
       "Circulation pieces exist with both ♦ and ‘M’ mintmarks—an unusual quirk.",
       "Paired with a ₹150 silver coin in sets."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "2011–2013 saw many ₹5 nickel‑brass portraits with new ₹ symbol.",
-      "interesting_fact": "RBI press notes mention adoption of ₹ symbol (2010) on coins/notes."
-    },
     "tags": [
       "Malaviya",
       "BHU",
@@ -2227,8 +1735,7 @@
       "nickel-brass"
     ],
     "face_value": 5.0,
-    "currency_code": "INR",
-    "estimated_value": 5.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2011-5rupees-rabindranath-tagore",
@@ -2244,19 +1751,13 @@
     "diameter": "23mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Portrait of the Nobel laureate poet; hugely popular across mints with multiple die styles.",
     "fun_facts": [
       "Mule varieties have been reported by collectors.",
       "Issued with ₹ symbol on obverse legends."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "RBI notified the design in 2010; circulation followed in 2011.",
-      "interesting_fact": "Tagore’s 150th was also marked by a ₹150 silver coin."
-    },
     "tags": [
       "Tagore",
       "₹5",
@@ -2264,8 +1765,7 @@
       "nickel-brass"
     ],
     "face_value": 5.0,
-    "currency_code": "INR",
-    "estimated_value": 5.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2010-5rupees-mother-teresa-centenary",
@@ -2281,19 +1781,13 @@
     "diameter": "23mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Centenary tribute depicting Mother Teresa, widely seen in circulation.",
     "fun_facts": [
       "Multiple obverse ‘lion’ styles exist by mint.",
       "Released with a ₹100 silver collector coin."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Nickel‑brass 23mm format became standard for ₹5 commemoratives around 2010.",
-      "interesting_fact": "RBI circular specified 100 serrations on the edge."
-    },
     "tags": [
       "Mother Teresa",
       "₹5",
@@ -2301,8 +1795,7 @@
       "nickel-brass"
     ],
     "face_value": 5.0,
-    "currency_code": "INR",
-    "estimated_value": 5.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2010-5rupees-c-subramaniam",
@@ -2318,19 +1811,13 @@
     "diameter": "23mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Honours India’s ‘Green Revolution’ architect who steered agricultural policy in the 1960s.",
     "fun_facts": [
       "A rare Mumbai ‘♦’ circulation batch was distributed at the ceremony.",
       "Some mules exist with RBI 75th obverse dies."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Commemoratives often came with both UNC and Proof mint sets.",
-      "interesting_fact": "Press note codified standard 23mm/6g nickel‑brass for ₹5."
-    },
     "tags": [
       "C. Subramaniam",
       "Green Revolution",
@@ -2338,8 +1825,7 @@
       "nickel-brass"
     ],
     "face_value": 5.0,
-    "currency_code": "INR",
-    "estimated_value": 5.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2011-5rupees-civil-aviation-100",
@@ -2355,19 +1841,13 @@
     "diameter": "23mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Marks a century since India’s first airmail flight (Allahabad–Naini, 1911).",
     "fun_facts": [
       "Features an aircraft with a large ‘100 YEARS’ motif.",
       "Issued across all four Indian mints."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Aviation, science and infrastructure themes are common on modern ₹5/₹10 coins.",
-      "interesting_fact": "RBI press note dates the issue to late 2011."
-    },
     "tags": [
       "aviation",
       "centenary",
@@ -2375,8 +1855,7 @@
       "nickel-brass"
     ],
     "face_value": 5.0,
-    "currency_code": "INR",
-    "estimated_value": 5.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2013-5rupees-acharya-tulsi",
@@ -2392,19 +1871,13 @@
     "diameter": "23mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coin_Blank.png/220px-Coin_Blank.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Jain monk issue with characteristic mouth-covering (muhpatti) on portrait.",
     "fun_facts": [
       "Mint lion-size varieties exist from Mumbai.",
       "A ₹20 silver coin accompanied this theme."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Religious & philosophical figures are a recurring motif on Indian coins.",
-      "interesting_fact": "RBI gazette noted the design in late 2013; circulation followed."
-    },
     "tags": [
       "Acharya Tulsi",
       "Jain",
@@ -2412,8 +1885,7 @@
       "nickel-brass"
     ],
     "face_value": 5.0,
-    "currency_code": "INR",
-    "estimated_value": 5.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2015-note-₹50-mg-series",
@@ -2429,19 +1901,13 @@
     "diameter": "147×73mm",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Late MG-series ₹50 with the new ₹ symbol and updated security thread (pre-2017 redesign).",
     "fun_facts": [
       "RBI added machine‑readable thread, electrotype watermark & print year from 2005 onward.",
       "2017 ushered in the blue ‘Hampi Chariot’ ₹50 (new series)."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "MG Series (1996–2018) → MG New Series (2016–ongoing).",
-      "interesting_fact": "RBI’s site documents all security features for MG-series banknotes."
-    },
     "tags": [
       "banknote",
       "₹50",
@@ -2449,8 +1915,7 @@
       "Parliament"
     ],
     "face_value": 50.0,
-    "currency_code": "INR",
-    "estimated_value": 75.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2012-note-₹100-mg-series",
@@ -2466,19 +1931,13 @@
     "diameter": "157×73mm (MG 2005 specs)",
     "mintage": "N/A",
     "condition": "Circulated",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "Common",
+    "image_front": "",
+    "image_back": "",
     "story": "Classic purple‑green MG ₹100 with Himalaya vignette; replaced by lavender ‘Rani‑ki‑Vav’ in 2018.",
     "fun_facts": [
       "MG-series featured intaglio printing, latent image and windowed security thread.",
       "‘Star’ replacement notes exist in this period."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "2018 redesign changed size/colour/motif for ₹100 in MG ‘New Series’.",
-      "interesting_fact": "RBI explains each security feature for public awareness."
-    },
     "tags": [
       "banknote",
       "₹100",
@@ -2486,8 +1945,7 @@
       "Himalayas"
     ],
     "face_value": 100.0,
-    "currency_code": "INR",
-    "estimated_value": 150.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2009-note-₹500-mg-series",
@@ -2503,19 +1961,13 @@
     "diameter": "167–168×73mm",
     "mintage": "N/A",
     "condition": "Circulated (demonetised Nov 8, 2016)",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "Common (as type, but withdrawn)",
+    "image_front": "",
+    "image_back": "",
     "story": "Pre‑2016 ₹500 with Red Fort reverse—part of the MG series demonetised on 8 Nov 2016.",
     "fun_facts": [
       "Featured 3mm green‑to‑blue windowed security thread.",
       "‘Star’ replacement and multiple plate letter varieties exist."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "Old ₹500/₹1000 MG-series withdrawn in 2016; new ₹500 introduced Nov 2016.",
-      "interesting_fact": "RBI ran public education on security features & withdrawal timelines."
-    },
     "tags": [
       "banknote",
       "₹500",
@@ -2523,8 +1975,7 @@
       "demonetised"
     ],
     "face_value": 500.0,
-    "currency_code": "INR",
-    "estimated_value": 750.0
+    "currency_code": "INR"
   },
   {
     "id": "ind-2015-note-₹1000-mg-series",
@@ -2540,19 +1991,13 @@
     "diameter": "176–177×73mm",
     "mintage": "N/A",
     "condition": "Circulated (demonetised Nov 8, 2016)",
-    "image_front": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "image_back": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/200px-No_image_available.svg.png",
-    "rarity": "Common (as type, but withdrawn)",
+    "image_front": "",
+    "image_back": "",
     "story": "The last‑date MG ₹1000—demonetised in 2016—showing tech/industry imagery on reverse.",
     "fun_facts": [
       "2015 reprint carried improved features (ascending numerals, tactile marks).",
       "Largest face value note prior to demonetisation."
     ],
-    "country_info": {
-      "capital": "New Delhi",
-      "currency_history": "₹1000 issued 2000–2016 in MG series; withdrawn during demonetisation.",
-      "interesting_fact": "RBI press release confirmed 2015‑dated reissues before withdrawal."
-    },
     "tags": [
       "banknote",
       "₹1000",
@@ -2560,7 +2005,6 @@
       "demonetised"
     ],
     "face_value": 1000.0,
-    "currency_code": "INR",
-    "estimated_value": 1500.0
+    "currency_code": "INR"
   }
 ]
