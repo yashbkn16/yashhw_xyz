@@ -14,9 +14,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -28,7 +28,9 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git add data images
+          git add data
+          # images/ only exists once a photo has been attached in Notion
+          if [ -d images ]; then git add images; fi
           if git diff --cached --quiet; then
             echo "Nothing changed."
           else
