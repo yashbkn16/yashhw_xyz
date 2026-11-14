@@ -1,0 +1,798 @@
+{
+ "version": 2,
+ "matches": {
+  "418d88f4-1a2e-8109-bc84-f6f8cc39bbe1": {
+   "name": "United States · 1 Dollar",
+   "id": null,
+   "status": "none",
+   "checked": "2026-11-14"
+  },
+  "418d88f4-1a2e-810c-8652-deec6d1ba078": {
+   "name": "United Arab Emirates · 25 Fils · Arabian Gazelle",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "2451: 25 Fils (non-magnetic) (1973–2011)",
+    "68022: 25 Fils (magnetic) (2014–2025)"
+   ]
+  },
+  "418d88f4-1a2e-810e-ac25-efc55237d467": {
+   "name": "Sri Lanka · 500 Rupees",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "571918: 500 Rupees (Chartered Mercantile Bank of India, London and China) (1870–1870)",
+    "454636: 500 Rupees (1926–1926)",
+    "235514: 500 Rupees (Central Bank of Ceylon) (1981–1985)",
+    "235516: 500 Rupees (Central Bank of Sri Lanka) (1987–1990)",
+    "235517: 500 Rupees (1991–1992)"
+   ]
+  },
+  "418d88f4-1a2e-8110-9f22-da99682e2c63": {
+   "name": "United Kingdom · 50 Pence · Elizabeth II",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "29158: 20 Pence - Elizabeth II (3rd portrait; 1/10 oz Fine Silver) (1997–1997)",
+    "866: 50 Pence - Elizabeth II (3rd portrait; large type) (1985–1997)",
+    "20700: 50 Pence - Elizabeth II (3rd portrait; small type) (1997–1997)",
+    "105068: 50 Pence - Elizabeth II (3rd portrait; 1/4 oz Fine Silver) (1997–1997)",
+    "56363: 50 Pence - Elizabeth II (3rd portrait; small type, Silver Piedfort) (1997–1997)"
+   ]
+  },
+  "418d88f4-1a2e-8115-a77a-fe2c5b5472f4": {
+   "name": "Oman · 100 Baisa · Green",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "224051: 100 Baiza (1973–1973)",
+    "208291: 100 Baisa (1977–1977)",
+    "210980: 100 Baisa - Qaboos bin Sa'id (1987–1994)",
+    "205802: 100 Baisa - Qaboos bin Sa'id (1995–1995)",
+    "267407: 100 Baisa (2020–2020)"
+   ]
+  },
+  "418d88f4-1a2e-8116-93c8-e06eae83cfcd": {
+   "name": "United Arab Emirates · 20 Dirhams",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "204130: 10 Dirhams (1982–1982)",
+    "203650: 10 Dirhams (1998–2007)",
+    "205751: 20 Dirhams (1997–2007)",
+    "206029: 20 Dirhams (2009–2016)"
+   ]
+  },
+  "418d88f4-1a2e-8117-8f24-c4e5c843b039": {
+   "name": "Singapore · 10 Cents",
+   "id": null,
+   "status": "none",
+   "checked": "2026-11-14"
+  },
+  "418d88f4-1a2e-8118-898c-d7294bbd3425": {
+   "name": "Thailand · 25 Satang · Rama X",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "25899: 5 Satang - Rama V (Siam Anachak) (1897–1897)",
+    "35127: 25 Satang - Rama VII (1929–1929)",
+    "22568: 25 Satang - Rama VIII (Child portrait) (1946–1946)",
+    "9274: 25 Satang - Rama VIII (Posthumous; adult portrait) (1946–1946)",
+    "13756: 25 Satang - Rama IX (1950–1950)"
+   ]
+  },
+  "418d88f4-1a2e-8119-a4a2-f15eca21dc32": {
+   "name": "New Zealand · 20 Cents · Pukaki",
+   "id": 130097,
+   "status": "matched",
+   "checked": "2026-11-14"
+  },
+  "418d88f4-1a2e-811e-98c9-cabe5a614a5e": {
+   "name": "Thailand · 50 Satang · Rama X",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "12236: ½ Satang - Rama VIII (1937–1937)",
+    "5859: 1 Satang - Rama IX (Golden Jubilee) (1996–1996)",
+    "5861: 5 Satang - Rama IX (Golden Jubilee) (1996–1996)",
+    "5862: 10 Satang - Rama IX (Golden Jubilee) (1996–1996)",
+    "2643: 25 Satang - Rama IX (1957–1957)"
+   ]
+  },
+  "418d88f4-1a2e-811f-a468-cfd4e190d6cf": {
+   "name": "Thailand · 2 Baht · Rama X",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "284894: 1 Fuang - Rama III (Bai Matum) (1838–1838)",
+    "331339: 1 Fuang - Rama III (Luk Sorn) (1848–1848)",
+    "403111: 1 Salung - Rama III (Prasat) (1824–1851)",
+    "401798: 1 Salung - Rama III (Luk Sorn) (1848–1848)",
+    "176586: 2 Salueng - Rama I (1785–1809)"
+   ]
+  },
+  "418d88f4-1a2e-8124-b1a0-ec3c34bbb3e4": {
+   "name": "Sri Lanka · 50 Rupees",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "571791: 5 Pounds (Chartered Mercantile Bank of India, London and China) (1864–1869)",
+    "571798: 5 Pounds (Kandy; Chartered Mercantile Bank of India, London and China) (1864–1869)",
+    "571717: 5 Pounds (Asiatic Banking Corporation) (1865–1865)",
+    "571721: 5 Pounds (Asiatic Banking Corporation) (1865–1865)",
+    "571794: 50 Pounds (Chartered Mercantile Bank of India, London and China) (1864–1869)"
+   ]
+  },
+  "418d88f4-1a2e-8125-add8-de6de3a7aa1f": {
+   "name": "Qatar · 5 Riyal",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "224833: 5 Riyals (1973–1973)",
+    "207492: 5 Riyals (Qatar Monetary Agency) (1981–1981)",
+    "203212: 5 Riyals (Qatar Central Bank) (1996–1996)",
+    "202237: 5 Riyals (Without marks for the blinds) (2003–2003)",
+    "206019: 5 Riyals (With marks for the blinds) (2008–2015)"
+   ]
+  },
+  "418d88f4-1a2e-8126-b0a5-cc1196cd9b2e": {
+   "name": "Qatar · 10 Riyal",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "224834: 10 Riyals (1973–1973)",
+    "203026: 10 Riyals (Qatar Monetary Agency) (1981–1981)",
+    "215412: 10 Riyals (Qatar Central Bank) (1996–1996)",
+    "215232: 10 Riyals (Without marks for the blinds) (2003–2003)",
+    "206020: 10 Riyals (With marks for the blinds) (2008–2015)"
+   ]
+  },
+  "418d88f4-1a2e-8128-a015-fad0bf41978f": {
+   "name": "United Arab Emirates · 50 Fils · Non-magnetic",
+   "id": 1309,
+   "status": "matched",
+   "checked": "2026-11-14"
+  },
+  "418d88f4-1a2e-8128-a02c-d8f65b56d40c": {
+   "name": "United States · 20 Dollar",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "382548: 25 Cents (Huntingdon, Cambria and Indiana Turnpike Road Company) (1816–1816)",
+    "466661: 25 Cents (The Store at Alleghany Furnace) (1856–1856)",
+    "410643: 25 Cents (Bank of Lowville - New York) (1862–1862)",
+    "410386: 25 Cents (Commercial Bank of Glens Falls) (1862–1862)",
+    "356623: 25 Cents (Indian Head Bank) (1862–1862)"
+   ]
+  },
+  "418d88f4-1a2e-8129-90f0-d15addb2d72d": {
+   "name": "Nepal · 5 Paisa",
+   "id": 15418,
+   "status": "matched",
+   "checked": "2026-11-14"
+  },
+  "418d88f4-1a2e-8129-97a9-f8f6671955ed": {
+   "name": "Vietnam · 5000 Dong",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "213249: 5000 Đồng (1989–1989)",
+    "204511: 5000 Đồng (1993–1993)"
+   ]
+  },
+  "418d88f4-1a2e-812a-b254-f537c39d470f": {
+   "name": "Switzerland · 1 Franc · Helvetia",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "181: ½ Franc (Helvetia standing; copper-nickel) (1968–2026)",
+    "185: 1 Franc (Helvetia standing; copper-nickel) (1968–2026)",
+    "189: 2 Francs (Helvetia standing; copper-nickel) (1968–2026)"
+   ]
+  },
+  "418d88f4-1a2e-812e-8620-fa1595751365": {
+   "name": "Nepal · 2 Rupiya · Samarmaya",
+   "id": null,
+   "status": "none",
+   "checked": "2026-11-14"
+  },
+  "418d88f4-1a2e-812e-a9d2-eeb58a61084a": {
+   "name": "Qatar · 50 Riyal",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "224833: 5 Riyals (1973–1973)",
+    "224837: 50 Riyals (1976–1976)",
+    "224842: 50 Riyals (Qatar Monetary Agency) (1981–1981)",
+    "224850: 50 Riyals (Qatar Central Bank) (1996–1996)",
+    "218391: 50 Riyals (Without marks for the blinds) (2003–2003)"
+   ]
+  },
+  "418d88f4-1a2e-8130-9ba5-cad66d5f942a": {
+   "name": "Oman · 10 Baisa · from Sultanate of Oman, issued during the reign of Sultan Qaboos bin Said",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "8088: 10 Baisa - Qaboos (FAO) (1975–1975)",
+    "7924: 10 Baisa - Qaboos (1975–1998)",
+    "7952: 10 Baisa - Qaboos (FAO) (1995–1995)",
+    "15928: 10 Baisa - Qaboos (1999–2013)",
+    "83112: 10 Baisa - Qaboos (National Day) (2015–2015)"
+   ]
+  },
+  "418d88f4-1a2e-8137-9716-ee75304bb26c": {
+   "name": "Nepal · 1 Rupiya · Sagarmaya",
+   "id": null,
+   "status": "none",
+   "checked": "2026-11-14"
+  },
+  "418d88f4-1a2e-8138-bd6a-ea4c8dd03937": {
+   "name": "Nepal · 10 Rupees",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "203572: 5 Rupees - Birendra Bir Bikram (1974–1974)",
+    "203452: 10 Rupees (1966–1968)",
+    "202724: 10 Rupees- Mahendra Bir Bikram (1972–1972)",
+    "203576: 10 Rupees - Birendra Bir Bikram (1973–1990)",
+    "204115: 10 Rupees - Birendra Bir Bikram Shah (1985–2001)"
+   ]
+  },
+  "418d88f4-1a2e-813e-bb9d-c0866d1eaa78": {
+   "name": "Sri Lanka · 20 Rupees",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "371667: 25 Cents (1942–1942)",
+    "259163: 25 Cents - George VI (1942–1949)",
+    "454184: 50 Rupees (1969–1970)",
+    "454458: 100 Rupees (1909–1926)",
+    "454459: 100 Rupees (1926–1939)"
+   ]
+  },
+  "418d88f4-1a2e-8140-b694-e8dab1dd19db": {
+   "name": "Oman · 100 Baisa · Red",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "224051: 100 Baiza (1973–1973)",
+    "208291: 100 Baisa (1977–1977)",
+    "210980: 100 Baisa - Qaboos bin Sa'id (1987–1994)",
+    "205802: 100 Baisa - Qaboos bin Sa'id (1995–1995)",
+    "267407: 100 Baisa (2020–2020)"
+   ]
+  },
+  "418d88f4-1a2e-8141-a03f-e342e6b30046": {
+   "name": "Philippines · 1 Piso · Jose Rizal",
+   "id": 28276,
+   "status": "matched",
+   "checked": "2026-11-14"
+  },
+  "418d88f4-1a2e-8142-bc9c-f666e9724e02": {
+   "name": "Mauritius · 5 Rupees · Sir Seewoosagur Ramgoolam(First PM)",
+   "id": 63897,
+   "status": "matched",
+   "checked": "2026-11-14"
+  },
+  "418d88f4-1a2e-8143-af65-e2fd6b19ef49": {
+   "name": "Thailand · 50 Satang · Rama IX",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "12236: ½ Satang - Rama VIII (1937–1937)",
+    "5859: 1 Satang - Rama IX (Golden Jubilee) (1996–1996)",
+    "5861: 5 Satang - Rama IX (Golden Jubilee) (1996–1996)",
+    "5862: 10 Satang - Rama IX (Golden Jubilee) (1996–1996)",
+    "2643: 25 Satang - Rama IX (1957–1957)"
+   ]
+  },
+  "418d88f4-1a2e-8145-ba2f-f0c2d33e615f": {
+   "name": "Poland · 1 Grosz",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "127210: 1 Grosz (Obverse Trial) (1923–1923)",
+    "127209: 1 Grosz (Trial Strike; inverted die) (1923–1923)",
+    "5634: 1 Grosz (1923–1939)",
+    "126618: 1 Grosz (Trial Strike 21/V under O in Grosz) (1925–1925)",
+    "126488: 1 Grosz (Trial Strike) (1927–1927)"
+   ]
+  },
+  "418d88f4-1a2e-8147-8d13-ff0468191112": {
+   "name": "Sri Lanka · 1000 Rupees",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "572836: 1000 Rupees (Oriental Bank Corporation) (1861–1861)",
+    "571919: 1000 Rupees (Chartered Mercantile Bank of India, London and China) (1870–1870)",
+    "454638: 1000 Rupees (1899–1926)",
+    "454640: 1000 Rupees (1929–1929)",
+    "454641: 1000 Rupees (1941–1944)"
+   ]
+  },
+  "418d88f4-1a2e-8147-94bf-cf96b58293fb": {
+   "name": "Thailand · 5 Baht · Rama IX",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "178711: 10 Salueng - Rama III (1825–1825)",
+    "155805: 5 Tamlueng - Rama V (Queen Debsirindra) (1881–1881)",
+    "15255: Solot / 1⁄16 Fueang - Rama IV (1862–1864)",
+    "176189: 1 Fueang - Rama IV (Hammering trial strike) (1856–1856)",
+    "176193: 1 Salueng - Rama IV (Hammering trial strike) (1856–1856)"
+   ]
+  },
+  "418d88f4-1a2e-814c-ad2b-ed5a8c0dac63": {
+   "name": "Nepal · 100 Rupees",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "220536: 100 Mohru (1951–1951)",
+    "203454: 100 Rupees (1968–1968)",
+    "220528: 100 Rupees - Mahendra Bir Bikram (1972–1972)",
+    "203460: 100 Rupees - Birendra Bir Bikram (1974–1974)",
+    "204122: 100 Rupees - Birendra Bir Bikram (1981–2001)"
+   ]
+  },
+  "418d88f4-1a2e-8156-9287-e546983872a7": {
+   "name": "Singapore · 20 Cents",
+   "id": 1673,
+   "status": "matched",
+   "checked": "2026-11-14"
+  },
+  "418d88f4-1a2e-8157-85df-f08e02f056d0": {
+   "name": "Ukraine · 100 Hryvnia",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "236340: 100 Hryven (1918–1918)",
+    "226184: 100 Hryven (1918–1918)",
+    "203911: 100 Hryven (1992–1992)",
+    "202752: 100 Hryven (1996–1996)",
+    "202224: 100 Hryven (2005–2014)"
+   ]
+  },
+  "418d88f4-1a2e-8157-886e-db0f159d9639": {
+   "name": "Ukraine · 1 Hryvnia",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "226184: 100 Hryven (1918–1918)",
+    "227030: 2000 Hryven (1918–1918)",
+    "236343: 1 Hryvnia 80 Shahiv (1918–1918)",
+    "202869: 1 Hryvnia (1992–1992)",
+    "202776: 1 Hryvnia (1994–1995)"
+   ]
+  },
+  "418d88f4-1a2e-815c-8a1f-e749025e7b44": {
+   "name": "Vietnam · 2000 Dong",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "222049: 2000 Đồng (1987–1987)",
+    "202012: 2000 Đồng (1989–1989)"
+   ]
+  },
+  "418d88f4-1a2e-815d-bc59-c8754441dedc": {
+   "name": "Sri Lanka · 100 Rupees",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "571792: 10 Pounds (Chartered Mercantile Bank of India, London and China) (1864–1869)",
+    "571719: 10 Pounds (Asiatic Banking Corporation) (1865–1865)",
+    "571722: 10 Pounds (Asiatic Banking Corporation) (1865–1865)",
+    "571794: 50 Pounds (Chartered Mercantile Bank of India, London and China) (1864–1869)",
+    "572859: 100 Rupees (Galle; Oriental Bank Corporation) (1867–1867)"
+   ]
+  },
+  "418d88f4-1a2e-815f-af0a-e832cb1fffb8": {
+   "name": "Nepal · 50 Rupees",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "203459: 50 Rupees - Birendra Bir Bikram (1977–1978)",
+    "204118: 50 Rupees - Birendra Bir Bikram (1982–2001)",
+    "204620: 50 Rupees - Gyanendra Bir Bikram (2002–2004)",
+    "203176: 50 Rupees - Gyanendra Bir Bikram (NRB Golden Jubilee) (2005–2005)",
+    "203977: 50 Rupees (Without date) (2007–2010)"
+   ]
+  },
+  "418d88f4-1a2e-8163-9104-d94e811771af": {
+   "name": "Vietnam · 500 Dong",
+   "id": null,
+   "status": "ambiguous",
+   "checked": "2026-11-14",
+   "candidates": [
+    "275563: 500 Đồng (1985–1985)",
+    "203786: 500 Đồng (1988–1989)",
+    "205915: 500 000 Đồng (2003–2022)"
+   ]
+  },
+  "418d88f4-1a2e-8164-a89c-d946c1df3233": {},
+  "418d88f4-1a2e-8169-8a21-f2fa70697dd1": {},
+  "418d88f4-1a2e-816e-8637-ff9c659ca9cf": {},
+  "418d88f4-1a2e-816e-923e-f03959c158f5": {},
+  "418d88f4-1a2e-816f-80e2-c3a2f6d8f43c": {},
+  "418d88f4-1a2e-8173-99ee-fca60fc51208": {},
+  "418d88f4-1a2e-8176-b027-db8129239702": {},
+  "418d88f4-1a2e-8176-bf0c-d2f7fe60c3ca": {},
+  "418d88f4-1a2e-8179-ab1a-c76817790eb7": {},
+  "418d88f4-1a2e-817b-bc09-cbfa760ce586": {},
+  "418d88f4-1a2e-8186-874d-e0a1399121cf": {},
+  "418d88f4-1a2e-8188-84ff-e1adf06a0f7a": {},
+  "418d88f4-1a2e-818d-b818-f79568b73513": {},
+  "418d88f4-1a2e-818d-b893-d20dc039f11a": {},
+  "418d88f4-1a2e-8194-bd71-f120fa7fed74": {},
+  "418d88f4-1a2e-8195-b6db-df2705414024": {},
+  "418d88f4-1a2e-8196-8c4d-ca9c8b5e6b98": {},
+  "418d88f4-1a2e-819a-8f29-e2ba13ca2651": {},
+  "418d88f4-1a2e-819d-ad20-ecd9821b3c04": {},
+  "418d88f4-1a2e-819f-bda9-fd99a972afb9": {},
+  "418d88f4-1a2e-81a2-a395-f81767b5c0c0": {},
+  "418d88f4-1a2e-81b2-9ed6-fd1994aecece": {},
+  "418d88f4-1a2e-81b2-a193-f8224104edb3": {},
+  "418d88f4-1a2e-81b8-9a41-c9e9500e38f8": {},
+  "418d88f4-1a2e-81ba-9ddd-f8f2a44c828b": {},
+  "418d88f4-1a2e-81be-8cf2-cddd042eee20": {},
+  "418d88f4-1a2e-81c4-b005-f4abaa155e6b": {},
+  "418d88f4-1a2e-81c7-aec5-d4955b3ff829": {},
+  "418d88f4-1a2e-81cc-8b6c-e6c503cce1b9": {},
+  "418d88f4-1a2e-81cc-bb2e-f6083fc59ec3": {},
+  "418d88f4-1a2e-81d0-8960-f88b9f69b9bd": {},
+  "418d88f4-1a2e-81d4-be77-ce9f96d6cf29": {},
+  "418d88f4-1a2e-81d5-ad9d-e089e2474371": {},
+  "418d88f4-1a2e-81d6-a177-e7c7d37df0f2": {},
+  "418d88f4-1a2e-81db-9278-e55d11594841": {},
+  "418d88f4-1a2e-81db-b9b3-e3a75a052f5b": {},
+  "418d88f4-1a2e-81dc-ac1f-c563296fde46": {},
+  "418d88f4-1a2e-81df-9e28-c03b824adfe3": {},
+  "418d88f4-1a2e-81f0-ba46-e3156642c5e9": {},
+  "418d88f4-1a2e-81f5-b252-e9a7cdc4e13b": {},
+  "418d88f4-1a2e-81f8-988f-ff6ba36424ac": {},
+  "418d88f4-1a2e-81fa-8c01-d1c769b1374f": {},
+  "418d88f4-1a2e-81fa-9a0e-f60241d1f77b": {},
+  "418d88f4-1a2e-81fe-9418-ee0361e4a55b": {},
+  "418d88f4-1a2e-81ff-a30c-e42ef047e7d8": {},
+  "418d88f4-1a2e-8101-9d73-e89d2cc56ac7": {},
+  "418d88f4-1a2e-8105-849e-d1a25c361ae6": {},
+  "418d88f4-1a2e-8107-8e34-ec12629bcf03": {},
+  "418d88f4-1a2e-8112-9903-e5a8216b4d84": {},
+  "418d88f4-1a2e-8115-b71e-dc8f7a1e14fb": {},
+  "418d88f4-1a2e-8117-81e2-e2db19d6edb9": {},
+  "418d88f4-1a2e-811b-a589-d5083f3fa0ff": {},
+  "418d88f4-1a2e-811d-bab6-ff90564f79df": {},
+  "418d88f4-1a2e-8120-92f2-d0c2b36c11e7": {},
+  "418d88f4-1a2e-8120-a565-f1a7e9323656": {},
+  "418d88f4-1a2e-8121-a121-f76cefea8f86": {},
+  "418d88f4-1a2e-8129-834b-c86c6bff3294": {},
+  "418d88f4-1a2e-8129-bda5-e4b66b3dfeac": {},
+  "418d88f4-1a2e-812a-a2b1-fcc937dcb0f3": {},
+  "418d88f4-1a2e-812c-96dc-c85c065a165b": {},
+  "418d88f4-1a2e-812d-b340-eef1e23167c9": {},
+  "418d88f4-1a2e-8130-8ce6-fcc4c900280c": {},
+  "418d88f4-1a2e-8130-aa88-ee3c6e1c2142": {},
+  "418d88f4-1a2e-8132-a5e6-eb414a600093": {},
+  "418d88f4-1a2e-8133-8f46-ca5ed544937f": {},
+  "418d88f4-1a2e-813d-b16c-f6368610cd30": {},
+  "418d88f4-1a2e-8143-a28a-c7d92c0b72b1": {},
+  "418d88f4-1a2e-8144-85ee-dca1e452cc9d": {},
+  "418d88f4-1a2e-8144-99ee-df95f343ee4e": {},
+  "418d88f4-1a2e-8144-bef9-ea25bf38ff84": {},
+  "418d88f4-1a2e-814a-92ed-d9ecbbb75bfb": {},
+  "418d88f4-1a2e-814a-b181-d256d2d408b7": {},
+  "418d88f4-1a2e-814c-9e74-ed0e30fe7a5c": {},
+  "418d88f4-1a2e-814d-a96a-d9c53f536eea": {},
+  "418d88f4-1a2e-8156-951c-cde228b0e981": {},
+  "418d88f4-1a2e-8158-8b77-df468965a49b": {},
+  "418d88f4-1a2e-8160-b0ed-c64163ff2826": {},
+  "418d88f4-1a2e-8163-b697-e0ca7ae343f5": {},
+  "418d88f4-1a2e-8166-b9ba-f802a64f095b": {},
+  "418d88f4-1a2e-8176-aa70-d8a8c96f5f14": {},
+  "418d88f4-1a2e-817a-b7bb-f11982faae19": {},
+  "418d88f4-1a2e-817c-af4e-f062c2b26aa4": {},
+  "418d88f4-1a2e-817e-887f-e3c10fff1330": {},
+  "418d88f4-1a2e-817e-a2f6-c5d1b5d967bb": {},
+  "418d88f4-1a2e-817f-864b-f97b1f1bea18": {},
+  "418d88f4-1a2e-8180-b4bb-f830f0360345": {},
+  "418d88f4-1a2e-8180-bf44-cf141d6d589f": {},
+  "418d88f4-1a2e-8186-9150-ec502846b422": {},
+  "418d88f4-1a2e-818c-9190-dc7adaee9e0c": {},
+  "418d88f4-1a2e-818c-9345-c36543e1ff3f": {},
+  "418d88f4-1a2e-818c-b11e-e655d094b701": {},
+  "418d88f4-1a2e-8191-8de5-cc9925aa4bbf": {},
+  "418d88f4-1a2e-8193-bfab-d3374428acae": {},
+  "418d88f4-1a2e-8194-a9fa-ee9e4caae850": {},
+  "418d88f4-1a2e-819a-a029-ca18c42ed84b": {},
+  "418d88f4-1a2e-819a-bc83-e239b70c6e28": {},
+  "418d88f4-1a2e-819b-ad7e-c68ae62c16a3": {},
+  "418d88f4-1a2e-819d-830e-f1e01f053030": {},
+  "418d88f4-1a2e-819e-a6f1-ee7dfd113038": {},
+  "418d88f4-1a2e-819e-a92e-c0a0694c09bd": {},
+  "418d88f4-1a2e-81a2-9a3e-ebfb113643e2": {},
+  "418d88f4-1a2e-81a3-a05a-c9ea4bad3007": {},
+  "418d88f4-1a2e-81a8-92a2-ef80cb8af47a": {},
+  "418d88f4-1a2e-81ac-8c77-f9cee6986e03": {},
+  "418d88f4-1a2e-81ae-8237-d74ba58d38d5": {},
+  "418d88f4-1a2e-81b5-8540-e5de3f5b143e": {},
+  "418d88f4-1a2e-81b5-a537-ec07162a4661": {},
+  "418d88f4-1a2e-81c0-a06e-e80a7c713c9c": {},
+  "418d88f4-1a2e-81c5-85ef-e3e24941ccb5": {},
+  "418d88f4-1a2e-81c5-bcd0-ff346e0f99bc": {},
+  "418d88f4-1a2e-81c6-9de2-fab1a3cd3a6a": {},
+  "418d88f4-1a2e-81c9-9f7b-dc41a7373929": {},
+  "418d88f4-1a2e-81c9-b88a-d0c8fe8a94bf": {},
+  "418d88f4-1a2e-81cc-986e-ef8fe3b73b06": {},
+  "418d88f4-1a2e-81d0-9c06-fb1298c13eab": {},
+  "418d88f4-1a2e-81d1-bbbb-f712b46e4fe7": {},
+  "418d88f4-1a2e-81d5-b365-fa85119171c0": {},
+  "418d88f4-1a2e-81db-b69f-eb3385b74271": {},
+  "418d88f4-1a2e-81dd-8c7e-f3a6b203281b": {},
+  "418d88f4-1a2e-81de-a17f-e31a8a75e05c": {},
+  "418d88f4-1a2e-81e0-9267-c742518add12": {},
+  "418d88f4-1a2e-81e3-bf17-e7c949dee698": {},
+  "418d88f4-1a2e-81e5-9e05-da0039bf8813": {},
+  "418d88f4-1a2e-81e9-ac13-f4a4b2015aef": {},
+  "418d88f4-1a2e-81ea-beef-db60b2583f58": {},
+  "418d88f4-1a2e-81ee-9585-c2cbfc4deba5": {},
+  "418d88f4-1a2e-81ee-b17b-d81184076b7c": {},
+  "418d88f4-1a2e-81ef-9635-e053594e4853": {},
+  "418d88f4-1a2e-81ef-b949-e47cf61da5eb": {},
+  "418d88f4-1a2e-81f0-a7ca-ce9df0119e85": {},
+  "418d88f4-1a2e-81f0-b44c-d2e9628c9041": {},
+  "418d88f4-1a2e-81f5-959c-d4283befab8d": {},
+  "418d88f4-1a2e-81f5-b6ce-d315f1bfa21c": {},
+  "418d88f4-1a2e-81f9-822c-ff8e5c426152": {},
+  "418d88f4-1a2e-81f9-aaf3-d69563fee73d": {}
+ },
+ "types": {
+  "130097": {
+   "id": 130097,
+   "url": "https://en.numista.com/130097",
+   "title": "20 Cents - Elizabeth II (4th portrait; Pukaki, Non-magnetic, Set issue)",
+   "years": "2010–2023",
+   "composition": "Copper-nickel",
+   "weight": "4.45 g",
+   "size": "21.75 mm",
+   "shape": "Spanish flower",
+   "obverse": {
+    "design": "Fourth crowned portrait of Queen Elizabeth II facing right, wearing the Girls of Great Britain and Ireland Tiara, legend around, date below."
+   },
+   "reverse": {
+    "design": "Maori carving depicting Pukaki, a chief of the Ngāti Whakaue iwi (tribe) of Te Arawa."
+   },
+   "comments": "From 2010 the 20 cent coins included in the BU & Proof Sets have been struck at the Royal Dutch Mint. (Except for the Unofficial BU Sets of 2014 & 2015 which were struck at the Royal Canadian Mint). They are different to the circulation coins in that they are non-magnetic being made from copper-nickel instead of nickel-plated steel and have a different weight.",
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f4fccd8e1b47.73421007-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f4fccd8e1b47.73421007-180.jpg",
+     "credit": "brismike"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f4fcce8f6fb7.79106266-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f4fcce8f6fb7.79106266-180.jpg",
+     "credit": "brismike"
+    }
+   }
+  },
+  "1309": {
+   "id": 1309,
+   "url": "https://en.numista.com/1309",
+   "title": "50 Fils (non-magnetic)",
+   "years": "1995–2007",
+   "composition": "Copper-nickel",
+   "weight": "4.4 g",
+   "size": "21 mm",
+   "shape": "Equilateral curve heptagon (7-sided)",
+   "obverse": {
+    "design": "Denomination in Arabic characters surrounded by name of the country"
+   },
+   "reverse": {
+    "design": "Three oil derricks, date numerals below",
+    "engravers": [
+     "Geoffrey Colley"
+    ]
+   },
+   "comments": "Rulers:\n\r\n1- Sheikh Zayed bin Sultan Al Nahayan (02 Dec 1971 - 02 Nov 2004)\n\r\n2- Sheikh Khalifa bin Zayed Al Nahayan (03 Nov 2004 - Date)\n\n\r\n1415-1418 (1995-1997) Proof Set:\n\r\n\n\r\n\n\r\n \n\r\n© Zameer Abubakar",
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/5f9529e0998959.63097052-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/5f9529e0998959.63097052-180.jpg",
+     "credit": "Numista"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/5f9529e12bd3c5.69286592-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/5f9529e12bd3c5.69286592-180.jpg",
+     "credit": "Numista"
+    }
+   }
+  },
+  "15418": {
+   "id": 15418,
+   "url": "https://en.numista.com/15418",
+   "title": "5 Paisa - Mahendra Bir Bikram",
+   "years": "1964–1966",
+   "composition": "Bronze",
+   "weight": "3.08 g",
+   "size": "21 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Trident flanked by moon and sun\r\n\r\nShri Mahendra Veer Vikram Shahdev \r\n\"Nepal\" in Devanagari,\r\ndate below"
+   },
+   "reverse": {
+    "design": "\"Shri Bhavani\" in Devanagari\r\ndenomination\r\n\"Panch paisa\" in Devanagari"
+   },
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/nepal/1123-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/nepal/1123-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/nepal/1124-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/nepal/1124-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "28276": {
+   "id": 28276,
+   "url": "https://en.numista.com/28276",
+   "title": "1 Piso (José Rizal)",
+   "composition": "Nickel plated steel",
+   "weight": "5.35 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Front-facing bust of José Rizal.",
+    "engravers": [
+     "Emerson Rg. Abraham"
+    ]
+   },
+   "reverse": {
+    "design": "Bank seal at centre, radiating rays at left.",
+    "engravers": [
+     "Emerson Rg. Abraham"
+    ]
+   },
+   "comments": "Smaller script, smaller mint mark, finer hair and portrait details.",
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/philippines/6ab51ad3267707.81057569-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/philippines/6ab51ad3267707.81057569-180.jpg",
+     "credit": "Jek Cartojano"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/philippines/677-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/philippines/677-180.jpg",
+     "credit": "Ulmo"
+    }
+   }
+  },
+  "63897": {
+   "id": 63897,
+   "url": "https://en.numista.com/63897",
+   "title": "5 Rupees",
+   "years": "2012–2025",
+   "composition": "Nickel plated steel",
+   "weight": "12.55 g",
+   "size": "31 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust of Sir Seewoosagur Ramgoolam 3/4 right."
+   },
+   "reverse": {
+    "design": "Value within palm trees."
+   },
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/maurice/398-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/maurice/398-180.jpg",
+     "credit": "ken6528"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/maurice/399-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/maurice/399-180.jpg",
+     "credit": "ken6528"
+    }
+   }
+  },
+  "1673": {
+   "id": 1673,
+   "url": "https://en.numista.com/1673",
+   "title": "20 Cents (ribbon downwards)",
+   "years": "1992–2013",
+   "composition": "Copper-nickel",
+   "weight": "4.5 g",
+   "size": "21.36 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "The arms of Singapore with the date underneath and 'Singapore' on four sides in English, Tamil, Chinese, and Malay",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "reverse": {
+    "design": "The denomination in Latin at the top with a powder-puff plant frond (Binomial Name: Calliandra surinamensis) below and the denomination in numerals at the bottom",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/singapour/20-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/singapour/20-180.jpg",
+     "credit": "Numista"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/singapour/21-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/singapour/21-180.jpg",
+     "credit": "Numista"
+    }
+   }
+  }
+ },
+ "issuers": {
+  "australia": "australie",
+  "bhutan": "bhoutan",
+  "canada": "canada",
+  "china": "china",
+  "hong kong": "hong_kong",
+  "macau": "macao",
+  "georgia": "georgia_section",
+  "germany": "germany",
+  "hungary": "hongrie",
+  "india": "inde",
+  "india - british": "inde_britannique",
+  "indonesia": "indonesia_section",
+  "italy": "italie",
+  "kuwait": "koweit",
+  "malaysia": "malaisie",
+  "mauritius": "maurice",
+  "nepal": "nepal",
+  "netherlands": "pays-bas",
+  "new zealand": "nouvelle-zelande",
+  "oman": "oman",
+  "philippines": "philippines",
+  "poland": "pologne",
+  "qatar": "qatar",
+  "singapore": "singapour",
+  "sri lanka": "ceylan",
+  "sweden": "suede",
+  "switzerland": "switzerland_group",
+  "thailand": "thailande",
+  "ukraine": "ukraine",
+  "united arab emirates": "emirats_arabes_unis",
+  "united kingdom": "royaume-uni",
+  "united states": "etats-unis",
+  "vietnam": "viet_nam"
+ }
+}

@@ -1,6 +1,7 @@
 [
  {
-  "id": "australia-5-cents-elizabeth-ii-c690a7",
+  "id": "australia-5-cents-elizabeth-ii-2c16a3",
+  "notion": "418d88f4-1a2e-819b-ad7e-c68ae62c16a3",
   "country": "Australia",
   "region": "Oceania",
   "kind": "coin",
@@ -14,7 +15,8 @@
   "face_value": 0.05
  },
  {
-  "id": "australia-1-shilling-merino-ram-head-364476",
+  "id": "australia-1-shilling-merino-ram-head-fe7a5c",
+  "notion": "418d88f4-1a2e-814c-9e74-ed0e30fe7a5c",
   "country": "Australia",
   "region": "Oceania",
   "kind": "coin",
@@ -28,7 +30,8 @@
   "face_value": 0.1
  },
  {
-  "id": "australia-10-cents-lyrebird-afbb3b",
+  "id": "australia-10-cents-lyrebird-b26aa4",
+  "notion": "418d88f4-1a2e-817c-af4e-f062c2b26aa4",
   "country": "Australia",
   "region": "Oceania",
   "kind": "coin",
@@ -42,21 +45,8 @@
   "face_value": 0.1
  },
  {
-  "id": "australia-20-cents-platypus-5f3731",
-  "country": "Australia",
-  "region": "Oceania",
-  "kind": "coin",
-  "denomination": "20 Cents",
-  "count": 1,
-  "years": [
-   2009
-  ],
-  "subject": "Platypus",
-  "currency": "AUD",
-  "face_value": 0.2
- },
- {
-  "id": "australia-2-shilling-florin-24ef62",
+  "id": "australia-2-shilling-florin-4c09bd",
+  "notion": "418d88f4-1a2e-819e-a92e-c0a0694c09bd",
   "country": "Australia",
   "region": "Oceania",
   "kind": "coin",
@@ -70,7 +60,23 @@
   "face_value": 0.2
  },
  {
-  "id": "australia-2-dollars-elizabeth-ii-79d064",
+  "id": "australia-20-cents-platypus-8a94bf",
+  "notion": "418d88f4-1a2e-81c9-b88a-d0c8fe8a94bf",
+  "country": "Australia",
+  "region": "Oceania",
+  "kind": "coin",
+  "denomination": "20 Cents",
+  "count": 1,
+  "years": [
+   2009
+  ],
+  "subject": "Platypus",
+  "currency": "AUD",
+  "face_value": 0.2
+ },
+ {
+  "id": "australia-2-dollars-elizabeth-ii-053030",
+  "notion": "418d88f4-1a2e-819d-830e-f1e01f053030",
   "country": "Australia",
   "region": "Oceania",
   "kind": "coin",
@@ -82,40 +88,44 @@
   ],
   "subject": "Elizabeth II",
   "currency": "AUD",
-  "face_value": 2.0
+  "face_value": 2
  },
  {
-  "id": "australia-50-australian-dollars-8caecb",
+  "id": "australia-50-australian-dollars-6c11e7",
+  "notion": "418d88f4-1a2e-8120-92f2-d0c2b36c11e7",
   "country": "Australia",
   "region": "Oceania",
   "kind": "note",
   "denomination": "50 Australian Dollars",
   "count": 1,
   "currency": "AUD",
-  "face_value": 50.0
+  "face_value": 50
  },
  {
-  "id": "bhutan-1-ngultrum-fc7d14",
+  "id": "bhutan-1-ngultrum-015aef",
+  "notion": "418d88f4-1a2e-81e9-ac13-f4a4b2015aef",
   "country": "Bhutan",
   "region": "South Asia",
   "kind": "note",
   "denomination": "1 Ngultrum",
   "count": 2,
   "currency": "BTN",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "bhutan-5-ngultrums-029553",
+  "id": "bhutan-5-ngultrums-5b143e",
+  "notion": "418d88f4-1a2e-81b5-8540-e5de3f5b143e",
   "country": "Bhutan",
   "region": "South Asia",
   "kind": "note",
   "denomination": "5 Ngultrums",
   "count": 1,
   "currency": "BTN",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "canada-1-cent-rock-dove-8c7aa0",
+  "id": "canada-1-cent-rock-dove-4deba5",
+  "notion": "418d88f4-1a2e-81ee-9585-c2cbfc4deba5",
   "country": "Canada",
   "region": "Americas",
   "kind": "coin",
@@ -129,7 +139,8 @@
   "face_value": 0.01
  },
  {
-  "id": "canada-25-cents-elizabeth-ii-dg-regina-781472",
+  "id": "canada-25-cents-elizabeth-ii-dg-regina-2a4661",
+  "notion": "418d88f4-1a2e-81b5-a537-ec07162a4661",
   "country": "Canada",
   "region": "Americas",
   "kind": "coin",
@@ -145,7 +156,8 @@
   "face_value": 0.25
  },
  {
-  "id": "china-1-jiao-bd17a3",
+  "id": "china-1-jiao-e1ff3f",
+  "notion": "418d88f4-1a2e-818c-9345-c36543e1ff3f",
   "country": "China",
   "region": "East Asia",
   "kind": "coin",
@@ -158,7 +170,8 @@
   "face_value": 0.1
  },
  {
-  "id": "china-1-yuan-orchid-flower-7009f0",
+  "id": "china-1-yuan-orchid-flower-1da5eb",
+  "notion": "418d88f4-1a2e-81ef-b949-e47cf61da5eb",
   "country": "China",
   "region": "East Asia",
   "kind": "coin",
@@ -171,10 +184,11 @@
   ],
   "subject": "Orchid flower",
   "currency": "CNY",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "china-1-yuan-7c4453",
+  "id": "china-1-yuan-ad3007",
+  "notion": "418d88f4-1a2e-81a3-a05a-c9ea4bad3007",
   "country": "China",
   "region": "East Asia",
   "kind": "note",
@@ -184,10 +198,11 @@
    1999
   ],
   "currency": "CNY",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "china-5-yuan-0437cf",
+  "id": "china-5-yuan-ea8f86",
+  "notion": "418d88f4-1a2e-8121-a121-f76cefea8f86",
   "country": "China",
   "region": "East Asia",
   "kind": "note",
@@ -197,10 +212,11 @@
    2020
   ],
   "currency": "CNY",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "china-20-yuan-d59a12",
+  "id": "china-20-yuan-8d38d5",
+  "notion": "418d88f4-1a2e-81ae-8237-d74ba58d38d5",
   "country": "China",
   "region": "East Asia",
   "kind": "note",
@@ -210,20 +226,22 @@
    2019
   ],
   "currency": "CNY",
-  "face_value": 20.0
+  "face_value": 20
  },
  {
-  "id": "european-uni-5-euro-415e1f",
+  "id": "european-uni-5-euro-ff1330",
+  "notion": "418d88f4-1a2e-817e-887f-e3c10fff1330",
   "country": "European Union",
   "region": "Europe",
   "kind": "note",
   "denomination": "5 Euro",
   "count": 1,
   "currency": "EUR",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "georgia-5-tetri-038bd8",
+  "id": "georgia-5-tetri-426152",
+  "notion": "418d88f4-1a2e-81f9-822c-ff8e5c426152",
   "country": "Georgia",
   "region": "Europe",
   "kind": "coin",
@@ -236,7 +254,8 @@
   "face_value": 0.05
  },
  {
-  "id": "georgia-10-tetri-04fc4a",
+  "id": "georgia-10-tetri-3fa0ff",
+  "notion": "418d88f4-1a2e-811b-a589-d5083f3fa0ff",
   "country": "Georgia",
   "region": "Europe",
   "kind": "coin",
@@ -249,7 +268,8 @@
   "face_value": 0.1
  },
  {
-  "id": "georgia-20-tetri-8415e6",
+  "id": "georgia-20-tetri-d967bb",
+  "notion": "418d88f4-1a2e-817e-a2f6-c5d1b5d967bb",
   "country": "Georgia",
   "region": "Europe",
   "kind": "coin",
@@ -262,7 +282,8 @@
   "face_value": 0.2
  },
  {
-  "id": "georgia-50-tetri-6f0d8c",
+  "id": "georgia-50-tetri-536eea",
+  "notion": "418d88f4-1a2e-814d-a96a-d9c53f536eea",
   "country": "Georgia",
   "region": "Europe",
   "kind": "coin",
@@ -275,7 +296,8 @@
   "face_value": 0.5
  },
  {
-  "id": "georgia-1-lari-a80c1f",
+  "id": "georgia-1-lari-52cc9d",
+  "notion": "418d88f4-1a2e-8144-85ee-dca1e452cc9d",
   "country": "Georgia",
   "region": "Europe",
   "kind": "coin",
@@ -285,10 +307,11 @@
    2006
   ],
   "currency": "GEL",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "georgia-2-lari-2e3504",
+  "id": "georgia-2-lari-e343f5",
+  "notion": "418d88f4-1a2e-8163-b697-e0ca7ae343f5",
   "country": "Georgia",
   "region": "Europe",
   "kind": "coin",
@@ -298,10 +321,11 @@
    2006
   ],
   "currency": "GEL",
-  "face_value": 2.0
+  "face_value": 2
  },
  {
-  "id": "germany-5-euro-cents-f1c469",
+  "id": "germany-5-euro-cents-dee698",
+  "notion": "418d88f4-1a2e-81e3-bf17-e7c949dee698",
   "country": "Germany",
   "region": "Europe",
   "kind": "coin",
@@ -314,7 +338,8 @@
   "face_value": 0.05
  },
  {
-  "id": "germany-10-pfennig-oak-seedling-with-5-leav-baf756",
+  "id": "germany-10-pfennig-oak-seedling-with-5-leav-373929",
+  "notion": "418d88f4-1a2e-81c9-9f7b-dc41a7373929",
   "country": "Germany",
   "region": "Europe",
   "kind": "coin",
@@ -328,7 +353,8 @@
   "face_value": 0.0511
  },
  {
-  "id": "germany-10-euro-cents-brandenburg-gate-ad74f9",
+  "id": "germany-10-euro-cents-brandenburg-gate-c13eab",
+  "notion": "418d88f4-1a2e-81d0-9c06-fb1298c13eab",
   "country": "Germany",
   "region": "Europe",
   "kind": "coin",
@@ -342,7 +368,8 @@
   "face_value": 0.1
  },
  {
-  "id": "germany-1-euro-federal-eagle-932311",
+  "id": "germany-1-euro-federal-eagle-3167c9",
+  "notion": "418d88f4-1a2e-812d-b340-eef1e23167c9",
   "country": "Germany",
   "region": "Europe",
   "kind": "coin",
@@ -353,10 +380,11 @@
   ],
   "subject": "Federal Eagle",
   "currency": "EUR",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "hong-kong-10-cents-174896",
+  "id": "hong-kong-10-cents-03281b",
+  "notion": "418d88f4-1a2e-81dd-8c7e-f3a6b203281b",
   "country": "Hong Kong",
   "region": "East Asia",
   "kind": "coin",
@@ -369,7 +397,8 @@
   "face_value": 0.1
  },
  {
-  "id": "hong-kong-1-dollar-0b4af3",
+  "id": "hong-kong-1-dollar-ff3294",
+  "notion": "418d88f4-1a2e-8129-834b-c86c6bff3294",
   "country": "Hong Kong",
   "region": "East Asia",
   "kind": "coin",
@@ -379,10 +408,11 @@
    1994
   ],
   "currency": "HKD",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "hong-kong-2-dollars-3ae167",
+  "id": "hong-kong-2-dollars-986e03",
+  "notion": "418d88f4-1a2e-81ac-8c77-f9cee6986e03",
   "country": "Hong Kong",
   "region": "East Asia",
   "kind": "coin",
@@ -392,10 +422,11 @@
    2013
   ],
   "currency": "HKD",
-  "face_value": 2.0
+  "face_value": 2
  },
  {
-  "id": "hong-kong-5-dollars-d709a1",
+  "id": "hong-kong-5-dollars-8add12",
+  "notion": "418d88f4-1a2e-81e0-9267-c742518add12",
   "country": "Hong Kong",
   "region": "East Asia",
   "kind": "coin",
@@ -405,10 +436,11 @@
    1998
   ],
   "currency": "HKD",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "hungary-100-forint-5ef611",
+  "id": "hungary-100-forint-ee9e0c",
+  "notion": "418d88f4-1a2e-818c-9190-dc7adaee9e0c",
   "country": "Hungary",
   "region": "Europe",
   "kind": "coin",
@@ -418,10 +450,11 @@
    1993
   ],
   "currency": "HUF",
-  "face_value": 100.0
+  "face_value": 100
  },
  {
-  "id": "india-1-2-anna-george-vi-king-emperor-e64714",
+  "id": "india-1-2-anna-george-vi-king-emperor-5a165b",
+  "notion": "418d88f4-1a2e-812c-96dc-c85c065a165b",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -436,7 +469,8 @@
   "face_value": 0.03125
  },
  {
-  "id": "india-1-2-anna-east-india-company-ff2296",
+  "id": "india-1-2-anna-east-india-company-0b72b1",
+  "notion": "418d88f4-1a2e-8143-a28a-c7d92c0b72b1",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -451,7 +485,8 @@
   "face_value": 0.03125
  },
  {
-  "id": "india-5-paisa-2d935c",
+  "id": "india-5-paisa-323656",
+  "notion": "418d88f4-1a2e-8120-a565-f1a7e9323656",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -465,7 +500,8 @@
   "face_value": 0.05
  },
  {
-  "id": "india-1-anna-george-vi-king-emperor-03ab36",
+  "id": "india-1-anna-george-vi-king-emperor-6e4fe7",
+  "notion": "418d88f4-1a2e-81d1-bbbb-f712b46e4fe7",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -480,7 +516,8 @@
   "face_value": 0.0625
  },
  {
-  "id": "india-2-annas-george-vi-king-emperor-2-adc8e3",
+  "id": "india-2-annas-george-vi-king-emperor-2-46b422",
+  "notion": "418d88f4-1a2e-8186-9150-ec502846b422",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -495,7 +532,8 @@
   "face_value": 0.125
  },
  {
-  "id": "india-4-anna-george-v-king-emperor-04c109",
+  "id": "india-4-anna-george-v-king-emperor-c56ac7",
+  "notion": "418d88f4-1a2e-8101-9d73-e89d2cc56ac7",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -510,22 +548,8 @@
   "face_value": 0.25
  },
  {
-  "id": "india-quarter-rupee-george-vi-king-emperor-a49392",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "Quarter Rupee",
-  "count": 1,
-  "years": [
-   1946
-  ],
-  "subject": "George VI King Emperor",
-  "era": "British India",
-  "currency": "INR",
-  "face_value": 0.25
- },
- {
-  "id": "india-25-paisa-one-horned-rhinoceros-07b8f8",
+  "id": "india-25-paisa-one-horned-rhinoceros-d6edb9",
+  "notion": "418d88f4-1a2e-8117-81e2-e2db19d6edb9",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -540,7 +564,8 @@
   "face_value": 0.25
  },
  {
-  "id": "india-25-paisa-e0e64b",
+  "id": "india-25-paisa-3dfeac",
+  "notion": "418d88f4-1a2e-8129-bda5-e4b66b3dfeac",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -554,31 +579,40 @@
   "face_value": 0.25
  },
  {
-  "id": "india-50-paisa-in-honour-of-jawaharlal-73215a",
+  "id": "india-quarter-rupee-george-vi-king-emperor-fee73d",
+  "notion": "418d88f4-1a2e-81f9-aaf3-d69563fee73d",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "Quarter Rupee",
+  "count": 1,
+  "years": [
+   1946
+  ],
+  "subject": "George VI King Emperor",
+  "era": "British India",
+  "currency": "INR",
+  "face_value": 0.25
+ },
+ {
+  "id": "india-50-paisa-george-vi-king-emperor-6b4d84",
+  "notion": "418d88f4-1a2e-8112-9903-e5a8216b4d84",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
   "denomination": "50 Paisa",
   "count": 1,
-  "subject": "in honour of Jawaharlal Nehru (1889-1964)",
-  "era": "Commemorative",
+  "years": [
+   1947
+  ],
+  "subject": "George VI King Emperor",
+  "era": "British India",
   "currency": "INR",
   "face_value": 0.5
  },
  {
-  "id": "india-50-paisa-50th-year-of-independenc-f665b1",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "50 Paisa",
-  "count": 1,
-  "subject": "50th year of independence of India (1947-1997)",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 0.5
- },
- {
-  "id": "india-8-anna-george-v-king-emperor-ce29e4",
+  "id": "india-8-anna-george-v-king-emperor-1c2142",
+  "notion": "418d88f4-1a2e-8130-aa88-ee3c6e1c2142",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -593,19 +627,8 @@
   "face_value": 0.5
  },
  {
-  "id": "india-50-paisa-indira-gandhi-1917-1984-de15d3",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "50 Paisa",
-  "count": 1,
-  "subject": "Indira Gandhi (1917-1984)",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 0.5
- },
- {
-  "id": "india-50-paisa-grow-more-food-e46d37",
+  "id": "india-50-paisa-grow-more-food-d408b7",
+  "notion": "418d88f4-1a2e-814a-b181-d256d2d408b7",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -620,11 +643,51 @@
   "face_value": 0.5
  },
  {
-  "id": "india-50-paisa-george-vi-king-emperor-01bd42",
+  "id": "india-50-paisa-indira-gandhi-1917-1984-0f99bc",
+  "notion": "418d88f4-1a2e-81c5-bcd0-ff346e0f99bc",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
   "denomination": "50 Paisa",
+  "count": 1,
+  "subject": "Indira Gandhi (1917-1984)",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 0.5
+ },
+ {
+  "id": "india-50-paisa-in-honour-of-jawaharlal-b73b06",
+  "notion": "418d88f4-1a2e-81cc-986e-ef8fe3b73b06",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "50 Paisa",
+  "count": 1,
+  "subject": "in honour of Jawaharlal Nehru (1889-1964)",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 0.5
+ },
+ {
+  "id": "india-50-paisa-50th-year-of-independenc-076b7c",
+  "notion": "418d88f4-1a2e-81ee-b17b-d81184076b7c",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "50 Paisa",
+  "count": 1,
+  "subject": "50th year of independence of India (1947-1997)",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 0.5
+ },
+ {
+  "id": "india-1-rupee-george-vi-king-emperor-2ed84b",
+  "notion": "418d88f4-1a2e-819a-a029-ca18c42ed84b",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "1 Rupee",
   "count": 1,
   "years": [
    1947
@@ -632,10 +695,11 @@
   "subject": "George VI King Emperor",
   "era": "British India",
   "currency": "INR",
-  "face_value": 0.5
+  "face_value": 1
  },
  {
-  "id": "india-1-rupee-76b848",
+  "id": "india-1-rupee-4e4853",
+  "notion": "418d88f4-1a2e-81ef-9635-e053594e4853",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -646,67 +710,11 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "india-1-rupee-george-vi-king-emperor-6657eb",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "1 Rupee",
-  "count": 1,
-  "years": [
-   1947
-  ],
-  "subject": "George VI King Emperor",
-  "era": "British India",
-  "currency": "INR",
-  "face_value": 1.0
- },
- {
-  "id": "india-2-rupees-chhatrapati-shivaji-fcdf47",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "2 Rupees",
-  "count": 1,
-  "years": [
-   1999
-  ],
-  "subject": "Chhatrapati Shivaji",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 2.0
- },
- {
-  "id": "india-2-rupees-louis-braille-1809-2009-a572d5",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "2 Rupees",
-  "count": 1,
-  "subject": "Louis Braille 1809-2009",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 2.0
- },
- {
-  "id": "india-2-rupees-subhas-chandra-bose-birt-951677",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "2 Rupees",
-  "count": 1,
-  "years": [
-   1997
-  ],
-  "subject": "Subhas Chandra Bose birth anniversary",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 2.0
- },
- {
-  "id": "india-2-rupees-d656d1",
+  "id": "india-2-rupees-361ae6",
+  "notion": "418d88f4-1a2e-8105-849e-d1a25c361ae6",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -718,10 +726,24 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 2.0
+  "face_value": 2
  },
  {
-  "id": "india-2-rupees-sri-aurobindo-bee684",
+  "id": "india-2-rupees-louis-braille-1809-2009-faae19",
+  "notion": "418d88f4-1a2e-817a-b7bb-f11982faae19",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "2 Rupees",
+  "count": 1,
+  "subject": "Louis Braille 1809-2009",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 2
+ },
+ {
+  "id": "india-2-rupees-sri-aurobindo-8af47a",
+  "notion": "418d88f4-1a2e-81a8-92a2-ef80cb8af47a",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -733,34 +755,95 @@
   "subject": "Sri Aurobindo",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 2.0
+  "face_value": 2
  },
  {
-  "id": "india-5-rupees-on-100-years-of-civil-av-468944",
+  "id": "india-2-rupees-subhas-chandra-bose-birt-cd3a6a",
+  "notion": "418d88f4-1a2e-81c6-9de2-fab1a3cd3a6a",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
-  "denomination": "5 Rupees",
-  "count": 2,
-  "subject": "on 100 years of Civil Aviation India (1911-2011)",
+  "denomination": "2 Rupees",
+  "count": 1,
+  "years": [
+   1997
+  ],
+  "subject": "Subhas Chandra Bose birth anniversary",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 5.0
+  "face_value": 2
  },
  {
-  "id": "india-5-rupees-75-years-of-dandi-march-d06ce9",
+  "id": "india-2-rupees-chhatrapati-shivaji-583f58",
+  "notion": "418d88f4-1a2e-81ea-beef-db60b2583f58",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "2 Rupees",
+  "count": 1,
+  "years": [
+   1999
+  ],
+  "subject": "Chhatrapati Shivaji",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 2
+ },
+ {
+  "id": "india-5-rupee-indira-gandhi-1917-1984-9bcf03",
+  "notion": "418d88f4-1a2e-8107-8e34-ec12629bcf03",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupee",
+  "count": 1,
+  "subject": "Indira Gandhi (1917-1984)",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupees-150th-birth-anniversary-dcb0f3",
+  "notion": "418d88f4-1a2e-812a-a2b1-fcc937dcb0f3",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
   "denomination": "5 Rupees",
   "count": 1,
-  "subject": "75 years of Dandi March",
+  "subject": "150th birth anniversary of Madan Mohan Malaviya 1861-2011",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "india-5-rupees-150th-anniversary-of-all-82cca1",
+  "id": "india-5-rupees-125th-birth-anniversary-00280c",
+  "notion": "418d88f4-1a2e-8130-8ce6-fcc4c900280c",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupees",
+  "count": 1,
+  "subject": "125th birth anniversary of Maulana Abul Kalam Azad",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupees-75th-year-of-independenc-ff2826",
+  "notion": "418d88f4-1a2e-8160-b0ed-c64163ff2826",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupees",
+  "count": 1,
+  "subject": "75th year of independence",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupees-150th-anniversary-of-all-360345",
+  "notion": "418d88f4-1a2e-8180-b4bb-f830f0360345",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -769,10 +852,53 @@
   "subject": "150th anniversary of Allahabad high court",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "india-5-rupees-be69ef",
+  "id": "india-5-rupees-150-years-of-income-tax-6d589f",
+  "notion": "418d88f4-1a2e-8180-bf44-cf141d6d589f",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupees",
+  "count": 1,
+  "subject": "150 years of Income Tax(Chanakya)",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupees-on-100-years-of-civil-av-94b701",
+  "notion": "418d88f4-1a2e-818c-b11e-e655d094b701",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupees",
+  "count": 2,
+  "subject": "on 100 years of Civil Aviation India (1911-2011)",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupees-50-years-of-shri-mata-va-aa4bbf",
+  "notion": "418d88f4-1a2e-8191-8de5-cc9925aa4bbf",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupees",
+  "count": 1,
+  "years": [
+   2012
+  ],
+  "subject": "50 years of Shri Mata Vaishno Devi Shrine Board",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupees-28acae",
+  "notion": "418d88f4-1a2e-8193-bfab-d3374428acae",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -785,34 +911,11 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "india-5-rupees-acharya-tulsi-birth-cent-26bbb9",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "5 Rupees",
-  "count": 1,
-  "subject": "Acharya Tulsi Birth Centenary 1914-2013",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 5.0
- },
- {
-  "id": "india-5-rupees-125th-birth-anniversary-5ea78a",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "5 Rupees",
-  "count": 1,
-  "subject": "125th birth anniversary of Maulana Abul Kalam Azad",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 5.0
- },
- {
-  "id": "india-5-rupees-c-subramaniam-birth-cent-74ab34",
+  "id": "india-5-rupees-c-subramaniam-birth-cent-aae850",
+  "notion": "418d88f4-1a2e-8194-a9fa-ee9e4caae850",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -821,22 +924,76 @@
   "subject": "C Subramaniam birth centenary 1910-2010",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "india-5-rupees-75th-year-of-independenc-8bfa8b",
+  "id": "india-5-rupees-150th-birth-anniversary-113038",
+  "notion": "418d88f4-1a2e-819e-a6f1-ee7dfd113038",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
   "denomination": "5 Rupees",
   "count": 1,
-  "subject": "75th year of independence",
+  "subject": "150th birth anniversary of Rabindranath Tagore 1861-2011",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "india-5-rupees-687791",
+  "id": "india-5-rupees-75-years-of-dandi-march-3643e2",
+  "notion": "418d88f4-1a2e-81a2-9a3e-ebfb113643e2",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupees",
+  "count": 1,
+  "subject": "75 years of Dandi March",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupees-acharya-tulsi-birth-cent-41ccb5",
+  "notion": "418d88f4-1a2e-81c5-85ef-e3e24941ccb5",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupees",
+  "count": 1,
+  "subject": "Acharya Tulsi Birth Centenary 1914-2013",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupee-birth-centenary-of-mothe-8c9041",
+  "notion": "418d88f4-1a2e-81f0-b44c-d2e9628c9041",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupee",
+  "count": 1,
+  "subject": "Birth Centenary of Mother Teresa 1910-2010",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupee-centenary-of-komagata-ma-efab8d",
+  "notion": "418d88f4-1a2e-81f5-959c-d4283befab8d",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupee",
+  "count": 1,
+  "subject": "Centenary of Komagata Maru Incident 1914-2014",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupees-bfa21c",
+  "notion": "418d88f4-1a2e-81f5-b6ce-d315f1bfa21c",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -847,97 +1004,11 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "india-5-rupee-indira-gandhi-1917-1984-2e6a8d",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "5 Rupee",
-  "count": 1,
-  "subject": "Indira Gandhi (1917-1984)",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 5.0
- },
- {
-  "id": "india-5-rupees-150th-birth-anniversary-a4a0b7",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "5 Rupees",
-  "count": 1,
-  "subject": "150th birth anniversary of Rabindranath Tagore 1861-2011",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 5.0
- },
- {
-  "id": "india-5-rupee-birth-centenary-of-mothe-dc688a",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "5 Rupee",
-  "count": 1,
-  "subject": "Birth Centenary of Mother Teresa 1910-2010",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 5.0
- },
- {
-  "id": "india-5-rupee-centenary-of-komagata-ma-1c9a89",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "5 Rupee",
-  "count": 1,
-  "subject": "Centenary of Komagata Maru Incident 1914-2014",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 5.0
- },
- {
-  "id": "india-5-rupees-150th-birth-anniversary-77bc03",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "5 Rupees",
-  "count": 1,
-  "subject": "150th birth anniversary of Madan Mohan Malaviya 1861-2011",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 5.0
- },
- {
-  "id": "india-5-rupees-150-years-of-income-tax-785107",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "5 Rupees",
-  "count": 1,
-  "subject": "150 years of Income Tax(Chanakya)",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 5.0
- },
- {
-  "id": "india-5-rupees-50-years-of-shri-mata-va-9b240a",
-  "country": "India",
-  "region": "South Asia",
-  "kind": "coin",
-  "denomination": "5 Rupees",
-  "count": 1,
-  "years": [
-   2012
-  ],
-  "subject": "50 years of Shri Mata Vaishno Devi Shrine Board",
-  "era": "Commemorative",
-  "currency": "INR",
-  "face_value": 5.0
- },
- {
-  "id": "india-20-rupees-75-years-of-independence-ed3f55",
+  "id": "india-20-rupees-75-years-of-independence-bf8813",
+  "notion": "418d88f4-1a2e-81e5-9e05-da0039bf8813",
   "country": "India",
   "region": "South Asia",
   "kind": "coin",
@@ -949,40 +1020,44 @@
   "subject": "75 years of independence",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 20.0
+  "face_value": 20
  },
  {
-  "id": "india-1-rupee-e155b6",
+  "id": "india-1-rupee-75e05c",
+  "notion": "418d88f4-1a2e-81de-a17f-e31a8a75e05c",
   "country": "India",
   "region": "South Asia",
   "kind": "note",
   "denomination": "1 Rupee",
   "count": 2,
   "currency": "INR",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "india-2-rupee-b50ddd",
+  "id": "india-2-rupee-713c9c",
+  "notion": "418d88f4-1a2e-81c0-a06e-e80a7c713c9c",
   "country": "India",
   "region": "South Asia",
   "kind": "note",
   "denomination": "2 Rupee",
   "count": 2,
   "currency": "INR",
-  "face_value": 2.0
+  "face_value": 2
  },
  {
-  "id": "india-5-rupee-799596",
+  "id": "india-5-rupee-43ee4e",
+  "notion": "418d88f4-1a2e-8144-99ee-df95f343ee4e",
   "country": "India",
   "region": "South Asia",
   "kind": "note",
   "denomination": "5 Rupee",
   "count": 1,
   "currency": "INR",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "india-50-rupee-e83c8b",
+  "id": "india-50-rupee-9171c0",
+  "notion": "418d88f4-1a2e-81d5-b365-fa85119171c0",
   "country": "India",
   "region": "South Asia",
   "kind": "note",
@@ -992,10 +1067,11 @@
    2012
   ],
   "currency": "INR",
-  "face_value": 50.0
+  "face_value": 50
  },
  {
-  "id": "india-100-rupee-088efd",
+  "id": "india-100-rupee-b74271",
+  "notion": "418d88f4-1a2e-81db-b69f-eb3385b74271",
   "country": "India",
   "region": "South Asia",
   "kind": "note",
@@ -1005,32 +1081,35 @@
    2015
   ],
   "currency": "INR",
-  "face_value": 100.0
+  "face_value": 100
  },
  {
-  "id": "india-500-rupees-2ad258",
+  "id": "india-500-rupees-119e85",
+  "notion": "418d88f4-1a2e-81f0-a7ca-ce9df0119e85",
   "country": "India",
   "region": "South Asia",
   "kind": "note",
   "denomination": "500 Rupees",
   "count": 5,
   "currency": "INR",
-  "face_value": 500.0,
+  "face_value": 500,
   "demonetised": true
  },
  {
-  "id": "india-1000-rupees-1f054d",
+  "id": "india-1000-rupees-b75bfb",
+  "notion": "418d88f4-1a2e-814a-92ed-d9ecbbb75bfb",
   "country": "India",
   "region": "South Asia",
   "kind": "note",
   "denomination": "1000 Rupees",
   "count": 1,
   "currency": "INR",
-  "face_value": 1000.0,
+  "face_value": 1000,
   "demonetised": true
  },
  {
-  "id": "indonesia-500-rupiah-be6e16",
+  "id": "indonesia-500-rupiah-600093",
+  "notion": "418d88f4-1a2e-8132-a5e6-eb414a600093",
   "country": "Indonesia",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1042,10 +1121,11 @@
    2016
   ],
   "currency": "IDR",
-  "face_value": 500.0
+  "face_value": 500
  },
  {
-  "id": "indonesia-1000-rupiah-angklung-musical-instrum-43e8af",
+  "id": "indonesia-1000-rupiah-angklung-musical-instrum-10cd30",
+  "notion": "418d88f4-1a2e-813d-b16c-f6368610cd30",
   "country": "Indonesia",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1056,20 +1136,22 @@
   ],
   "subject": "Angklung musical instrument",
   "currency": "IDR",
-  "face_value": 1000.0
+  "face_value": 1000
  },
  {
-  "id": "indonesia-20000-rupiah-9c9532",
+  "id": "indonesia-20000-rupiah-b0e981",
+  "notion": "418d88f4-1a2e-8156-951c-cde228b0e981",
   "country": "Indonesia",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "20000 Rupiah",
   "count": 1,
   "currency": "IDR",
-  "face_value": 20000.0
+  "face_value": 20000
  },
  {
-  "id": "italy-1-euro-cents-castel-del-monte-e9da86",
+  "id": "italy-1-euro-cents-castel-del-monte-1e14fb",
+  "notion": "418d88f4-1a2e-8115-b71e-dc8f7a1e14fb",
   "country": "Italy",
   "region": "Europe",
   "kind": "coin",
@@ -1083,7 +1165,8 @@
   "face_value": 0.01
  },
  {
-  "id": "italy-50-euro-cent-marcus-aurelius-designed-154c57",
+  "id": "italy-50-euro-cent-marcus-aurelius-designed-4f095b",
+  "notion": "418d88f4-1a2e-8166-b9ba-f802a64f095b",
   "country": "Italy",
   "region": "Europe",
   "kind": "coin",
@@ -1097,7 +1180,8 @@
   "face_value": 0.5
  },
  {
-  "id": "italy-1-euro-drawing-of-vitruvian-man-b50a49",
+  "id": "italy-1-euro-drawing-of-vitruvian-man-65a49b",
+  "notion": "418d88f4-1a2e-8158-8b77-df468965a49b",
   "country": "Italy",
   "region": "Europe",
   "kind": "coin",
@@ -1108,20 +1192,22 @@
   ],
   "subject": "drawing of Vitruvian Man",
   "currency": "EUR",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "kuwait-5-dinars-74faf6",
+  "id": "kuwait-5-dinars-44937f",
+  "notion": "418d88f4-1a2e-8133-8f46-ca5ed544937f",
   "country": "Kuwait",
   "region": "Middle East",
   "kind": "note",
   "denomination": "5 Dinars",
   "count": 1,
   "currency": "KWD",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "macau-1-pataca-guia-fortress-be0850",
+  "id": "macau-1-pataca-guia-fortress-4f79df",
+  "notion": "418d88f4-1a2e-811d-bab6-ff90564f79df",
   "country": "Macau",
   "region": "East Asia",
   "kind": "coin",
@@ -1132,10 +1218,11 @@
   ],
   "subject": "Guia Fortress",
   "currency": "MOP",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "malaysia-10-sen-f350d7",
+  "id": "malaysia-10-sen-1bea18",
+  "notion": "418d88f4-1a2e-817f-864b-f97b1f1bea18",
   "country": "Malaysia",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1149,7 +1236,8 @@
   "face_value": 0.1
  },
  {
-  "id": "malaysia-20-sen-df82e4",
+  "id": "malaysia-20-sen-38ff84",
+  "notion": "418d88f4-1a2e-8144-bef9-ea25bf38ff84",
   "country": "Malaysia",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1164,7 +1252,8 @@
   "face_value": 0.2
  },
  {
-  "id": "malaysia-50-sen-e23512",
+  "id": "malaysia-50-sen-0c6e28",
+  "notion": "418d88f4-1a2e-819a-bc83-e239b70c6e28",
   "country": "Malaysia",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1178,18 +1267,8 @@
   "face_value": 0.5
  },
  {
-  "id": "malaysia-1-ringgit-polymer-47ac79",
-  "country": "Malaysia",
-  "region": "Southeast Asia",
-  "kind": "note",
-  "denomination": "1 Ringgit",
-  "count": 6,
-  "subject": "Polymer",
-  "currency": "MYR",
-  "face_value": 1.0
- },
- {
-  "id": "malaysia-1-ringgit-paper-8b8d49",
+  "id": "malaysia-1-ringgit-paper-ca2651",
+  "notion": "418d88f4-1a2e-819a-8f29-e2ba13ca2651",
   "country": "Malaysia",
   "region": "Southeast Asia",
   "kind": "note",
@@ -1197,10 +1276,23 @@
   "count": 2,
   "subject": "Paper",
   "currency": "MYR",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "mauritius-1-rupee-sir-seewoosagur-ramgoola-f14282",
+  "id": "malaysia-1-ringgit-polymer-6f5f14",
+  "notion": "418d88f4-1a2e-8176-aa70-d8a8c96f5f14",
+  "country": "Malaysia",
+  "region": "Southeast Asia",
+  "kind": "note",
+  "denomination": "1 Ringgit",
+  "count": 6,
+  "subject": "Polymer",
+  "currency": "MYR",
+  "face_value": 1
+ },
+ {
+  "id": "mauritius-1-rupee-sir-seewoosagur-ramgoola-697dd1",
+  "notion": "418d88f4-1a2e-8169-8a21-f2fa70697dd1",
   "country": "Mauritius",
   "region": "Africa",
   "kind": "coin",
@@ -1211,10 +1303,11 @@
   ],
   "subject": "Sir Seewoosagur Ramgoolam(First PM)",
   "currency": "MUR",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "mauritius-5-rupees-sir-seewoosagur-ramgoola-98bc45",
+  "id": "mauritius-5-rupees-sir-seewoosagur-ramgoola-724e02",
+  "notion": "418d88f4-1a2e-8142-bc9c-f666e9724e02",
   "country": "Mauritius",
   "region": "Africa",
   "kind": "coin",
@@ -1225,10 +1318,39 @@
   ],
   "subject": "Sir Seewoosagur Ramgoolam(First PM)",
   "currency": "MUR",
-  "face_value": 5.0
+  "face_value": 5,
+  "numista": {
+   "id": 63897,
+   "url": "https://en.numista.com/63897",
+   "title": "5 Rupees",
+   "years": "2012–2025",
+   "composition": "Nickel plated steel",
+   "weight": "12.55 g",
+   "size": "31 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust of Sir Seewoosagur Ramgoolam 3/4 right."
+   },
+   "reverse": {
+    "design": "Value within palm trees."
+   },
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/maurice/398-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/maurice/398-180.jpg",
+     "credit": "ken6528"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/maurice/399-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/maurice/399-180.jpg",
+     "credit": "ken6528"
+    }
+   }
+  }
  },
  {
-  "id": "nepal-5-paisa-f72d67",
+  "id": "nepal-5-paisa-b2d72d",
+  "notion": "418d88f4-1a2e-8129-90f0-d15addb2d72d",
   "country": "Nepal",
   "region": "South Asia",
   "kind": "coin",
@@ -1239,10 +1361,39 @@
   ],
   "date_on_coin": "VS 2022",
   "currency": "NPR",
-  "face_value": 0.05
+  "face_value": 0.05,
+  "numista": {
+   "id": 15418,
+   "url": "https://en.numista.com/15418",
+   "title": "5 Paisa - Mahendra Bir Bikram",
+   "years": "1964–1966",
+   "composition": "Bronze",
+   "weight": "3.08 g",
+   "size": "21 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Trident flanked by moon and sun\r\n\r\nShri Mahendra Veer Vikram Shahdev \r\n\"Nepal\" in Devanagari,\r\ndate below"
+   },
+   "reverse": {
+    "design": "\"Shri Bhavani\" in Devanagari\r\ndenomination\r\n\"Panch paisa\" in Devanagari"
+   },
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/nepal/1123-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/nepal/1123-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/nepal/1124-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/nepal/1124-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  }
  },
  {
-  "id": "nepal-1-rupiya-sagarmaya-e24f9f",
+  "id": "nepal-1-rupiya-sagarmaya-4bb26c",
+  "notion": "418d88f4-1a2e-8137-9716-ee75304bb26c",
   "country": "Nepal",
   "region": "South Asia",
   "kind": "coin",
@@ -1255,10 +1406,11 @@
   "date_on_coin": "VS 2059, VS 2066",
   "subject": "Sagarmaya",
   "currency": "NPR",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "nepal-2-rupiya-samarmaya-e4b19c",
+  "id": "nepal-2-rupiya-samarmaya-751365",
+  "notion": "418d88f4-1a2e-812e-8620-fa1595751365",
   "country": "Nepal",
   "region": "South Asia",
   "kind": "coin",
@@ -1272,80 +1424,88 @@
   "date_on_coin": "VS 2060, VS 2063, VS 2066",
   "subject": "Samarmaya",
   "currency": "NPR",
-  "face_value": 2.0
+  "face_value": 2
  },
  {
-  "id": "nepal-1-rupee-529c84",
+  "id": "nepal-1-rupee-414024",
+  "notion": "418d88f4-1a2e-8195-b6db-df2705414024",
   "country": "Nepal",
   "region": "South Asia",
   "kind": "note",
   "denomination": "1 Rupee",
   "count": 1,
   "currency": "NPR",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "nepal-5-rupees-c89a9e",
+  "id": "nepal-5-rupees-04edb3",
+  "notion": "418d88f4-1a2e-81b2-a193-f8224104edb3",
   "country": "Nepal",
   "region": "South Asia",
   "kind": "note",
   "denomination": "5 Rupees",
   "count": 6,
   "currency": "NPR",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "nepal-10-rupees-786b58",
+  "id": "nepal-10-rupees-d03937",
+  "notion": "418d88f4-1a2e-8138-bd6a-ea4c8dd03937",
   "country": "Nepal",
   "region": "South Asia",
   "kind": "note",
   "denomination": "10 Rupees",
   "count": 3,
   "currency": "NPR",
-  "face_value": 10.0
+  "face_value": 10
  },
  {
-  "id": "nepal-20-rupees-ca60a6",
+  "id": "nepal-20-rupees-9ca9cf",
+  "notion": "418d88f4-1a2e-816e-8637-ff9c659ca9cf",
   "country": "Nepal",
   "region": "South Asia",
   "kind": "note",
   "denomination": "20 Rupees",
   "count": 1,
   "currency": "NPR",
-  "face_value": 20.0
+  "face_value": 20
  },
  {
-  "id": "nepal-50-rupees-a9248a",
+  "id": "nepal-50-rupees-1fffb8",
+  "notion": "418d88f4-1a2e-815f-af0a-e832cb1fffb8",
   "country": "Nepal",
   "region": "South Asia",
   "kind": "note",
   "denomination": "50 Rupees",
   "count": 5,
   "currency": "NPR",
-  "face_value": 50.0
+  "face_value": 50
  },
  {
-  "id": "nepal-100-rupees-bccd89",
+  "id": "nepal-100-rupees-0dac63",
+  "notion": "418d88f4-1a2e-814c-ad2b-ed5a8c0dac63",
   "country": "Nepal",
   "region": "South Asia",
   "kind": "note",
   "denomination": "100 Rupees",
   "count": 2,
   "currency": "NPR",
-  "face_value": 100.0
+  "face_value": 100
  },
  {
-  "id": "nepal-500-rupee-cda02c",
+  "id": "nepal-500-rupee-7fed74",
+  "notion": "418d88f4-1a2e-8194-bd71-f120fa7fed74",
   "country": "Nepal",
   "region": "South Asia",
   "kind": "note",
   "denomination": "500 Rupee",
   "count": 1,
   "currency": "NPR",
-  "face_value": 500.0
+  "face_value": 500
  },
  {
-  "id": "netherlands-20-euro-cents-queen-beatrix-4a44b7",
+  "id": "netherlands-20-euro-cents-queen-beatrix-d1f77b",
+  "notion": "418d88f4-1a2e-81fa-9a0e-f60241d1f77b",
   "country": "Netherlands",
   "region": "Europe",
   "kind": "coin",
@@ -1359,7 +1519,8 @@
   "face_value": 0.2
  },
  {
-  "id": "new-zealand-20-cents-pukaki-aebcdd",
+  "id": "new-zealand-20-cents-pukaki-21dc32",
+  "notion": "418d88f4-1a2e-8119-a4a2-f15eca21dc32",
   "country": "New Zealand",
   "region": "Oceania",
   "kind": "coin",
@@ -1370,10 +1531,40 @@
   ],
   "subject": "Pukaki",
   "currency": "NZD",
-  "face_value": 0.2
+  "face_value": 0.2,
+  "numista": {
+   "id": 130097,
+   "url": "https://en.numista.com/130097",
+   "title": "20 Cents - Elizabeth II (4th portrait; Pukaki, Non-magnetic, Set issue)",
+   "years": "2010–2023",
+   "composition": "Copper-nickel",
+   "weight": "4.45 g",
+   "size": "21.75 mm",
+   "shape": "Spanish flower",
+   "obverse": {
+    "design": "Fourth crowned portrait of Queen Elizabeth II facing right, wearing the Girls of Great Britain and Ireland Tiara, legend around, date below."
+   },
+   "reverse": {
+    "design": "Maori carving depicting Pukaki, a chief of the Ngāti Whakaue iwi (tribe) of Te Arawa."
+   },
+   "comments": "From 2010 the 20 cent coins included in the BU & Proof Sets have been struck at the Royal Dutch Mint. (Except for the Unofficial BU Sets of 2014 & 2015 which were struck at the Royal Canadian Mint). They are different to the circulation coins in that they are non-magnetic being made from copper-nickel instead of nickel-plated steel and have a different weight.",
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f4fccd8e1b47.73421007-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f4fccd8e1b47.73421007-180.jpg",
+     "credit": "brismike"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f4fcce8f6fb7.79106266-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f4fcce8f6fb7.79106266-180.jpg",
+     "credit": "brismike"
+    }
+   }
+  }
  },
  {
-  "id": "new-zealand-50-cents-hms-endeavour-d8ff28",
+  "id": "new-zealand-50-cents-hms-endeavour-239702",
+  "notion": "418d88f4-1a2e-8176-b027-db8129239702",
   "country": "New Zealand",
   "region": "Oceania",
   "kind": "coin",
@@ -1388,7 +1579,8 @@
   "face_value": 0.5
  },
  {
-  "id": "new-zealand-1-dollar-kiwi-229386",
+  "id": "new-zealand-1-dollar-kiwi-69b9bd",
+  "notion": "418d88f4-1a2e-81d0-8960-f88b9f69b9bd",
   "country": "New Zealand",
   "region": "Oceania",
   "kind": "coin",
@@ -1399,10 +1591,11 @@
   ],
   "subject": "Kiwi",
   "currency": "NZD",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "oman-10-baisa-from-sultanate-of-oman-i-24626e",
+  "id": "oman-10-baisa-from-sultanate-of-oman-i-5f942a",
+  "notion": "418d88f4-1a2e-8130-9ba5-cad66d5f942a",
   "country": "Oman",
   "region": "Middle East",
   "kind": "coin",
@@ -1413,7 +1606,8 @@
   "face_value": 0.01
  },
  {
-  "id": "oman-50-baisa-from-sultanate-of-oman-i-d1b255",
+  "id": "oman-50-baisa-from-sultanate-of-oman-i-e4a55b",
+  "notion": "418d88f4-1a2e-81fe-9418-ee0361e4a55b",
   "country": "Oman",
   "region": "Middle East",
   "kind": "coin",
@@ -1424,7 +1618,8 @@
   "face_value": 0.05
  },
  {
-  "id": "oman-100-baisa-green-562bfe",
+  "id": "oman-100-baisa-green-5472f4",
+  "notion": "418d88f4-1a2e-8115-a77a-fe2c5b5472f4",
   "country": "Oman",
   "region": "Middle East",
   "kind": "note",
@@ -1435,7 +1630,8 @@
   "face_value": 0.1
  },
  {
-  "id": "oman-100-baisa-red-85685a",
+  "id": "oman-100-baisa-red-dd19db",
+  "notion": "418d88f4-1a2e-8140-b694-e8dab1dd19db",
   "country": "Oman",
   "region": "Middle East",
   "kind": "note",
@@ -1446,7 +1642,8 @@
   "face_value": 0.1
  },
  {
-  "id": "philippines-1-piso-jose-rizal-f7dbed",
+  "id": "philippines-1-piso-jose-rizal-b30046",
+  "notion": "418d88f4-1a2e-8141-a03f-e342e6b30046",
   "country": "Philippines",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1459,20 +1656,56 @@
   ],
   "subject": "Jose Rizal",
   "currency": "PHP",
-  "face_value": 1.0
+  "face_value": 1,
+  "numista": {
+   "id": 28276,
+   "url": "https://en.numista.com/28276",
+   "title": "1 Piso (José Rizal)",
+   "composition": "Nickel plated steel",
+   "weight": "5.35 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Front-facing bust of José Rizal.",
+    "engravers": [
+     "Emerson Rg. Abraham"
+    ]
+   },
+   "reverse": {
+    "design": "Bank seal at centre, radiating rays at left.",
+    "engravers": [
+     "Emerson Rg. Abraham"
+    ]
+   },
+   "comments": "Smaller script, smaller mint mark, finer hair and portrait details.",
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/philippines/6ab51ad3267707.81057569-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/philippines/6ab51ad3267707.81057569-180.jpg",
+     "credit": "Jek Cartojano"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/philippines/677-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/philippines/677-180.jpg",
+     "credit": "Ulmo"
+    }
+   }
+  }
  },
  {
-  "id": "philippines-20-philippine-pesos-16a9c9",
+  "id": "philippines-20-philippine-pesos-5e6b98",
+  "notion": "418d88f4-1a2e-8196-8c4d-ca9c8b5e6b98",
   "country": "Philippines",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "20 Philippine Pesos",
   "count": 1,
   "currency": "PHP",
-  "face_value": 20.0
+  "face_value": 20
  },
  {
-  "id": "poland-1-grosz-c37ab5",
+  "id": "poland-1-grosz-3e615f",
+  "notion": "418d88f4-1a2e-8145-ba2f-f0c2d33e615f",
   "country": "Poland",
   "region": "Europe",
   "kind": "coin",
@@ -1482,7 +1715,8 @@
   "face_value": 0.01
  },
  {
-  "id": "qatar-1-riyal-7a97ca",
+  "id": "qatar-1-riyal-42c5e9",
+  "notion": "418d88f4-1a2e-81f0-ba46-e3156642c5e9",
   "country": "Qatar",
   "region": "Middle East",
   "kind": "note",
@@ -1493,40 +1727,44 @@
    2022
   ],
   "currency": "QAR",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "qatar-5-riyal-04e6bd",
+  "id": "qatar-5-riyal-a7aa1f",
+  "notion": "418d88f4-1a2e-8125-add8-de6de3a7aa1f",
   "country": "Qatar",
   "region": "Middle East",
   "kind": "note",
   "denomination": "5 Riyal",
   "count": 1,
   "currency": "QAR",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "qatar-10-riyal-9e9f25",
+  "id": "qatar-10-riyal-cd9b2e",
+  "notion": "418d88f4-1a2e-8126-b0a5-cc1196cd9b2e",
   "country": "Qatar",
   "region": "Middle East",
   "kind": "note",
   "denomination": "10 Riyal",
   "count": 2,
   "currency": "QAR",
-  "face_value": 10.0
+  "face_value": 10
  },
  {
-  "id": "qatar-50-riyal-5a6a27",
+  "id": "qatar-50-riyal-61084a",
+  "notion": "418d88f4-1a2e-812e-a9d2-eeb58a61084a",
   "country": "Qatar",
   "region": "Middle East",
   "kind": "note",
   "denomination": "50 Riyal",
   "count": 1,
   "currency": "QAR",
-  "face_value": 50.0
+  "face_value": 50
  },
  {
-  "id": "singapore-10-cents-5ad2c3",
+  "id": "singapore-10-cents-43b039",
+  "notion": "418d88f4-1a2e-8117-8f24-c4e5c843b039",
   "country": "Singapore",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1544,7 +1782,8 @@
   "face_value": 0.1
  },
  {
-  "id": "singapore-20-cents-e21011",
+  "id": "singapore-20-cents-3872a7",
+  "notion": "418d88f4-1a2e-8156-9287-e546983872a7",
   "country": "Singapore",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1556,10 +1795,45 @@
    2011
   ],
   "currency": "SGD",
-  "face_value": 0.2
+  "face_value": 0.2,
+  "numista": {
+   "id": 1673,
+   "url": "https://en.numista.com/1673",
+   "title": "20 Cents (ribbon downwards)",
+   "years": "1992–2013",
+   "composition": "Copper-nickel",
+   "weight": "4.5 g",
+   "size": "21.36 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "The arms of Singapore with the date underneath and 'Singapore' on four sides in English, Tamil, Chinese, and Malay",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "reverse": {
+    "design": "The denomination in Latin at the top with a powder-puff plant frond (Binomial Name: Calliandra surinamensis) below and the denomination in numerals at the bottom",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/singapour/20-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/singapour/20-180.jpg",
+     "credit": "Numista"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/singapour/21-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/singapour/21-180.jpg",
+     "credit": "Numista"
+    }
+   }
+  }
  },
  {
-  "id": "singapore-50-cents-3fe23b",
+  "id": "singapore-50-cents-6a0f7a",
+  "notion": "418d88f4-1a2e-8188-84ff-e1adf06a0f7a",
   "country": "Singapore",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1575,7 +1849,8 @@
   "face_value": 0.5
  },
  {
-  "id": "singapore-1-dollar-133e90",
+  "id": "singapore-1-dollar-c59ec3",
+  "notion": "418d88f4-1a2e-81cc-bb2e-f6083fc59ec3",
   "country": "Singapore",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1587,80 +1862,88 @@
    2009
   ],
   "currency": "SGD",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "singapore-2-singapore-dollars-841e0a",
+  "id": "singapore-2-singapore-dollars-9121cf",
+  "notion": "418d88f4-1a2e-8186-874d-e0a1399121cf",
   "country": "Singapore",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "2 Singapore Dollars",
   "count": 2,
   "currency": "SGD",
-  "face_value": 2.0
+  "face_value": 2
  },
  {
-  "id": "sri-lanka-20-rupees-59994b",
+  "id": "sri-lanka-20-rupees-1eaa78",
+  "notion": "418d88f4-1a2e-813e-bb9d-c0866d1eaa78",
   "country": "Sri Lanka",
   "region": "South Asia",
   "kind": "note",
   "denomination": "20 Rupees",
   "count": 2,
   "currency": "LKR",
-  "face_value": 20.0
+  "face_value": 20
  },
  {
-  "id": "sri-lanka-50-rupees-47126d",
+  "id": "sri-lanka-50-rupees-bbb3e4",
+  "notion": "418d88f4-1a2e-8124-b1a0-ec3c34bbb3e4",
   "country": "Sri Lanka",
   "region": "South Asia",
   "kind": "note",
   "denomination": "50 Rupees",
   "count": 1,
   "currency": "LKR",
-  "face_value": 50.0
+  "face_value": 50
  },
  {
-  "id": "sri-lanka-100-rupees-06c59a",
+  "id": "sri-lanka-100-rupees-41dedc",
+  "notion": "418d88f4-1a2e-815d-bc59-c8754441dedc",
   "country": "Sri Lanka",
   "region": "South Asia",
   "kind": "note",
   "denomination": "100 Rupees",
   "count": 2,
   "currency": "LKR",
-  "face_value": 100.0
+  "face_value": 100
  },
  {
-  "id": "sri-lanka-500-rupees-8cc8dd",
+  "id": "sri-lanka-500-rupees-37d467",
+  "notion": "418d88f4-1a2e-810e-ac25-efc55237d467",
   "country": "Sri Lanka",
   "region": "South Asia",
   "kind": "note",
   "denomination": "500 Rupees",
   "count": 2,
   "currency": "LKR",
-  "face_value": 500.0
+  "face_value": 500
  },
  {
-  "id": "sri-lanka-1000-rupees-18168a",
+  "id": "sri-lanka-1000-rupees-191112",
+  "notion": "418d88f4-1a2e-8147-8d13-ff0468191112",
   "country": "Sri Lanka",
   "region": "South Asia",
   "kind": "note",
   "denomination": "1000 Rupees",
   "count": 1,
   "currency": "LKR",
-  "face_value": 1000.0
+  "face_value": 1000
  },
  {
-  "id": "sweden-20-kronor-8accbd",
+  "id": "sweden-20-kronor-6fde46",
+  "notion": "418d88f4-1a2e-81dc-ac1f-c563296fde46",
   "country": "Sweden",
   "region": "Europe",
   "kind": "note",
   "denomination": "20 Kronor",
   "count": 1,
   "currency": "SEK",
-  "face_value": 20.0
+  "face_value": 20
  },
  {
-  "id": "switzerland-1-franc-helvetia-4608c0",
+  "id": "switzerland-1-franc-helvetia-9d470f",
+  "notion": "418d88f4-1a2e-812a-b254-f537c39d470f",
   "country": "Switzerland",
   "region": "Europe",
   "kind": "coin",
@@ -1671,10 +1954,11 @@
   ],
   "subject": "Helvetia",
   "currency": "CHF",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "thailand-25-satang-rama-x-1d3b16",
+  "id": "thailand-25-satang-rama-x-bd3425",
+  "notion": "418d88f4-1a2e-8118-898c-d7294bbd3425",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1685,7 +1969,20 @@
   "face_value": 0.25
  },
  {
-  "id": "thailand-50-satang-rama-ix-a99782",
+  "id": "thailand-50-satang-rama-x-614a5e",
+  "notion": "418d88f4-1a2e-811e-98c9-cabe5a614a5e",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "kind": "coin",
+  "denomination": "50 Satang",
+  "count": 1,
+  "subject": "Rama X",
+  "currency": "THB",
+  "face_value": 0.5
+ },
+ {
+  "id": "thailand-50-satang-rama-ix-19ef49",
+  "notion": "418d88f4-1a2e-8143-af65-e2fd6b19ef49",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1696,18 +1993,8 @@
   "face_value": 0.5
  },
  {
-  "id": "thailand-50-satang-rama-x-9a81af",
-  "country": "Thailand",
-  "region": "Southeast Asia",
-  "kind": "coin",
-  "denomination": "50 Satang",
-  "count": 1,
-  "subject": "Rama X",
-  "currency": "THB",
-  "face_value": 0.5
- },
- {
-  "id": "thailand-1-baht-king-bhumibol-adulyadej-b6f4f2",
+  "id": "thailand-1-baht-king-bhumibol-adulyadej-df3233",
+  "notion": "418d88f4-1a2e-8164-a89c-d946c1df3233",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1716,10 +2003,11 @@
   "minted": "2009–2017",
   "subject": "King Bhumibol Adulyadej(Rama IX)",
   "currency": "THB",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "thailand-1-baht-king-maha-vajiralongkorn-76ad0a",
+  "id": "thailand-1-baht-king-maha-vajiralongkorn-c158f5",
+  "notion": "418d88f4-1a2e-816e-923e-f03959c158f5",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1727,10 +2015,11 @@
   "count": 17,
   "subject": "King Maha Vajiralongkorn(Rama X)",
   "currency": "THB",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "thailand-2-baht-rama-x-03e77e",
+  "id": "thailand-2-baht-rama-x-90d6cf",
+  "notion": "418d88f4-1a2e-811f-a468-cfd4e190d6cf",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1738,10 +2027,11 @@
   "count": 2,
   "subject": "Rama X",
   "currency": "THB",
-  "face_value": 2.0
+  "face_value": 2
  },
  {
-  "id": "thailand-5-baht-rama-ix-8c44a0",
+  "id": "thailand-5-baht-rama-ix-8293fb",
+  "notion": "418d88f4-1a2e-8147-94bf-cf96b58293fb",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1749,10 +2039,11 @@
   "count": 9,
   "subject": "Rama IX",
   "currency": "THB",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "thailand-5-baht-rama-x-75549b",
+  "id": "thailand-5-baht-rama-x-6424ac",
+  "notion": "418d88f4-1a2e-81f8-988f-ff6ba36424ac",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1760,10 +2051,11 @@
   "count": 5,
   "subject": "Rama X",
   "currency": "THB",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "thailand-10-baht-rama-ix-9946aa",
+  "id": "thailand-10-baht-rama-ix-aecece",
+  "notion": "418d88f4-1a2e-81b2-9ed6-fd1994aecece",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1771,10 +2063,11 @@
   "count": 6,
   "subject": "Rama IX",
   "currency": "THB",
-  "face_value": 10.0
+  "face_value": 10
  },
  {
-  "id": "thailand-10-baht-rama-x-fcc1ce",
+  "id": "thailand-10-baht-rama-x-b1374f",
+  "notion": "418d88f4-1a2e-81fa-8c01-d1c769b1374f",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "coin",
@@ -1782,30 +2075,33 @@
   "count": 1,
   "subject": "Rama X",
   "currency": "THB",
-  "face_value": 10.0
+  "face_value": 10
  },
  {
-  "id": "thailand-20-baht-4beeb6",
+  "id": "thailand-20-baht-72afb9",
+  "notion": "418d88f4-1a2e-819f-bda9-fd99a972afb9",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "20 Baht",
   "count": 6,
   "currency": "THB",
-  "face_value": 20.0
+  "face_value": 20
  },
  {
-  "id": "thailand-100-baht-390d88",
+  "id": "thailand-100-baht-474371",
+  "notion": "418d88f4-1a2e-81d5-ad9d-e089e2474371",
   "country": "Thailand",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "100 Baht",
   "count": 2,
   "currency": "THB",
-  "face_value": 100.0
+  "face_value": 100
  },
  {
-  "id": "ukraine-1-hryvnia-duke-volodymyr-f219f5",
+  "id": "ukraine-1-hryvnia-duke-volodymyr-c51208",
+  "notion": "418d88f4-1a2e-8173-99ee-fca60fc51208",
   "country": "Ukraine",
   "region": "Europe",
   "kind": "coin",
@@ -1816,70 +2112,77 @@
   ],
   "subject": "Duke Volodymyr",
   "currency": "UAH",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "ukraine-1-hryvnia-2f1d66",
+  "id": "ukraine-1-hryvnia-9d9639",
+  "notion": "418d88f4-1a2e-8157-886e-db0f159d9639",
   "country": "Ukraine",
   "region": "Europe",
   "kind": "note",
   "denomination": "1 Hryvnia",
   "count": 1,
   "currency": "UAH",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "ukraine-5-hryvnia-58a82e",
+  "id": "ukraine-5-hryvnia-2eee20",
+  "notion": "418d88f4-1a2e-81be-8cf2-cddd042eee20",
   "country": "Ukraine",
   "region": "Europe",
   "kind": "note",
   "denomination": "5 Hryvnia",
   "count": 1,
   "currency": "UAH",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "ukraine-10-hryvnia-653712",
+  "id": "ukraine-10-hryvnia-d8f43c",
+  "notion": "418d88f4-1a2e-816f-80e2-c3a2f6d8f43c",
   "country": "Ukraine",
   "region": "Europe",
   "kind": "note",
   "denomination": "10 Hryvnia",
   "count": 1,
   "currency": "UAH",
-  "face_value": 10.0
+  "face_value": 10
  },
  {
-  "id": "ukraine-20-hryvnia-4d978f",
+  "id": "ukraine-20-hryvnia-052f5b",
+  "notion": "418d88f4-1a2e-81db-b9b3-e3a75a052f5b",
   "country": "Ukraine",
   "region": "Europe",
   "kind": "note",
   "denomination": "20 Hryvnia",
   "count": 1,
   "currency": "UAH",
-  "face_value": 20.0
+  "face_value": 20
  },
  {
-  "id": "ukraine-50-hryvnia-6ce86e",
+  "id": "ukraine-50-hryvnia-47e7d8",
+  "notion": "418d88f4-1a2e-81ff-a30c-e42ef047e7d8",
   "country": "Ukraine",
   "region": "Europe",
   "kind": "note",
   "denomination": "50 Hryvnia",
   "count": 1,
   "currency": "UAH",
-  "face_value": 50.0
+  "face_value": 50
  },
  {
-  "id": "ukraine-100-hryvnia-c63859",
+  "id": "ukraine-100-hryvnia-f056d0",
+  "notion": "418d88f4-1a2e-8157-85df-f08e02f056d0",
   "country": "Ukraine",
   "region": "Europe",
   "kind": "note",
   "denomination": "100 Hryvnia",
   "count": 2,
   "currency": "UAH",
-  "face_value": 100.0
+  "face_value": 100
  },
  {
-  "id": "united-arab--25-fils-arabian-gazelle-7c79ae",
+  "id": "united-arab--25-fils-arabian-gazelle-1ba078",
+  "notion": "418d88f4-1a2e-810c-8652-deec6d1ba078",
   "country": "United Arab Emirates",
   "region": "Middle East",
   "kind": "coin",
@@ -1890,7 +2193,8 @@
   "face_value": 0.25
  },
  {
-  "id": "united-arab--50-fils-non-magnetic-b65dbb",
+  "id": "united-arab--50-fils-non-magnetic-41978f",
+  "notion": "418d88f4-1a2e-8128-a015-fad0bf41978f",
   "country": "United Arab Emirates",
   "region": "Middle East",
   "kind": "coin",
@@ -1899,10 +2203,43 @@
   "minted": "1995–2007",
   "subject": "Non-magnetic",
   "currency": "AED",
-  "face_value": 0.5
+  "face_value": 0.5,
+  "numista": {
+   "id": 1309,
+   "url": "https://en.numista.com/1309",
+   "title": "50 Fils (non-magnetic)",
+   "years": "1995–2007",
+   "composition": "Copper-nickel",
+   "weight": "4.4 g",
+   "size": "21 mm",
+   "shape": "Equilateral curve heptagon (7-sided)",
+   "obverse": {
+    "design": "Denomination in Arabic characters surrounded by name of the country"
+   },
+   "reverse": {
+    "design": "Three oil derricks, date numerals below",
+    "engravers": [
+     "Geoffrey Colley"
+    ]
+   },
+   "comments": "Rulers:\n\r\n1- Sheikh Zayed bin Sultan Al Nahayan (02 Dec 1971 - 02 Nov 2004)\n\r\n2- Sheikh Khalifa bin Zayed Al Nahayan (03 Nov 2004 - Date)\n\n\r\n1415-1418 (1995-1997) Proof Set:\n\r\n\n\r\n\n\r\n \n\r\n© Zameer Abubakar",
+   "photos": {
+    "front": {
+     "full": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/5f9529e0998959.63097052-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/5f9529e0998959.63097052-180.jpg",
+     "credit": "Numista"
+    },
+    "back": {
+     "full": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/5f9529e12bd3c5.69286592-original.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/5f9529e12bd3c5.69286592-180.jpg",
+     "credit": "Numista"
+    }
+   }
+  }
  },
  {
-  "id": "united-arab--1-dirham-arabic-coffee-pot-dallah-3786af",
+  "id": "united-arab--1-dirham-arabic-coffee-pot-dallah-155e6b",
+  "notion": "418d88f4-1a2e-81c4-b005-f4abaa155e6b",
   "country": "United Arab Emirates",
   "region": "Middle East",
   "kind": "coin",
@@ -1910,30 +2247,33 @@
   "count": 4,
   "subject": "Arabic Coffee Pot(dallah)",
   "currency": "AED",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "united-arab--5-dirhams-7fc3fb",
+  "id": "united-arab--5-dirhams-d6cf29",
+  "notion": "418d88f4-1a2e-81d4-be77-ce9f96d6cf29",
   "country": "United Arab Emirates",
   "region": "Middle East",
   "kind": "note",
   "denomination": "5 Dirhams",
   "count": 1,
   "currency": "AED",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "united-arab--20-dirhams-72cbe1",
+  "id": "united-arab--20-dirhams-83cfcd",
+  "notion": "418d88f4-1a2e-8116-93c8-e06eae83cfcd",
   "country": "United Arab Emirates",
   "region": "Middle East",
   "kind": "note",
   "denomination": "20 Dirhams",
   "count": 1,
   "currency": "AED",
-  "face_value": 20.0
+  "face_value": 20
  },
  {
-  "id": "united-kingd-1-penny-crowned-portcullis-7bdb92",
+  "id": "united-kingd-1-penny-crowned-portcullis-b73513",
+  "notion": "418d88f4-1a2e-818d-b818-f79568b73513",
   "country": "United Kingdom",
   "region": "Europe",
   "kind": "coin",
@@ -1947,7 +2287,8 @@
   "face_value": 0.01
  },
  {
-  "id": "united-kingd-5-pence-badge-of-scotland-d4a108",
+  "id": "united-kingd-5-pence-badge-of-scotland-0e38f8",
+  "notion": "418d88f4-1a2e-81b8-9a41-c9e9500e38f8",
   "country": "United Kingdom",
   "region": "Europe",
   "kind": "coin",
@@ -1961,7 +2302,8 @@
   "face_value": 0.05
  },
  {
-  "id": "united-kingd-10-pence-crowned-lion-passant-364e87",
+  "id": "united-kingd-10-pence-crowned-lion-passant-c4e13b",
+  "notion": "418d88f4-1a2e-81f5-b252-e9a7cdc4e13b",
   "country": "United Kingdom",
   "region": "Europe",
   "kind": "coin",
@@ -1975,7 +2317,8 @@
   "face_value": 0.1
  },
  {
-  "id": "united-kingd-20-pence-f44a3a",
+  "id": "united-kingd-20-pence-4adfe3",
+  "notion": "418d88f4-1a2e-81df-9e28-c03b824adfe3",
   "country": "United Kingdom",
   "region": "Europe",
   "kind": "coin",
@@ -1988,7 +2331,8 @@
   "face_value": 0.2
  },
  {
-  "id": "united-kingd-50-pence-elizabeth-ii-f6b8a3",
+  "id": "united-kingd-50-pence-elizabeth-ii-2e2c63",
+  "notion": "418d88f4-1a2e-8110-9f22-da99682e2c63",
   "country": "United Kingdom",
   "region": "Europe",
   "kind": "coin",
@@ -2002,17 +2346,19 @@
   "face_value": 0.5
  },
  {
-  "id": "united-kingd-5-pounds-fa6936",
+  "id": "united-kingd-5-pounds-3ff829",
+  "notion": "418d88f4-1a2e-81c7-aec5-d4955b3ff829",
   "country": "United Kingdom",
   "region": "Europe",
   "kind": "note",
   "denomination": "5 Pounds",
   "count": 1,
   "currency": "GBP",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "united-state-1-cent-abraham-lincoln-67edfc",
+  "id": "united-state-1-cent-abraham-lincoln-4c828b",
+  "notion": "418d88f4-1a2e-81ba-9ddd-f8f2a44c828b",
   "country": "United States",
   "region": "Americas",
   "kind": "coin",
@@ -2033,7 +2379,8 @@
   "face_value": 0.01
  },
  {
-  "id": "united-state-5-cents-jefferson-nickel-fd9e56",
+  "id": "united-state-5-cents-jefferson-nickel-60c3ca",
+  "notion": "418d88f4-1a2e-8176-bf0c-d2f7fe60c3ca",
   "country": "United States",
   "region": "Americas",
   "kind": "coin",
@@ -2051,7 +2398,8 @@
   "face_value": 0.05
  },
  {
-  "id": "united-state-1-dime-franklin-d-roosevelt-320491",
+  "id": "united-state-1-dime-franklin-d-roosevelt-790eb7",
+  "notion": "418d88f4-1a2e-8179-ab1a-c76817790eb7",
   "country": "United States",
   "region": "Americas",
   "kind": "coin",
@@ -2069,7 +2417,8 @@
   "face_value": 0.1
  },
  {
-  "id": "united-state-25-cents-682f41",
+  "id": "united-state-25-cents-1b3c04",
+  "notion": "418d88f4-1a2e-819d-ad20-ecd9821b3c04",
   "country": "United States",
   "region": "Americas",
   "kind": "coin",
@@ -2084,7 +2433,8 @@
   "face_value": 0.25
  },
  {
-  "id": "united-state-1-dollar-fee061",
+  "id": "united-state-1-dollar-39bbe1",
+  "notion": "418d88f4-1a2e-8109-bc84-f6f8cc39bbe1",
   "country": "United States",
   "region": "Americas",
   "kind": "coin",
@@ -2094,106 +2444,116 @@
    2000
   ],
   "currency": "USD",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "united-state-1-dollar-7e2c72",
+  "id": "united-state-1-dollar-b5c0c0",
+  "notion": "418d88f4-1a2e-81a2-a395-f81767b5c0c0",
   "country": "United States",
   "region": "Americas",
   "kind": "note",
   "denomination": "1 Dollar",
   "count": 3,
   "currency": "USD",
-  "face_value": 1.0
+  "face_value": 1
  },
  {
-  "id": "united-state-5-dollars-e271c4",
+  "id": "united-state-5-dollars-39f11a",
+  "notion": "418d88f4-1a2e-818d-b893-d20dc039f11a",
   "country": "United States",
   "region": "Americas",
   "kind": "note",
   "denomination": "5 Dollars",
   "count": 1,
   "currency": "USD",
-  "face_value": 5.0
+  "face_value": 5
  },
  {
-  "id": "united-state-10-dollars-2be208",
+  "id": "united-state-10-dollars-594841",
+  "notion": "418d88f4-1a2e-81db-9278-e55d11594841",
   "country": "United States",
   "region": "Americas",
   "kind": "note",
   "denomination": "10 Dollars",
   "count": 1,
   "currency": "USD",
-  "face_value": 10.0
+  "face_value": 10
  },
  {
-  "id": "united-state-20-dollar-e81562",
+  "id": "united-state-20-dollar-56d40c",
+  "notion": "418d88f4-1a2e-8128-a02c-d8f65b56d40c",
   "country": "United States",
   "region": "Americas",
   "kind": "note",
   "denomination": "20 Dollar",
   "count": 1,
   "currency": "USD",
-  "face_value": 20.0
+  "face_value": 20
  },
  {
-  "id": "vietnam-500-dong-e5fb3c",
+  "id": "vietnam-500-dong-1771af",
+  "notion": "418d88f4-1a2e-8163-9104-d94e811771af",
   "country": "Vietnam",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "500 Dong",
   "count": 1,
   "currency": "VND",
-  "face_value": 500.0
+  "face_value": 500
  },
  {
-  "id": "vietnam-1000-dong-a60b43",
+  "id": "vietnam-1000-dong-7df0f2",
+  "notion": "418d88f4-1a2e-81d6-a177-e7c7d37df0f2",
   "country": "Vietnam",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "1000 Dong",
   "count": 1,
   "currency": "VND",
-  "face_value": 1000.0
+  "face_value": 1000
  },
  {
-  "id": "vietnam-2000-dong-5dfeff",
+  "id": "vietnam-2000-dong-5e7b44",
+  "notion": "418d88f4-1a2e-815c-8a1f-e749025e7b44",
   "country": "Vietnam",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "2000 Dong",
   "count": 2,
   "currency": "VND",
-  "face_value": 2000.0
+  "face_value": 2000
  },
  {
-  "id": "vietnam-5000-dong-cfcd5f",
+  "id": "vietnam-5000-dong-1955ed",
+  "notion": "418d88f4-1a2e-8129-97a9-f8f6671955ed",
   "country": "Vietnam",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "5000 Dong",
   "count": 1,
   "currency": "VND",
-  "face_value": 5000.0
+  "face_value": 5000
  },
  {
-  "id": "vietnam-10000-dong-23ee6d",
+  "id": "vietnam-10000-dong-0ce586",
+  "notion": "418d88f4-1a2e-817b-bc09-cbfa760ce586",
   "country": "Vietnam",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "10000 Dong",
   "count": 1,
   "currency": "VND",
-  "face_value": 10000.0
+  "face_value": 10000
  },
  {
-  "id": "vietnam-20000-dong-fd74e3",
+  "id": "vietnam-20000-dong-cce1b9",
+  "notion": "418d88f4-1a2e-81cc-8b6c-e6c503cce1b9",
   "country": "Vietnam",
   "region": "Southeast Asia",
   "kind": "note",
   "denomination": "20000 Dong",
   "count": 2,
   "currency": "VND",
-  "face_value": 20000.0
+  "face_value": 20000
  }
 ]
