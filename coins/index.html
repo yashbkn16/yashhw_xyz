@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coins · Yash Jain</title>
+  <meta name="description" content="Coins and banknotes from 33 countries, 1920 to today.">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono&display=swap">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/site.js" defer></script>
+  <script src="/coins/coins.js" type="module"></script>
+</head>
+<body class="wide">
+  <nav>
+    <a href="/">[yashhw.xyz]</a><span>•</span>
+    <a href="/cv/">[cv]</a><span>•</span>
+    <a href="/coins/" aria-current="page">[coins]</a>
+  </nav>
+
+  <h1><span data-scramble>Coins</span></h1>
+  <p>Money from places I’ve been, people I know, and change jars I didn’t trust.</p>
+  <!-- Filled in from the data, so the numbers never go stale. -->
+  <p class="mono dim" id="summary">&nbsp;</p>
+
+  <!-- Live value: shown only once today's exchange rates load. -->
+  <div class="worth" id="worth" hidden>
+    <span id="worth-total"></span>
+    <label class="mono dim">in <select id="currency" hidden aria-label="Show values in"></select></label>
+    <small class="mono dim" id="worth-note"></small>
+  </div>
+
+  <!-- How to look, what to show, how to group. Each row is one choice. -->
+  <div class="controls">
+    <button data-view="list" aria-pressed="true">[list]</button>
+    <button data-view="map" aria-pressed="false">[map]</button>
+    <span>|</span>
+    <button data-type="all" aria-pressed="true">[all]</button>
+    <button data-type="coin" aria-pressed="false">[coins]</button>
+    <button data-type="note" aria-pressed="false">[notes]</button>
+    <span>|</span>
+    <button data-group="country" aria-pressed="true">[by country]</button>
+    <button data-group="decade" aria-pressed="false">[by decade]</button>
+  </div>
+
+  <!-- List: one closed <details> per group; the browser handles open and close. -->
+  <div id="groups"></div>
+  <!-- Map: built by map.js the first time [map] is chosen. -->
+  <div id="map" class="map" hidden></div>
+  <noscript><p>The collection is built from <a href="/data/collection.json">collection.json</a> and needs JavaScript.</p></noscript>
+</body>
+</html>

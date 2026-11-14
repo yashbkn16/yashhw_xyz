@@ -1,33 +1,38 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CoinVault</title>
-    <meta name="description" content="Explore a curated collection of rare coins and currency from around the world. Track my numismatic portfolio with real-time valuations." />
-    
-    <!-- Favicon Configuration - Multiple sizes for better display -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/Untitled.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/Untitled.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/Untitled.png" />
-    <link rel="shortcut icon" href="/assets/Untitled.png" />
-    
-    <!-- PWA / Mobile Icons -->
-    <meta name="theme-color" content="#c49a6c" />
-    <meta name="msapplication-TileColor" content="#c49a6c" />
-    <meta name="msapplication-TileImage" content="/assets/Untitled.png" />
-    
-    <!-- Performance optimizations -->
-    <link rel="preconnect" href="https://api.exchangerate-api.com">
-    <link rel="dns-prefetch" href="https://api.exchangerate-api.com">
-    <link rel="dns-prefetch" href="https://flagcdn.com">
-    <link rel="preload" href="/data/collection.json" as="fetch" crossorigin>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yash Jain</title>
+  <meta name="description" content="Software engineer and problem solver. Backup and recovery for cloud infrastructure at Commvault.">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono&display=swap">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/site.js" defer></script>
+</head>
+<body>
+  <!-- The same nav sits on every page; mark the current one with aria-current. -->
+  <nav>
+    <a href="/" aria-current="page">[yashhw.xyz]</a><span>•</span>
+    <a href="/cv/">[cv]</a><span>•</span>
+    <a href="/coins/">[coins]</a>
+  </nav>
 
-    <style>html{scroll-behavior:smooth}</style>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+  <h1><span data-scramble>Yash Jain</span></h1>
+  <p class="mono dim" data-scramble>software engineer · bengaluru</p>
+
+  <p>Software developer at Commvault. I build the systems that bring cloud infrastructure back when it breaks: backup and recovery across OpenStack, Alibaba Cloud and Apache CloudStack. I led the OpenStack & CloudStack backend, and it earned a patent filing along the way.</p>
+  <p>Underneath the job title, I’m a problem solver. Years of competitive programming trained me to take a messy problem apart until it gives in. Work just hands me bigger ones.</p>
+  <p>Lately I’m curious about small businesses. Most MSMEs run on phone calls, paper and memory, and I want to explore how tech can help them grow without losing what makes them work. So far that’s one website for my dad’s business. I’m here to learn the rest.</p>
+  <p>Away from the screen: hockey, fitness, and a journal for trips I take. I also collect money or "hoard" as very nicely people around me have put: <a href="/coins/">tschüss</a>.</p>
+
+  <p class="links" style="margin-top: 3rem">
+    <a href="https://www.linkedin.com/in/yashhw/">[linkedin]</a>
+    <a href="https://github.com/yashbkn16">[github]</a>
+    <a href="https://twitter.com/_yashhw">[twitter]</a>
+    <a href="https://www.instagram.com/_yashw/">[instagram]</a>
+    <a href="https://leetcode.com/u/yashwa/">[leetcode]</a>
+  </p>
+</body>
 </html>

@@ -1,0 +1,38 @@
+# Pull the coin collection from Notion once a day and commit it if anything changed.
+# GitHub Pages then serves the updated site. Run it by hand from the Actions tab too.
+name: Sync coins from Notion
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # 06:00 IST every day
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync
+        run: python3 scripts/sync.py
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NUMISTA_KEY: ${{ secrets.NUMISTA_KEY }}
+
+      - name: Commit if changed
+        run: |
+          git add data images
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git -c user.name="coin-sync" -c user.email="actions@users.noreply.github.com" \
+              commit -m "Sync coins from Notion"
+            git push
+          fi
