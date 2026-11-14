@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Coins · Yash Jain</title>
-  <meta name="description" content="Coins and banknotes from 15 countries, 1943 to today.">
+  <meta name="description" content="Coins and banknotes from 33 countries, 1920 to today.">
   <link rel="icon" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono&display=swap">
   <link rel="stylesheet" href="/style.css">
   <script src="/site.js" defer></script>
-  <script src="/coins/coins.js" defer></script>
+  <script src="/coins/coins.js" type="module"></script>
 </head>
-<body>
+<body class="wide">
   <nav>
     <a href="/">[yashhw.xyz]</a><span>•</span>
     <a href="/cv/">[cv]</a><span>•</span>
@@ -25,23 +25,29 @@
   <p class="mono dim" id="summary">&nbsp;</p>
 
   <!-- Live value: shown only once today's exchange rates load. -->
-  <p class="worth" id="worth" hidden>
+  <div class="worth" id="worth" hidden>
     <span id="worth-total"></span>
+    <label class="mono dim">in <select id="currency" hidden aria-label="Show values in"></select></label>
     <small class="mono dim" id="worth-note"></small>
-  </p>
+  </div>
 
-  <!-- Two independent choices: what to show, and how to group it. -->
+  <!-- How to look, what to show, how to group. Each row is one choice. -->
   <div class="controls">
+    <button data-view="list" aria-pressed="true">[list]</button>
+    <button data-view="map" aria-pressed="false">[map]</button>
+    <span>|</span>
     <button data-type="all" aria-pressed="true">[all]</button>
     <button data-type="coin" aria-pressed="false">[coins]</button>
-    <button data-type="banknote" aria-pressed="false">[notes]</button>
+    <button data-type="note" aria-pressed="false">[notes]</button>
     <span>|</span>
     <button data-group="country" aria-pressed="true">[by country]</button>
     <button data-group="decade" aria-pressed="false">[by decade]</button>
   </div>
 
-  <!-- One closed <details> per group. The browser handles open/close; no JS needed for that. -->
+  <!-- List: one closed <details> per group; the browser handles open and close. -->
   <div id="groups"></div>
-  <noscript><p>The list is built from <a href="/data/collection.json">collection.json</a> and needs JavaScript.</p></noscript>
+  <!-- Map: built by map.js the first time [map] is chosen. -->
+  <div id="map" class="map" hidden></div>
+  <noscript><p>The collection is built from <a href="/data/collection.json">collection.json</a> and needs JavaScript.</p></noscript>
 </body>
 </html>

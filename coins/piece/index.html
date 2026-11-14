@@ -9,11 +9,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono&display=swap">
   <link rel="stylesheet" href="/style.css">
   <script src="/site.js" defer></script>
-  <script src="/coins/coins.js" defer></script>
+  <script src="/coins/coins.js" type="module"></script>
 </head>
 <body>
   <nav>
     <a href="/coins/">[← coins]</a>
+    <label class="mono dim" style="margin-left: auto">in <select id="currency" hidden aria-label="Show values in"></select></label>
   </nav>
 
   <!-- coins.js reads ?id=… and fills this in. -->

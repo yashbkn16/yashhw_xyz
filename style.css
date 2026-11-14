@@ -82,10 +82,21 @@ button {
 
 /* ---------- Coins: closed <details> rows; open one to see the pieces ---------- */
 
-/* The live value: one big number, one quiet line under it. */
-.worth { margin: 2rem 0 0; display: flex; flex-direction: column; gap: .25rem; }
+/* The coins page gets more room, for the map. */
+body.wide { max-width: 64rem; }
+
+/* The live value: one big number, the currency picker, one quiet line under it. */
+.worth { margin: 2rem 0 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: .25rem .75rem; }
 .worth span { font: 2rem var(--mono); }
-.worth[hidden] { display: none; }
+.worth small { flex-basis: 100%; }
+.worth[hidden], select[hidden] { display: none; }
+
+/* A select that looks like the rest of the bracketed controls. */
+select {
+  font: inherit; color: var(--fg); background: var(--bg);
+  border: 0; border-bottom: 1px solid rgb(244 241 234 / .4);
+  padding: 0 2px; cursor: pointer;
+}
 
 .controls { display: flex; flex-wrap: wrap; gap: .25rem .75rem; font-family: var(--mono); font-size: .8125rem; margin: 1.5rem 0 2rem; }
 .controls span { opacity: .3; }
@@ -147,6 +158,44 @@ summary small { font-family: var(--mono); opacity: .55; }
 dl { display: grid; grid-template-columns: 7rem 1fr; gap: .25rem 1rem; margin: 1.5rem 0; }
 dt { font-family: var(--mono); font-size: .8125rem; opacity: .55; padding-top: .125rem; }
 dd { margin: 0; }
+
+/* "About this coin": closed until asked for. */
+.about { margin-top: 2rem; }
+.about summary { font-family: var(--mono); font-size: .8125rem; }
+.about > div { padding: .5rem 0 1rem; }
+.pre { white-space: pre-line; }
+
+/* ---------- Map: the collection as nodes, free to drag ---------- */
+
+.map { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+.map[hidden] { display: none; }
+.stage {
+  flex: 999 1 32rem; min-width: 0; position: relative;
+  height: clamp(26rem, 72vh, 46rem);
+  border: 1px solid rgb(244 241 234 / .25);
+}
+.stage svg { width: 100%; height: 100%; display: block; touch-action: none; user-select: none; }
+.hint { position: absolute; left: .75rem; bottom: .5rem; margin: 0; pointer-events: none; }
+.panel { flex: 1 1 15rem; min-width: 0; display: flex; flex-direction: column; gap: .5rem; align-self: flex-start; }
+.panel p, .panel h3 { margin: 0; }
+.panel .list { display: flex; flex-wrap: wrap; gap: 0 .5rem; font-size: .8125rem; }
+.panel .list a { text-decoration: none; }
+.panel .list a:hover { background: var(--fg); color: var(--bg); }
+
+/* Outline = at rest, filled = selected. Two colours, as everywhere. */
+.edge { stroke: var(--fg); stroke-opacity: .18; }
+.region { fill: var(--fg); opacity: .16; font: 500 12px var(--mono); text-anchor: middle; letter-spacing: .08em; text-transform: uppercase; pointer-events: none; }
+.node { cursor: grab; outline: none; }
+.node .mark { fill: var(--bg); stroke: var(--fg); transition: fill .15s; }
+.node.sub .mark { stroke-dasharray: 3 2; }
+.node text { fill: var(--fg); font: 11px var(--mono); pointer-events: none; }
+.node .count { text-anchor: middle; dominant-baseline: central; font-size: 10px; }
+.node .label { text-anchor: middle; paint-order: stroke; stroke: var(--bg); stroke-width: 4px; }
+.node:hover .mark, .node.on .mark { fill: var(--fg); }
+.node:hover .count, .node.on .count { fill: var(--bg); }
+.node:focus-visible .mark { stroke-dasharray: 2 2; }
+.node.far { opacity: .22; }
+.dragging, .dragging .node { cursor: grabbing; }
 
 /* ---------- Page entrance ----------
    Everything below the nav drops in 15px and fades up, a beat after load.
