@@ -2,6 +2,8 @@
 
 My personal site: who I am, my CV, and my coin collection.
 
+Maintained by AI agents: see **AGENTS.md** for everything about how it works.
+
 It is small on purpose. Plain HTML, one stylesheet, a few small scripts.
 No framework, no build step, no `node_modules`. Nothing to update or break.
 View source on any page and you can read all of it.
@@ -11,7 +13,7 @@ View source on any page and you can read all of it.
 ```
 index.html            home / about
 cv/index.html         CV — edit the HTML directly
-coins/index.html      the collection: list or map, by country or decade
+coins/index.html      the collection: map (default) or list, by country or decade
 coins/piece/          one type, opened as /coins/piece/?id=<id>
 coins/coins.js        builds both coin pages from the data
 coins/map.js          the map view (loads only when [map] is chosen)

@@ -12,7 +12,7 @@ const THRESHOLD = 4;       // px a press may wander and still count as a click
 const REGIONS = ['South Asia', 'Southeast Asia', 'East Asia', 'Oceania', 'Americas', 'Europe', 'Middle East', 'Africa'];
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, span }) {
+export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, span, picture }) {
   root.innerHTML = `
     <div class="stage"><svg aria-label="Map of the collection"><g class="regions"></g><g class="edges"></g><g class="nodes"></g></svg>
       <p class="hint mono dim">drag to move · click to open</p></div>
@@ -270,7 +270,9 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
       return;
     }
     const e = selected.e;
+    const pic = picture(e, 0);
     panel.innerHTML = `
+      ${pic ? `<img class="panel-pic${e.kind === 'note' ? ' note' : ''}" src="${esc(pic.src)}" alt="">` : ''}
       <p class="mono dim">${esc([e.country, e.era, e.kind].filter(Boolean).join(' · '))}</p>
       <h3>${esc(e.denomination)}${e.count > 1 ? ` ×${e.count}` : ''}</h3>
       ${e.subject ? `<p>${esc(e.subject)}</p>` : ''}

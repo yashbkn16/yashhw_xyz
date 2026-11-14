@@ -164,6 +164,11 @@ dd { margin: 0; }
 .about summary { font-family: var(--mono); font-size: .8125rem; }
 .about > div { padding: .5rem 0 1rem; }
 .pre { white-space: pre-line; }
+.credit { margin-top: -1rem; }
+
+/* Catalogue photos are someone else's coin: shown, but a touch quieter than your own. */
+img.face { border-color: transparent; background: none; object-fit: contain; }
+img.face.catalogue { opacity: .85; }
 
 /* ---------- Map: the collection as nodes, free to drag ---------- */
 
@@ -181,6 +186,8 @@ dd { margin: 0; }
 .panel .list { display: flex; flex-wrap: wrap; gap: 0 .5rem; font-size: .8125rem; }
 .panel .list a { text-decoration: none; }
 .panel .list a:hover { background: var(--fg); color: var(--bg); }
+.panel-pic { width: 6rem; height: 6rem; object-fit: contain; }
+.panel-pic.note { width: 10rem; height: 5rem; }
 
 /* Outline = at rest, filled = selected. Two colours, as everywhere. */
 .edge { stroke: var(--fg); stroke-opacity: .18; }

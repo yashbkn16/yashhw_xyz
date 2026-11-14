@@ -1,5 +1,5 @@
 // The coin pages. Reads /data/collection.json, which the daily Notion sync writes.
-//   /coins/        → summary, value, and the collection as a list or a map
+//   /coins/        → summary, value, and the collection as a map (default) or a list
 //   /coins/piece/  → one type, ?id=…, with catalogue facts on request
 // One entry in the data is one *type* (e.g. "1 Baht · Rama IX") with a count.
 
@@ -16,10 +16,21 @@ const yearsOf = (list) => list.flatMap((e) => e.years ?? []);
 const span = (ys) => (ys.length ? (Math.min(...ys) === Math.max(...ys) ? `${ys[0]}` : `${Math.min(...ys)}–${Math.max(...ys)}`) : '');
 const pieceUrl = (e) => `/coins/piece/?id=${encodeURIComponent(e.id)}`;
 
-// A photo if Notion has one, otherwise an outline in the same place.
-const face = (e, n = 0) => (e.photos?.[n]
-  ? `<img class="face" src="${esc(e.photos[n])}" alt="${esc(e.denomination)}" loading="lazy">`
-  : `<span class="face"></span>`);
+// Which picture to show for side n (0 = front, 1 = back), in order of preference:
+//   1. your own photo, attached in Notion and saved by the sync
+//   2. Numista's catalogue photo, linked with its credit
+//   3. nothing: an outline in the same place, so the layout never shifts
+export function picture(e, n = 0, size = 'thumb') {
+  if (e.photos?.[n]) return { src: e.photos[n] };
+  const side = e.numista?.photos?.[n ? 'back' : 'front'];
+  return side ? { src: side[size], credit: side.credit ?? 'Numista', numista: true } : null;
+}
+const face = (e, n = 0, size = 'thumb') => {
+  const p = picture(e, n, size);
+  return p
+    ? `<img class="face${p.numista ? ' catalogue' : ''}" src="${esc(p.src)}" alt="${esc(e.denomination)}, ${n ? 'back' : 'front'}" loading="lazy">`
+    : `<span class="face"></span>`;
+};
 
 const [collection, rates] = await Promise.all([fetch(DATA).then((r) => r.json()), loadRates()]);
 
@@ -47,7 +58,7 @@ function currencyPicker(onChange) {
 // ---------------------------------------------------------------- list & map
 
 function listPage() {
-  const state = { view: 'list', type: 'all', group: 'country' };
+  const state = { view: 'map', type: 'all', group: 'country' };
   const coins = pieces(collection.filter((e) => e.kind === 'coin'));
 
   document.getElementById('summary').textContent =
@@ -81,7 +92,7 @@ function listPage() {
     document.getElementById('map').hidden = state.view !== 'map';
     if (state.view === 'list') return drawList(shown);
     // The map's code only loads the first time someone asks for it.
-    map ??= (await import('./map.js')).mountMap(document.getElementById('map'), { pieceUrl, total, esc, plural, pieces, decade, span });
+    map ??= (await import('./map.js')).mountMap(document.getElementById('map'), { pieceUrl, total, esc, plural, pieces, decade, span, picture });
     map.show(shown, state.group);
   }
 
@@ -143,7 +154,8 @@ function piecePage() {
     root.innerHTML = `
       <h1>${esc(e.denomination)}${e.count > 1 ? ` <span class="dim">×${e.count}</span>` : ''}</h1>
       <p class="mono dim">${esc([e.country, e.era, e.kind].filter(Boolean).join(' · '))}</p>
-      <div class="sides">${face(e, 0)}${face(e, 1)}</div>
+      <div class="sides">${face(e, 0, 'full')}${face(e, 1, 'full')}</div>
+      ${credit(e)}
       ${e.subject ? `<p>${esc(e.subject)}</p>` : ''}
       <dl>${facts.map(([k, val]) => `<dt>${k}</dt><dd>${esc(val)}</dd>`).join('')}</dl>
       ${e.notes ? `<p>${esc(e.notes)}</p>` : ''}
@@ -160,6 +172,14 @@ function piecePage() {
 
   currencyPicker(draw);
   draw();
+}
+
+// Numista photos are other collectors' work: name them under the pictures.
+function credit(e) {
+  const shown = [0, 1].map((n) => picture(e, n)).filter((p) => p?.numista);
+  if (!shown.length) return '';
+  const names = [...new Set(shown.map((p) => p.credit))].join(', ');
+  return `<p class="mono dim credit">photos: ${esc(names)} via <a href="${esc(e.numista.url)}">Numista</a></p>`;
 }
 
 // "About this coin": the catalogue entry from Numista (saved by the sync),

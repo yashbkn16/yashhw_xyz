@@ -35,6 +35,7 @@ DATA_SOURCE = "418d88f4-1a2e-8173-a74a-000ba26fbcf3"  # "Coins & Notes" in Notio
 NOTION_VERSION = "2025-09-03"
 NUMISTA = "https://api.numista.com/v3"
 LOOKUPS_PER_RUN = 40  # new Numista searches per run, to stay well inside the free quota
+CACHE_VERSION = 2     # bump when facts() keeps new fields, so cached types are fetched again
 
 
 # ---------------------------------------------------------------- http
@@ -207,12 +208,27 @@ def facts(type_id, key):
         "obverse": side(t.get("obverse") or {}),
         "reverse": side(t.get("reverse") or {}),
         "comments": clean(t.get("comments")),
+        "photos": photos(t),
     }
     return {k: v for k, v in out.items() if v}
 
 
+def photos(t):
+    """Numista's catalogue photos of the front and back, linked rather than copied:
+    they belong to the contributors named in `credit`, and the site shows that credit.
+    Used only when the row has no photo of its own in Notion."""
+    out = {}
+    for name, side in (("front", t.get("obverse") or {}), ("back", t.get("reverse") or {})):
+        if side.get("picture"):
+            out[name] = {"full": side["picture"], "thumb": side.get("thumbnail") or side["picture"],
+                         "credit": side.get("picture_copyright")}
+    return out
+
+
 def enrich(entries, key):
-    cache = json.loads(CACHE.read_text()) if CACHE.exists() else {"matches": {}, "types": {}}
+    cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    if cache.get("version") != CACHE_VERSION:   # older cache: keep matches, refetch type details
+        cache = {"version": CACHE_VERSION, "matches": cache.get("matches", {}), "types": {}, "issuers": cache.get("issuers", {})}
     codes = cache.get("issuers") or {}
     if not codes or any(e["country"].lower() not in codes for e in entries):
         codes = cache["issuers"] = issuer_codes(key, {e["country"] for e in entries})
