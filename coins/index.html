@@ -33,8 +33,8 @@
 
   <!-- How to look, what to show, how to group. Each row is one choice. -->
   <div class="controls">
-    <button data-view="list" aria-pressed="true">[list]</button>
-    <button data-view="map" aria-pressed="false">[map]</button>
+    <button data-view="map" aria-pressed="true">[map]</button>
+    <button data-view="list" aria-pressed="false">[list]</button>
     <span>|</span>
     <button data-type="all" aria-pressed="true">[all]</button>
     <button data-type="coin" aria-pressed="false">[coins]</button>
@@ -44,10 +44,10 @@
     <button data-group="decade" aria-pressed="false">[by decade]</button>
   </div>
 
+  <!-- Map (the default): built by map.js. -->
+  <div id="map" class="map"></div>
   <!-- List: one closed <details> per group; the browser handles open and close. -->
-  <div id="groups"></div>
-  <!-- Map: built by map.js the first time [map] is chosen. -->
-  <div id="map" class="map" hidden></div>
+  <div id="groups" hidden></div>
   <noscript><p>The collection is built from <a href="/data/collection.json">collection.json</a> and needs JavaScript.</p></noscript>
 </body>
 </html>
