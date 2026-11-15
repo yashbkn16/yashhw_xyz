@@ -124,7 +124,7 @@ Columns, and how the sync uses each:
 | Face value | number | In the currency's main unit: 50 satang → 0.5, 2 annas → 0.125, 10 pfennig → 0.0511 (fixed 1.95583 DM/€) |
 | Demonetised | checkbox | Excluded from value totals |
 | Photo | files | Owner's photos. First = front, second = back |
-| Numista ID | number | Catalogue type ID. Set by hand to fix or force a match |
+| Numista ID | number | Catalogue type ID. Set by hand to fix or force a match; **0 = no type fits** (outline) |
 | My notes | text | Owner's personal notes, shown on the piece page |
 
 The agent can read and write this database through the Notion connector when one is
@@ -199,7 +199,8 @@ the owner's words: *make no mistakes*. An outline beats a wrong photo.)
   adjectives like "2 Singapore Dollars", digit grouping), **overlap the held years**, and
   not be a pattern, token, proof, specimen, restrike, piedfort or "(Silver)/(Gold)" issue.
 - Ranking: years fit fully > subject words in the title (regnal numbers ±3: "Rama IX" ≠
-  "Rama X", "George V" ≠ "George VI") > special-vs-everyday agrees (commemorative,
+  "Rama X", "George V" ≠ "George VI"; ordinals ±3: "25th Independence" ≠ "50th Year of
+  Independence", a mistake made in Nov 2026) > special-vs-everyday agrees (commemorative,
   non-circulating or collector issues only for rows that are commemorative) > has a photo >
   newest for undated (oldest if demonetised) > narrowest years. If the best candidate has
   the wrong ruler or the wrong kind, those are dropped; if nothing is left, `none`.
@@ -367,7 +368,10 @@ split big countries by decade, show piece labels on hover only, and draw on one 
 **Common tasks**
 - *Add or change a coin*: do it in Notion (connector), then run the workflow. Never
   edit `data/collection.json`.
-- *Fix a wrong catalogue match*: set **Numista ID** in Notion; run the workflow.
+- *Fix a wrong catalogue match*: set **Numista ID** in Notion (0 if nothing in the
+  catalogue fits, e.g. an unconfirmed banknote design); run the workflow. Banknote titles
+  on Numista rarely name the design, so undated notes are the likeliest wrong matches:
+  check their obverse/reverse text in `data/collection.json` against the row's Subject.
 - *Update the CV*: edit `cv/index.html`; titles and dates only.
 - *Replace the resume*: overwrite `yash-jain-resume.pdf`. Warn the owner if the new PDF
   contains a phone number or other private details, since it is public.

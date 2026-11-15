@@ -127,7 +127,10 @@ def to_entry(page):
         "numista_id": prop(page, "Numista ID"),
         "photos": prop(page, "Photo") or [],
     }
-    return {k: v for k, v in entry.items() if v not in (None, "", [], False)}
+    entry = {k: v for k, v in entry.items() if v not in (None, "", [], False)}
+    if prop(page, "Numista ID") == 0:
+        entry["numista_id"] = 0      # 0 in Notion = "no catalogue type fits": show the outline
+    return entry
 
 
 def save_photos(entry):
@@ -298,6 +301,10 @@ def match(entry, key, codes):
         fits = 2 if ys and lo <= min(ys) and hi >= max(ys) else 1
         named = len(set(words) & set(re.findall(r"[a-z]{4,}", t["title"].lower())))
         # Regnal numbers are too short to count as words but decide the type: "Rama IX" ≠ "Rama X".
+        # Ordinals decide commemoratives too: "25th Independence Day" ≠ "50th Year of Independence".
+        mine, theirs = set(re.findall(r"\b(\d+)(?:st|nd|rd|th)\b", subject)), set(re.findall(r"\b(\d+)(?:st|nd|rd|th)\b", t["title"].lower()))
+        if mine and theirs:
+            named += 3 if mine & theirs else -3
         for ruler in re.findall(r"\b(rama|george|edward|elizabeth)\s+([ivx]+)\b", subject):
             named += 3 if re.search(rf"\b{ruler[0]}\s+{ruler[1]}\b", t["title"].lower()) else -3
         # "Special" = commemorative or non-circulating (collector) issues; an everyday piece must not match one.
@@ -317,7 +324,8 @@ def match(entry, key, codes):
     best = ranked[0]
     # "exact" only when the years fit fully (if known) and nothing else ranks as well.
     exact = (not ys or rank(best)[0] == 2) and (len(ranked) == 1 or rank(ranked[1])[:3] < rank(best)[:3])
-    others = [{"id": t["id"], "title": t["title"], "years": f"{t.get('min_year')}–{t.get('max_year')}"} for t in ranked[1:5]]
+    others = [{"id": t["id"], "title": t["title"], "years": f"{t.get('min_year')}–{t.get('max_year')}"}
+              for t in ranked[1:] if rank(t)[1] >= 0][:4]          # never suggest a wrong ruler or ordinal
     return {"id": best["id"], "status": "exact" if exact else "closest", "others": others}
 
 
@@ -438,8 +446,8 @@ def lookup(entries, key, codes, cache, lookups_left):
         m = cache["matches"].get(e["notion"])
         if m and m.get("status") != "manual" and collector_issue(cache["types"].get(str(m.get("id")))):
             m = None                                   # a collector's strike slipped through once: look again
-        if e.get("numista_id"):                       # set by hand in Notion: always wins
-            m = {"id": int(e.pop("numista_id")), "status": "manual", "others": []}
+        if "numista_id" in e:                         # set by hand in Notion: always wins (0 = none)
+            m = {"id": int(e.pop("numista_id")) or None, "status": "manual", "others": []}
         elif (m is None or stale(m)) and lookups_left > 0:   # new row, or "none" worth retrying
             lookups_left -= 1
             m = match(e, key, codes)
