@@ -207,6 +207,12 @@ the owner's words: *make no mistakes*. An outline beats a wrong photo.)
 - `status`: `exact` (years fit and nothing else ranks as well), `closest` (best of several;
   the site says so and links up to four `others` with their years), `none` (outline).
   `none` rows are retried every 90 days (`stale()`): the catalogue keeps growing.
+- **Quota is per key.** `quota.key` holds an 8-character SHA-256 fingerprint of the key
+  (never the key): when the `NUMISTA_KEY` secret is replaced (in Nov 2026 the owner moved
+  to a key from a second Numista account), the count starts again at zero automatically.
+  Numista's country list (`/issuers`) is asked at most once a month (`issuers_checked`),
+  because some names, e.g. "European Union", never get a code. Prices record the years
+  `asked`, so a year Numista has no price for is not asked again for 180 days.
 - **Quota.** The free key allows 2,000 calls per calendar month. The sync counts its own
   calls in `quota` and stops at `MONTHLY_BUDGET = 1500`, leaving headroom; a 429 marks
   the month spent. Any Numista error (429, network, timeout) only stops the lookups:
@@ -218,7 +224,7 @@ the owner's words: *make no mistakes*. An outline beats a wrong photo.)
 - **Collector estimates** (`prices()`, `estimate()`): for sure matches only (`exact` or
   `manual`), the sync asks `/types/{id}/issues`, picks the issues of the years held, and asks
   `/types/{id}/issues/{issue}/prices?currency=INR`. Stored in the cache as `prices` (per type:
-  `checked`, `years` → grade → rupees), refreshed every 180 days. Spent only from what the
+  `checked`, `asked`, `years` → grade → rupees), refreshed every 180 days. Spent only from what the
   month has left after matching (`PRICE_RESERVE = 300` kept back) and at most
   `PRICE_CALLS_PER_RUN = 120` calls a run, so they fill in over a few days. Each entry gets
   `market` = count × the average F and VF estimates (spent coins are rarely better).
