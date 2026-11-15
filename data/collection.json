@@ -299,6 +299,100 @@
   }
  },
  {
+  "id": "bahrain-5-fils-c3f9a5",
+  "notion": "419d88f4-1a2e-8189-8730-df85cac3f9a5",
+  "country": "Bahrain",
+  "region": "Middle East",
+  "kind": "coin",
+  "denomination": "5 Fils",
+  "count": 1,
+  "years": [
+   2020
+  ],
+  "currency": "BHD",
+  "face_value": 0.005
+ },
+ {
+  "id": "bahrain-10-fils-86a923",
+  "notion": "419d88f4-1a2e-8151-b70f-f8e2b686a923",
+  "country": "Bahrain",
+  "region": "Middle East",
+  "kind": "coin",
+  "denomination": "10 Fils",
+  "count": 1,
+  "years": [
+   2011
+  ],
+  "currency": "BHD",
+  "face_value": 0.01
+ },
+ {
+  "id": "bangladesh-25-poisha-royal-bengal-tiger-9bfa64",
+  "notion": "419d88f4-1a2e-8135-9888-ce712b9bfa64",
+  "country": "Bangladesh",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "25 Poisha",
+  "count": 1,
+  "subject": "Royal Bengal tiger",
+  "currency": "BDT",
+  "face_value": 0.25
+ },
+ {
+  "id": "bangladesh-1-taka-sheikh-mujibur-rahman-9e141b",
+  "notion": "419d88f4-1a2e-81ca-a7d3-d32b309e141b",
+  "country": "Bangladesh",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "1 Taka",
+  "count": 1,
+  "subject": "Sheikh Mujibur Rahman",
+  "currency": "BDT",
+  "face_value": 1
+ },
+ {
+  "id": "bangladesh-10-taka-polymer-sheikh-mujibur-r-1c30d1",
+  "notion": "419d88f4-1a2e-810b-8dc4-e04fca1c30d1",
+  "country": "Bangladesh",
+  "region": "South Asia",
+  "kind": "note",
+  "denomination": "10 Taka",
+  "count": 1,
+  "years": [
+   2000
+  ],
+  "subject": "Polymer, Sheikh Mujibur Rahman",
+  "currency": "BDT",
+  "face_value": 10
+ },
+ {
+  "id": "bangladesh-20-taka-kantajew-kantaji-temple-f251f4",
+  "notion": "419d88f4-1a2e-8140-8139-c109def251f4",
+  "country": "Bangladesh",
+  "region": "South Asia",
+  "kind": "note",
+  "denomination": "20 Taka",
+  "count": 1,
+  "years": [
+   2025
+  ],
+  "subject": "Kantajew (Kantaji) temple",
+  "currency": "BDT",
+  "face_value": 20
+ },
+ {
+  "id": "bangladesh-100-taka-classic-vintage-series-s-f58b87",
+  "notion": "419d88f4-1a2e-817a-826f-d471caf58b87",
+  "country": "Bangladesh",
+  "region": "South Asia",
+  "kind": "note",
+  "denomination": "100 Taka",
+  "count": 1,
+  "subject": "Classic vintage series, Star Mosque (Tara Masjid)",
+  "currency": "BDT",
+  "face_value": 100
+ },
+ {
   "id": "bhutan-1-ngultrum-015aef",
   "notion": "418d88f4-1a2e-81e9-ac13-f4a4b2015aef",
   "country": "Bhutan",
@@ -1476,6 +1570,83 @@
   }
  },
  {
+  "id": "india-1-2-pice-george-v-king-emperor-aa55e7",
+  "notion": "419d88f4-1a2e-816d-a609-fa25e6aa55e7",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "1/2 Pice",
+  "count": 1,
+  "years": [
+   1936
+  ],
+  "subject": "George V King Emperor",
+  "era": "British India",
+  "currency": "INR",
+  "face_value": 0.0078125
+ },
+ {
+  "id": "india-1-paisa-ee142b",
+  "notion": "419d88f4-1a2e-81ce-81ae-d8c097ee142b",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "1 Paisa",
+  "count": 1,
+  "years": [
+   1960
+  ],
+  "era": "Circulation",
+  "currency": "INR",
+  "face_value": 0.01
+ },
+ {
+  "id": "india-1-pice-george-vi-king-emperor-0347aa",
+  "notion": "419d88f4-1a2e-810b-b24b-cf408e0347aa",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "1 Pice",
+  "count": 1,
+  "years": [
+   1945
+  ],
+  "subject": "George VI King Emperor",
+  "era": "British India",
+  "currency": "INR",
+  "face_value": 0.015625
+ },
+ {
+  "id": "india-2-paise-579516",
+  "notion": "419d88f4-1a2e-8190-9edd-eeaa8a579516",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "2 Paise",
+  "count": 1,
+  "years": [
+   1968
+  ],
+  "era": "Circulation",
+  "currency": "INR",
+  "face_value": 0.02
+ },
+ {
+  "id": "india-3-paise-b8d678",
+  "notion": "419d88f4-1a2e-8136-86d6-f6a787b8d678",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "3 Paise",
+  "count": 1,
+  "years": [
+   1967
+  ],
+  "era": "Circulation",
+  "currency": "INR",
+  "face_value": 0.03
+ },
+ {
   "id": "india-1-2-anna-george-vi-king-emperor-5a165b",
   "notion": "418d88f4-1a2e-812c-96dc-c85c065a165b",
   "country": "India",
@@ -1538,6 +1709,38 @@
   "era": "British India",
   "currency": "INR",
   "face_value": 0.03125
+ },
+ {
+  "id": "india-5-paise-save-for-development-0a603d",
+  "notion": "419d88f4-1a2e-8161-99c3-d64f140a603d",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Paise",
+  "count": 1,
+  "years": [
+   1977
+  ],
+  "subject": "Save for Development",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 0.05
+ },
+ {
+  "id": "india-5-paise-4e37ef",
+  "notion": "419d88f4-1a2e-81a9-9a31-f507534e37ef",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Paise",
+  "count": 2,
+  "years": [
+   1971,
+   1973
+  ],
+  "era": "Circulation",
+  "currency": "INR",
+  "face_value": 0.05
  },
  {
   "id": "india-5-paisa-323656",
@@ -1632,6 +1835,96 @@
   }
  },
  {
+  "id": "india-10-paise-equality-development-dc6b7d",
+  "notion": "419d88f4-1a2e-810c-86ff-fbb33edc6b7d",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "10 Paise",
+  "count": 1,
+  "subject": "Equality Development",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 0.1
+ },
+ {
+  "id": "india-10-paise-82ac97",
+  "notion": "419d88f4-1a2e-8125-99d9-d5498a82ac97",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "10 Paise",
+  "count": 1,
+  "years": [
+   1974
+  ],
+  "era": "Circulation",
+  "currency": "INR",
+  "face_value": 0.1
+ },
+ {
+  "id": "india-10-paise-rural-women-s-advancemen-353fbc",
+  "notion": "419d88f4-1a2e-8151-9ff0-fcd20d353fbc",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "10 Paise",
+  "count": 2,
+  "years": [
+   1980
+  ],
+  "subject": "Rural Women's Advancement",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 0.1
+ },
+ {
+  "id": "india-10-paise-planned-families-food-fo-11eab8",
+  "notion": "419d88f4-1a2e-818d-b6c0-d3f8ef11eab8",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "10 Paise",
+  "count": 1,
+  "years": [
+   1974
+  ],
+  "subject": "Planned Families: Food for All",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 0.1
+ },
+ {
+  "id": "india-10-paise-e3e14a",
+  "notion": "419d88f4-1a2e-819a-a847-c5633ae3e14a",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "10 Paise",
+  "count": 1,
+  "years": [
+   1990
+  ],
+  "era": "Circulation",
+  "currency": "INR",
+  "face_value": 0.1
+ },
+ {
+  "id": "india-10-paise-bb763d",
+  "notion": "419d88f4-1a2e-81aa-acfa-cafc14bb763d",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "10 Paise",
+  "count": 1,
+  "years": [
+   1969
+  ],
+  "era": "Circulation",
+  "currency": "INR",
+  "face_value": 0.1
+ },
+ {
   "id": "india-2-annas-george-vi-king-emperor-2-46b422",
   "notion": "418d88f4-1a2e-8186-9150-ec502846b422",
   "country": "India",
@@ -1680,6 +1973,35 @@
   }
  },
  {
+  "id": "india-20-paise-b76acf",
+  "notion": "419d88f4-1a2e-811c-9fa3-fad597b76acf",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "20 Paise",
+  "count": 2,
+  "years": [
+   1982,
+   1983
+  ],
+  "era": "Circulation",
+  "currency": "INR",
+  "face_value": 0.2
+ },
+ {
+  "id": "india-20-paise-mahatma-gandhi-1869-1948-0967ac",
+  "notion": "419d88f4-1a2e-81c5-97d3-e4372e0967ac",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "20 Paise",
+  "count": 2,
+  "subject": "Mahatma Gandhi 1869-1948",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 0.2
+ },
+ {
   "id": "india-4-anna-george-v-king-emperor-c56ac7",
   "notion": "418d88f4-1a2e-8101-9d73-e89d2cc56ac7",
   "country": "India",
@@ -1702,9 +2024,14 @@
   "region": "South Asia",
   "kind": "coin",
   "denomination": "25 Paisa",
-  "count": 1,
+  "count": 6,
   "years": [
-   1991
+   1989,
+   1991,
+   1994,
+   1998,
+   1999,
+   2007
   ],
   "subject": "One Horned Rhinoceros",
   "era": "Circulation",
@@ -1718,9 +2045,13 @@
   "region": "South Asia",
   "kind": "coin",
   "denomination": "25 Paisa",
-  "count": 1,
+  "count": 6,
   "years": [
-   1963
+   1963,
+   1964,
+   1974,
+   1975,
+   1985
   ],
   "era": "Circulation",
   "currency": "INR",
@@ -1805,6 +2136,56 @@
    "match": "exact",
    "others": []
   }
+ },
+ {
+  "id": "india-50-paise-221cbf",
+  "notion": "419d88f4-1a2e-8156-8b4e-f94e31221cbf",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "50 Paise",
+  "count": 3,
+  "years": [
+   1974,
+   1975,
+   1985
+  ],
+  "era": "Circulation",
+  "currency": "INR",
+  "face_value": 0.5
+ },
+ {
+  "id": "india-50-paise-ca0d8a",
+  "notion": "419d88f4-1a2e-81b1-966e-cec24aca0d8a",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "50 Paise",
+  "count": 10,
+  "years": [
+   1988,
+   1994,
+   1998,
+   1999,
+   2000
+  ],
+  "era": "Circulation",
+  "currency": "INR",
+  "face_value": 0.5,
+  "notes": "1999 ×2, 2000 ×2, 1998 ×4"
+ },
+ {
+  "id": "india-50-paise-25th-independence-day-570781",
+  "notion": "419d88f4-1a2e-81fd-bd40-eb6198570781",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "50 Paise",
+  "count": 1,
+  "subject": "25th Independence Day",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 0.5
  },
  {
   "id": "india-50-paisa-george-vi-king-emperor-6b4d84",
@@ -1892,6 +2273,22 @@
   "era": "Commemorative",
   "currency": "INR",
   "face_value": 0.5
+ },
+ {
+  "id": "india-1-rupee-jawaharlal-nehru-9be683",
+  "notion": "419d88f4-1a2e-81d4-bcb3-ea8c179be683",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "1 Rupee",
+  "count": 1,
+  "years": [
+   1989
+  ],
+  "subject": "Jawaharlal Nehru",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 1
  },
  {
   "id": "india-1-rupee-george-vi-king-emperor-2ed84b",
@@ -2221,6 +2618,38 @@
    "match": "exact",
    "others": []
   }
+ },
+ {
+  "id": "india-5-rupees-bhagwan-mahavir-2600th-j-401c02",
+  "notion": "419d88f4-1a2e-8105-850f-df2707401c02",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupees",
+  "count": 1,
+  "years": [
+   2001
+  ],
+  "subject": "Bhagwan Mahavir 2600th Janm Kalyanak",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
+ },
+ {
+  "id": "india-5-rupees-50th-anniversary-of-the-2d33e7",
+  "notion": "419d88f4-1a2e-817e-aedd-d76b182d33e7",
+  "country": "India",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "5 Rupees",
+  "count": 1,
+  "years": [
+   1995
+  ],
+  "subject": "50th anniversary of the United Nations",
+  "era": "Commemorative",
+  "currency": "INR",
+  "face_value": 5
  },
  {
   "id": "india-5-rupee-indira-gandhi-1917-1984-9bcf03",
@@ -3539,6 +3968,33 @@
   }
  },
  {
+  "id": "kenya-10-cents-president-daniel-arap-mo-788aa1",
+  "notion": "419d88f4-1a2e-81b2-976d-f3c733788aa1",
+  "country": "Kenya",
+  "region": "Africa",
+  "kind": "coin",
+  "denomination": "10 Cents",
+  "count": 1,
+  "years": [
+   1990
+  ],
+  "subject": "President Daniel arap Moi",
+  "currency": "KES",
+  "face_value": 0.1
+ },
+ {
+  "id": "kuwait-5-fils-arab-dhow-boom-sailing-s-1c90a9",
+  "notion": "419d88f4-1a2e-813b-9a6d-caaea61c90a9",
+  "country": "Kuwait",
+  "region": "Middle East",
+  "kind": "coin",
+  "denomination": "5 Fils",
+  "count": 1,
+  "subject": "Arab dhow (boom) sailing ship",
+  "currency": "KWD",
+  "face_value": 0.005
+ },
+ {
   "id": "kuwait-5-dinars-44937f",
   "notion": "418d88f4-1a2e-8133-8f46-ca5ed544937f",
   "country": "Kuwait",
@@ -4679,48 +5135,7 @@
   ],
   "subject": "Kiwi",
   "currency": "NZD",
-  "face_value": 1,
-  "numista": {
-   "id": 23337,
-   "url": "https://en.numista.com/23337",
-   "title": "1 Dollar - Elizabeth II (4th portrait; Kiwi)",
-   "years": "2010–2010",
-   "composition": "Silver (.999)",
-   "weight": "31.1 g",
-   "size": "40 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Fourth crowned portrait of Queen Elizabeth II facing right, wearing the Girls of Great Britain and Ireland Tiara, legend around, date below."
-   },
-   "reverse": {
-    "design": "Kiwi facing left with the Southern Cross constellation to the lower right."
-   },
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/nouvelle-zelande/585-180.jpg",
-     "credit": "Harry72"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/nouvelle-zelande/586-180.jpg",
-     "credit": "Harry72"
-    }
-   },
-   "match": "exact",
-   "others": [
-    {
-     "id": 438466,
-     "title": "1 Dollar - Elizabeth II (4th Portrait; Set Issue)",
-     "years": "2010–2023",
-     "url": "https://en.numista.com/catalogue/pieces438466.html"
-    },
-    {
-     "id": 2620,
-     "title": "1 Dollar - Elizabeth II (4th Portrait)",
-     "years": "1999–2020",
-     "url": "https://en.numista.com/catalogue/pieces2620.html"
-    }
-   ]
-  }
+  "face_value": 1
  },
  {
   "id": "oman-10-baisa-from-sultanate-of-oman-i-5f942a",
@@ -4959,6 +5374,35 @@
     }
    ]
   }
+ },
+ {
+  "id": "pakistan-50-paisa-muhammad-ali-jinnah-cent-516f60",
+  "notion": "419d88f4-1a2e-81bb-bed4-e96ff0516f60",
+  "country": "Pakistan",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "50 Paisa",
+  "count": 1,
+  "years": [
+   1976
+  ],
+  "subject": "Muhammad Ali Jinnah centenary 1876-1976",
+  "era": "Commemorative",
+  "currency": "PKR",
+  "face_value": 0.5
+ },
+ {
+  "id": "pakistan-100-rupees-muhammad-ali-jinnah-bads-abc9aa",
+  "notion": "419d88f4-1a2e-8139-b0f3-c395a6abc9aa",
+  "country": "Pakistan",
+  "region": "South Asia",
+  "kind": "note",
+  "denomination": "100 Rupees",
+  "count": 1,
+  "subject": "Muhammad Ali Jinnah, Badshahi Mosque",
+  "currency": "PKR",
+  "face_value": 100,
+  "notes": "State Bank of Pakistan design first issued 24 December 1957; East Pakistan era (now Bangladesh)."
  },
  {
   "id": "philippines-1-piso-jose-rizal-b30046",
@@ -5270,6 +5714,20 @@
   }
  },
  {
+  "id": "saudi-arabia-1-2-qirsh-king-abdulaziz-bin-abdul-4be3a1",
+  "notion": "419d88f4-1a2e-81b2-9925-f9fab44be3a1",
+  "country": "Saudi Arabia",
+  "region": "Middle East",
+  "kind": "coin",
+  "denomination": "1/2 Qirsh",
+  "count": 1,
+  "years": [
+   1937
+  ],
+  "subject": "King Abdulaziz bin Abdulrahman (Ibn Saud)",
+  "notes": "Pre-reform qirsh; no reliable modern face value."
+ },
+ {
   "id": "singapore-10-cents-43b039",
   "notion": "418d88f4-1a2e-8117-8f24-c4e5c843b039",
   "country": "Singapore",
@@ -5529,6 +5987,20 @@
     }
    ]
   }
+ },
+ {
+  "id": "sri-lanka-1-rix-dollar-ceylon-king-george-iv-75426b",
+  "notion": "419d88f4-1a2e-81af-8d1a-c0f52475426b",
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "kind": "coin",
+  "denomination": "1 Rix Dollar",
+  "count": 1,
+  "years": [
+   1821
+  ],
+  "subject": "Ceylon, King George IV",
+  "notes": "Ceylon rix dollar; no modern currency equivalent, so no face value."
  },
  {
   "id": "sri-lanka-20-rupees-1eaa78",
@@ -6725,55 +7197,7 @@
   ],
   "subject": "badge of Scotland",
   "currency": "GBP",
-  "face_value": 0.05,
-  "numista": {
-   "id": 79145,
-   "url": "https://en.numista.com/79145",
-   "title": "5 Pence - Elizabeth II (3rd portrait; small type, Silver Piedfort)",
-   "years": "1990–1990",
-   "composition": "Silver (.925)",
-   "weight": "6.5 g",
-   "size": "18 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Third crowned portrait of Queen Elizabeth II right, wearing the George IV State Diadem, legend around",
-    "engravers": [
-     "Raphael David Maklouf"
-    ]
-   },
-   "reverse": {
-    "design": "The Badge of Scotland, a thistle royally crowned, legend above, denomination below",
-    "engravers": [
-     "Christopher Ironside"
-    ]
-   },
-   "comments": "Issued individually, the coin was also struck in copper-nickel and silver proof. Issue Limit: 20,000",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/69badc5156fdb8.62520691-180.jpg",
-     "credit": "Oxfordcoins.com"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/69c20300dbb1d9.87191756-180.jpg",
-     "credit": "Oxfordcoins.com"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 874,
-     "title": "5 Pence - Elizabeth II (3rd portrait; large type)",
-     "years": "1985–1990",
-     "url": "https://en.numista.com/catalogue/pieces874.html"
-    },
-    {
-     "id": 875,
-     "title": "5 Pence - Elizabeth II (3rd portrait; small type)",
-     "years": "1990–1997",
-     "url": "https://en.numista.com/catalogue/pieces875.html"
-    }
-   ]
-  }
+  "face_value": 0.05
  },
  {
   "id": "united-kingd-10-pence-crowned-lion-passant-c4e13b",
@@ -6788,55 +7212,7 @@
   ],
   "subject": "crowned lion passant",
   "currency": "GBP",
-  "face_value": 0.1,
-  "numista": {
-   "id": 102723,
-   "url": "https://en.numista.com/102723",
-   "title": "10 Pence - Elizabeth II (3rd portrait; small type, Silver Piedfort)",
-   "years": "1992–1992",
-   "composition": "Silver (.925)",
-   "weight": "13 g",
-   "size": "24.5 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Third crowned portrait of Queen Elizabeth II right, wearing the George IV State Diadem, legend around",
-    "engravers": [
-     "Raphael David Maklouf"
-    ]
-   },
-   "reverse": {
-    "design": "Part of the crest of England, a lion passant guardant royally crowned, legend above, denomination below",
-    "engravers": [
-     "Christopher Ironside"
-    ]
-   },
-   "comments": "Issued individually, the coin was also struck in copper-nickel and silver proof. Issue Limit: 15,000.\n\r\n\n\r\n(former Spink ref. 4367)",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/7782-180.jpg",
-     "credit": "Heritage Auctions"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/7783-180.jpg",
-     "credit": "Heritage Auctions"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 879,
-     "title": "10 Pence - Elizabeth II (3rd portrait; small type)",
-     "years": "1992–1997",
-     "url": "https://en.numista.com/catalogue/pieces879.html"
-    },
-    {
-     "id": 17902,
-     "title": "10 Pence - Elizabeth II (3rd portrait; large type, set issue)",
-     "years": "1985–1992",
-     "url": "https://en.numista.com/catalogue/pieces17902.html"
-    }
-   ]
-  }
+  "face_value": 0.1
  },
  {
   "id": "united-kingd-20-pence-4adfe3",
