@@ -2,13 +2,14 @@
 // country (and countries around their region), free to drag, quiet until opened.
 // No library: a small spring simulation that stops itself once things settle.
 //
-// Levels: region anchor → country hub → (sub-group for big countries) → type.
+// Levels: region anchor (unlabelled) → country hub → (sub-group for big countries) → type.
 // Under "by decade" the hubs are decades laid out left to right instead.
 
 const NS = 'http://www.w3.org/2000/svg';
 const SPLIT = 25;          // a country with more types than this opens into sub-groups first
 const CELL = 90;           // spatial grid: nodes only push against near neighbours
 const THRESHOLD = 4;       // px a press may wander and still count as a click
+const MAXV = 12;           // px per frame: the fastest anything may move
 const REGIONS = ['South Asia', 'Southeast Asia', 'East Asia', 'Oceania', 'Americas', 'Europe', 'Middle East', 'Africa'];
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -21,7 +22,12 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
   const [gRegions, gEdges, gNodes] = svg.children;
   const panel = root.querySelector('.panel');
 
-  let W = 800, H = 600, group = 'country', items = [], frame = 0, drag = null, selected = null;
+  // Start from the real size so the first layout already fits the screen.
+  let { width: W, height: H } = svg.getBoundingClientRect();
+  W ||= 800; H ||= 600;
+  let group = 'country', items = [], frame = 0, drag = null, selected = null;
+  // Nodes shrink on small screens (a phone is ~0.6 of a laptop), never grow past 1.
+  const scale = () => Math.max(0.6, Math.min(1, Math.min(W, H) / 700));
   let hubs = [], subs = [], nodes = new Map(), hubCount = 1;
   const open = new Set();
 
@@ -41,7 +47,7 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     hubCount = names.length;
     hubs = names.map((name, i) => {
       const list = groups.get(name);
-      const h = node({ id: `hub:${name}`, kind: 'hub', name, items: list, i, r: 10 + Math.sqrt(pieces(list)) * 2.6 });
+      const h = node({ id: `hub:${name}`, kind: 'hub', name, items: list, i, r: (10 + Math.sqrt(pieces(list)) * 2.6) * scale() });
       const a = anchor(h);
       Object.assign(h, { x: a.x + (Math.random() - 0.5) * 60, y: a.y + (Math.random() - 0.5) * 60 });
 
@@ -49,12 +55,12 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
       const split = by === 'country' && list.length > SPLIT;
       const parents = split
         ? [...Map.groupBy(list, (e) => e.era ?? (e.kind === 'note' ? 'Notes' : 'Coins'))].map(([sname, slist]) => {
-            const s = node({ id: `sub:${name}:${sname}`, kind: 'sub', name: sname, items: slist, parent: h, x: h.x, y: h.y, r: 8 + Math.sqrt(pieces(slist)) * 2 });
+            const s = node({ id: `sub:${name}:${sname}`, kind: 'sub', name: sname, items: slist, parent: h, x: h.x, y: h.y, r: (8 + Math.sqrt(pieces(slist)) * 2) * scale() });
             subs.push(s);
             return [s, slist];
           })
         : [[h, list]];
-      for (const [p, plist] of parents) for (const e of plist) node({ id: e.id, kind: 'type', e, parent: p, x: h.x, y: h.y, r: 4 + 2.2 * Math.sqrt(e.count) });
+      for (const [p, plist] of parents) for (const e of plist) node({ id: e.id, kind: 'type', e, parent: p, x: h.x, y: h.y, r: (4 + 2.2 * Math.sqrt(e.count)) * scale() });
       return h;
     });
 
@@ -73,7 +79,7 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
   // ---------------------------------------------------------- layout
   function regionAnchor(name) {
     const a = (REGIONS.indexOf(name) / REGIONS.length) * Math.PI * 2 - Math.PI / 2;
-    return { x: W / 2 + Math.cos(a) * W * 0.32, y: H / 2 + Math.sin(a) * H * 0.33 };
+    return { x: W / 2 + Math.cos(a) * W * 0.34, y: H / 2 + Math.sin(a) * H * 0.36 };
   }
   function anchor(h) {
     if (group === 'country') return regionAnchor(h.items[0].region);
@@ -89,12 +95,16 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
   const visible = () => [...nodes.values()].filter(shown);
 
   // ---------------------------------------------------------- physics
+  // A hub's personal space: its circle, or half its label's width if that is wider
+  // (11px mono ≈ 6.6px a character).
+  const room = (h) => Math.max(h.r, h.name.length * 3.3);
+
   // Springs pull nodes to their parent (hubs to their anchor), nearby pairs
   // push apart, velocity is damped. The loop sleeps once nothing moves.
   function step() {
     const vis = visible();
     for (const h of hubs) {
-      const a = anchor(h), k = group === 'country' ? 0.006 : 0.02;
+      const a = anchor(h), k = 0.02;
       h.vx += (a.x - h.x) * k; h.vy += (a.y - h.y) * k;
     }
     for (const n of vis) {
@@ -113,10 +123,12 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
       for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++) {
         for (const m of grid.get(`${cx + i},${cy + j}`) ?? []) {
           if (m === n) continue;
-          const dx = n.x - m.x, dy = n.y - m.y, d = Math.hypot(dx, dy) || 0.01;
-          const min = n.r + m.r + (n.kind === 'hub' && m.kind === 'hub' ? 28 : 4);
+          const dx = n.x - m.x, dy = n.y - m.y, d = Math.max(Math.hypot(dx, dy), 1);
+          const min = n.kind === 'hub' && m.kind === 'hub'
+            ? room(n) + room(m) + 12   // hubs keep their names apart, not just their circles
+            : n.r + m.r + 4;
           if (d < CELL) {
-            const f = 40 / (d * d) + (d < min ? (min - d) * 0.1 : 0);
+            const f = Math.min(40 / (d * d) + (d < min ? (min - d) * 0.1 : 0), 3); // capped: no flinging
             n.vx += (dx / d) * f; n.vy += (dy / d) * f;
           }
         }
@@ -125,9 +137,11 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     let fastest = 0;
     for (const n of vis) {
       if (drag?.node === n) { n.vx = n.vy = 0; continue; }
-      n.vx *= 0.8; n.vy *= 0.8;
-      n.x = Math.min(W - 16, Math.max(16, n.x + n.vx));
-      n.y = Math.min(H - 22, Math.max(16, n.y + n.vy));
+      n.vx = Math.max(-MAXV, Math.min(MAXV, n.vx * 0.8));
+      n.vy = Math.max(-MAXV, Math.min(MAXV, n.vy * 0.8));
+      const edge = n.kind === 'hub' ? room(n) : 16;   // keep hub names fully inside the frame
+      n.x = Math.min(W - edge, Math.max(edge, n.x + n.vx));
+      n.y = Math.min(H - n.r - 16, Math.max(n.r + 4, n.y + n.vy));
       fastest = Math.max(fastest, Math.hypot(n.vx, n.vy));
     }
     return fastest;
@@ -150,15 +164,9 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     return x;
   }
 
-  function drawRegions() {
-    gRegions.replaceChildren();
-    if (group !== 'country') return;
-    for (const r of REGIONS) {
-      if (!items.some((e) => e.region === r)) continue;
-      const a = regionAnchor(r);
-      el('text', { class: 'region', x: a.x, y: a.y < H / 2 ? a.y - 70 : a.y + 84 }, gRegions).textContent = r;
-    }
-  }
+  // Regions are not labelled on the map: countries simply gather by region,
+  // and the panel names the region when a country is chosen.
+  function drawRegions() {}
 
   function makeEl(n) {
     const g = el('g', { class: `node ${n.kind}`, tabindex: 0, role: 'button' });
@@ -188,7 +196,7 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
       const s = shown(n);
       if (s && !n.el.isConnected) {
         gNodes.appendChild(n.el); n.edge && gEdges.appendChild(n.edge);
-        if (n.parent) { n.x = n.parent.x; n.y = n.parent.y; }   // burst out of the parent
+        if (n.parent) { n.x = n.parent.x + (Math.random() - 0.5) * 8; n.y = n.parent.y + (Math.random() - 0.5) * 8; } // burst out of the parent
       }
       if (!s && n.el.isConnected) { n.el.remove(); n.edge?.remove(); }
     }
@@ -235,11 +243,16 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     if (!drag || drag.id !== ev.pointerId) return;
     const { node: n, moved } = drag;
     drag = null;
+    pressed = true;   // swallow the click event this press is about to produce
     svg.classList.remove('dragging');
     if (!moved) choose(n);
     wake();
   });
-  svg.addEventListener('click', (ev) => { if (ev.target === svg && selected) { selected = null; showPanel(); render(); } });
+  let pressed = false;
+  svg.addEventListener('click', (ev) => {
+    if (pressed) { pressed = false; return; }
+    if (ev.target === svg && selected) { selected = null; showPanel(); render(); }  // empty space clears
+  });
 
   function choose(n) {
     if (n.kind === 'type') selected = n;

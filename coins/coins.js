@@ -20,15 +20,17 @@ const pieceUrl = (e) => `/coins/piece/?id=${encodeURIComponent(e.id)}`;
 //   1. your own photo, attached in Notion and saved by the sync
 //   2. Numista's catalogue photo, linked with its credit
 //   3. nothing: an outline in the same place, so the layout never shifts
-export function picture(e, n = 0, size = 'thumb') {
+export function picture(e, n = 0) {
   if (e.photos?.[n]) return { src: e.photos[n] };
   const side = e.numista?.photos?.[n ? 'back' : 'front'];
-  return side ? { src: side[size], credit: side.credit ?? 'Numista', numista: true } : null;
+  // Numista refuses its full-size files to other sites, so its 180px version is used everywhere.
+  return side ? { src: side.thumb, credit: side.credit ?? 'Numista', numista: true } : null;
 }
-const face = (e, n = 0, size = 'thumb') => {
-  const p = picture(e, n, size);
+const face = (e, n = 0) => {
+  const p = picture(e, n);
   return p
-    ? `<img class="face${p.numista ? ' catalogue' : ''}" src="${esc(p.src)}" alt="${esc(e.denomination)}, ${n ? 'back' : 'front'}" loading="lazy">`
+    // If a picture fails to load, fall back to the outline rather than a broken image.
+    ? `<img class="face${p.numista ? ' catalogue' : ''}" src="${esc(p.src)}" alt="${esc(e.denomination)}, ${n ? 'back' : 'front'}" loading="lazy" onerror="this.outerHTML='<span class=&quot;face&quot;></span>'">`
     : `<span class="face"></span>`;
 };
 
@@ -154,7 +156,7 @@ function piecePage() {
     root.innerHTML = `
       <h1>${esc(e.denomination)}${e.count > 1 ? ` <span class="dim">×${e.count}</span>` : ''}</h1>
       <p class="mono dim">${esc([e.country, e.era, e.kind].filter(Boolean).join(' · '))}</p>
-      <div class="sides">${face(e, 0, 'full')}${face(e, 1, 'full')}</div>
+      <div class="sides">${face(e, 0)}${face(e, 1)}</div>
       ${credit(e)}
       ${e.subject ? `<p>${esc(e.subject)}</p>` : ''}
       <dl>${facts.map(([k, val]) => `<dt>${k}</dt><dd>${esc(val)}</dd>`).join('')}</dl>

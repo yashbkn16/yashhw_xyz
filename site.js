@@ -22,12 +22,18 @@ function scramble(el) {
   }, 30);
 }
 
-// Each one scrambles once as the page opens (while the content drops in,
-// see "Page entrance" in style.css), then again on every hover.
+// Each one scrambles the first time it comes into view (as the page opens for
+// anything on screen, while the content drops in; see "Page entrance" in
+// style.css), then again on every hover, or tap on a phone.
 // Skipped entirely for people who asked their OS for less motion.
 if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const firstSight = new IntersectionObserver((entries) => {
+    for (const { target, isIntersecting } of entries) {
+      if (isIntersecting) { scramble(target); firstSight.unobserve(target); }
+    }
+  });
   document.querySelectorAll(TARGETS).forEach((el) => {
-    scramble(el);
+    firstSight.observe(el);
     el.addEventListener('mouseenter', () => scramble(el));
   });
 }
