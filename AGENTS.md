@@ -42,8 +42,10 @@ meant to be visible to anyone who views source.
   `data-scramble` shuffle through characters A–} (char codes 65–125, brackets included,
   spaces held) the first time each comes into view (IntersectionObserver, so links
   below the fold on phones scramble when scrolled to) and on every hover or tap,
-  50 frames × 30 ms. With the OS "Reduce Motion" / "Remove animations" setting on,
-  it is deliberately off; this is the usual reason it seems missing on a phone. Body text never
+  50 frames × 30 ms. With the OS "Reduce Motion" / "Remove animations" setting on
+  it still runs, shortened to 12 frames: letters change in place and nothing moves.
+  (It used to switch off entirely, and the owner's iPhone has Reduce Motion on, so
+  it never showed there. Keep it on.) The slide-in entrance does stop under that setting. Body text never
   scrambles. The name on the **CV** page must **not** scramble; on the home page it does.
 - *Entrance* (`style.css`, "Page entrance"): everything below the nav drops 15 px and fades
   in, 0.5 s after a 0.25 s delay, easing `cubic-bezier(.33,1,.68,1)`.
@@ -232,8 +234,11 @@ Mac, Python lacks CA certificates; prefix with `SSL_CERT_FILE=/etc/ssl/cert.pem`
   Australian pre-decimal, pfennig, euro notes).
 
 **`map.js`** (loaded with dynamic `import()` the first time the map is shown)
-- Levels: region anchors (fixed around the stage, not labelled; the panel names the
-  region) → country hubs (sized by pieces) →
+- A one-line key above the map explains the arrangement ("countries gather by region ·
+  a bigger circle means more pieces · ○ coin ▭ note · …"). The owner wants visitors to
+  understand why the map is laid out as it is; keep the key and the region names.
+- Levels: region anchors (fixed around the stage; each region's name is drawn just
+  above its group of countries and follows it, `placeRegions()`) → country hubs (sized by pieces) →
   for countries with more than `SPLIT = 25` types, sub-groups by `era` or coins/notes
   (dashed rings) → type nodes (circle = coin, rectangle = note, sized by count, number
   inside from 3 up). Under "by decade", hubs are decades laid left to right.

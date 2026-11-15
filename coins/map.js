@@ -15,8 +15,8 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, span, picture }) {
   root.innerHTML = `
-    <div class="stage"><svg aria-label="Map of the collection"><g class="regions"></g><g class="edges"></g><g class="nodes"></g></svg>
-      <p class="hint mono dim">drag to move · click to open</p></div>
+    <p class="map-key mono dim"></p>
+    <div class="stage"><svg aria-label="Map of the collection"><g class="regions"></g><g class="edges"></g><g class="nodes"></g></svg></div>
     <aside class="panel" aria-live="polite"></aside>`;
   const svg = root.querySelector('svg');
   const [gRegions, gEdges, gNodes] = svg.children;
@@ -65,6 +65,10 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     });
 
     drawRegions();
+    // One line on how to read the map, so the arrangement explains itself.
+    root.querySelector('.map-key').textContent = by === 'country'
+      ? 'countries gather by region · a bigger circle means more pieces · ○ coin  ▭ note · tap a country to open it, drag anything'
+      : 'decades run left to right · a bigger circle means more pieces · ○ coin  ▭ note · tap a decade to open it, drag anything';
     draw();
     showPanel();
     wake();
@@ -164,9 +168,27 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     return x;
   }
 
-  // Regions are not labelled on the map: countries simply gather by region,
-  // and the panel names the region when a country is chosen.
-  function drawRegions() {}
+  // Region names sit just above their group of countries and follow it as it
+  // settles or is dragged (placed in render()). Only under "by country".
+  let regionEls = new Map();
+  function drawRegions() {
+    gRegions.replaceChildren();
+    regionEls = new Map();
+    if (group !== 'country') return;
+    for (const r of REGIONS) {
+      if (items.some((e) => e.region === r)) regionEls.set(r, el('text', { class: 'region' }, gRegions));
+    }
+    for (const [r, t] of regionEls) t.textContent = r;
+  }
+  function placeRegions() {
+    for (const [r, t] of regionEls) {
+      const mine = hubs.filter((h) => h.items[0].region === r);
+      const x = mine.reduce((s, h) => s + h.x, 0) / mine.length;
+      const top = Math.min(...mine.map((h) => h.y - h.r));
+      t.setAttribute('x', Math.min(W - 60, Math.max(60, x)).toFixed(1));
+      t.setAttribute('y', Math.max(14, top - 10).toFixed(1));
+    }
+  }
 
   function makeEl(n) {
     const g = el('g', { class: `node ${n.kind}`, tabindex: 0, role: 'button' });
@@ -206,6 +228,7 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
 
   const topOf = (n) => (n.kind === 'hub' ? n : n.kind === 'sub' ? n.parent : topOf(n.parent));
   function render() {
+    placeRegions();
     const root = selected && topOf(selected);
     for (const n of visible()) {
       n.el.setAttribute('transform', `translate(${n.x.toFixed(1)},${n.y.toFixed(1)})`);
@@ -236,7 +259,6 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     if (!drag.moved && Math.hypot(ev.clientX - drag.sx, ev.clientY - drag.sy) < THRESHOLD) return;
     drag.moved = true;
     svg.classList.add('dragging');
-    root.querySelector('.hint').hidden = true;
     Object.assign(drag.node, point(ev));
   });
   svg.addEventListener('pointerup', (ev) => {
