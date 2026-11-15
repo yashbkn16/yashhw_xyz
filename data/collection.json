@@ -143,7 +143,36 @@
   ],
   "subject": "Florin",
   "currency": "AUD",
-  "face_value": 0.2
+  "face_value": 0.2,
+  "numista": {
+   "id": 6759,
+   "url": "https://en.numista.com/6759",
+   "title": "1 Florin - Elizabeth II (1st Portrait; with \"F:D:\")",
+   "years": "1956–1963",
+   "composition": "Silver (.500)",
+   "weight": "11.31 g",
+   "size": "28.5 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "1st portrait of Queen Elizabeth II facing right wearing a laurel"
+   },
+   "reverse": {
+    "design": "Coat of Arms of Australia"
+   },
+   "comments": "The Queen Elizabeth II series of pre-decimal coins have been issued in Sherwood Sets of all six denominations.\n\r\nThis particular set contains all of the 1962 issues.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/australie/973-180.jpg",
+     "credit": "Heritage Auctions"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/australie/974-180.jpg",
+     "credit": "Heritage Auctions"
+    }
+   },
+   "match": "exact",
+   "others": []
+  }
  },
  {
   "id": "australia-20-cents-platypus-8a94bf",
@@ -310,7 +339,43 @@
    2020
   ],
   "currency": "BHD",
-  "face_value": 0.005
+  "face_value": 0.005,
+  "numista": {
+   "id": 46719,
+   "url": "https://en.numista.com/46719",
+   "title": "5 Fils - Hamad (magnetic; 2nd type)",
+   "years": "2010–2022",
+   "composition": "Brass plated steel",
+   "weight": "2.5 g",
+   "size": "19 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Palm tree within the inner circle, the country name in Arabic and English and the Islamic and Gregorian dates in English."
+   },
+   "reverse": {
+    "design": "Numeric denomination back of boxed denomination within circle Surrounded by Chain border."
+   },
+   "comments": "Type 1: \"فلس\" = Fils, inside box in reverse\n\r\nType 2 (this coin): \"فلوس\" = Fulus, inside box in reverse",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bahrein/64459ef96e1304.28968991-180.jpg",
+     "credit": "Numismatica Quetzalcoatl"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bahrein/64459ef9abacd8.12378293-180.jpg",
+     "credit": "Numismatica Quetzalcoatl"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 47.8,
+   "high": 47.8,
+   "years": [
+    "2020"
+   ]
+  }
  },
  {
   "id": "bahrain-10-fils-86a923",
@@ -324,7 +389,43 @@
    2011
   ],
   "currency": "BHD",
-  "face_value": 0.01
+  "face_value": 0.01,
+  "numista": {
+   "id": 46716,
+   "url": "https://en.numista.com/46716",
+   "title": "10 Fils - Hamad (magnetic; 2nd type)",
+   "years": "2010–2021",
+   "composition": "Brass plated steel",
+   "weight": "3.35 g",
+   "size": "21 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Palm tree within the inner circle, the country name in Arabic and English and the Islamic and Gregorian dates in English."
+   },
+   "reverse": {
+    "design": "Numeric denomination back of boxed denomination within circle all within a chained border"
+   },
+   "comments": "Type 1: \"فلس\" = Fils, inside box in reverse\n\r\nType 2 (this coin): \"فلوس\" = Fulus, inside box in reverse",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bahrein/64459f4039ae94.58470072-180.jpg",
+     "credit": "Numismatica Quetzalcoatl"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bahrein/64459f408d9986.71556336-180.jpg",
+     "credit": "Numismatica Quetzalcoatl"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 51.95,
+   "high": 51.95,
+   "years": [
+    "2011"
+   ]
+  }
  },
  {
   "id": "bangladesh-25-poisha-royal-bengal-tiger-9bfa64",
@@ -336,7 +437,35 @@
   "count": 1,
   "subject": "Royal Bengal tiger",
   "currency": "BDT",
-  "face_value": 0.25
+  "face_value": 0.25,
+  "numista": {
+   "id": 1977,
+   "url": "https://en.numista.com/1977",
+   "title": "25 Poisha",
+   "years": "1977–1994",
+   "composition": "Steel",
+   "weight": "2.65 g",
+   "size": "19 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "The National Emblem of Bangladesh: a water lily bordered on two sides by rice sheaves. Above are a three-leaf clover of tea leaves and four stars representing the four principles of the first constitution of Bangladesh in 1972: nationalism, secularism, socialism, and democracy."
+   },
+   "reverse": {
+    "design": "Head of a Bengal tiger, the word \"Bangladesh\" and the face value in figures and in full"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/6959697b37f567.63196120-180.jpg",
+     "credit": "mvm"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/6959697c8db498.18030209-180.jpg",
+     "credit": "mvm"
+    }
+   },
+   "match": "exact",
+   "others": []
+  }
  },
  {
   "id": "bangladesh-1-taka-sheikh-mujibur-rahman-9e141b",
@@ -348,7 +477,35 @@
   "count": 1,
   "subject": "Sheikh Mujibur Rahman",
   "currency": "BDT",
-  "face_value": 1
+  "face_value": 1,
+  "numista": {
+   "id": 22456,
+   "url": "https://en.numista.com/22456",
+   "title": "1 Taka",
+   "years": "2010–2014",
+   "composition": "Stainless steel",
+   "weight": "3.25 g",
+   "size": "21.5 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Face value with the National Emblem of Bangladesh: a water lily bordered on two sides by rice ears. Above are a three-leaf clover of tea leaves and four stars representing the four principles of the first constitution of Bangladesh in 1972: nationalism, secularism, socialism, and democracy."
+   },
+   "reverse": {
+    "design": "At the top is the name of the issuing authority in Bengali. In the center is a portrait of the father of the nation Sheikh Mujibur Rahman. On the left the value of the coin is written using the Bengali alphabet and on the right as an Arabic numeral. At the bottom is written the year of issue and…"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/256-180.jpg",
+     "credit": "Ponpandi Perumal"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/257-180.jpg",
+     "credit": "Ponpandi Perumal"
+    }
+   },
+   "match": "exact",
+   "others": []
+  }
  },
  {
   "id": "bangladesh-10-taka-polymer-sheikh-mujibur-r-1c30d1",
@@ -363,7 +520,42 @@
   ],
   "subject": "Polymer, Sheikh Mujibur Rahman",
   "currency": "BDT",
-  "face_value": 10
+  "face_value": 10,
+  "numista": {
+   "id": 204760,
+   "url": "https://en.numista.com/204760",
+   "title": "10 Taka",
+   "years": "2000–2000",
+   "composition": "Polymer",
+   "size": "130 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "At Left - Sheikh Mujibur Rahman (Bengali: শেখ মুজিবুর রহমান; 17 March 1920 – 15 August 1975), \r\n\r\nAt right - Baitul Mokarram national mosque."
+   },
+   "reverse": {
+    "design": "At Left - Back Side of National Martyrs' Memorial (Bengali: জাতীয় স্মৃতি সৌধ Jatiyo Sriti Soudho). It is the national monument of Bangladesh, set up in the memory of those who died in the Bangladesh War of Independence of 1971, which brought independence and separated Bangladesh from Pakistan. The…"
+   },
+   "comments": "UV activity:\n\n\n© gyoschakSheikh Mujib or Mujib, was a Bangladeshi politician and statesman. He is called the \"Father of the Nation\" in Bangladesh. He is considered to be the driving force behind the independence of Bangladesh. He is popularly dubbed with the title of \"Bangabandhu\" (Bôngobondhu \"Friend of Bengal\") by the people of Bangladesh. Baytul Mukarrom (Arabic: بيت المكرّم‎; Bengali: বায়তুল মোকাররম; The Holy House) is the National Mosque of Bangladesh. Located at the center of Dhaka, capital of Bangladesh, the mosque was completed in 1968.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/66ae5108dcd342.94406127-180.jpg",
+     "credit": "Mosque Theme Banknotes"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/66ae510a0299f6.27049348-180.jpg",
+     "credit": "Mosque Theme Banknotes"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 17.66,
+   "high": 17.66,
+   "years": [
+    "2000"
+   ]
+  }
  },
  {
   "id": "bangladesh-20-taka-kantajew-kantaji-temple-f251f4",
@@ -378,7 +570,41 @@
   ],
   "subject": "Kantajew (Kantaji) temple",
   "currency": "BDT",
-  "face_value": 20
+  "face_value": 20,
+  "numista": {
+   "id": 470640,
+   "url": "https://en.numista.com/470640",
+   "title": "20 Taka",
+   "years": "2025–2025",
+   "composition": "Paper",
+   "size": "127 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "The banknote has a picture of the historical monument Kantjiu Temple, Dinajpur on the left side of the obverse, and the 'Guarantee clause' and the denomination (twenty taka) are printed in the middle of the note. The image of the national flower 'Shapla' in bloom with leaves and buds is printed in…"
+   },
+   "reverse": {
+    "design": "On the back of the note, a picture of Paharpur Buddhist Monastery, Naogaon, is printed to the right of the watermark area. The denomination '20' is printed on the top left corner of the note, the 'Monogram of Bangladesh Bank' is printed on the right corner, and the denomination '20' is printed on…"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/686036bd823630.42910807-180.jpg",
+     "credit": "Md Hadiur Rahman"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/686036c5a94c76.90454621-180.jpg",
+     "credit": "Md Hadiur Rahman"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 73.77,
+   "high": 73.77,
+   "years": [
+    "2025"
+   ]
+  }
  },
  {
   "id": "bangladesh-100-taka-classic-vintage-series-s-f58b87",
@@ -390,7 +616,59 @@
   "count": 1,
   "subject": "Classic vintage series, Star Mosque (Tara Masjid)",
   "currency": "BDT",
-  "face_value": 100
+  "face_value": 100,
+  "numista": {
+   "id": 480786,
+   "url": "https://en.numista.com/480786",
+   "title": "100 Taka",
+   "years": "2025–2025",
+   "composition": "Paper",
+   "size": "140 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "The picture of Sixty Dome Mosque, Bagerhat and the picture of national flower water lily with leaf and bud in light color printed in the background of the middle text."
+   },
+   "reverse": {
+    "design": "The picture of Sundarban, Bangladesh."
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/69a023cb57d414.89465666-180.jpg",
+     "credit": "hex7ech"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/69a023cd93d175.26284047-180.jpg",
+     "credit": "hex7ech"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 208204,
+     "title": "100 Taka",
+     "years": "2011–2023",
+     "url": "https://en.numista.com/catalogue/pieces208204.html"
+    },
+    {
+     "id": 202757,
+     "title": "100 Taka",
+     "years": "2006–2010",
+     "url": "https://en.numista.com/catalogue/pieces202757.html"
+    },
+    {
+     "id": 235198,
+     "title": "100 Taka",
+     "years": "2005–2005",
+     "url": "https://en.numista.com/catalogue/pieces235198.html"
+    },
+    {
+     "id": 217300,
+     "title": "100 Taka",
+     "years": "2002–2004",
+     "url": "https://en.numista.com/catalogue/pieces217300.html"
+    }
+   ]
+  }
  },
  {
   "id": "bhutan-1-ngultrum-015aef",
@@ -965,6 +1243,13 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 23.52,
+   "high": 31.17,
+   "years": [
+    "1993"
+   ]
   }
  },
  {
@@ -1120,7 +1405,55 @@
    2006
   ],
   "currency": "GEL",
-  "face_value": 2
+  "face_value": 2,
+  "numista": {
+   "id": 3794,
+   "url": "https://en.numista.com/3794",
+   "title": "2 Lari",
+   "years": "2006–2006",
+   "composition": "Bimetallic: aluminium-nickel bronze centre in copper-nickel ring",
+   "weight": "8 g",
+   "size": "27 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "National arms in brass center with stylized ancient Kolkhi Tetri coin with lion's head on 6 o'clock. Country's name and year on the ring. Motto \"Strength is in Unity\" is written on the ribbon of coat of arms.",
+    "engravers": [
+     "Mamuka Gongadze"
+    ]
+   },
+   "reverse": {
+    "design": "Denomination and value in Georgian. Ring has original design like sun rays, which represent a sun with inner brass center. Small stylized ancient Kolhi Tetri coin with lion head in brass center on 5 o'clock.",
+    "engravers": [
+     "Mamuka Gongadze"
+    ]
+   },
+   "comments": "First mintage of 2006 2 Lari coins were struck at the Royal Mint, England. After 2006, the circulation increased several times. Coins were minted in various mints of Europe. Unfortunately, the exact number of first mintage, as well as the number of coins added at different times, as well as exact later mints, is unknown yet.\n\r\nSo, year \"2006\" is frozen year on 2006 coins, as well as \"1993\" on previous coin family (1-50 tetri)\n\n\r\nImage shows both varieties of edge lettering: Fine (top) and Bold (bottom).",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/georgie/6a4805e0202a10.07052028-180.jpg",
+     "credit": "mvm"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/georgie/6a4805e26ea6d7.29115680-180.jpg",
+     "credit": "mvm"
+    }
+   },
+   "match": "exact",
+   "others": [
+    {
+     "id": 69047,
+     "title": "2 Lari (Tbilisi \"Dinamo\" - UEFA Cup Winner`s Cup Winner. 25th anniversary)",
+     "years": "2006–2006",
+     "url": "https://en.numista.com/catalogue/pieces69047.html"
+    },
+    {
+     "id": 28877,
+     "title": "2 Lari (Tbilisi \"Dinamo\" - UEFA Cup Winner`s Cup Winner. 25th anniversary)",
+     "years": "2006–2006",
+     "url": "https://en.numista.com/catalogue/pieces28877.html"
+    }
+   ]
+  }
  },
  {
   "id": "germany-5-euro-cents-dee698",
@@ -1583,7 +1916,46 @@
   "subject": "George V King Emperor",
   "era": "British India",
   "currency": "INR",
-  "face_value": 0.0078125
+  "face_value": 0.0078125,
+  "numista": {
+   "id": 16623,
+   "url": "https://en.numista.com/16623",
+   "title": "½ Pice - George V",
+   "years": "1912–1936",
+   "composition": "Bronze",
+   "weight": "2.4 g",
+   "size": "21.05 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Crowned head of George V facing left",
+    "engravers": [
+     "Edgar Bertram MacKennal"
+    ]
+   },
+   "reverse": {
+    "design": "Denomination and date within circle of beads, wreath surrounds"
+   },
+   "comments": "- Weight varies 2.32-2.48 grams\n\r\n- Diameter varies 21.0-21.2 mm",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde_britannique/1987-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde_britannique/1988-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 54.03,
+   "high": 105.85,
+   "years": [
+    "1936"
+   ]
+  }
  },
  {
   "id": "india-1-paisa-ee142b",
@@ -1629,7 +2001,43 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 0.02
+  "face_value": 0.02,
+  "numista": {
+   "id": 1743,
+   "url": "https://en.numista.com/1743",
+   "title": "2 Paise",
+   "years": "1965–1981",
+   "composition": "Aluminium (96.5-96% Aluminium, 3.5-4% Magnesium)",
+   "weight": "1 g",
+   "size": "20 mm",
+   "shape": "Scalloped (with 8 notches)",
+   "obverse": {
+    "design": "Ashoka lion capitol"
+   },
+   "reverse": {
+    "design": "Denomination, date below"
+   },
+   "comments": "Different National Emblem Types:\n\r\nType 1: Side lions toothless with 2 to 3 furrows, short squat D in INDIA.\n\r\nType 2: Asoka lion pedestal more imposing. Side lions\n\r\nwith 3 or 4 furrows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to distinguish this obverse.\n\n\r\nMumbai mintmarks:\n\r\n♦ - Circulation Strikes\n\r\nB - Proof strikes\n\n\r\nVarieties of date size exist.\n\n\r\n1970 (♦ Mumbai) is found only in the uncirculated sets of that year; It has a mirror-like surface.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3032-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3033-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 31.17,
+   "high": 31.17,
+   "years": [
+    "1968"
+   ]
+  }
  },
  {
   "id": "india-3-paise-b8d678",
@@ -1644,7 +2052,43 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 0.03
+  "face_value": 0.03,
+  "numista": {
+   "id": 1847,
+   "url": "https://en.numista.com/1847",
+   "title": "3 Paise",
+   "years": "1964–1971",
+   "composition": "Aluminium",
+   "weight": "1.2 g",
+   "size": "21 mm",
+   "shape": "Hexagonal (6-sided)",
+   "obverse": {
+    "design": "Ashoka Lion Capitol"
+   },
+   "reverse": {
+    "design": "\"Teen Paise\" (three paise) in Devanagari\r\nDenomination flanked by sprays, date below"
+   },
+   "comments": "Different National Emblem Types:\n\r\nType 1: Side lions toothless with 2 to 3 furrows, short squat D in INDIA.\n\r\nType 2: Asoka lion pedestal more imposing. Side lions with 3 or 4 furrows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to distinguish this obverse.\n\r\n\n\n\r\nMumbai mintmarks:\n\r\n♦ - Circulation strikes\n\r\nB - Proof strikes\n\n\r\n1970 (• Mumbai) is found only in the uncirculated sets of that year; It has a mirror-like surface.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2358-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3081-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 20.17,
+   "high": 20.17,
+   "years": [
+    "1967"
+   ]
+  }
  },
  {
   "id": "india-1-2-anna-george-vi-king-emperor-5a165b",
@@ -1724,7 +2168,42 @@
   "subject": "Save for Development",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.05
+  "face_value": 0.05,
+  "numista": {
+   "id": 16626,
+   "url": "https://en.numista.com/16626",
+   "title": "5 Paise Save for development (FAO)",
+   "years": "1977–1977",
+   "composition": "Aluminium (96.5-96% Aluminium, 3.5-4% Magnesium)",
+   "weight": "1.5 g",
+   "size": "22 mm",
+   "shape": "Square with rounded corners",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Symbols and date\r\n\r\nNOTE: Different mintmarks\r\n♦ (small dot/diamond) = Mumbai\r\nB (letter \"B\") = Mumbai Proof Issue\r\n (no mintmark) = Calcutta\r\n* (five-pointed star) = Hyderabad"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2371-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3092-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 40.59,
+   "high": 51.95,
+   "years": [
+    "1977"
+   ]
+  }
  },
  {
   "id": "india-5-paise-4e37ef",
@@ -1740,7 +2219,36 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 0.05
+  "face_value": 0.05,
+  "numista": {
+   "id": 3990,
+   "url": "https://en.numista.com/3990",
+   "title": "5 Paise",
+   "years": "1967–1971",
+   "composition": "Aluminium",
+   "weight": "1.6 g",
+   "size": "22 mm",
+   "shape": "Square with rounded corners",
+   "obverse": {
+    "design": "Ashoka Lion Capital."
+   },
+   "reverse": {
+    "design": "Denomination, date below."
+   },
+   "comments": "Different National Emblem Types in KM#18.x mintages.\n\r\nType 1: Side lions toothless with 2 to 3 furrows, short squat D in INDIA. Pedestal 8.98mm wide.\n\r\nType 2: Asoka lion pedestal more imposing. Side lions with 3 or 4 furrows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to distinguish this obverse. Pedestal 9.35mm wide.\n\r\n\n\n\r\nDifference between KM#18.1 and KM#18.2\n\r\n\n\n\r\nDifferent types of reverse, KM#18.1 - KM#18.3 with Devanagari legend above value (similar to KM#17); KM#18.4 - KM#18.6 without a legend and with larger \"5\" in denomination.\n\n\r\nBombay mintmarks:\n\r\n♦…",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2368-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3089-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "closest",
+   "others": []
+  }
  },
  {
   "id": "india-5-paisa-323656",
@@ -1845,7 +2353,35 @@
   "subject": "Equality Development",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.1
+  "face_value": 0.1,
+  "numista": {
+   "id": 10615,
+   "url": "https://en.numista.com/10615",
+   "title": "10 Paise (FAO)",
+   "years": "1975–1975",
+   "composition": "Aluminium",
+   "weight": "2.28 g",
+   "size": "26 mm",
+   "shape": "Scalloped (with 12 notches)",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Bust at left looking right, wheat ear at the right"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2329-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3101-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  }
  },
  {
   "id": "india-10-paise-82ac97",
@@ -1860,7 +2396,50 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 0.1
+  "face_value": 0.1,
+  "numista": {
+   "id": 1651,
+   "url": "https://en.numista.com/1651",
+   "title": "10 Paise",
+   "years": "1971–1982",
+   "composition": "Aluminium (96.5-96% Aluminium, 3.5-4% Magnesium)",
+   "weight": "2.3 g",
+   "size": "26 mm",
+   "shape": "Scalloped (with 12 notches)",
+   "obverse": {
+    "design": "Ashoka Lion Capital within a circle of beads, surrounded by a wreath."
+   },
+   "reverse": {
+    "design": "Denomination, date below within circle of beads, wreath."
+   },
+   "comments": "Different space of wreath to rim (click on image below):\n\r\nObverse narrow & Reverse narrow space to rim, '10' 9 mm height - KM# 27.1\n\r\nObverse narrow & Reverse wide space to rim, '10' 8 mm height - KM# 27.2\n\r\nObverse wide & Reverse wide space to rim, '10' 8 mm height - KM# 27.3\n\n\r\n\n\n\r\nMumbai Mintmarks:\n\r\n♦ - Circulation strikes\n\r\nB - Proof strikes",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2323-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3099-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": [
+    {
+     "id": 1637,
+     "title": "10 Paise (FAO - Planned Families, Food for All)",
+     "years": "1974–1974",
+     "url": "https://en.numista.com/catalogue/pieces1637.html"
+    }
+   ]
+  },
+  "market": {
+   "low": 24.89,
+   "high": 24.89,
+   "years": [
+    "1974"
+   ]
+  }
  },
  {
   "id": "india-10-paise-rural-women-s-advancemen-353fbc",
@@ -1876,7 +2455,43 @@
   "subject": "Rural Women's Advancement",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.1
+  "face_value": 0.1,
+  "numista": {
+   "id": 1631,
+   "url": "https://en.numista.com/1631",
+   "title": "10 Paise (Rural Women's Advancement)",
+   "years": "1980–1980",
+   "composition": "Aluminium",
+   "weight": "2.3 g",
+   "size": "26 mm",
+   "shape": "Scalloped (with 12 notches)",
+   "obverse": {
+    "design": "Ashoka lion capitol, denomination below, name of country on the sides."
+   },
+   "reverse": {
+    "design": "Woman threshing grain."
+   },
+   "comments": "NOTE: Different mintmarks:\n♦ (small dot/diamond) = Bombay Mint, Circulation Issue/ UNC Set coin\nB (letter \"B\") = Bombay Mint, Proof Issues\n(no mintmark) = Calcutta Mint\n★ (five-pointed star) = Hyderabad(five-pointed star) = Hyderabad Mint",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2331-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3106-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 146.76,
+   "high": 146.76,
+   "years": [
+    "1980"
+   ]
+  }
  },
  {
   "id": "india-10-paise-planned-families-food-fo-11eab8",
@@ -1892,7 +2507,42 @@
   "subject": "Planned Families: Food for All",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.1
+  "face_value": 0.1,
+  "numista": {
+   "id": 1637,
+   "url": "https://en.numista.com/1637",
+   "title": "10 Paise (FAO - Planned Families, Food for All)",
+   "years": "1974–1974",
+   "composition": "Aluminium",
+   "weight": "2.3 g",
+   "size": "26 mm",
+   "shape": "Scalloped (with 12 notches)",
+   "obverse": {
+    "design": "Asoka lion capital, denomination below"
+   },
+   "reverse": {
+    "design": "Family above date within triangle, grain sprigs flank.\r\nNOTE: Different mintmarks"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2325-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3100-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 26.38,
+   "high": 42.6,
+   "years": [
+    "1974"
+   ]
+  }
  },
  {
   "id": "india-10-paise-e3e14a",
@@ -1907,7 +2557,42 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 0.1
+  "face_value": 0.1,
+  "numista": {
+   "id": 1630,
+   "url": "https://en.numista.com/1630",
+   "title": "10 Paise",
+   "years": "1983–1993",
+   "composition": "Aluminium (96% Aluminium, 4% Magnesium)",
+   "weight": "1.76 g",
+   "size": "23.03 mm",
+   "shape": "Scalloped (with 8 notches)",
+   "obverse": {
+    "design": "Ashoka lion capital with the country name on both sides"
+   },
+   "reverse": {
+    "design": "The denomination above the date"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2339-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3110-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 1607,
+     "title": "10 Paise",
+     "years": "1988–1998",
+     "url": "https://en.numista.com/catalogue/pieces1607.html"
+    }
+   ]
+  }
  },
  {
   "id": "india-10-paise-bb763d",
@@ -1922,7 +2607,43 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 0.1
+  "face_value": 0.1,
+  "numista": {
+   "id": 1623,
+   "url": "https://en.numista.com/1623",
+   "title": "10 Paise",
+   "years": "1968–1971",
+   "composition": "Nickel brass",
+   "weight": "4.3 g",
+   "size": "23 mm",
+   "shape": "Scalloped (with 8 notches)",
+   "obverse": {
+    "design": "Ashoka Lion Capitol"
+   },
+   "reverse": {
+    "design": "Denomination, date below\r\n\"Rupye ka dusva bhaag\" (tenth of a rupee) in Devanagari\r\n\r\nNOTE: Different mintmarks\r\n♦ (small dot/diamond) = Mumbai\r\nB (letter \"B\") = Mumbai Proof Issues\r\n (no mintmark) = Calcutta\r\n* (five-pointed star) = Hyderabad"
+   },
+   "comments": "- NOTE: Different National Emblem Types\nType 1: Side lions toothless with 2 to 3 fur rows, short squat D in INDIA.\nType 2: Asoka lion pedestal more imposing. Side lions with 3 or 4 fur rows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to distinguish this obverse (see image)\n\n Rising  costs and high inflation led to the introduction of aluminium  coins during 1964 to 1968 , as against the cupro-nickel  and  nickel brass  coins  which were in use hitherto.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2348-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3098-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 42.98,
+   "high": 42.98,
+   "years": [
+    "1969"
+   ]
+  }
  },
  {
   "id": "india-2-annas-george-vi-king-emperor-2-46b422",
@@ -1986,7 +2707,50 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 0.2
+  "face_value": 0.2,
+  "numista": {
+   "id": 1635,
+   "url": "https://en.numista.com/1635",
+   "title": "20 Paise",
+   "years": "1982–1997",
+   "composition": "Aluminium (96% Aluminium, 4% Magnesium)",
+   "weight": "2.2 g",
+   "size": "26 mm",
+   "shape": "Hexagonal (6-sided)",
+   "obverse": {
+    "design": "Ashoka lion capitol"
+   },
+   "reverse": {
+    "design": "Denomination, date below"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2285-180.jpg",
+     "credit": "Cicily Thalachelloor"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3114-180.jpg",
+     "credit": "Cicily Thalachelloor"
+    }
+   },
+   "match": "exact",
+   "others": [
+    {
+     "id": 7807,
+     "title": "20 Paise (FAO)",
+     "years": "1982–1982",
+     "url": "https://en.numista.com/catalogue/pieces7807.html"
+    }
+   ]
+  },
+  "market": {
+   "low": 63.27,
+   "high": 70.66,
+   "years": [
+    "1982",
+    "1983"
+   ]
+  }
  },
  {
   "id": "india-20-paise-mahatma-gandhi-1869-1948-0967ac",
@@ -1999,7 +2763,36 @@
   "subject": "Mahatma Gandhi 1869-1948",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.2
+  "face_value": 0.2,
+  "numista": {
+   "id": 1621,
+   "url": "https://en.numista.com/1621",
+   "title": "20 Paise (Mahatma Gandhi)",
+   "years": "1969–1969",
+   "composition": "Aluminium bronze",
+   "weight": "4.5 g",
+   "size": "22 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Ashoka Lion Capital, denomination below"
+   },
+   "reverse": {
+    "design": "Bust of Mahatma Gandhi facing left"
+   },
+   "comments": "First variety, There is no recut on the Lion's chest area. Very sharp details on both the obverse and reverse sides. Obverse legends are 2.5 mm from the rims. This variety is the rare one.\n\r\n\n\r\nSecond variety, there is a partial recut on the centre portion of the Lion's chest area. Very sharp legends and details on the obverse side only. Obverse legends are 2 mm from the rims. This variety is the Scarce one.\n\r\n\n\r\nThird variety, there is a full recut on the left to right end portion of the Lion's chest area. Thin and weak legends and details on both the obverse and reverse sides. Obverse…",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2575-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3112-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  }
  },
  {
   "id": "india-4-anna-george-v-king-emperor-c56ac7",
@@ -2015,7 +2808,46 @@
   "subject": "George V King Emperor",
   "era": "British India",
   "currency": "INR",
-  "face_value": 0.25
+  "face_value": 0.25,
+  "numista": {
+   "id": 15672,
+   "url": "https://en.numista.com/15672",
+   "title": "4 Annas - George V",
+   "years": "1919–1921",
+   "composition": "Copper-nickel",
+   "weight": "6.8 g",
+   "size": "24 mm",
+   "shape": "Scalloped (with 8 notches)",
+   "obverse": {
+    "design": "Crowned head of George V facing left, English legend surrounds",
+    "engravers": [
+     "Edgar Bertram MacKennal"
+    ]
+   },
+   "reverse": {
+    "design": "Denomination within square, 4 annas in Urdu, Bengali, Telugu & Devanagari"
+   },
+   "comments": "- Mint mark\n\r\n Bombay, bead at bottom of reverse\n\r\n Calcutta, no mint mark\n\r\nActual weight varies 6.65-6.87 grams.\n\r\nActual size varies 24.0-25.5 mm\n\r\n- Some of these coins contain a high percentage of ferrous metals and it is not unusual for them to tarnish to a rust brown color\n\r\n- The mintmark is at bottom of the reverse (click on image)",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde_britannique/69d559e73f9ed1.41887353-180.jpg",
+     "credit": "Zanzibar.Orc.Coins"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde_britannique/69d559e8319ca8.74672358-180.jpg",
+     "credit": "Zanzibar.Orc.Coins"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 251.42,
+   "high": 373.03,
+   "years": [
+    "1920"
+   ]
+  }
  },
  {
   "id": "india-25-paisa-one-horned-rhinoceros-d6edb9",
@@ -2036,7 +2868,42 @@
   "subject": "One Horned Rhinoceros",
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 0.25
+  "face_value": 0.25,
+  "numista": {
+   "id": 1610,
+   "url": "https://en.numista.com/1610",
+   "title": "25 Paise",
+   "years": "1988–2002",
+   "composition": "Stainless steel",
+   "weight": "2.83 g",
+   "size": "19 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "The Asoka capitol above the denomination"
+   },
+   "reverse": {
+    "design": "Indian Rhinoceros facing left with the date above"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2074-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3124-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 1633,
+     "title": "25 Paise",
+     "years": "1972–1990",
+     "url": "https://en.numista.com/catalogue/pieces1633.html"
+    }
+   ]
+  }
  },
  {
   "id": "india-25-paisa-3dfeac",
@@ -2152,7 +3019,36 @@
   ],
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 0.5
+  "face_value": 0.5,
+  "numista": {
+   "id": 3525,
+   "url": "https://en.numista.com/3525",
+   "title": "50 Paise",
+   "years": "1974–1983",
+   "composition": "Copper-nickel (75% Copper, 25% Nickel)",
+   "weight": "5 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Ashoka Lion Capital and the country name on both sides"
+   },
+   "reverse": {
+    "design": "Denomination, date below"
+   },
+   "comments": "Mumbai mintmarks:\n\r\n♦ - Circulation strikes\n\r\nB - Proof strikes\n\n\r\nThis coin is different from KM#61 - \"पैसे PAISE\" - closer together",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2245-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3134-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "closest",
+   "others": []
+  }
  },
  {
   "id": "india-50-paise-ca0d8a",
@@ -2172,7 +3068,53 @@
   "era": "Circulation",
   "currency": "INR",
   "face_value": 0.5,
-  "notes": "1999 ×2, 2000 ×2, 1998 ×4"
+  "notes": "1999 ×2, 2000 ×2, 1998 ×4",
+  "numista": {
+   "id": 1606,
+   "url": "https://en.numista.com/1606",
+   "title": "50 Paise",
+   "years": "1988–2007",
+   "composition": "Stainless steel",
+   "weight": "3.79 g",
+   "size": "22 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Large denomination at bottom with three lions symbol above. Lettering both sides."
+   },
+   "reverse": {
+    "design": "Map in background with circular Parliament house building in New Delhi on top. Date below, lettering top right."
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2261-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3140-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": [
+    {
+     "id": 1634,
+     "title": "50 Paise",
+     "years": "1984–1990",
+     "url": "https://en.numista.com/catalogue/pieces1634.html"
+    }
+   ]
+  },
+  "market": {
+   "low": 196.84,
+   "high": 209.3,
+   "years": [
+    "1988",
+    "1994",
+    "1998",
+    "1999",
+    "2000"
+   ]
+  }
  },
  {
   "id": "india-50-paise-25th-independence-day-570781",
@@ -2185,7 +3127,42 @@
   "subject": "25th Independence Day",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.5
+  "face_value": 0.5,
+  "numista": {
+   "id": 7009,
+   "url": "https://en.numista.com/7009",
+   "title": "50 Paise (50th Year of Independence)",
+   "years": "1997–1997",
+   "composition": "Stainless steel",
+   "weight": "3.79 g",
+   "size": "22 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Gandhi with Staff, leading a line of people\r\n\r\nNOTE: Different mintmarks\r\n♦ (small dot/diamond) = Mumbai\r\n (no mintmark) = Calcutta\r\n* (five-pointed star) = Hyderabad\r\nM (letter \"M\") = Mumbai Proof Issues\r\n° (circular dot) = Noida"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2255-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3141-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 5659,
+     "title": "50 Paise (25th Anniversary of Independence)",
+     "years": "1972–1972",
+     "url": "https://en.numista.com/catalogue/pieces5659.html"
+    }
+   ]
+  }
  },
  {
   "id": "india-50-paisa-george-vi-king-emperor-6b4d84",
@@ -2233,7 +3210,36 @@
   "subject": "Grow more food",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.5
+  "face_value": 0.5,
+  "numista": {
+   "id": 3892,
+   "url": "https://en.numista.com/3892",
+   "title": "50 Paise (FAO)",
+   "years": "1973–1973",
+   "composition": "Copper-nickel",
+   "weight": "5 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Inscription on shield within wheat ears"
+   },
+   "comments": "NOTE: Different mintmarks\n♦ (small dot/diamond) = Mumbai Uncirculated & Circulation strike\nB (letter \"B\") = Mumbai Proof Issues\n(no mintmark) = Calcutta",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2237-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3133-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  }
  },
  {
   "id": "india-50-paisa-indira-gandhi-1917-1984-0f99bc",
@@ -2288,7 +3294,42 @@
   "subject": "Jawaharlal Nehru",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 1
+  "face_value": 1,
+  "numista": {
+   "id": 5676,
+   "url": "https://en.numista.com/5676",
+   "title": "1 Rupee (Jawaharlal Nehru)",
+   "years": "1989–1989",
+   "composition": "Copper-nickel (75% Copper, 25% Nickel)",
+   "weight": "6 g",
+   "size": "26 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Ashoka Lion Capitol, denomination below"
+   },
+   "reverse": {
+    "design": "Capped bust of Jawaharlal Nehru facing right"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2800-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3152-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 37.93,
+   "high": 56.63,
+   "years": [
+    "1989"
+   ]
+  }
  },
  {
   "id": "india-1-rupee-george-vi-king-emperor-2ed84b",
@@ -2440,6 +3481,14 @@
      "years": "2001–2013",
      "url": "https://en.numista.com/catalogue/pieces5705.html"
     }
+   ]
+  },
+  "market": {
+   "low": 18.26,
+   "high": 21.33,
+   "years": [
+    "2013",
+    "2015"
    ]
   }
  },
@@ -2633,7 +3682,42 @@
   "subject": "Bhagwan Mahavir 2600th Janm Kalyanak",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 5
+  "face_value": 5,
+  "numista": {
+   "id": 6085,
+   "url": "https://en.numista.com/6085",
+   "title": "5 Rupees (Bhagwan Mahavir Janm Kalyanak)",
+   "years": "2001–2001",
+   "composition": "Copper-nickel",
+   "weight": "9.07 g",
+   "size": "23.19 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Eight sided shape with Swastika and Palm inside\r\n\r\nNOTE: Different mintmarks\r\n♦ (small dot/diamond) = Mumbai\r\n° (incuse dot in diamond = Hyderabad)"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2539-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3216-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 17.69,
+   "high": 17.69,
+   "years": [
+    "2001"
+   ]
+  }
  },
  {
   "id": "india-5-rupees-50th-anniversary-of-the-2d33e7",
@@ -2649,7 +3733,43 @@
   "subject": "50th anniversary of the United Nations",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 5
+  "face_value": 5,
+  "numista": {
+   "id": 10788,
+   "url": "https://en.numista.com/10788",
+   "title": "5 Rupees (50 Years - United Nations)",
+   "years": "1995–1995",
+   "composition": "Copper-nickel",
+   "weight": "9.18 g",
+   "size": "23 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Asoka Lion pedestal, denomination below, legend around."
+   },
+   "reverse": {
+    "design": "Date above UN logo, Mintmark at the Bottom.\r\n\r\nNOTE: Different Mint Marks\r\n♦ (Diamond Mint Mark = Mumbai Mint)\r\n• (Dot Mint Mark = Noida Mint)"
+   },
+   "comments": "How to distinguish KM#156.1 and KM#156.2 in Mumbai mint:\n\r\n\n\r\nKM#156.1 on the left, KM#156.2 on the right.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2511-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3210-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 19.11,
+   "high": 50.45,
+   "years": [
+    "1995"
+   ]
+  }
  },
  {
   "id": "india-5-rupee-indira-gandhi-1917-1984-9bcf03",
@@ -2783,7 +3903,55 @@
   "subject": "75th year of independence",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 5
+  "face_value": 5,
+  "numista": {
+   "id": 15798,
+   "url": "https://en.numista.com/15798",
+   "title": "5 Rupees (First War of Independence; Stainless steel)",
+   "years": "2007–2007",
+   "composition": "Stainless steel",
+   "weight": "6 g",
+   "size": "23 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Asoka Lion capitol, denomination below"
+   },
+   "reverse": {
+    "design": "Heroes of the War of Independence, Rani of Jhansi, General Tatya Tope, Bahadur Shah Zafar II"
+   },
+   "comments": "Type2: It have three large heaps of sand instead of four. Secondly the mint mark is very large.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2505-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3235-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 149568,
+     "title": "5 Rupees (First War of Independence) (Copper-nickel)",
+     "years": "2007–2007",
+     "url": "https://en.numista.com/catalogue/pieces149568.html"
+    },
+    {
+     "id": 311196,
+     "title": "5 Rupees (75th Year of Independence)",
+     "years": "2021–2026",
+     "url": "https://en.numista.com/catalogue/pieces311196.html"
+    },
+    {
+     "id": 32705,
+     "title": "5 Rupees (Shaheed Bhagat Singh)",
+     "years": "2007–2007",
+     "url": "https://en.numista.com/catalogue/pieces32705.html"
+    }
+   ]
+  }
  },
  {
   "id": "india-5-rupees-150th-anniversary-of-all-360345",
@@ -3649,7 +4817,60 @@
   "count": 5,
   "currency": "INR",
   "face_value": 500,
-  "demonetised": true
+  "demonetised": true,
+  "numista": {
+   "id": 208238,
+   "url": "https://en.numista.com/208238",
+   "title": "500 Rupees",
+   "years": "1985–1992",
+   "composition": "Paper",
+   "size": "167 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Lion capital of Asoka column (now in Sarnath Museum)\r\nMohendas Karamchand \"Mahatma\" Gandhi\r\nFive Hundred Rupees – Multilingual Depiction on Currency Note\r (13 Indian Languages – excluding Hindi and English)\r\n•\tAssamese: পাঁচশ টকা\r\n•\tBengali: পাঁচশ টাকা\r\n•\tGujarati: પાંચસો રૂપિયા\r\n•\tKannada: ಐದು…"
+   },
+   "reverse": {
+    "design": "\"March to Dandi\" (Gandhi and followers; sculpture in front of President's Palace, New Delhi)"
+   },
+   "comments": "Tamil lettering 'ஐநூறு' is wrong spelling instead of 'ஐந்நூறு'. This was corrected in subsequent year releases.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/5ea6f283841ff6.67466597-180.jpg",
+     "credit": "sivavarma"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/5ea6f285bf50a4.48974889-180.jpg",
+     "credit": "sivavarma"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 208093,
+     "title": "500 Rupees (No Date, Gray)",
+     "years": "1997–2000",
+     "url": "https://en.numista.com/catalogue/pieces208093.html"
+    },
+    {
+     "id": 202282,
+     "title": "500 Rupees (No Date, Yellow)",
+     "years": "2000–2004",
+     "url": "https://en.numista.com/catalogue/pieces202282.html"
+    },
+    {
+     "id": 202275,
+     "title": "500 Rupees (Dated Reverse, no Rupee Symbol)",
+     "years": "2005–2012",
+     "url": "https://en.numista.com/catalogue/pieces202275.html"
+    },
+    {
+     "id": 210984,
+     "title": "500 Rupees (Dated Reverse with Rupee Symbol - ₹)",
+     "years": "2011–2016",
+     "url": "https://en.numista.com/catalogue/pieces210984.html"
+    }
+   ]
+  }
  },
  {
   "id": "india-1000-rupees-b75bfb",
@@ -3815,7 +5036,60 @@
   "denomination": "20000 Rupiah",
   "count": 1,
   "currency": "IDR",
-  "face_value": 20000
+  "face_value": 20000,
+  "numista": {
+   "id": 338506,
+   "url": "https://en.numista.com/338506",
+   "title": "20 000 Rupiah",
+   "years": "2022–2026",
+   "composition": "Paper",
+   "size": "141 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Black orchid flower; Dr. Gerungan Saul Samuel Jacob Ratulangi; map of Indonesia; coat of arms; bank logo as registration device."
+   },
+   "reverse": {
+    "design": "Bank logo; sea turtle swimming near Derawan Islands in East Kalimantan; black orchid (Coelogyne pandurata) flower; Tari Gong (dancer with feathers)."
+   },
+   "comments": "UV activity:© gyoschak",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/indonesie/63c4fc1df1fe15.27611275-180.jpg",
+     "credit": "hex7ech"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/indonesie/63c4fc1eaca4e5.17229955-180.jpg",
+     "credit": "hex7ech"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 206039,
+     "title": "20 000 Rupiah",
+     "years": "2016–2024",
+     "url": "https://en.numista.com/catalogue/pieces206039.html"
+    },
+    {
+     "id": 203573,
+     "title": "20 000 Rupiah",
+     "years": "2011–2016",
+     "url": "https://en.numista.com/catalogue/pieces203573.html"
+    },
+    {
+     "id": 203996,
+     "title": "20 000 Rupiah",
+     "years": "2004–2011",
+     "url": "https://en.numista.com/catalogue/pieces203996.html"
+    },
+    {
+     "id": 205416,
+     "title": "20 000 Rupiah",
+     "years": "1998–2004",
+     "url": "https://en.numista.com/catalogue/pieces205416.html"
+    }
+   ]
+  }
  },
  {
   "id": "italy-1-euro-cents-castel-del-monte-1e14fb",
@@ -3980,7 +5254,42 @@
   ],
   "subject": "President Daniel arap Moi",
   "currency": "KES",
-  "face_value": 0.1
+  "face_value": 0.1,
+  "numista": {
+   "id": 1844,
+   "url": "https://en.numista.com/1844",
+   "title": "10 Cents",
+   "years": "1978–1991",
+   "composition": "Nickel brass",
+   "weight": "9.4 g",
+   "size": "30.8 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Coat of arms of Kenya dividing date."
+   },
+   "reverse": {
+    "design": "Bust of Daniel Toroitich Arap Moi facing right."
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/kenya/283-180.jpg",
+     "credit": "Essor Prof"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/kenya/284-180.jpg",
+     "credit": "Essor Prof"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 31.17,
+   "high": 31.17,
+   "years": [
+    "1990"
+   ]
+  }
  },
  {
   "id": "kuwait-5-fils-arab-dhow-boom-sailing-s-1c90a9",
@@ -3992,7 +5301,54 @@
   "count": 1,
   "subject": "Arab dhow (boom) sailing ship",
   "currency": "KWD",
-  "face_value": 0.005
+  "face_value": 0.005,
+  "numista": {
+   "id": 74657,
+   "url": "https://en.numista.com/74657",
+   "title": "5 Fils (Magnetic)",
+   "years": "2012–2020",
+   "composition": "Brass plated steel",
+   "weight": "2.55 g",
+   "size": "19.5 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Value in Arabic within circle. State name in Arabic above, and in English below"
+   },
+   "reverse": {
+    "design": "Boom sailing ship, a type of dhow, sailing to the left with a small flag on the right side. Islamic and Gregorian dates in Arabic below"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/koweit/6abb9d496ac2f5.71074999-180.jpg",
+     "credit": "mvm"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/koweit/6abb9d4ac144b9.48271207-180.jpg",
+     "credit": "mvm"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 123174,
+     "title": "5 Fils (Obverse trial)",
+     "years": "1962–2017",
+     "url": "https://en.numista.com/catalogue/pieces123174.html"
+    },
+    {
+     "id": 3036,
+     "title": "5 Fils (non-magnetic)",
+     "years": "1962–2011",
+     "url": "https://en.numista.com/catalogue/pieces3036.html"
+    },
+    {
+     "id": 8705,
+     "title": "5 Fils (Emirate of Kuwait)",
+     "years": "1961–1961",
+     "url": "https://en.numista.com/catalogue/pieces8705.html"
+    }
+   ]
+  }
  },
  {
   "id": "kuwait-5-dinars-44937f",
@@ -4093,6 +5449,13 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 39.23,
+   "high": 98.71,
+   "years": [
+    "1992"
+   ]
   }
  },
  {
@@ -4387,6 +5750,13 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 29.53,
+   "high": 29.53,
+   "years": [
+    "2010"
+   ]
   }
  },
  {
@@ -4430,6 +5800,13 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 65.0,
+   "high": 65.0,
+   "years": [
+    "2012"
+   ]
   }
  },
  {
@@ -4498,6 +5875,13 @@
      "url": "https://en.numista.com/catalogue/pieces9085.html"
     }
    ]
+  },
+  "market": {
+   "low": 31.17,
+   "high": 88.84,
+   "years": [
+    "1965"
+   ]
   }
  },
  {
@@ -4533,7 +5917,48 @@
   "date_on_coin": "VS 2060, VS 2063, VS 2066",
   "subject": "Samarmaya",
   "currency": "NPR",
-  "face_value": 2
+  "face_value": 2,
+  "numista": {
+   "id": 26791,
+   "url": "https://en.numista.com/26791",
+   "title": "2 Rupees - Gyanendra Bir Bikram (magnetic)",
+   "years": "2003–2003",
+   "composition": "Brass plated steel",
+   "weight": "5.07 g",
+   "size": "25 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Central Circle: Trident Inside the Square: King's Name (Gyanendra Bir Bikram Shah Dev) Outside the Square: Hinduism Icons; Clockwise from Top Left : Chakra (Wheel), Shank (Conch), Gadha (Mace) & Padma (Lotus) Top of the square: Crescent, Symbol Sri (श्री), Sun. Bottom of the Square: Year"
+   },
+   "reverse": {
+    "design": "Janaki or Sita Mandir or Temple"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/nepal/956-180.jpg",
+     "credit": "Ulmo"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/nepal/957-180.jpg",
+     "credit": "Ulmo"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 5668,
+     "title": "2 Rupees - Gyanendra Bir Bikram (non-magnetic)",
+     "years": "2001–2003",
+     "url": "https://en.numista.com/catalogue/pieces5668.html"
+    },
+    {
+     "id": 5737,
+     "title": "2 Rupees - Monarchy/Republic",
+     "years": "2006–2009",
+     "url": "https://en.numista.com/catalogue/pieces5737.html"
+    }
+   ]
+  }
  },
  {
   "id": "nepal-1-rupee-414024",
@@ -5024,6 +6449,13 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 20.78,
+   "high": 20.78,
+   "years": [
+    "1999"
+   ]
   }
  },
  {
@@ -5120,6 +6552,13 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 135.08,
+   "high": 135.08,
+   "years": [
+    "2006"
+   ]
   }
  },
  {
@@ -5135,7 +6574,43 @@
   ],
   "subject": "Kiwi",
   "currency": "NZD",
-  "face_value": 1
+  "face_value": 1,
+  "numista": {
+   "id": 2620,
+   "url": "https://en.numista.com/2620",
+   "title": "1 Dollar - Elizabeth II (4th Portrait)",
+   "years": "1999–2020",
+   "composition": "Aluminium bronze",
+   "weight": "8 g",
+   "size": "23 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Fourth crowned portrait of Queen Elizabeth II facing right, wearing the Girls of Great Britain and Ireland tiara, legend around, date below."
+   },
+   "reverse": {
+    "design": "Kiwi on a background of fern leaves, denomination below."
+   },
+   "comments": "This New Zealand definitive dollar coin was first issued in 1999 in BU and Proof sets with the obverse featuring Ian Rank-Broadley's fourth portrait of Queen Elizabeth II. The first coins with the IRB fourth portrait to enter circulation were dated 2000. These coins have been minted at various different Mints over the years. From 2010 The $1 BU & Proof set coins (Except for the Unofficial BU Sets of 2014 & 2015 which were struck at the Royal Mint) were minted at the Royal Dutch Mint and are made from Brass instead of Aluminium-bronze. In 2014 no $1 Coin was struck at any Mint.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f24d0768c7f2.69886020-180.jpg",
+     "credit": "brismike"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f24d085fd866.43524669-180.jpg",
+     "credit": "brismike"
+    }
+   },
+   "match": "exact",
+   "others": []
+  },
+  "market": {
+   "low": 98.73,
+   "high": 98.73,
+   "years": [
+    "2010"
+   ]
+  }
  },
  {
   "id": "oman-10-baisa-from-sultanate-of-oman-i-5f942a",
@@ -5389,7 +6864,35 @@
   "subject": "Muhammad Ali Jinnah centenary 1876-1976",
   "era": "Commemorative",
   "currency": "PKR",
-  "face_value": 0.5
+  "face_value": 0.5,
+  "numista": {
+   "id": 9748,
+   "url": "https://en.numista.com/9748",
+   "title": "50 Paisa (Muhammad Ali Jinnah)",
+   "years": "1976–1976",
+   "composition": "Copper-nickel (75% Copper, 25% Nickel)",
+   "weight": "5.83 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust of Muhammad Ali Jinnah."
+   },
+   "reverse": {
+    "design": "Denomination over date, wreath surrounds\r\n\"Government of Pakistan\r\n50 paisa\r\nFaith, Unity, Discipline\""
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/pakistan/551-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/pakistan/552-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   },
+   "match": "exact",
+   "others": []
+  }
  },
  {
   "id": "pakistan-100-rupees-muhammad-ali-jinnah-bads-abc9aa",
@@ -5402,7 +6905,54 @@
   "subject": "Muhammad Ali Jinnah, Badshahi Mosque",
   "currency": "PKR",
   "face_value": 100,
-  "notes": "State Bank of Pakistan design first issued 24 December 1957; East Pakistan era (now Bangladesh)."
+  "notes": "State Bank of Pakistan design first issued 24 December 1957; East Pakistan era (now Bangladesh).",
+  "numista": {
+   "id": 210860,
+   "url": "https://en.numista.com/210860",
+   "title": "100 Rupees",
+   "years": "2006–2026",
+   "composition": "Paper",
+   "size": "140 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Main color red, Picture of Mohammed Ali Jinnah"
+   },
+   "reverse": {
+    "design": "Picture of Quaid-e-Azam Residency in Ziarat"
+   },
+   "comments": "UV activity:\n\r\n\n\r\n\n\r\n© gyoschak",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/pakistan/63c4fea0cc5490.75101443-180.jpg",
+     "credit": "hex7ech"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/pakistan/63c4fea1e3e555.72825111-180.jpg",
+     "credit": "hex7ech"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 211922,
+     "title": "100 Rupees (Urdu text “Type B”)",
+     "years": "1986–2009",
+     "url": "https://en.numista.com/catalogue/pieces211922.html"
+    },
+    {
+     "id": 232601,
+     "title": "100 Rupees",
+     "years": "1971–1978",
+     "url": "https://en.numista.com/catalogue/pieces232601.html"
+    },
+    {
+     "id": 225893,
+     "title": "100 Rupees",
+     "years": "1957–1971",
+     "url": "https://en.numista.com/catalogue/pieces225893.html"
+    }
+   ]
+  }
  },
  {
   "id": "philippines-1-piso-jose-rizal-b30046",
@@ -5594,6 +7144,14 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 81.39,
+   "high": 81.39,
+   "years": [
+    "2020",
+    "2022"
+   ]
   }
  },
  {
@@ -5725,7 +7283,36 @@
    1937
   ],
   "subject": "King Abdulaziz bin Abdulrahman (Ibn Saud)",
-  "notes": "Pre-reform qirsh; no reliable modern face value."
+  "notes": "Pre-reform qirsh; no reliable modern face value.",
+  "numista": {
+   "id": 11632,
+   "url": "https://en.numista.com/11632",
+   "title": "½ Qirsh - Abd al-Azīz (Saudi Arabia)",
+   "years": "1937–1937",
+   "composition": "Copper-nickel (75% Copper, 25% Nickel)",
+   "weight": "5.5 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Legend"
+   },
+   "reverse": {
+    "design": "Value and date below legend"
+   },
+   "comments": "KM#20.1 was minted at Heaton Mint, Birmingham, UK\n\r\nKM#20.2 was minted at US Mint, Philadelphia, USA in 1947",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/saudi-arabia-period/663250fa7c0884.55324833-180.jpg",
+     "credit": "Heritage Auctions"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/saudi-arabia-period/663250fac07ea8.31712433-180.jpg",
+     "credit": "Heritage Auctions"
+    }
+   },
+   "match": "exact",
+   "others": []
+  }
  },
  {
   "id": "singapore-10-cents-43b039",
@@ -5841,6 +7428,15 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 52.97,
+   "high": 63.75,
+   "years": [
+    "1993",
+    "1997",
+    "2011"
+   ]
   }
  },
  {
@@ -5858,7 +7454,42 @@
    2016
   ],
   "currency": "SGD",
-  "face_value": 0.5
+  "face_value": 0.5,
+  "numista": {
+   "id": 1672,
+   "url": "https://en.numista.com/1672",
+   "title": "50 Cents (ribbon downwards)",
+   "years": "1992–2013",
+   "composition": "Copper-nickel",
+   "weight": "7.29 g",
+   "size": "24.66 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Emblem with the date underneath and 'Singapore' on four sides in English, Tamil, Chinese, and Malay.",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "reverse": {
+    "design": "A Yellow allamanda flower (Binomial Name: Allamanda cathartica) in the centre with the numerical value below",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "comments": "The Edges of the lettering is random. There is no standard orientation for it. Below is a photo of 1995 coins for comparison.\n\r\n\n\r\n@Saber82",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/singapour/375-180.jpg",
+     "credit": "nalaberong"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/singapour/376-180.jpg",
+     "credit": "nalaberong"
+    }
+   },
+   "match": "closest",
+   "others": []
+  }
  },
  {
   "id": "singapore-1-dollar-c59ec3",
@@ -5921,6 +7552,15 @@
      "years": "1992–2005",
      "url": "https://en.numista.com/catalogue/pieces185788.html"
     }
+   ]
+  },
+  "market": {
+   "low": 757.13,
+   "high": 762.68,
+   "years": [
+    "1997",
+    "1998",
+    "2009"
    ]
   }
  },
@@ -6297,6 +7937,13 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 97.67,
+   "high": 99.75,
+   "years": [
+    "1985"
+   ]
   }
  },
  {
@@ -6309,7 +7956,61 @@
   "count": 3,
   "subject": "Rama X",
   "currency": "THB",
-  "face_value": 0.25
+  "face_value": 0.25,
+  "numista": {
+   "id": 138318,
+   "url": "https://en.numista.com/138318",
+   "title": "25 Satang - Rama X (1st portrait)",
+   "years": "2018–2025",
+   "composition": "Copper plated steel",
+   "weight": "1.9 g",
+   "size": "16 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust facing left"
+   },
+   "reverse": {
+    "design": "Crowned monogram"
+   },
+   "comments": "Ready-made 1,000,000,000 pcs of 25 Satang coin is from South African Mint.\n\r\nhttps://www.treasury.go.th/web-upload/old-file/36194/article_20180314102241.pdf\n\r\n* This is unknown to came as which type of mint bags *\n\r\n________\n\n\r\n2561\n\n\r\n\n\r\n\n\n\r\nBlank planchet found mixed in coin bag.\n\r\nhttps://www.youtube.com/watch?v=OBGHRPCiRIs&t=45s\n\r\n________\n\n\r\n2562\n\r\nCoins issued small mint bag and standard mint bag, but both types looks no difference.\n\n\r\nInformation Royal Thai Mint:\n\r\nhttp://www.royalthaimint.net/ewtadmin/ewt/mint_web/ewt_news.php?nid=1022",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2686-180.jpg",
+     "credit": "Jérémy Pureur"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2687-180.jpg",
+     "credit": "Jérémy Pureur"
+    }
+   },
+   "match": "exact",
+   "others": [
+    {
+     "id": 7973,
+     "title": "25 Satang - Rama IX",
+     "years": "2008–2017",
+     "url": "https://en.numista.com/catalogue/pieces7973.html"
+    },
+    {
+     "id": 1642,
+     "title": "25 Satang - Rama IX",
+     "years": "1987–2008",
+     "url": "https://en.numista.com/catalogue/pieces1642.html"
+    },
+    {
+     "id": 4745,
+     "title": "25 Satang - Rama IX",
+     "years": "1977–1977",
+     "url": "https://en.numista.com/catalogue/pieces4745.html"
+    },
+    {
+     "id": 2643,
+     "title": "25 Satang - Rama IX",
+     "years": "1957–1957",
+     "url": "https://en.numista.com/catalogue/pieces2643.html"
+    }
+   ]
+  }
  },
  {
   "id": "thailand-50-satang-rama-x-614a5e",
@@ -6321,7 +8022,61 @@
   "count": 1,
   "subject": "Rama X",
   "currency": "THB",
-  "face_value": 0.5
+  "face_value": 0.5,
+  "numista": {
+   "id": 138317,
+   "url": "https://en.numista.com/138317",
+   "title": "50 Satang - Rama X (1st portrait)",
+   "years": "2018–2025",
+   "composition": "Copper plated steel",
+   "weight": "2.4 g",
+   "size": "18 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust of Rama X facing left, inscription left and right, in decagon rim"
+   },
+   "reverse": {
+    "design": "Crowned monogram with 17 radious on its top, inscription around, in decagon rim"
+   },
+   "comments": "Information Royal Thai Mint:\n\r\nhttp://www.royalthaimint.net/ewtadmin/ewt/mint_web/ewt_news.php?nid=1022\n\r\n________\n\n\r\n2561",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2684-180.jpg",
+     "credit": "Jérémy Pureur"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2685-180.jpg",
+     "credit": "Jérémy Pureur"
+    }
+   },
+   "match": "exact",
+   "others": [
+    {
+     "id": 7974,
+     "title": "50 Satang - Rama IX",
+     "years": "2008–2017",
+     "url": "https://en.numista.com/catalogue/pieces7974.html"
+    },
+    {
+     "id": 1644,
+     "title": "50 Satang - Rama IX",
+     "years": "1987–2008",
+     "url": "https://en.numista.com/catalogue/pieces1644.html"
+    },
+    {
+     "id": 1019,
+     "title": "50 Satang - Rama IX",
+     "years": "1980–1980",
+     "url": "https://en.numista.com/catalogue/pieces1019.html"
+    },
+    {
+     "id": 5433,
+     "title": "50 Satang - Rama IX",
+     "years": "1957–1957",
+     "url": "https://en.numista.com/catalogue/pieces5433.html"
+    }
+   ]
+  }
  },
  {
   "id": "thailand-50-satang-rama-ix-19ef49",
@@ -6333,7 +8088,67 @@
   "count": 4,
   "subject": "Rama IX",
   "currency": "THB",
-  "face_value": 0.5
+  "face_value": 0.5,
+  "numista": {
+   "id": 7974,
+   "url": "https://en.numista.com/7974",
+   "title": "50 Satang - Rama IX",
+   "years": "2008–2017",
+   "composition": "Copper plated steel",
+   "weight": "2.4 g",
+   "size": "18 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Portrait of King Rama IX facing left",
+    "engravers": [
+     "Supab Aun-aree"
+    ]
+   },
+   "reverse": {
+    "design": "Doi Suthep Temple from Chiang Mai province with the denomination in numerals on each side",
+    "engravers": [
+     "Paithoon Na Chiangmai"
+    ]
+   },
+   "comments": "One of the 2559 variants came from the Bayern mint.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/126-180.jpg",
+     "credit": "Numista"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/127-180.jpg",
+     "credit": "Numista"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 1644,
+     "title": "50 Satang - Rama IX",
+     "years": "1987–2008",
+     "url": "https://en.numista.com/catalogue/pieces1644.html"
+    },
+    {
+     "id": 1019,
+     "title": "50 Satang - Rama IX",
+     "years": "1980–1980",
+     "url": "https://en.numista.com/catalogue/pieces1019.html"
+    },
+    {
+     "id": 5433,
+     "title": "50 Satang - Rama IX",
+     "years": "1957–1957",
+     "url": "https://en.numista.com/catalogue/pieces5433.html"
+    },
+    {
+     "id": 13759,
+     "title": "50 Satang - Rama IX",
+     "years": "1950–1950",
+     "url": "https://en.numista.com/catalogue/pieces13759.html"
+    }
+   ]
+  }
  },
  {
   "id": "thailand-1-baht-king-bhumibol-adulyadej-df3233",
@@ -6412,7 +8227,49 @@
   "count": 17,
   "subject": "King Maha Vajiralongkorn(Rama X)",
   "currency": "THB",
-  "face_value": 1
+  "face_value": 1,
+  "numista": {
+   "id": 138316,
+   "url": "https://en.numista.com/138316",
+   "title": "1 Baht - Rama X (1st portrait)",
+   "years": "2018–2026",
+   "composition": "Nickel plated steel",
+   "weight": "3 g",
+   "size": "20 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust of King Maha Vajiralongkorn (Rama X) facing left."
+   },
+   "reverse": {
+    "design": "Crowned royal monogram (the cipher of King Rama X)."
+   },
+   "comments": "mint bag of early type\n\n\n1,542,310,000 pcs minted in 2561/2018, unknown to which type of mint bag.\n\nInformation Royal Thai Mint:\nhttp://www.royalthaimint.net/ewtadmin/ewt/mint_web/ewt_news.php?nid=1022 2567: Bold writing vs Fine writing",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2747-180.jpg",
+     "credit": "Jérémy Pureur"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2748-180.jpg",
+     "credit": "Jérémy Pureur"
+    }
+   },
+   "match": "exact",
+   "others": [
+    {
+     "id": 8085,
+     "title": "1 Baht - Rama IX (Prince Vajiralongkorn)",
+     "years": "1978–1978",
+     "url": "https://en.numista.com/catalogue/pieces8085.html"
+    },
+    {
+     "id": 6485,
+     "title": "1 Baht - Rama IX (Investiture of Crown Prince)",
+     "years": "1972–1972",
+     "url": "https://en.numista.com/catalogue/pieces6485.html"
+    }
+   ]
+  }
  },
  {
   "id": "thailand-2-baht-rama-x-90d6cf",
@@ -6436,7 +8293,61 @@
   "count": 9,
   "subject": "Rama IX",
   "currency": "THB",
-  "face_value": 5
+  "face_value": 5,
+  "numista": {
+   "id": 3839,
+   "url": "https://en.numista.com/3839",
+   "title": "5 Baht - Rama IX",
+   "years": "1977–1979",
+   "composition": "Copper-nickel clad copper ([99.5% Copper] clad [75% Copper / 25% Nickel])",
+   "weight": "12 g",
+   "size": "30 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust of King Rama IX (Bhumibol Adulyadej) facing left."
+   },
+   "reverse": {
+    "design": "Garuda, the mythical creature used in Thai national emblem, facing left.\r\n\"Thailand\"\r\nValue\r\nDate"
+   },
+   "comments": "There were a Ministerial Regulation declared in Royal Gazette about this type of coin dated BE2524/AD1981 (with minor changed size to 29.5mm). But the coin were never been released.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2586-180.jpg",
+     "credit": "Ma collection de monnaies"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2587-180.jpg",
+     "credit": "Ma collection de monnaies"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 9431,
+     "title": "5 Baht - Rama IX",
+     "years": "1972–1972",
+     "url": "https://en.numista.com/catalogue/pieces9431.html"
+    },
+    {
+     "id": 10778,
+     "title": "5 Baht - Rama IX (Queen Sirikit; FAO)",
+     "years": "1980–1980",
+     "url": "https://en.numista.com/catalogue/pieces10778.html"
+    },
+    {
+     "id": 11366,
+     "title": "5 Baht - Rama IX (King's Mother)",
+     "years": "1980–1980",
+     "url": "https://en.numista.com/catalogue/pieces11366.html"
+    },
+    {
+     "id": 8867,
+     "title": "5 Baht - Rama IX (Rama VII Constitutional Monarchy)",
+     "years": "1980–1980",
+     "url": "https://en.numista.com/catalogue/pieces8867.html"
+    }
+   ]
+  }
  },
  {
   "id": "thailand-5-baht-rama-x-6424ac",
@@ -6840,7 +8751,60 @@
   "denomination": "20 Hryvnia",
   "count": 1,
   "currency": "UAH",
-  "face_value": 20
+  "face_value": 20,
+  "numista": {
+   "id": 483856,
+   "url": "https://en.numista.com/483856",
+   "title": "20 Hryven (Glory to Ukraine)",
+   "years": "2025–2025",
+   "composition": "Paper",
+   "size": "130 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Ivan Franko (1856 – 1916) was a prominent Ukrainian writer, critic, translator, opinion journalist, sociologist, ethnographer, historian and philosopher whose activities were guided by the idea of promoting the interests of Ukrainians and universal human values. A unique phenomenon, his works…"
+   },
+   "reverse": {
+    "design": "Lviv Opera House was built in 1900 to a design by the architect Zygmunt Gorgolewski."
+   },
+   "comments": "Issued on 21st August 2025, to commemorate Ukraine's 33rd Anniversary of Independence.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/ukraine/68b83ac15fd626.29298908-180.jpg",
+     "credit": "https://banknotenews.com/?p=47756"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/ukraine/68b83ac1e5b795.05984479-180.jpg",
+     "credit": "https://banknotenews.com/?p=47756"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 202039,
+     "title": "20 Hryven",
+     "years": "2018–2023",
+     "url": "https://en.numista.com/catalogue/pieces202039.html"
+    },
+    {
+     "id": 202248,
+     "title": "20 Hryven",
+     "years": "2003–2016",
+     "url": "https://en.numista.com/catalogue/pieces202248.html"
+    },
+    {
+     "id": 202760,
+     "title": "20 Hryven",
+     "years": "1995–2000",
+     "url": "https://en.numista.com/catalogue/pieces202760.html"
+    },
+    {
+     "id": 202854,
+     "title": "20 Hryven",
+     "years": "1992–1992",
+     "url": "https://en.numista.com/catalogue/pieces202854.html"
+    }
+   ]
+  }
  },
  {
   "id": "ukraine-50-hryvnia-47e7d8",
@@ -6851,7 +8815,57 @@
   "denomination": "50 Hryvnia",
   "count": 1,
   "currency": "UAH",
-  "face_value": 50
+  "face_value": 50,
+  "numista": {
+   "id": 430430,
+   "url": "https://en.numista.com/430430",
+   "title": "50 Hryven (Glory to Ukraine)",
+   "years": "2024–2024",
+   "composition": "Paper",
+   "size": "136 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Mykhailo Hrushevskyi was the founder and president of the Ukrainian People’s Republic, the chair of the Central Council, a renowned historian, scientist, writer, civic and political activist, and a public figure."
+   },
+   "comments": "Issued on 12th August 2024, for the 33rd anniversary of Ukraine's independence",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/ukraine/68a2eb3aad08e5.70430765-180.jpg",
+     "credit": "hex7ech"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/ukraine/68a2eb3cf22067.87433320-180.jpg",
+     "credit": "hex7ech"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 202035,
+     "title": "50 Hryven",
+     "years": "2019–2021",
+     "url": "https://en.numista.com/catalogue/pieces202035.html"
+    },
+    {
+     "id": 202240,
+     "title": "50 Hryven",
+     "years": "2004–2014",
+     "url": "https://en.numista.com/catalogue/pieces202240.html"
+    },
+    {
+     "id": 202756,
+     "title": "50 Hryven",
+     "years": "1996–1996",
+     "url": "https://en.numista.com/catalogue/pieces202756.html"
+    },
+    {
+     "id": 203909,
+     "title": "50 Hryven",
+     "years": "1992–1992",
+     "url": "https://en.numista.com/catalogue/pieces203909.html"
+    }
+   ]
+  }
  },
  {
   "id": "ukraine-100-hryvnia-f056d0",
@@ -6862,7 +8876,58 @@
   "denomination": "100 Hryvnia",
   "count": 2,
   "currency": "UAH",
-  "face_value": 100
+  "face_value": 100,
+  "numista": {
+   "id": 587050,
+   "url": "https://en.numista.com/587050",
+   "title": "100 Hryven (Glory to Ukraine)",
+   "years": "2026–2026",
+   "size": "142 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Taras Shevchenko (1814-1861) was an outstanding Ukrainian poet, artist and thinker, the founder of the new Ukrainian literature. His collection of poetry \"Kobzar\" has been translated into many languages.\r\n\r\nBrown polymer security thread woven through the note with holographic effect when note is…"
+   },
+   "reverse": {
+    "design": "Taras Shevchenko National University of Kyiv. On 15 July 1834, the university inauguration took place. Taras Shevchenko worked as a teacher of drawing of the University school of painters, at the same time holding a post in the Archaeographic Commission of the University (an ad hoc commission for…"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/ukraine/6a33e97a29cb68.69947305-180.jpg",
+     "credit": "National Bank of Ukraine"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/ukraine/6a33e97b2b56b2.47103521-180.jpg",
+     "credit": "National Bank of Ukraine"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 202020,
+     "title": "100 Hryven",
+     "years": "2014–2022",
+     "url": "https://en.numista.com/catalogue/pieces202020.html"
+    },
+    {
+     "id": 202224,
+     "title": "100 Hryven",
+     "years": "2005–2014",
+     "url": "https://en.numista.com/catalogue/pieces202224.html"
+    },
+    {
+     "id": 202752,
+     "title": "100 Hryven",
+     "years": "1996–1996",
+     "url": "https://en.numista.com/catalogue/pieces202752.html"
+    },
+    {
+     "id": 203911,
+     "title": "100 Hryven",
+     "years": "1992–1992",
+     "url": "https://en.numista.com/catalogue/pieces203911.html"
+    }
+   ]
+  }
  },
  {
   "id": "united-arab--25-fils-arabian-gazelle-1ba078",
@@ -7182,6 +9247,13 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 7.27,
+   "high": 10.39,
+   "years": [
+    "2001"
+   ]
   }
  },
  {
@@ -7197,7 +9269,49 @@
   ],
   "subject": "badge of Scotland",
   "currency": "GBP",
-  "face_value": 0.05
+  "face_value": 0.05,
+  "numista": {
+   "id": 874,
+   "url": "https://en.numista.com/874",
+   "title": "5 Pence - Elizabeth II (3rd portrait; large type)",
+   "years": "1985–1990",
+   "composition": "Copper-nickel (75% Cu, 25% Ni)",
+   "weight": "5.65 g",
+   "size": "23.59 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Third crowned portrait of Queen Elizabeth II right, wearing the George IV State Diadem, legend around.",
+    "engravers": [
+     "Raphael David Maklouf"
+    ]
+   },
+   "reverse": {
+    "design": "The Badge of Scotland, a thistle royally crowned, legend above, denomination below.",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "comments": "No five pence coins of the larger type were struck for circulation between 1981 and 1987, as well as in 1990, because pre-decimal shillings continued to circulate with a decimal value of five pence after decimalisation on 15th February 1971. Both the shillings and these larger five pence coin were finally demonetised at the end of 1990 following the introduction of the smaller five pence piece.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/3596-180.jpg",
+     "credit": "Nestor"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/3597-180.jpg",
+     "credit": "Nestor"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 875,
+     "title": "5 Pence - Elizabeth II (3rd portrait; small type)",
+     "years": "1990–1997",
+     "url": "https://en.numista.com/catalogue/pieces875.html"
+    }
+   ]
+  }
  },
  {
   "id": "united-kingd-10-pence-crowned-lion-passant-c4e13b",
@@ -7212,7 +9326,56 @@
   ],
   "subject": "crowned lion passant",
   "currency": "GBP",
-  "face_value": 0.1
+  "face_value": 0.1,
+  "numista": {
+   "id": 879,
+   "url": "https://en.numista.com/879",
+   "title": "10 Pence - Elizabeth II (3rd portrait; small type)",
+   "years": "1992–1997",
+   "composition": "Copper-nickel (75% Cu, 25% Ni)",
+   "weight": "6.5 g",
+   "size": "24.5 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Third crowned portrait of Queen Elizabeth II right, wearing the George IV State Diadem, legend around.",
+    "engravers": [
+     "Raphael David Maklouf"
+    ]
+   },
+   "reverse": {
+    "design": "Part of the crest of England, a lion passant guardant royally crowned, legend above, denomination below.",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "comments": "In 1992 the ten pence was reduced in size to begin the process of demonetising the larger 10p which, alongside pre-decimal florins, were finally taken out of circulation in 1993.\n\n\r\n1992 dated 10 pence issues\n\n\r\nKM# 938, Sp# F3 Copper-nickel • 11.3 g • ⌀ 28.5 mm - issued in RM sets only (BU and Proof);\n\r\nKM# 938b, Sp# F4 Copper-nickel • 6.5 g • ⌀ 24.5 mm - issued in RM sets and over 1.4bn struck for circulation.\n\n\r\nObverse die varieties:\n\n\r\nType 1: L, I and A in ELIZABETH point to space between dots\n\r\nType 2: L, I and A in ELIZABETH point directly at dots\n\n\r\nReverse die varieties:\n\n\r\nType A:…",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/68f0641b2fe130.84037640-180.jpg",
+     "credit": "riversxian"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/68f0641d43e9f2.66741803-180.jpg",
+     "credit": "riversxian"
+    }
+   },
+   "match": "exact",
+   "others": [
+    {
+     "id": 17902,
+     "title": "10 Pence - Elizabeth II (3rd portrait; large type, set issue)",
+     "years": "1985–1992",
+     "url": "https://en.numista.com/catalogue/pieces17902.html"
+    }
+   ]
+  },
+  "market": {
+   "low": 42.08,
+   "high": 42.08,
+   "years": [
+    "1992"
+   ]
+  }
  },
  {
   "id": "united-kingd-20-pence-4adfe3",
@@ -7261,6 +9424,13 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 28.05,
+   "high": 31.17,
+   "years": [
+    "1999"
+   ]
   }
  },
  {
@@ -7506,6 +9676,17 @@
    },
    "match": "exact",
    "others": []
+  },
+  "market": {
+   "low": 54.81,
+   "high": 59.64,
+   "years": [
+    "1979",
+    "1984",
+    "1985",
+    "2001",
+    "2005"
+   ]
   }
  },
  {
@@ -7536,7 +9717,62 @@
    2000
   ],
   "currency": "USD",
-  "face_value": 1
+  "face_value": 1,
+  "numista": {
+   "id": 923,
+   "url": "https://en.numista.com/923",
+   "title": "1 Dollar \"Sacagawea Dollar\"",
+   "years": "2000–2008",
+   "composition": "Manganese brass clad copper (Cladding: 77% Copper, 12% Zinc, 7% Manganese, 4% Nickel; Core: 100% Copper)",
+   "weight": "8.1 g",
+   "size": "26.5 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Sacagawea (1788-1812), a Shoshone native American and a translator and guide to the Lewis and Clark expedition, with her son Jean Baptiste Charbonneau and the date to the right",
+    "engravers": [
+     "Glenna Goodacre"
+    ]
+   },
+   "reverse": {
+    "design": "Eagle in flight with the denomination below",
+    "engravers": [
+     "Thomas D. Rogers"
+    ]
+   },
+   "comments": "2000P tail feathers\n\n\nThe Sacagawea Dollar proved to be unpopular amongst the American public and are today rarely seen in everyday commerce. However, they are frequently used in Ecuador and El Salvador, two nations that have adopted the United States dollar.\n\nThe standard weight of all base-metal dollars issued since 2000 is 125 grains.\n 2000 P Wounded eagle dollar link: https://www.pcgs.com/coinfacts/coin/2000-p-sac-1-wounded-eagle/506153",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/etats-unis/4357-180.jpg",
+     "credit": "Heritage Auctions"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/etats-unis/4358-180.jpg",
+     "credit": "Heritage Auctions"
+    }
+   },
+   "match": "exact",
+   "others": [
+    {
+     "id": 41855,
+     "title": "1 Dollar (Library of Congress)",
+     "years": "2000–2000",
+     "url": "https://en.numista.com/catalogue/pieces41855.html"
+    },
+    {
+     "id": 25436,
+     "title": "1 Dollar (Leif Ericson Millennium)",
+     "years": "2000–2000",
+     "url": "https://en.numista.com/catalogue/pieces25436.html"
+    }
+   ]
+  },
+  "market": {
+   "low": 99.75,
+   "high": 103.91,
+   "years": [
+    "2000"
+   ]
+  }
  },
  {
   "id": "united-state-1-dollar-b5c0c0",
@@ -7828,7 +10064,48 @@
   "denomination": "10000 Dong",
   "count": 1,
   "currency": "VND",
-  "face_value": 10000
+  "face_value": 10000,
+  "numista": {
+   "id": 203627,
+   "url": "https://en.numista.com/203627",
+   "title": "10 000 Đồng",
+   "years": "2006–2025",
+   "composition": "Polymer (2006-2023: Printed on Guardian™; 2024- Q&amp;T Hi-tech Polymer)",
+   "size": "132 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Dark brown and dark green print on multicoloured tan, green, yellow, and orange underprint; serial numbers red and black.\r\nPortrait of Hồ Chí Minh at right, coat of arms of Vietnam to the left. At the far right, a transparent window."
+   },
+   "reverse": {
+    "design": "Dark brown print on multicoloured tan, green, yellow, and orange underprint\r\nPicture of an offshore oil rig platform at centre. Sun in background."
+   },
+   "comments": "UV activity:\n\n© gyoschak\n\nThe first two digits of the serial number give the last two digits of the year of issue. For example, number “08” indicates that the note was printed in 2008. Security features #1 - \"Hidden\" Yellow strip© IrishCollectible The yellow strip of \"10000 ★ 10000” Security features #2 - Latent Image© IrishCollectible Latent image of \"VN\", stands for Việt Nam or Vietnam in English-translation. Year of Printing  The year of printing for a specific Vietnamese Dong (VND) banknote can be identified by the first two digits of its serial number. For example, a serial number…",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/viet_nam/629a30e8e84ca4.62721942-180.jpg",
+     "credit": "hex7ech"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/viet_nam/629a30e97f22e2.67265051-180.jpg",
+     "credit": "hex7ech"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 213560,
+     "title": "10 000 Đồng",
+     "years": "1993–1993",
+     "url": "https://en.numista.com/catalogue/pieces213560.html"
+    },
+    {
+     "id": 302315,
+     "title": "10 000 Đồng",
+     "years": "1990–1990",
+     "url": "https://en.numista.com/catalogue/pieces302315.html"
+    }
+   ]
+  }
  },
  {
   "id": "vietnam-20000-dong-cce1b9",
@@ -7839,6 +10116,41 @@
   "denomination": "20000 Dong",
   "count": 2,
   "currency": "VND",
-  "face_value": 20000
+  "face_value": 20000,
+  "numista": {
+   "id": 204743,
+   "url": "https://en.numista.com/204743",
+   "title": "20 000 Đồng",
+   "years": "2006–2025",
+   "composition": "Polymer (2006-2023: printed on Guardian™; 2024- Q&amp;T Hi-tech Polymer)",
+   "size": "137.5 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Portrait of Ho Chi Minh"
+   },
+   "reverse": {
+    "design": "Covered bridge in Hội An"
+   },
+   "comments": "UV activity:\n\r\n\n\r\n© gyoschak\n\n\r\nFirst two numbers of the serial number give the last two digits of the year of issue",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/viet_nam/63fdf045478aa8.79782893-180.jpg",
+     "credit": "ngdawa"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/viet_nam/63fdf048f16474.69949110-180.jpg",
+     "credit": "ngdawa"
+    }
+   },
+   "match": "closest",
+   "others": [
+    {
+     "id": 213751,
+     "title": "20 000 Đồng",
+     "years": "1993–1993",
+     "url": "https://en.numista.com/catalogue/pieces213751.html"
+    }
+   ]
+  }
  }
 ]

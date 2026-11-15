@@ -1058,21 +1058,10 @@
    "checked": "2026-11-15"
   },
   "418d88f4-1a2e-81d0-8960-f88b9f69b9bd": {
-   "name": "New Zealand · 1 Dollar · Kiwi",
-   "id": 23337,
+   "id": 2620,
    "status": "exact",
-   "others": [
-    {
-     "id": 438466,
-     "title": "1 Dollar - Elizabeth II (4th Portrait; Set Issue)",
-     "years": "2010–2023"
-    },
-    {
-     "id": 2620,
-     "title": "1 Dollar - Elizabeth II (4th Portrait)",
-     "years": "1999–2020"
-    }
-   ],
+   "others": [],
+   "name": "New Zealand · 1 Dollar · Kiwi",
    "checked": "2026-11-15"
   },
   "418d88f4-1a2e-8130-9ba5-cad66d5f942a": {
@@ -1627,39 +1616,29 @@
    "checked": "2026-11-15"
   },
   "418d88f4-1a2e-81b8-9a41-c9e9500e38f8": {
-   "name": "United Kingdom · 5 Pence · badge of Scotland",
-   "id": 79145,
+   "id": 874,
    "status": "closest",
    "others": [
-    {
-     "id": 874,
-     "title": "5 Pence - Elizabeth II (3rd portrait; large type)",
-     "years": "1985–1990"
-    },
     {
      "id": 875,
      "title": "5 Pence - Elizabeth II (3rd portrait; small type)",
      "years": "1990–1997"
     }
    ],
+   "name": "United Kingdom · 5 Pence · badge of Scotland",
    "checked": "2026-11-15"
   },
   "418d88f4-1a2e-81f5-b252-e9a7cdc4e13b": {
-   "name": "United Kingdom · 10 Pence · crowned lion passant",
-   "id": 102723,
-   "status": "closest",
+   "id": 879,
+   "status": "exact",
    "others": [
-    {
-     "id": 879,
-     "title": "10 Pence - Elizabeth II (3rd portrait; small type)",
-     "years": "1992–1997"
-    },
     {
      "id": 17902,
      "title": "10 Pence - Elizabeth II (3rd portrait; large type, set issue)",
      "years": "1985–1992"
     }
    ],
+   "name": "United Kingdom · 10 Pence · crowned lion passant",
    "checked": "2026-11-15"
   },
   "418d88f4-1a2e-81df-9e28-c03b824adfe3": {
@@ -1791,6 +1770,865 @@
      "years": "1989–1989"
     }
    ],
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8105-850f-df2707401c02": {
+   "id": 6085,
+   "status": "exact",
+   "others": [],
+   "name": "India · 5 Rupees · Bhagwan Mahavir 2600th Janm Kalyanak",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-810b-8dc4-e04fca1c30d1": {
+   "id": 204760,
+   "status": "exact",
+   "others": [],
+   "name": "Bangladesh · 10 Taka · Polymer, Sheikh Mujibur Rahman",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-810b-b24b-cf408e0347aa": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "India · 1 Pice · George VI King Emperor",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-810c-86ff-fbb33edc6b7d": {
+   "id": 10615,
+   "status": "exact",
+   "others": [],
+   "name": "India · 10 Paise · Equality Development",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-811c-9fa3-fad597b76acf": {
+   "id": 1635,
+   "status": "exact",
+   "others": [
+    {
+     "id": 7807,
+     "title": "20 Paise (FAO)",
+     "years": "1982–1982"
+    }
+   ],
+   "name": "India · 20 Paise",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8125-99d9-d5498a82ac97": {
+   "id": 1651,
+   "status": "exact",
+   "others": [
+    {
+     "id": 1637,
+     "title": "10 Paise (FAO - Planned Families, Food for All)",
+     "years": "1974–1974"
+    }
+   ],
+   "name": "India · 10 Paise",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8135-9888-ce712b9bfa64": {
+   "id": 1977,
+   "status": "exact",
+   "others": [],
+   "name": "Bangladesh · 25 Poisha · Royal Bengal tiger",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8136-86d6-f6a787b8d678": {
+   "id": 1847,
+   "status": "exact",
+   "others": [],
+   "name": "India · 3 Paise",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8139-b0f3-c395a6abc9aa": {
+   "id": 210860,
+   "status": "closest",
+   "others": [
+    {
+     "id": 211922,
+     "title": "100 Rupees (Urdu text “Type B”)",
+     "years": "1986–2009"
+    },
+    {
+     "id": 232601,
+     "title": "100 Rupees",
+     "years": "1971–1978"
+    },
+    {
+     "id": 225893,
+     "title": "100 Rupees",
+     "years": "1957–1971"
+    }
+   ],
+   "name": "Pakistan · 100 Rupees · Muhammad Ali Jinnah, Badshahi Mosque",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-813b-9a6d-caaea61c90a9": {
+   "id": 74657,
+   "status": "closest",
+   "others": [
+    {
+     "id": 123174,
+     "title": "5 Fils (Obverse trial)",
+     "years": "1962–2017"
+    },
+    {
+     "id": 3036,
+     "title": "5 Fils (non-magnetic)",
+     "years": "1962–2011"
+    },
+    {
+     "id": 8705,
+     "title": "5 Fils (Emirate of Kuwait)",
+     "years": "1961–1961"
+    }
+   ],
+   "name": "Kuwait · 5 Fils · Arab dhow (boom) sailing ship",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8140-8139-c109def251f4": {
+   "id": 470640,
+   "status": "exact",
+   "others": [],
+   "name": "Bangladesh · 20 Taka · Kantajew (Kantaji) temple",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8151-9ff0-fcd20d353fbc": {
+   "id": 1631,
+   "status": "exact",
+   "others": [],
+   "name": "India · 10 Paise · Rural Women's Advancement",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8151-b70f-f8e2b686a923": {
+   "id": 46716,
+   "status": "exact",
+   "others": [],
+   "name": "Bahrain · 10 Fils",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8156-8b4e-f94e31221cbf": {
+   "id": 3525,
+   "status": "closest",
+   "others": [],
+   "name": "India · 50 Paise",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8161-99c3-d64f140a603d": {
+   "id": 16626,
+   "status": "exact",
+   "others": [],
+   "name": "India · 5 Paise · Save for Development",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-816d-a609-fa25e6aa55e7": {
+   "id": 16623,
+   "status": "exact",
+   "others": [],
+   "name": "India · 1/2 Pice · George V King Emperor",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-817a-826f-d471caf58b87": {
+   "id": 480786,
+   "status": "closest",
+   "others": [
+    {
+     "id": 208204,
+     "title": "100 Taka",
+     "years": "2011–2023"
+    },
+    {
+     "id": 202757,
+     "title": "100 Taka",
+     "years": "2006–2010"
+    },
+    {
+     "id": 235198,
+     "title": "100 Taka",
+     "years": "2005–2005"
+    },
+    {
+     "id": 217300,
+     "title": "100 Taka",
+     "years": "2002–2004"
+    }
+   ],
+   "name": "Bangladesh · 100 Taka · Classic vintage series, Star Mosque (Tara Masjid)",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-817e-aedd-d76b182d33e7": {
+   "id": 10788,
+   "status": "exact",
+   "others": [],
+   "name": "India · 5 Rupees · 50th anniversary of the United Nations",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8189-8730-df85cac3f9a5": {
+   "id": 46719,
+   "status": "exact",
+   "others": [],
+   "name": "Bahrain · 5 Fils",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-818d-b6c0-d3f8ef11eab8": {
+   "id": 1637,
+   "status": "exact",
+   "others": [],
+   "name": "India · 10 Paise · Planned Families: Food for All",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-8190-9edd-eeaa8a579516": {
+   "id": 1743,
+   "status": "exact",
+   "others": [],
+   "name": "India · 2 Paise",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-819a-a847-c5633ae3e14a": {
+   "id": 1630,
+   "status": "closest",
+   "others": [
+    {
+     "id": 1607,
+     "title": "10 Paise",
+     "years": "1988–1998"
+    }
+   ],
+   "name": "India · 10 Paise",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81a9-9a31-f507534e37ef": {
+   "id": 3990,
+   "status": "closest",
+   "others": [],
+   "name": "India · 5 Paise",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81aa-acfa-cafc14bb763d": {
+   "id": 1623,
+   "status": "exact",
+   "others": [],
+   "name": "India · 10 Paise",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81af-8d1a-c0f52475426b": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "Sri Lanka · 1 Rix Dollar · Ceylon, King George IV",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81b1-966e-cec24aca0d8a": {
+   "id": 1606,
+   "status": "exact",
+   "others": [
+    {
+     "id": 1634,
+     "title": "50 Paise",
+     "years": "1984–1990"
+    }
+   ],
+   "name": "India · 50 Paise",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81b2-976d-f3c733788aa1": {
+   "id": 1844,
+   "status": "exact",
+   "others": [],
+   "name": "Kenya · 10 Cents · President Daniel arap Moi",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81b2-9925-f9fab44be3a1": {
+   "id": 11632,
+   "status": "exact",
+   "others": [],
+   "name": "Saudi Arabia · 1/2 Qirsh · King Abdulaziz bin Abdulrahman (Ibn Saud)",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81bb-bed4-e96ff0516f60": {
+   "id": 9748,
+   "status": "exact",
+   "others": [],
+   "name": "Pakistan · 50 Paisa · Muhammad Ali Jinnah centenary 1876-1976",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81c5-97d3-e4372e0967ac": {
+   "id": 1621,
+   "status": "exact",
+   "others": [],
+   "name": "India · 20 Paise · Mahatma Gandhi 1869-1948",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81ca-a7d3-d32b309e141b": {
+   "id": 22456,
+   "status": "exact",
+   "others": [],
+   "name": "Bangladesh · 1 Taka · Sheikh Mujibur Rahman",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81ce-81ae-d8c097ee142b": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "India · 1 Paisa",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81d4-bcb3-ea8c179be683": {
+   "id": 5676,
+   "status": "exact",
+   "others": [],
+   "name": "India · 1 Rupee · Jawaharlal Nehru",
+   "checked": "2026-11-15"
+  },
+  "419d88f4-1a2e-81fd-bd40-eb6198570781": {
+   "id": 7009,
+   "status": "closest",
+   "others": [
+    {
+     "id": 5659,
+     "title": "50 Paise (25th Anniversary of Independence)",
+     "years": "1972–1972"
+    }
+   ],
+   "name": "India · 50 Paise · 25th Independence Day",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8109-bc84-f6f8cc39bbe1": {
+   "id": 923,
+   "status": "exact",
+   "others": [
+    {
+     "id": 41855,
+     "title": "1 Dollar (Library of Congress)",
+     "years": "2000–2000"
+    },
+    {
+     "id": 25436,
+     "title": "1 Dollar (Leif Ericson Millennium)",
+     "years": "2000–2000"
+    }
+   ],
+   "name": "United States · 1 Dollar",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8118-898c-d7294bbd3425": {
+   "id": 138318,
+   "status": "exact",
+   "others": [
+    {
+     "id": 7973,
+     "title": "25 Satang - Rama IX",
+     "years": "2008–2017"
+    },
+    {
+     "id": 1642,
+     "title": "25 Satang - Rama IX",
+     "years": "1987–2008"
+    },
+    {
+     "id": 4745,
+     "title": "25 Satang - Rama IX",
+     "years": "1977–1977"
+    },
+    {
+     "id": 2643,
+     "title": "25 Satang - Rama IX",
+     "years": "1957–1957"
+    }
+   ],
+   "name": "Thailand · 25 Satang · Rama X",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-811e-98c9-cabe5a614a5e": {
+   "id": 138317,
+   "status": "exact",
+   "others": [
+    {
+     "id": 7974,
+     "title": "50 Satang - Rama IX",
+     "years": "2008–2017"
+    },
+    {
+     "id": 1644,
+     "title": "50 Satang - Rama IX",
+     "years": "1987–2008"
+    },
+    {
+     "id": 1019,
+     "title": "50 Satang - Rama IX",
+     "years": "1980–1980"
+    },
+    {
+     "id": 5433,
+     "title": "50 Satang - Rama IX",
+     "years": "1957–1957"
+    }
+   ],
+   "name": "Thailand · 50 Satang · Rama X",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-811f-a468-cfd4e190d6cf": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "Thailand · 2 Baht · Rama X",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-812e-8620-fa1595751365": {
+   "id": 26791,
+   "status": "closest",
+   "others": [
+    {
+     "id": 5668,
+     "title": "2 Rupees - Gyanendra Bir Bikram (non-magnetic)",
+     "years": "2001–2003"
+    },
+    {
+     "id": 5737,
+     "title": "2 Rupees - Monarchy/Republic",
+     "years": "2006–2009"
+    }
+   ],
+   "name": "Nepal · 2 Rupiya · Samarmaya",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8137-9716-ee75304bb26c": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "Nepal · 1 Rupiya · Sagarmaya",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8143-af65-e2fd6b19ef49": {
+   "id": 7974,
+   "status": "closest",
+   "others": [
+    {
+     "id": 1644,
+     "title": "50 Satang - Rama IX",
+     "years": "1987–2008"
+    },
+    {
+     "id": 1019,
+     "title": "50 Satang - Rama IX",
+     "years": "1980–1980"
+    },
+    {
+     "id": 5433,
+     "title": "50 Satang - Rama IX",
+     "years": "1957–1957"
+    },
+    {
+     "id": 13759,
+     "title": "50 Satang - Rama IX",
+     "years": "1950–1950"
+    }
+   ],
+   "name": "Thailand · 50 Satang · Rama IX",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8147-94bf-cf96b58293fb": {
+   "id": 3839,
+   "status": "closest",
+   "others": [
+    {
+     "id": 9431,
+     "title": "5 Baht - Rama IX",
+     "years": "1972–1972"
+    },
+    {
+     "id": 10778,
+     "title": "5 Baht - Rama IX (Queen Sirikit; FAO)",
+     "years": "1980–1980"
+    },
+    {
+     "id": 11366,
+     "title": "5 Baht - Rama IX (King's Mother)",
+     "years": "1980–1980"
+    },
+    {
+     "id": 8867,
+     "title": "5 Baht - Rama IX (Rama VII Constitutional Monarchy)",
+     "years": "1980–1980"
+    }
+   ],
+   "name": "Thailand · 5 Baht · Rama IX",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8157-85df-f08e02f056d0": {
+   "id": 587050,
+   "status": "closest",
+   "others": [
+    {
+     "id": 202020,
+     "title": "100 Hryven",
+     "years": "2014–2022"
+    },
+    {
+     "id": 202224,
+     "title": "100 Hryven",
+     "years": "2005–2014"
+    },
+    {
+     "id": 202752,
+     "title": "100 Hryven",
+     "years": "1996–1996"
+    },
+    {
+     "id": 203911,
+     "title": "100 Hryven",
+     "years": "1992–1992"
+    }
+   ],
+   "name": "Ukraine · 100 Hryvnia",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-816e-923e-f03959c158f5": {
+   "id": 138316,
+   "status": "exact",
+   "others": [
+    {
+     "id": 8085,
+     "title": "1 Baht - Rama IX (Prince Vajiralongkorn)",
+     "years": "1978–1978"
+    },
+    {
+     "id": 6485,
+     "title": "1 Baht - Rama IX (Investiture of Crown Prince)",
+     "years": "1972–1972"
+    }
+   ],
+   "name": "Thailand · 1 Baht · King Maha Vajiralongkorn(Rama X)",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-817b-bc09-cbfa760ce586": {
+   "id": 203627,
+   "status": "closest",
+   "others": [
+    {
+     "id": 213560,
+     "title": "10 000 Đồng",
+     "years": "1993–1993"
+    },
+    {
+     "id": 302315,
+     "title": "10 000 Đồng",
+     "years": "1990–1990"
+    }
+   ],
+   "name": "Vietnam · 10000 Dong",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8188-84ff-e1adf06a0f7a": {
+   "id": 1672,
+   "status": "closest",
+   "others": [],
+   "name": "Singapore · 50 Cents",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-818d-b893-d20dc039f11a": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "United States · 5 Dollars",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-819d-ad20-ecd9821b3c04": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "United States · 25 Cents",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81a2-a395-f81767b5c0c0": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "United States · 1 Dollar",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81b2-9ed6-fd1994aecece": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "Thailand · 10 Baht · Rama IX",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81c7-aec5-d4955b3ff829": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "United Kingdom · 5 Pounds",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81cc-8b6c-e6c503cce1b9": {
+   "id": 204743,
+   "status": "closest",
+   "others": [
+    {
+     "id": 213751,
+     "title": "20 000 Đồng",
+     "years": "1993–1993"
+    }
+   ],
+   "name": "Vietnam · 20000 Dong",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81db-9278-e55d11594841": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "United States · 10 Dollars",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81db-b9b3-e3a75a052f5b": {
+   "id": 483856,
+   "status": "closest",
+   "others": [
+    {
+     "id": 202039,
+     "title": "20 Hryven",
+     "years": "2018–2023"
+    },
+    {
+     "id": 202248,
+     "title": "20 Hryven",
+     "years": "2003–2016"
+    },
+    {
+     "id": 202760,
+     "title": "20 Hryven",
+     "years": "1995–2000"
+    },
+    {
+     "id": 202854,
+     "title": "20 Hryven",
+     "years": "1992–1992"
+    }
+   ],
+   "name": "Ukraine · 20 Hryvnia",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81f8-988f-ff6ba36424ac": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "Thailand · 5 Baht · Rama X",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81fa-8c01-d1c769b1374f": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "Thailand · 10 Baht · Rama X",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81ff-a30c-e42ef047e7d8": {
+   "id": 430430,
+   "status": "closest",
+   "others": [
+    {
+     "id": 202035,
+     "title": "50 Hryven",
+     "years": "2019–2021"
+    },
+    {
+     "id": 202240,
+     "title": "50 Hryven",
+     "years": "2004–2014"
+    },
+    {
+     "id": 202756,
+     "title": "50 Hryven",
+     "years": "1996–1996"
+    },
+    {
+     "id": 203909,
+     "title": "50 Hryven",
+     "years": "1992–1992"
+    }
+   ],
+   "name": "Ukraine · 50 Hryvnia",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8101-9d73-e89d2cc56ac7": {
+   "id": 15672,
+   "status": "exact",
+   "others": [],
+   "name": "India · 4 Anna · George V King Emperor",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8112-9903-e5a8216b4d84": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "India · 50 Paisa · George VI King Emperor",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8117-81e2-e2db19d6edb9": {
+   "id": 1610,
+   "status": "closest",
+   "others": [
+    {
+     "id": 1633,
+     "title": "25 Paise",
+     "years": "1972–1990"
+    }
+   ],
+   "name": "India · 25 Paisa · One Horned Rhinoceros",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8130-aa88-ee3c6e1c2142": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "India · 8 Anna · George V King Emperor",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8143-a28a-c7d92c0b72b1": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "India · 1/2 Anna · East India Company",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-814a-b181-d256d2d408b7": {
+   "id": 3892,
+   "status": "exact",
+   "others": [],
+   "name": "India · 50 Paisa · Grow more food",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8156-951c-cde228b0e981": {
+   "id": 338506,
+   "status": "closest",
+   "others": [
+    {
+     "id": 206039,
+     "title": "20 000 Rupiah",
+     "years": "2016–2024"
+    },
+    {
+     "id": 203573,
+     "title": "20 000 Rupiah",
+     "years": "2011–2016"
+    },
+    {
+     "id": 203996,
+     "title": "20 000 Rupiah",
+     "years": "2004–2011"
+    },
+    {
+     "id": 205416,
+     "title": "20 000 Rupiah",
+     "years": "1998–2004"
+    }
+   ],
+   "name": "Indonesia · 20000 Rupiah",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8160-b0ed-c64163ff2826": {
+   "id": 15798,
+   "status": "closest",
+   "others": [
+    {
+     "id": 149568,
+     "title": "5 Rupees (First War of Independence) (Copper-nickel)",
+     "years": "2007–2007"
+    },
+    {
+     "id": 311196,
+     "title": "5 Rupees (75th Year of Independence)",
+     "years": "2021–2026"
+    },
+    {
+     "id": 32705,
+     "title": "5 Rupees (Shaheed Bhagat Singh)",
+     "years": "2007–2007"
+    }
+   ],
+   "name": "India · 5 Rupees · 75th year of independence",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-8163-b697-e0ca7ae343f5": {
+   "id": 3794,
+   "status": "exact",
+   "others": [
+    {
+     "id": 69047,
+     "title": "2 Lari (Tbilisi \"Dinamo\" - UEFA Cup Winner`s Cup Winner. 25th anniversary)",
+     "years": "2006–2006"
+    },
+    {
+     "id": 28877,
+     "title": "2 Lari (Tbilisi \"Dinamo\" - UEFA Cup Winner`s Cup Winner. 25th anniversary)",
+     "years": "2006–2006"
+    }
+   ],
+   "name": "Georgia · 2 Lari",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-817e-887f-e3c10fff1330": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "European Union · 5 Euro",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-819e-a92e-c0a0694c09bd": {
+   "id": 6759,
+   "status": "exact",
+   "others": [],
+   "name": "Australia · 2 Shilling · Florin",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81c5-bcd0-ff346e0f99bc": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "India · 50 Paisa · Indira Gandhi (1917-1984)",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81cc-986e-ef8fe3b73b06": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "India · 50 Paisa · in honour of Jawaharlal Nehru (1889-1964)",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81ee-b17b-d81184076b7c": {
+   "id": null,
+   "status": "none",
+   "others": [],
+   "name": "India · 50 Paisa · 50th year of independence of India (1947-1997)",
+   "checked": "2026-11-15"
+  },
+  "418d88f4-1a2e-81f0-a7ca-ce9df0119e85": {
+   "id": 208238,
+   "status": "closest",
+   "others": [
+    {
+     "id": 208093,
+     "title": "500 Rupees (No Date, Gray)",
+     "years": "1997–2000"
+    },
+    {
+     "id": 202282,
+     "title": "500 Rupees (No Date, Yellow)",
+     "years": "2000–2004"
+    },
+    {
+     "id": 202275,
+     "title": "500 Rupees (Dated Reverse, no Rupee Symbol)",
+     "years": "2005–2012"
+    },
+    {
+     "id": 210984,
+     "title": "500 Rupees (Dated Reverse with Rupee Symbol - ₹)",
+     "years": "2011–2016"
+    }
+   ],
+   "name": "India · 500 Rupees",
    "checked": "2026-11-15"
   }
  },
@@ -5959,6 +6797,1395 @@
      "credit": "hex7ech"
     }
    }
+  },
+  "6085": {
+   "id": 6085,
+   "url": "https://en.numista.com/6085",
+   "title": "5 Rupees (Bhagwan Mahavir Janm Kalyanak)",
+   "years": "2001–2001",
+   "composition": "Copper-nickel",
+   "weight": "9.07 g",
+   "size": "23.19 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Eight sided shape with Swastika and Palm inside\r\n\r\nNOTE: Different mintmarks\r\n♦ (small dot/diamond) = Mumbai\r\n° (incuse dot in diamond = Hyderabad)"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2539-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3216-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "204760": {
+   "id": 204760,
+   "url": "https://en.numista.com/204760",
+   "title": "10 Taka",
+   "years": "2000–2000",
+   "composition": "Polymer",
+   "size": "130 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "At Left - Sheikh Mujibur Rahman (Bengali: শেখ মুজিবুর রহমান; 17 March 1920 – 15 August 1975), \r\n\r\nAt right - Baitul Mokarram national mosque."
+   },
+   "reverse": {
+    "design": "At Left - Back Side of National Martyrs' Memorial (Bengali: জাতীয় স্মৃতি সৌধ Jatiyo Sriti Soudho). It is the national monument of Bangladesh, set up in the memory of those who died in the Bangladesh War of Independence of 1971, which brought independence and separated Bangladesh from Pakistan. The…"
+   },
+   "comments": "UV activity:\n\n\n© gyoschakSheikh Mujib or Mujib, was a Bangladeshi politician and statesman. He is called the \"Father of the Nation\" in Bangladesh. He is considered to be the driving force behind the independence of Bangladesh. He is popularly dubbed with the title of \"Bangabandhu\" (Bôngobondhu \"Friend of Bengal\") by the people of Bangladesh. Baytul Mukarrom (Arabic: بيت المكرّم‎; Bengali: বায়তুল মোকাররম; The Holy House) is the National Mosque of Bangladesh. Located at the center of Dhaka, capital of Bangladesh, the mosque was completed in 1968.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/66ae5108dcd342.94406127-180.jpg",
+     "credit": "Mosque Theme Banknotes"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/66ae510a0299f6.27049348-180.jpg",
+     "credit": "Mosque Theme Banknotes"
+    }
+   }
+  },
+  "10615": {
+   "id": 10615,
+   "url": "https://en.numista.com/10615",
+   "title": "10 Paise (FAO)",
+   "years": "1975–1975",
+   "composition": "Aluminium",
+   "weight": "2.28 g",
+   "size": "26 mm",
+   "shape": "Scalloped (with 12 notches)",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Bust at left looking right, wheat ear at the right"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2329-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3101-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "1635": {
+   "id": 1635,
+   "url": "https://en.numista.com/1635",
+   "title": "20 Paise",
+   "years": "1982–1997",
+   "composition": "Aluminium (96% Aluminium, 4% Magnesium)",
+   "weight": "2.2 g",
+   "size": "26 mm",
+   "shape": "Hexagonal (6-sided)",
+   "obverse": {
+    "design": "Ashoka lion capitol"
+   },
+   "reverse": {
+    "design": "Denomination, date below"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2285-180.jpg",
+     "credit": "Cicily Thalachelloor"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3114-180.jpg",
+     "credit": "Cicily Thalachelloor"
+    }
+   }
+  },
+  "1651": {
+   "id": 1651,
+   "url": "https://en.numista.com/1651",
+   "title": "10 Paise",
+   "years": "1971–1982",
+   "composition": "Aluminium (96.5-96% Aluminium, 3.5-4% Magnesium)",
+   "weight": "2.3 g",
+   "size": "26 mm",
+   "shape": "Scalloped (with 12 notches)",
+   "obverse": {
+    "design": "Ashoka Lion Capital within a circle of beads, surrounded by a wreath."
+   },
+   "reverse": {
+    "design": "Denomination, date below within circle of beads, wreath."
+   },
+   "comments": "Different space of wreath to rim (click on image below):\n\r\nObverse narrow & Reverse narrow space to rim, '10' 9 mm height - KM# 27.1\n\r\nObverse narrow & Reverse wide space to rim, '10' 8 mm height - KM# 27.2\n\r\nObverse wide & Reverse wide space to rim, '10' 8 mm height - KM# 27.3\n\n\r\n\n\n\r\nMumbai Mintmarks:\n\r\n♦ - Circulation strikes\n\r\nB - Proof strikes",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2323-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3099-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "1977": {
+   "id": 1977,
+   "url": "https://en.numista.com/1977",
+   "title": "25 Poisha",
+   "years": "1977–1994",
+   "composition": "Steel",
+   "weight": "2.65 g",
+   "size": "19 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "The National Emblem of Bangladesh: a water lily bordered on two sides by rice sheaves. Above are a three-leaf clover of tea leaves and four stars representing the four principles of the first constitution of Bangladesh in 1972: nationalism, secularism, socialism, and democracy."
+   },
+   "reverse": {
+    "design": "Head of a Bengal tiger, the word \"Bangladesh\" and the face value in figures and in full"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/6959697b37f567.63196120-180.jpg",
+     "credit": "mvm"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/6959697c8db498.18030209-180.jpg",
+     "credit": "mvm"
+    }
+   }
+  },
+  "1847": {
+   "id": 1847,
+   "url": "https://en.numista.com/1847",
+   "title": "3 Paise",
+   "years": "1964–1971",
+   "composition": "Aluminium",
+   "weight": "1.2 g",
+   "size": "21 mm",
+   "shape": "Hexagonal (6-sided)",
+   "obverse": {
+    "design": "Ashoka Lion Capitol"
+   },
+   "reverse": {
+    "design": "\"Teen Paise\" (three paise) in Devanagari\r\nDenomination flanked by sprays, date below"
+   },
+   "comments": "Different National Emblem Types:\n\r\nType 1: Side lions toothless with 2 to 3 furrows, short squat D in INDIA.\n\r\nType 2: Asoka lion pedestal more imposing. Side lions with 3 or 4 furrows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to distinguish this obverse.\n\r\n\n\n\r\nMumbai mintmarks:\n\r\n♦ - Circulation strikes\n\r\nB - Proof strikes\n\n\r\n1970 (• Mumbai) is found only in the uncirculated sets of that year; It has a mirror-like surface.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2358-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3081-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "210860": {
+   "id": 210860,
+   "url": "https://en.numista.com/210860",
+   "title": "100 Rupees",
+   "years": "2006–2026",
+   "composition": "Paper",
+   "size": "140 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Main color red, Picture of Mohammed Ali Jinnah"
+   },
+   "reverse": {
+    "design": "Picture of Quaid-e-Azam Residency in Ziarat"
+   },
+   "comments": "UV activity:\n\r\n\n\r\n\n\r\n© gyoschak",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/pakistan/63c4fea0cc5490.75101443-180.jpg",
+     "credit": "hex7ech"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/pakistan/63c4fea1e3e555.72825111-180.jpg",
+     "credit": "hex7ech"
+    }
+   }
+  },
+  "74657": {
+   "id": 74657,
+   "url": "https://en.numista.com/74657",
+   "title": "5 Fils (Magnetic)",
+   "years": "2012–2020",
+   "composition": "Brass plated steel",
+   "weight": "2.55 g",
+   "size": "19.5 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Value in Arabic within circle. State name in Arabic above, and in English below"
+   },
+   "reverse": {
+    "design": "Boom sailing ship, a type of dhow, sailing to the left with a small flag on the right side. Islamic and Gregorian dates in Arabic below"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/koweit/6abb9d496ac2f5.71074999-180.jpg",
+     "credit": "mvm"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/koweit/6abb9d4ac144b9.48271207-180.jpg",
+     "credit": "mvm"
+    }
+   }
+  },
+  "470640": {
+   "id": 470640,
+   "url": "https://en.numista.com/470640",
+   "title": "20 Taka",
+   "years": "2025–2025",
+   "composition": "Paper",
+   "size": "127 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "The banknote has a picture of the historical monument Kantjiu Temple, Dinajpur on the left side of the obverse, and the 'Guarantee clause' and the denomination (twenty taka) are printed in the middle of the note. The image of the national flower 'Shapla' in bloom with leaves and buds is printed in…"
+   },
+   "reverse": {
+    "design": "On the back of the note, a picture of Paharpur Buddhist Monastery, Naogaon, is printed to the right of the watermark area. The denomination '20' is printed on the top left corner of the note, the 'Monogram of Bangladesh Bank' is printed on the right corner, and the denomination '20' is printed on…"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/686036bd823630.42910807-180.jpg",
+     "credit": "Md Hadiur Rahman"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/686036c5a94c76.90454621-180.jpg",
+     "credit": "Md Hadiur Rahman"
+    }
+   }
+  },
+  "1631": {
+   "id": 1631,
+   "url": "https://en.numista.com/1631",
+   "title": "10 Paise (Rural Women's Advancement)",
+   "years": "1980–1980",
+   "composition": "Aluminium",
+   "weight": "2.3 g",
+   "size": "26 mm",
+   "shape": "Scalloped (with 12 notches)",
+   "obverse": {
+    "design": "Ashoka lion capitol, denomination below, name of country on the sides."
+   },
+   "reverse": {
+    "design": "Woman threshing grain."
+   },
+   "comments": "NOTE: Different mintmarks:\n♦ (small dot/diamond) = Bombay Mint, Circulation Issue/ UNC Set coin\nB (letter \"B\") = Bombay Mint, Proof Issues\n(no mintmark) = Calcutta Mint\n★ (five-pointed star) = Hyderabad(five-pointed star) = Hyderabad Mint",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2331-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3106-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "46716": {
+   "id": 46716,
+   "url": "https://en.numista.com/46716",
+   "title": "10 Fils - Hamad (magnetic; 2nd type)",
+   "years": "2010–2021",
+   "composition": "Brass plated steel",
+   "weight": "3.35 g",
+   "size": "21 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Palm tree within the inner circle, the country name in Arabic and English and the Islamic and Gregorian dates in English."
+   },
+   "reverse": {
+    "design": "Numeric denomination back of boxed denomination within circle all within a chained border"
+   },
+   "comments": "Type 1: \"فلس\" = Fils, inside box in reverse\n\r\nType 2 (this coin): \"فلوس\" = Fulus, inside box in reverse",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bahrein/64459f4039ae94.58470072-180.jpg",
+     "credit": "Numismatica Quetzalcoatl"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bahrein/64459f408d9986.71556336-180.jpg",
+     "credit": "Numismatica Quetzalcoatl"
+    }
+   }
+  },
+  "3525": {
+   "id": 3525,
+   "url": "https://en.numista.com/3525",
+   "title": "50 Paise",
+   "years": "1974–1983",
+   "composition": "Copper-nickel (75% Copper, 25% Nickel)",
+   "weight": "5 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Ashoka Lion Capital and the country name on both sides"
+   },
+   "reverse": {
+    "design": "Denomination, date below"
+   },
+   "comments": "Mumbai mintmarks:\n\r\n♦ - Circulation strikes\n\r\nB - Proof strikes\n\n\r\nThis coin is different from KM#61 - \"पैसे PAISE\" - closer together",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2245-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3134-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "16626": {
+   "id": 16626,
+   "url": "https://en.numista.com/16626",
+   "title": "5 Paise Save for development (FAO)",
+   "years": "1977–1977",
+   "composition": "Aluminium (96.5-96% Aluminium, 3.5-4% Magnesium)",
+   "weight": "1.5 g",
+   "size": "22 mm",
+   "shape": "Square with rounded corners",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Symbols and date\r\n\r\nNOTE: Different mintmarks\r\n♦ (small dot/diamond) = Mumbai\r\nB (letter \"B\") = Mumbai Proof Issue\r\n (no mintmark) = Calcutta\r\n* (five-pointed star) = Hyderabad"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2371-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3092-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "16623": {
+   "id": 16623,
+   "url": "https://en.numista.com/16623",
+   "title": "½ Pice - George V",
+   "years": "1912–1936",
+   "composition": "Bronze",
+   "weight": "2.4 g",
+   "size": "21.05 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Crowned head of George V facing left",
+    "engravers": [
+     "Edgar Bertram MacKennal"
+    ]
+   },
+   "reverse": {
+    "design": "Denomination and date within circle of beads, wreath surrounds"
+   },
+   "comments": "- Weight varies 2.32-2.48 grams\n\r\n- Diameter varies 21.0-21.2 mm",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde_britannique/1987-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde_britannique/1988-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "480786": {
+   "id": 480786,
+   "url": "https://en.numista.com/480786",
+   "title": "100 Taka",
+   "years": "2025–2025",
+   "composition": "Paper",
+   "size": "140 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "The picture of Sixty Dome Mosque, Bagerhat and the picture of national flower water lily with leaf and bud in light color printed in the background of the middle text."
+   },
+   "reverse": {
+    "design": "The picture of Sundarban, Bangladesh."
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/69a023cb57d414.89465666-180.jpg",
+     "credit": "hex7ech"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/69a023cd93d175.26284047-180.jpg",
+     "credit": "hex7ech"
+    }
+   }
+  },
+  "10788": {
+   "id": 10788,
+   "url": "https://en.numista.com/10788",
+   "title": "5 Rupees (50 Years - United Nations)",
+   "years": "1995–1995",
+   "composition": "Copper-nickel",
+   "weight": "9.18 g",
+   "size": "23 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Asoka Lion pedestal, denomination below, legend around."
+   },
+   "reverse": {
+    "design": "Date above UN logo, Mintmark at the Bottom.\r\n\r\nNOTE: Different Mint Marks\r\n♦ (Diamond Mint Mark = Mumbai Mint)\r\n• (Dot Mint Mark = Noida Mint)"
+   },
+   "comments": "How to distinguish KM#156.1 and KM#156.2 in Mumbai mint:\n\r\n\n\r\nKM#156.1 on the left, KM#156.2 on the right.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2511-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3210-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "46719": {
+   "id": 46719,
+   "url": "https://en.numista.com/46719",
+   "title": "5 Fils - Hamad (magnetic; 2nd type)",
+   "years": "2010–2022",
+   "composition": "Brass plated steel",
+   "weight": "2.5 g",
+   "size": "19 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Palm tree within the inner circle, the country name in Arabic and English and the Islamic and Gregorian dates in English."
+   },
+   "reverse": {
+    "design": "Numeric denomination back of boxed denomination within circle Surrounded by Chain border."
+   },
+   "comments": "Type 1: \"فلس\" = Fils, inside box in reverse\n\r\nType 2 (this coin): \"فلوس\" = Fulus, inside box in reverse",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bahrein/64459ef96e1304.28968991-180.jpg",
+     "credit": "Numismatica Quetzalcoatl"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bahrein/64459ef9abacd8.12378293-180.jpg",
+     "credit": "Numismatica Quetzalcoatl"
+    }
+   }
+  },
+  "1637": {
+   "id": 1637,
+   "url": "https://en.numista.com/1637",
+   "title": "10 Paise (FAO - Planned Families, Food for All)",
+   "years": "1974–1974",
+   "composition": "Aluminium",
+   "weight": "2.3 g",
+   "size": "26 mm",
+   "shape": "Scalloped (with 12 notches)",
+   "obverse": {
+    "design": "Asoka lion capital, denomination below"
+   },
+   "reverse": {
+    "design": "Family above date within triangle, grain sprigs flank.\r\nNOTE: Different mintmarks"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2325-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3100-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "1743": {
+   "id": 1743,
+   "url": "https://en.numista.com/1743",
+   "title": "2 Paise",
+   "years": "1965–1981",
+   "composition": "Aluminium (96.5-96% Aluminium, 3.5-4% Magnesium)",
+   "weight": "1 g",
+   "size": "20 mm",
+   "shape": "Scalloped (with 8 notches)",
+   "obverse": {
+    "design": "Ashoka lion capitol"
+   },
+   "reverse": {
+    "design": "Denomination, date below"
+   },
+   "comments": "Different National Emblem Types:\n\r\nType 1: Side lions toothless with 2 to 3 furrows, short squat D in INDIA.\n\r\nType 2: Asoka lion pedestal more imposing. Side lions\n\r\nwith 3 or 4 furrows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to distinguish this obverse.\n\n\r\nMumbai mintmarks:\n\r\n♦ - Circulation Strikes\n\r\nB - Proof strikes\n\n\r\nVarieties of date size exist.\n\n\r\n1970 (♦ Mumbai) is found only in the uncirculated sets of that year; It has a mirror-like surface.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3032-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3033-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "1630": {
+   "id": 1630,
+   "url": "https://en.numista.com/1630",
+   "title": "10 Paise",
+   "years": "1983–1993",
+   "composition": "Aluminium (96% Aluminium, 4% Magnesium)",
+   "weight": "1.76 g",
+   "size": "23.03 mm",
+   "shape": "Scalloped (with 8 notches)",
+   "obverse": {
+    "design": "Ashoka lion capital with the country name on both sides"
+   },
+   "reverse": {
+    "design": "The denomination above the date"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2339-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3110-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "1623": {
+   "id": 1623,
+   "url": "https://en.numista.com/1623",
+   "title": "10 Paise",
+   "years": "1968–1971",
+   "composition": "Nickel brass",
+   "weight": "4.3 g",
+   "size": "23 mm",
+   "shape": "Scalloped (with 8 notches)",
+   "obverse": {
+    "design": "Ashoka Lion Capitol"
+   },
+   "reverse": {
+    "design": "Denomination, date below\r\n\"Rupye ka dusva bhaag\" (tenth of a rupee) in Devanagari\r\n\r\nNOTE: Different mintmarks\r\n♦ (small dot/diamond) = Mumbai\r\nB (letter \"B\") = Mumbai Proof Issues\r\n (no mintmark) = Calcutta\r\n* (five-pointed star) = Hyderabad"
+   },
+   "comments": "- NOTE: Different National Emblem Types\nType 1: Side lions toothless with 2 to 3 fur rows, short squat D in INDIA.\nType 2: Asoka lion pedestal more imposing. Side lions with 3 or 4 fur rows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to distinguish this obverse (see image)\n\n Rising  costs and high inflation led to the introduction of aluminium  coins during 1964 to 1968 , as against the cupro-nickel  and  nickel brass  coins  which were in use hitherto.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2348-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3098-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "1606": {
+   "id": 1606,
+   "url": "https://en.numista.com/1606",
+   "title": "50 Paise",
+   "years": "1988–2007",
+   "composition": "Stainless steel",
+   "weight": "3.79 g",
+   "size": "22 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Large denomination at bottom with three lions symbol above. Lettering both sides."
+   },
+   "reverse": {
+    "design": "Map in background with circular Parliament house building in New Delhi on top. Date below, lettering top right."
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2261-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3140-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "1844": {
+   "id": 1844,
+   "url": "https://en.numista.com/1844",
+   "title": "10 Cents",
+   "years": "1978–1991",
+   "composition": "Nickel brass",
+   "weight": "9.4 g",
+   "size": "30.8 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Coat of arms of Kenya dividing date."
+   },
+   "reverse": {
+    "design": "Bust of Daniel Toroitich Arap Moi facing right."
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/kenya/283-180.jpg",
+     "credit": "Essor Prof"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/kenya/284-180.jpg",
+     "credit": "Essor Prof"
+    }
+   }
+  },
+  "11632": {
+   "id": 11632,
+   "url": "https://en.numista.com/11632",
+   "title": "½ Qirsh - Abd al-Azīz (Saudi Arabia)",
+   "years": "1937–1937",
+   "composition": "Copper-nickel (75% Copper, 25% Nickel)",
+   "weight": "5.5 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Legend"
+   },
+   "reverse": {
+    "design": "Value and date below legend"
+   },
+   "comments": "KM#20.1 was minted at Heaton Mint, Birmingham, UK\n\r\nKM#20.2 was minted at US Mint, Philadelphia, USA in 1947",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/saudi-arabia-period/663250fa7c0884.55324833-180.jpg",
+     "credit": "Heritage Auctions"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/saudi-arabia-period/663250fac07ea8.31712433-180.jpg",
+     "credit": "Heritage Auctions"
+    }
+   }
+  },
+  "9748": {
+   "id": 9748,
+   "url": "https://en.numista.com/9748",
+   "title": "50 Paisa (Muhammad Ali Jinnah)",
+   "years": "1976–1976",
+   "composition": "Copper-nickel (75% Copper, 25% Nickel)",
+   "weight": "5.83 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust of Muhammad Ali Jinnah."
+   },
+   "reverse": {
+    "design": "Denomination over date, wreath surrounds\r\n\"Government of Pakistan\r\n50 paisa\r\nFaith, Unity, Discipline\""
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/pakistan/551-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/pakistan/552-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "1621": {
+   "id": 1621,
+   "url": "https://en.numista.com/1621",
+   "title": "20 Paise (Mahatma Gandhi)",
+   "years": "1969–1969",
+   "composition": "Aluminium bronze",
+   "weight": "4.5 g",
+   "size": "22 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Ashoka Lion Capital, denomination below"
+   },
+   "reverse": {
+    "design": "Bust of Mahatma Gandhi facing left"
+   },
+   "comments": "First variety, There is no recut on the Lion's chest area. Very sharp details on both the obverse and reverse sides. Obverse legends are 2.5 mm from the rims. This variety is the rare one.\n\r\n\n\r\nSecond variety, there is a partial recut on the centre portion of the Lion's chest area. Very sharp legends and details on the obverse side only. Obverse legends are 2 mm from the rims. This variety is the Scarce one.\n\r\n\n\r\nThird variety, there is a full recut on the left to right end portion of the Lion's chest area. Thin and weak legends and details on both the obverse and reverse sides. Obverse…",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2575-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3112-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "22456": {
+   "id": 22456,
+   "url": "https://en.numista.com/22456",
+   "title": "1 Taka",
+   "years": "2010–2014",
+   "composition": "Stainless steel",
+   "weight": "3.25 g",
+   "size": "21.5 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Face value with the National Emblem of Bangladesh: a water lily bordered on two sides by rice ears. Above are a three-leaf clover of tea leaves and four stars representing the four principles of the first constitution of Bangladesh in 1972: nationalism, secularism, socialism, and democracy."
+   },
+   "reverse": {
+    "design": "At the top is the name of the issuing authority in Bengali. In the center is a portrait of the father of the nation Sheikh Mujibur Rahman. On the left the value of the coin is written using the Bengali alphabet and on the right as an Arabic numeral. At the bottom is written the year of issue and…"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/256-180.jpg",
+     "credit": "Ponpandi Perumal"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/257-180.jpg",
+     "credit": "Ponpandi Perumal"
+    }
+   }
+  },
+  "5676": {
+   "id": 5676,
+   "url": "https://en.numista.com/5676",
+   "title": "1 Rupee (Jawaharlal Nehru)",
+   "years": "1989–1989",
+   "composition": "Copper-nickel (75% Copper, 25% Nickel)",
+   "weight": "6 g",
+   "size": "26 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Ashoka Lion Capitol, denomination below"
+   },
+   "reverse": {
+    "design": "Capped bust of Jawaharlal Nehru facing right"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2800-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3152-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "7009": {
+   "id": 7009,
+   "url": "https://en.numista.com/7009",
+   "title": "50 Paise (50th Year of Independence)",
+   "years": "1997–1997",
+   "composition": "Stainless steel",
+   "weight": "3.79 g",
+   "size": "22 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Gandhi with Staff, leading a line of people\r\n\r\nNOTE: Different mintmarks\r\n♦ (small dot/diamond) = Mumbai\r\n (no mintmark) = Calcutta\r\n* (five-pointed star) = Hyderabad\r\nM (letter \"M\") = Mumbai Proof Issues\r\n° (circular dot) = Noida"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2255-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3141-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "923": {
+   "id": 923,
+   "url": "https://en.numista.com/923",
+   "title": "1 Dollar \"Sacagawea Dollar\"",
+   "years": "2000–2008",
+   "composition": "Manganese brass clad copper (Cladding: 77% Copper, 12% Zinc, 7% Manganese, 4% Nickel; Core: 100% Copper)",
+   "weight": "8.1 g",
+   "size": "26.5 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Sacagawea (1788-1812), a Shoshone native American and a translator and guide to the Lewis and Clark expedition, with her son Jean Baptiste Charbonneau and the date to the right",
+    "engravers": [
+     "Glenna Goodacre"
+    ]
+   },
+   "reverse": {
+    "design": "Eagle in flight with the denomination below",
+    "engravers": [
+     "Thomas D. Rogers"
+    ]
+   },
+   "comments": "2000P tail feathers\n\n\nThe Sacagawea Dollar proved to be unpopular amongst the American public and are today rarely seen in everyday commerce. However, they are frequently used in Ecuador and El Salvador, two nations that have adopted the United States dollar.\n\nThe standard weight of all base-metal dollars issued since 2000 is 125 grains.\n 2000 P Wounded eagle dollar link: https://www.pcgs.com/coinfacts/coin/2000-p-sac-1-wounded-eagle/506153",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/etats-unis/4357-180.jpg",
+     "credit": "Heritage Auctions"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/etats-unis/4358-180.jpg",
+     "credit": "Heritage Auctions"
+    }
+   }
+  },
+  "138318": {
+   "id": 138318,
+   "url": "https://en.numista.com/138318",
+   "title": "25 Satang - Rama X (1st portrait)",
+   "years": "2018–2025",
+   "composition": "Copper plated steel",
+   "weight": "1.9 g",
+   "size": "16 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust facing left"
+   },
+   "reverse": {
+    "design": "Crowned monogram"
+   },
+   "comments": "Ready-made 1,000,000,000 pcs of 25 Satang coin is from South African Mint.\n\r\nhttps://www.treasury.go.th/web-upload/old-file/36194/article_20180314102241.pdf\n\r\n* This is unknown to came as which type of mint bags *\n\r\n________\n\n\r\n2561\n\n\r\n\n\r\n\n\n\r\nBlank planchet found mixed in coin bag.\n\r\nhttps://www.youtube.com/watch?v=OBGHRPCiRIs&t=45s\n\r\n________\n\n\r\n2562\n\r\nCoins issued small mint bag and standard mint bag, but both types looks no difference.\n\n\r\nInformation Royal Thai Mint:\n\r\nhttp://www.royalthaimint.net/ewtadmin/ewt/mint_web/ewt_news.php?nid=1022",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2686-180.jpg",
+     "credit": "Jérémy Pureur"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2687-180.jpg",
+     "credit": "Jérémy Pureur"
+    }
+   }
+  },
+  "138317": {
+   "id": 138317,
+   "url": "https://en.numista.com/138317",
+   "title": "50 Satang - Rama X (1st portrait)",
+   "years": "2018–2025",
+   "composition": "Copper plated steel",
+   "weight": "2.4 g",
+   "size": "18 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust of Rama X facing left, inscription left and right, in decagon rim"
+   },
+   "reverse": {
+    "design": "Crowned monogram with 17 radious on its top, inscription around, in decagon rim"
+   },
+   "comments": "Information Royal Thai Mint:\n\r\nhttp://www.royalthaimint.net/ewtadmin/ewt/mint_web/ewt_news.php?nid=1022\n\r\n________\n\n\r\n2561",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2684-180.jpg",
+     "credit": "Jérémy Pureur"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2685-180.jpg",
+     "credit": "Jérémy Pureur"
+    }
+   }
+  },
+  "26791": {
+   "id": 26791,
+   "url": "https://en.numista.com/26791",
+   "title": "2 Rupees - Gyanendra Bir Bikram (magnetic)",
+   "years": "2003–2003",
+   "composition": "Brass plated steel",
+   "weight": "5.07 g",
+   "size": "25 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Central Circle: Trident Inside the Square: King's Name (Gyanendra Bir Bikram Shah Dev) Outside the Square: Hinduism Icons; Clockwise from Top Left : Chakra (Wheel), Shank (Conch), Gadha (Mace) & Padma (Lotus) Top of the square: Crescent, Symbol Sri (श्री), Sun. Bottom of the Square: Year"
+   },
+   "reverse": {
+    "design": "Janaki or Sita Mandir or Temple"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/nepal/956-180.jpg",
+     "credit": "Ulmo"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/nepal/957-180.jpg",
+     "credit": "Ulmo"
+    }
+   }
+  },
+  "7974": {
+   "id": 7974,
+   "url": "https://en.numista.com/7974",
+   "title": "50 Satang - Rama IX",
+   "years": "2008–2017",
+   "composition": "Copper plated steel",
+   "weight": "2.4 g",
+   "size": "18 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Portrait of King Rama IX facing left",
+    "engravers": [
+     "Supab Aun-aree"
+    ]
+   },
+   "reverse": {
+    "design": "Doi Suthep Temple from Chiang Mai province with the denomination in numerals on each side",
+    "engravers": [
+     "Paithoon Na Chiangmai"
+    ]
+   },
+   "comments": "One of the 2559 variants came from the Bayern mint.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/126-180.jpg",
+     "credit": "Numista"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/127-180.jpg",
+     "credit": "Numista"
+    }
+   }
+  },
+  "3839": {
+   "id": 3839,
+   "url": "https://en.numista.com/3839",
+   "title": "5 Baht - Rama IX",
+   "years": "1977–1979",
+   "composition": "Copper-nickel clad copper ([99.5% Copper] clad [75% Copper / 25% Nickel])",
+   "weight": "12 g",
+   "size": "30 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust of King Rama IX (Bhumibol Adulyadej) facing left."
+   },
+   "reverse": {
+    "design": "Garuda, the mythical creature used in Thai national emblem, facing left.\r\n\"Thailand\"\r\nValue\r\nDate"
+   },
+   "comments": "There were a Ministerial Regulation declared in Royal Gazette about this type of coin dated BE2524/AD1981 (with minor changed size to 29.5mm). But the coin were never been released.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2586-180.jpg",
+     "credit": "Ma collection de monnaies"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2587-180.jpg",
+     "credit": "Ma collection de monnaies"
+    }
+   }
+  },
+  "138316": {
+   "id": 138316,
+   "url": "https://en.numista.com/138316",
+   "title": "1 Baht - Rama X (1st portrait)",
+   "years": "2018–2026",
+   "composition": "Nickel plated steel",
+   "weight": "3 g",
+   "size": "20 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Bust of King Maha Vajiralongkorn (Rama X) facing left."
+   },
+   "reverse": {
+    "design": "Crowned royal monogram (the cipher of King Rama X)."
+   },
+   "comments": "mint bag of early type\n\n\n1,542,310,000 pcs minted in 2561/2018, unknown to which type of mint bag.\n\nInformation Royal Thai Mint:\nhttp://www.royalthaimint.net/ewtadmin/ewt/mint_web/ewt_news.php?nid=1022 2567: Bold writing vs Fine writing",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2747-180.jpg",
+     "credit": "Jérémy Pureur"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/thailande/2748-180.jpg",
+     "credit": "Jérémy Pureur"
+    }
+   }
+  },
+  "203627": {
+   "id": 203627,
+   "url": "https://en.numista.com/203627",
+   "title": "10 000 Đồng",
+   "years": "2006–2025",
+   "composition": "Polymer (2006-2023: Printed on Guardian™; 2024- Q&amp;T Hi-tech Polymer)",
+   "size": "132 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Dark brown and dark green print on multicoloured tan, green, yellow, and orange underprint; serial numbers red and black.\r\nPortrait of Hồ Chí Minh at right, coat of arms of Vietnam to the left. At the far right, a transparent window."
+   },
+   "reverse": {
+    "design": "Dark brown print on multicoloured tan, green, yellow, and orange underprint\r\nPicture of an offshore oil rig platform at centre. Sun in background."
+   },
+   "comments": "UV activity:\n\n© gyoschak\n\nThe first two digits of the serial number give the last two digits of the year of issue. For example, number “08” indicates that the note was printed in 2008. Security features #1 - \"Hidden\" Yellow strip© IrishCollectible The yellow strip of \"10000 ★ 10000” Security features #2 - Latent Image© IrishCollectible Latent image of \"VN\", stands for Việt Nam or Vietnam in English-translation. Year of Printing  The year of printing for a specific Vietnamese Dong (VND) banknote can be identified by the first two digits of its serial number. For example, a serial number…",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/viet_nam/629a30e8e84ca4.62721942-180.jpg",
+     "credit": "hex7ech"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/viet_nam/629a30e97f22e2.67265051-180.jpg",
+     "credit": "hex7ech"
+    }
+   }
+  },
+  "1672": {
+   "id": 1672,
+   "url": "https://en.numista.com/1672",
+   "title": "50 Cents (ribbon downwards)",
+   "years": "1992–2013",
+   "composition": "Copper-nickel",
+   "weight": "7.29 g",
+   "size": "24.66 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Emblem with the date underneath and 'Singapore' on four sides in English, Tamil, Chinese, and Malay.",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "reverse": {
+    "design": "A Yellow allamanda flower (Binomial Name: Allamanda cathartica) in the centre with the numerical value below",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "comments": "The Edges of the lettering is random. There is no standard orientation for it. Below is a photo of 1995 coins for comparison.\n\r\n\n\r\n@Saber82",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/singapour/375-180.jpg",
+     "credit": "nalaberong"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/singapour/376-180.jpg",
+     "credit": "nalaberong"
+    }
+   }
+  },
+  "874": {
+   "id": 874,
+   "url": "https://en.numista.com/874",
+   "title": "5 Pence - Elizabeth II (3rd portrait; large type)",
+   "years": "1985–1990",
+   "composition": "Copper-nickel (75% Cu, 25% Ni)",
+   "weight": "5.65 g",
+   "size": "23.59 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Third crowned portrait of Queen Elizabeth II right, wearing the George IV State Diadem, legend around.",
+    "engravers": [
+     "Raphael David Maklouf"
+    ]
+   },
+   "reverse": {
+    "design": "The Badge of Scotland, a thistle royally crowned, legend above, denomination below.",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "comments": "No five pence coins of the larger type were struck for circulation between 1981 and 1987, as well as in 1990, because pre-decimal shillings continued to circulate with a decimal value of five pence after decimalisation on 15th February 1971. Both the shillings and these larger five pence coin were finally demonetised at the end of 1990 following the introduction of the smaller five pence piece.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/3596-180.jpg",
+     "credit": "Nestor"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/3597-180.jpg",
+     "credit": "Nestor"
+    }
+   }
+  },
+  "204743": {
+   "id": 204743,
+   "url": "https://en.numista.com/204743",
+   "title": "20 000 Đồng",
+   "years": "2006–2025",
+   "composition": "Polymer (2006-2023: printed on Guardian™; 2024- Q&amp;T Hi-tech Polymer)",
+   "size": "137.5 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Portrait of Ho Chi Minh"
+   },
+   "reverse": {
+    "design": "Covered bridge in Hội An"
+   },
+   "comments": "UV activity:\n\r\n\n\r\n© gyoschak\n\n\r\nFirst two numbers of the serial number give the last two digits of the year of issue",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/viet_nam/63fdf045478aa8.79782893-180.jpg",
+     "credit": "ngdawa"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/viet_nam/63fdf048f16474.69949110-180.jpg",
+     "credit": "ngdawa"
+    }
+   }
+  },
+  "2620": {
+   "id": 2620,
+   "url": "https://en.numista.com/2620",
+   "title": "1 Dollar - Elizabeth II (4th Portrait)",
+   "years": "1999–2020",
+   "composition": "Aluminium bronze",
+   "weight": "8 g",
+   "size": "23 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Fourth crowned portrait of Queen Elizabeth II facing right, wearing the Girls of Great Britain and Ireland tiara, legend around, date below."
+   },
+   "reverse": {
+    "design": "Kiwi on a background of fern leaves, denomination below."
+   },
+   "comments": "This New Zealand definitive dollar coin was first issued in 1999 in BU and Proof sets with the obverse featuring Ian Rank-Broadley's fourth portrait of Queen Elizabeth II. The first coins with the IRB fourth portrait to enter circulation were dated 2000. These coins have been minted at various different Mints over the years. From 2010 The $1 BU & Proof set coins (Except for the Unofficial BU Sets of 2014 & 2015 which were struck at the Royal Mint) were minted at the Royal Dutch Mint and are made from Brass instead of Aluminium-bronze. In 2014 no $1 Coin was struck at any Mint.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f24d0768c7f2.69886020-180.jpg",
+     "credit": "brismike"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/nouvelle-zelande/66f24d085fd866.43524669-180.jpg",
+     "credit": "brismike"
+    }
+   }
+  },
+  "879": {
+   "id": 879,
+   "url": "https://en.numista.com/879",
+   "title": "10 Pence - Elizabeth II (3rd portrait; small type)",
+   "years": "1992–1997",
+   "composition": "Copper-nickel (75% Cu, 25% Ni)",
+   "weight": "6.5 g",
+   "size": "24.5 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Third crowned portrait of Queen Elizabeth II right, wearing the George IV State Diadem, legend around.",
+    "engravers": [
+     "Raphael David Maklouf"
+    ]
+   },
+   "reverse": {
+    "design": "Part of the crest of England, a lion passant guardant royally crowned, legend above, denomination below.",
+    "engravers": [
+     "Christopher Ironside"
+    ]
+   },
+   "comments": "In 1992 the ten pence was reduced in size to begin the process of demonetising the larger 10p which, alongside pre-decimal florins, were finally taken out of circulation in 1993.\n\n\r\n1992 dated 10 pence issues\n\n\r\nKM# 938, Sp# F3 Copper-nickel • 11.3 g • ⌀ 28.5 mm - issued in RM sets only (BU and Proof);\n\r\nKM# 938b, Sp# F4 Copper-nickel • 6.5 g • ⌀ 24.5 mm - issued in RM sets and over 1.4bn struck for circulation.\n\n\r\nObverse die varieties:\n\n\r\nType 1: L, I and A in ELIZABETH point to space between dots\n\r\nType 2: L, I and A in ELIZABETH point directly at dots\n\n\r\nReverse die varieties:\n\n\r\nType A:…",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/68f0641b2fe130.84037640-180.jpg",
+     "credit": "riversxian"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/royaume-uni/68f0641d43e9f2.66741803-180.jpg",
+     "credit": "riversxian"
+    }
+   }
+  },
+  "430430": {
+   "id": 430430,
+   "url": "https://en.numista.com/430430",
+   "title": "50 Hryven (Glory to Ukraine)",
+   "years": "2024–2024",
+   "composition": "Paper",
+   "size": "136 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Mykhailo Hrushevskyi was the founder and president of the Ukrainian People’s Republic, the chair of the Central Council, a renowned historian, scientist, writer, civic and political activist, and a public figure."
+   },
+   "comments": "Issued on 12th August 2024, for the 33rd anniversary of Ukraine's independence",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/ukraine/68a2eb3aad08e5.70430765-180.jpg",
+     "credit": "hex7ech"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/ukraine/68a2eb3cf22067.87433320-180.jpg",
+     "credit": "hex7ech"
+    }
+   }
+  },
+  "15672": {
+   "id": 15672,
+   "url": "https://en.numista.com/15672",
+   "title": "4 Annas - George V",
+   "years": "1919–1921",
+   "composition": "Copper-nickel",
+   "weight": "6.8 g",
+   "size": "24 mm",
+   "shape": "Scalloped (with 8 notches)",
+   "obverse": {
+    "design": "Crowned head of George V facing left, English legend surrounds",
+    "engravers": [
+     "Edgar Bertram MacKennal"
+    ]
+   },
+   "reverse": {
+    "design": "Denomination within square, 4 annas in Urdu, Bengali, Telugu & Devanagari"
+   },
+   "comments": "- Mint mark\n\r\n Bombay, bead at bottom of reverse\n\r\n Calcutta, no mint mark\n\r\nActual weight varies 6.65-6.87 grams.\n\r\nActual size varies 24.0-25.5 mm\n\r\n- Some of these coins contain a high percentage of ferrous metals and it is not unusual for them to tarnish to a rust brown color\n\r\n- The mintmark is at bottom of the reverse (click on image)",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde_britannique/69d559e73f9ed1.41887353-180.jpg",
+     "credit": "Zanzibar.Orc.Coins"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde_britannique/69d559e8319ca8.74672358-180.jpg",
+     "credit": "Zanzibar.Orc.Coins"
+    }
+   }
+  },
+  "1610": {
+   "id": 1610,
+   "url": "https://en.numista.com/1610",
+   "title": "25 Paise",
+   "years": "1988–2002",
+   "composition": "Stainless steel",
+   "weight": "2.83 g",
+   "size": "19 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "The Asoka capitol above the denomination"
+   },
+   "reverse": {
+    "design": "Indian Rhinoceros facing left with the date above"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2074-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3124-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "3892": {
+   "id": 3892,
+   "url": "https://en.numista.com/3892",
+   "title": "50 Paise (FAO)",
+   "years": "1973–1973",
+   "composition": "Copper-nickel",
+   "weight": "5 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Inscription on shield within wheat ears"
+   },
+   "comments": "NOTE: Different mintmarks\n♦ (small dot/diamond) = Mumbai Uncirculated & Circulation strike\nB (letter \"B\") = Mumbai Proof Issues\n(no mintmark) = Calcutta",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2237-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3133-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "338506": {
+   "id": 338506,
+   "url": "https://en.numista.com/338506",
+   "title": "20 000 Rupiah",
+   "years": "2022–2026",
+   "composition": "Paper",
+   "size": "141 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Black orchid flower; Dr. Gerungan Saul Samuel Jacob Ratulangi; map of Indonesia; coat of arms; bank logo as registration device."
+   },
+   "reverse": {
+    "design": "Bank logo; sea turtle swimming near Derawan Islands in East Kalimantan; black orchid (Coelogyne pandurata) flower; Tari Gong (dancer with feathers)."
+   },
+   "comments": "UV activity:© gyoschak",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/indonesie/63c4fc1df1fe15.27611275-180.jpg",
+     "credit": "hex7ech"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/indonesie/63c4fc1eaca4e5.17229955-180.jpg",
+     "credit": "hex7ech"
+    }
+   }
+  },
+  "3794": {
+   "id": 3794,
+   "url": "https://en.numista.com/3794",
+   "title": "2 Lari",
+   "years": "2006–2006",
+   "composition": "Bimetallic: aluminium-nickel bronze centre in copper-nickel ring",
+   "weight": "8 g",
+   "size": "27 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "National arms in brass center with stylized ancient Kolkhi Tetri coin with lion's head on 6 o'clock. Country's name and year on the ring. Motto \"Strength is in Unity\" is written on the ribbon of coat of arms.",
+    "engravers": [
+     "Mamuka Gongadze"
+    ]
+   },
+   "reverse": {
+    "design": "Denomination and value in Georgian. Ring has original design like sun rays, which represent a sun with inner brass center. Small stylized ancient Kolhi Tetri coin with lion head in brass center on 5 o'clock.",
+    "engravers": [
+     "Mamuka Gongadze"
+    ]
+   },
+   "comments": "First mintage of 2006 2 Lari coins were struck at the Royal Mint, England. After 2006, the circulation increased several times. Coins were minted in various mints of Europe. Unfortunately, the exact number of first mintage, as well as the number of coins added at different times, as well as exact later mints, is unknown yet.\n\r\nSo, year \"2006\" is frozen year on 2006 coins, as well as \"1993\" on previous coin family (1-50 tetri)\n\n\r\nImage shows both varieties of edge lettering: Fine (top) and Bold (bottom).",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/georgie/6a4805e0202a10.07052028-180.jpg",
+     "credit": "mvm"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/georgie/6a4805e26ea6d7.29115680-180.jpg",
+     "credit": "mvm"
+    }
+   }
+  },
+  "6759": {
+   "id": 6759,
+   "url": "https://en.numista.com/6759",
+   "title": "1 Florin - Elizabeth II (1st Portrait; with \"F:D:\")",
+   "years": "1956–1963",
+   "composition": "Silver (.500)",
+   "weight": "11.31 g",
+   "size": "28.5 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "1st portrait of Queen Elizabeth II facing right wearing a laurel"
+   },
+   "reverse": {
+    "design": "Coat of Arms of Australia"
+   },
+   "comments": "The Queen Elizabeth II series of pre-decimal coins have been issued in Sherwood Sets of all six denominations.\n\r\nThis particular set contains all of the 1962 issues.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/australie/973-180.jpg",
+     "credit": "Heritage Auctions"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/australie/974-180.jpg",
+     "credit": "Heritage Auctions"
+    }
+   }
+  },
+  "208238": {
+   "id": 208238,
+   "url": "https://en.numista.com/208238",
+   "title": "500 Rupees",
+   "years": "1985–1992",
+   "composition": "Paper",
+   "size": "167 mm",
+   "shape": "Rectangular",
+   "obverse": {
+    "design": "Lion capital of Asoka column (now in Sarnath Museum)\r\nMohendas Karamchand \"Mahatma\" Gandhi\r\nFive Hundred Rupees – Multilingual Depiction on Currency Note\r (13 Indian Languages – excluding Hindi and English)\r\n•\tAssamese: পাঁচশ টকা\r\n•\tBengali: পাঁচশ টাকা\r\n•\tGujarati: પાંચસો રૂપિયા\r\n•\tKannada: ಐದು…"
+   },
+   "reverse": {
+    "design": "\"March to Dandi\" (Gandhi and followers; sculpture in front of President's Palace, New Delhi)"
+   },
+   "comments": "Tamil lettering 'ஐநூறு' is wrong spelling instead of 'ஐந்நூறு'. This was corrected in subsequent year releases.",
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/5ea6f283841ff6.67466597-180.jpg",
+     "credit": "sivavarma"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/5ea6f285bf50a4.48974889-180.jpg",
+     "credit": "sivavarma"
+    }
+   }
   }
  },
  "issuers": {
@@ -5994,10 +8221,836 @@
   "united arab emirates": "emirats_arabes_unis",
   "united kingdom": "royaume-uni",
   "united states": "etats-unis",
-  "vietnam": "viet_nam"
+  "vietnam": "viet_nam",
+  "bahrain": "bahrein",
+  "bangladesh": "bangladesh",
+  "kenya": "kenya",
+  "pakistan": "pakistan",
+  "saudi arabia": "arabie_saoudite"
  },
  "quota": {
   "month": "2026-11",
-  "calls": 1500
+  "calls": 383,
+  "key": "71fc8c58"
+ },
+ "issuers_checked": "2026-11",
+ "prices": {
+  "6085": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2001"
+   ],
+   "years": {
+    "2001": {
+     "vg": 12.47,
+     "f": 17.69,
+     "vf": 17.69,
+     "xf": 32.21,
+     "au": 108.06,
+     "unc": 207.81
+    }
+   }
+  },
+  "204760": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2000"
+   ],
+   "years": {
+    "2000": {
+     "vf": 17.66,
+     "xf": 70.06,
+     "au": 70.06,
+     "unc": 144.43
+    }
+   }
+  },
+  "10615": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "1635": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1982",
+    "1983"
+   ],
+   "years": {
+    "1982": {
+     "vg": 25.98,
+     "f": 37.29,
+     "vf": 43.64
+    },
+    "1983": {
+     "vg": 25.98,
+     "f": 25.98,
+     "vf": 27.02,
+     "xf": 46.76,
+     "au": 49.6,
+     "unc": 54.03
+    }
+   }
+  },
+  "1651": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1974"
+   ],
+   "years": {
+    "1974": {
+     "g": 1.04,
+     "vg": 1.04,
+     "f": 24.89,
+     "vf": 24.89,
+     "xf": 24.89,
+     "au": 34.29,
+     "unc": 90.4
+    }
+   }
+  },
+  "1977": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "1847": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1967"
+   ],
+   "years": {
+    "1967": {
+     "f": 20.17,
+     "vf": 20.17,
+     "xf": 91.83,
+     "au": 91.83,
+     "unc": 119.49
+    }
+   }
+  },
+  "470640": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2025"
+   ],
+   "years": {
+    "2025": {
+     "unc": 73.77
+    }
+   }
+  },
+  "1631": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1980"
+   ],
+   "years": {
+    "1980": {
+     "g": 13.51,
+     "vg": 48.89,
+     "f": 73.38,
+     "vf": 73.38,
+     "xf": 73.38,
+     "au": 98.71,
+     "unc": 146.51
+    }
+   }
+  },
+  "46716": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2011"
+   ],
+   "years": {
+    "2011": {
+     "vf": 51.95,
+     "xf": 58.19,
+     "au": 75.69,
+     "unc": 84.16
+    }
+   }
+  },
+  "16626": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1977"
+   ],
+   "years": {
+    "1977": {
+     "g": 15.59,
+     "vg": 40.59,
+     "f": 40.59,
+     "vf": 51.95,
+     "xf": 57.15,
+     "au": 98.71,
+     "unc": 187.03
+    }
+   }
+  },
+  "16623": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1936"
+   ],
+   "years": {
+    "1936": {
+     "f": 54.03,
+     "vf": 105.85,
+     "xf": 105.85,
+     "au": 246.26,
+     "unc": 620.33
+    }
+   }
+  },
+  "10788": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1995"
+   ],
+   "years": {
+    "1995": {
+     "vg": 19.11,
+     "f": 19.11,
+     "vf": 50.45,
+     "xf": 50.45,
+     "au": 196.38,
+     "unc": 465.5
+    }
+   }
+  },
+  "46719": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2020"
+   ],
+   "years": {
+    "2020": {
+     "xf": 47.8
+    }
+   }
+  },
+  "1637": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1974"
+   ],
+   "years": {
+    "1974": {
+     "g": 5.2,
+     "vg": 26.38,
+     "f": 26.38,
+     "vf": 42.6,
+     "xf": 70.66,
+     "au": 98.71,
+     "unc": 126.77
+    }
+   }
+  },
+  "1743": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1968"
+   ],
+   "years": {
+    "1968": {
+     "vf": 31.17,
+     "xf": 47.8,
+     "au": 103.91
+    }
+   }
+  },
+  "1623": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1969"
+   ],
+   "years": {
+    "1969": {
+     "g": 27.02,
+     "vf": 42.98,
+     "xf": 42.98,
+     "au": 42.98
+    }
+   }
+  },
+  "1606": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1988",
+    "1994",
+    "1998",
+    "1999",
+    "2000"
+   ],
+   "years": {
+    "1988": {
+     "f": 24.59,
+     "vf": 24.59,
+     "xf": 24.59
+    },
+    "1994": {
+     "vf": 51.95
+    },
+    "1998": {
+     "g": 1.04,
+     "vg": 1.04,
+     "f": 3.12,
+     "vf": 6.23,
+     "xf": 14.55
+    },
+    "1999": {
+     "g": 1.04,
+     "vg": 4.68,
+     "f": 6.23,
+     "vf": 9.35,
+     "xf": 10.39
+    },
+    "2000": {
+     "f": 12.53,
+     "vf": 12.53,
+     "xf": 14.55
+    }
+   }
+  },
+  "1844": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1990"
+   ],
+   "years": {
+    "1990": {
+     "f": 31.17,
+     "vf": 31.17,
+     "xf": 68.58,
+     "au": 87.28,
+     "unc": 123.65
+    }
+   }
+  },
+  "11632": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1937"
+   ],
+   "years": {}
+  },
+  "9748": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1976"
+   ],
+   "years": {}
+  },
+  "1621": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "22456": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "5676": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1989"
+   ],
+   "years": {
+    "1989": {
+     "f": 37.93,
+     "vf": 56.63,
+     "xf": 81.05,
+     "au": 92.48,
+     "unc": 110.66
+    }
+   }
+  },
+  "923": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2000"
+   ],
+   "years": {
+    "2000": {
+     "g": 97.67,
+     "vg": 97.67,
+     "f": 99.75,
+     "vf": 103.91,
+     "xf": 125.96,
+     "au": 125.96,
+     "unc": 184.95
+    }
+   }
+  },
+  "206985": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "138318": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "130097": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2014"
+   ],
+   "years": {}
+  },
+  "138317": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "205390": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "258989": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "258926": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "1309": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "15418": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1965"
+   ],
+   "years": {
+    "1965": {
+     "f": 31.17,
+     "vf": 88.84,
+     "xf": 101.83,
+     "au": 115.34,
+     "unc": 116.38
+    }
+   }
+  },
+  "185": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1985"
+   ],
+   "years": {
+    "1985": {
+     "vg": 93.52,
+     "f": 97.67,
+     "vf": 99.75,
+     "xf": 103.91,
+     "au": 110.14,
+     "unc": 280.55
+    }
+   }
+  },
+  "258925": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "203329": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "63897": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2012"
+   ],
+   "years": {
+    "2012": {
+     "vg": 32.73,
+     "f": 65.0,
+     "vf": 65.0,
+     "xf": 96.63,
+     "au": 102.87,
+     "unc": 145.47
+    }
+   }
+  },
+  "206982": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "1673": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1993",
+    "1997",
+    "2011"
+   ],
+   "years": {
+    "1993": {
+     "vg": 6.23,
+     "f": 16.63,
+     "vf": 16.63,
+     "xf": 32.21,
+     "au": 55.07,
+     "unc": 58.19
+    },
+    "1997": {
+     "g": 14.55,
+     "vg": 15.83,
+     "f": 15.83,
+     "vf": 16.63,
+     "xf": 28.05,
+     "au": 31.17,
+     "unc": 51.95
+    },
+    "2011": {
+     "f": 7.27,
+     "vf": 14.55,
+     "xf": 15.59,
+     "au": 41.56,
+     "unc": 41.56
+    }
+   }
+  },
+  "205392": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "9226": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "1835": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2010"
+   ],
+   "years": {
+    "2010": {
+     "vg": 20.78,
+     "f": 29.53,
+     "vf": 29.53,
+     "xf": 29.53,
+     "au": 36.16,
+     "unc": 91.44
+    }
+   }
+  },
+  "138316": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "3399": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2013"
+   ],
+   "years": {}
+  },
+  "3916": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2002",
+    "2006"
+   ],
+   "years": {
+    "2006": {
+     "vf": 67.54,
+     "xf": 92.48,
+     "au": 127.81,
+     "unc": 207.81
+    }
+   }
+  },
+  "53": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1979",
+    "1984",
+    "1985",
+    "2001",
+    "2005"
+   ],
+   "years": {
+    "1979": {
+     "g": 10.72,
+     "vg": 10.72,
+     "f": 12.47,
+     "vf": 12.47,
+     "xf": 21.64,
+     "au": 21.64,
+     "unc": 51.95
+    },
+    "1984": {
+     "g": 9.73,
+     "vg": 9.73,
+     "f": 11.43,
+     "vf": 11.43,
+     "xf": 15.59,
+     "au": 19.74,
+     "unc": 68.58
+    },
+    "1985": {
+     "g": 9.35,
+     "vg": 9.35,
+     "f": 10.39,
+     "vf": 13.79,
+     "xf": 13.79,
+     "au": 13.79,
+     "unc": 74.29
+    },
+    "2001": {
+     "g": 9.35,
+     "vg": 10.21,
+     "f": 10.21,
+     "vf": 11.64,
+     "xf": 11.64,
+     "au": 11.64,
+     "unc": 47.8
+    },
+    "2005": {
+     "g": 9.76,
+     "vg": 9.76,
+     "f": 10.31,
+     "vf": 10.31,
+     "xf": 10.31,
+     "au": 10.31,
+     "unc": 52.99
+    }
+   }
+  },
+  "862": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2001"
+   ],
+   "years": {
+    "2001": {
+     "g": 2.08,
+     "vg": 6.23,
+     "f": 7.27,
+     "vf": 10.39,
+     "xf": 14.55,
+     "au": 15.59,
+     "unc": 31.17
+    }
+   }
+  },
+  "202153": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "1665": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1997",
+    "1998",
+    "2009"
+   ],
+   "years": {
+    "1997": {
+     "vg": 46.76,
+     "f": 62.34,
+     "vf": 66.5,
+     "xf": 66.5,
+     "au": 70.66,
+     "unc": 134.04
+    },
+    "1998": {
+     "unc": 441.09
+    },
+    "2009": {
+     "vf": 64.42,
+     "xf": 94.24,
+     "au": 94.24,
+     "unc": 103.91
+    }
+   }
+  },
+  "2620": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2010"
+   ],
+   "years": {
+    "2010": {
+     "f": 98.73,
+     "vf": 98.73,
+     "xf": 98.73,
+     "au": 98.73,
+     "unc": 195.35
+    }
+   }
+  },
+  "573": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1999"
+   ],
+   "years": {
+    "1999": {
+     "g": 23.9,
+     "vg": 23.9,
+     "f": 28.05,
+     "vf": 31.17,
+     "xf": 31.17,
+     "au": 98.71,
+     "unc": 155.86
+    }
+   }
+  },
+  "258988": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2020",
+    "2022"
+   ],
+   "years": {
+    "2020": {
+     "f": 39.83,
+     "vf": 39.83,
+     "xf": 39.83,
+     "au": 39.83,
+     "unc": 103.91
+    },
+    "2022": {
+     "vf": 41.56,
+     "xf": 64.42,
+     "au": 103.91,
+     "unc": 104.95
+    }
+   }
+  },
+  "879": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1992"
+   ],
+   "years": {
+    "1992": {
+     "xf": 42.08,
+     "au": 165.39,
+     "unc": 244.18
+    }
+   }
+  },
+  "149": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1999"
+   ],
+   "years": {
+    "1999": {
+     "g": 20.78,
+     "vg": 20.78,
+     "f": 20.78,
+     "vf": 20.78,
+     "xf": 20.78,
+     "au": 20.78,
+     "unc": 64.42
+    }
+   }
+  },
+  "15672": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1920"
+   ],
+   "years": {
+    "1920": {
+     "g": 93.52,
+     "vg": 251.42,
+     "f": 251.42,
+     "vf": 373.03,
+     "xf": 507.07
+    }
+   }
+  },
+  "24942": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2013",
+    "2015"
+   ],
+   "years": {
+    "2013": {
+     "g": 2.08,
+     "vg": 4.99,
+     "f": 7.27,
+     "vf": 10.34,
+     "xf": 10.34,
+     "au": 13.13,
+     "unc": 32.73
+    },
+    "2015": {
+     "g": 2.08,
+     "vg": 2.6,
+     "f": 10.99,
+     "vf": 10.99,
+     "xf": 10.99,
+     "au": 10.99,
+     "unc": 73.77
+    }
+   }
+  },
+  "10624": {
+   "checked": "2026-11-15",
+   "asked": [],
+   "years": {}
+  },
+  "129": {
+   "checked": "2026-11-15",
+   "asked": [
+    "2002"
+   ],
+   "years": {}
+  },
+  "2852": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1993"
+   ],
+   "years": {
+    "1993": {
+     "vg": 23.52,
+     "f": 23.52,
+     "vf": 31.17,
+     "xf": 51.95,
+     "au": 61.31,
+     "unc": 115.34
+    }
+   }
+  },
+  "4419": {
+   "checked": "2026-11-15",
+   "asked": [
+    "1992"
+   ],
+   "years": {
+    "1992": {
+     "g": 22.86,
+     "vg": 39.23,
+     "f": 39.23,
+     "vf": 98.71,
+     "xf": 103.91,
+     "au": 103.91,
+     "unc": 108.06
+    }
+   }
+  }
  }
 }
