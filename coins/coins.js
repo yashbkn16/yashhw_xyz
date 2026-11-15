@@ -3,7 +3,7 @@
 //   /coins/piece/  → one type, ?id=…, with catalogue facts on request
 // One entry in the data is one *type* (e.g. "1 Baht · Rama IX") with a count.
 
-import { loadRates, worth, money, currencies, currencyArticle } from './money.js';
+import { loadRates, worth, money, currencies, currencyArticle, collectorValue, market, melt, silverGrams } from './money.js';
 
 const DATA = '/data/collection.json';
 
@@ -39,7 +39,9 @@ const [collection, rates] = await Promise.all([fetch(DATA).then((r) => r.json())
 // Which currency values are shown in; remembered per visitor.
 let shownIn = 'INR';
 try { shownIn = localStorage.getItem('currency') || 'INR'; } catch {}
-const total = (list) => money(list.reduce((s, e) => s + (worth(e, rates, shownIn) ?? 0), 0), shownIn);
+const sum = (list, r = rates) => list.reduce((s, e) => s + (worth(e, r, shownIn) ?? 0), 0);
+const total = (list) => money(sum(list), shownIn);
+const range = ({ low, high }) => Math.round(low) === Math.round(high) ? `~${money(low, shownIn)}` : `${money(low, shownIn)}–${money(high, shownIn)}`;
 
 if (document.getElementById('groups')) listPage();
 if (document.getElementById('piece')) piecePage();
@@ -72,7 +74,19 @@ function listPage() {
     if (!rates) return;
     document.getElementById('worth').hidden = false;
     document.getElementById('worth-total').textContent = total(collection);
-    document.getElementById('worth-note').textContent = `face value of everything here · ${rates.date}`;
+    // Rates are daily: say which day, and how the total moved since the day before.
+    const change = rates.before && sum(collection) - sum(collection, rates.before);
+    const moved = change == null ? '' : Math.abs(change) < 0.005 ? ` · unchanged since ${rates.before.date}`
+      : ` · ${change > 0 ? '+' : '−'}${money(Math.abs(change), shownIn)} since ${rates.before.date}`;
+    document.getElementById('worth-note').textContent = `face value of everything here · rates of ${rates.date}, updated daily${moved}`;
+    // Above face value: catalogue estimates and silver, for the pieces that have them.
+    const valued = collection.filter((e) => collectorValue(e, rates, shownIn));
+    const extra = document.getElementById('worth-collector');
+    extra.hidden = !valued.length;
+    if (valued.length) {
+      const all = valued.reduce((a, e) => { const v = collectorValue(e, rates, shownIn); return { low: a.low + v.low, high: a.high + v.high }; }, { low: 0, high: 0 });
+      extra.textContent = `to a collector: ${range(all)} for the ${plural(pieces(valued), 'piece')} with a catalogue price or silver in them`;
+    }
   }
   showWorth();
   currencyPicker(() => { showWorth(); draw(); });
@@ -146,11 +160,14 @@ function piecePage() {
 
   function draw() {
     const v = rates && worth(e, rates, shownIn);
+    const mk = rates && market(e, rates, shownIn), ag = rates && melt(e, rates, shownIn);
     const facts = [
       ['year', when],
       ['held', e.count > 1 ? `${e.count} pieces` : null],
       ['face value', e.face_value != null ? `${e.face_value} ${e.currency}` : null],
       ['worth today', e.demonetised ? 'demonetised' : v != null ? `${money(v, shownIn)}${e.count > 1 ? ' for all' : ''}` : null],
+      ['to a collector', mk && `${range(mk)}${e.count > 1 ? ' for all' : ''}, fine to very fine (Numista estimate, ${e.market.years.join(', ')})`],
+      ['silver', ag && `${(silverGrams(e) * e.count).toFixed(2)} g pure, worth ${money(ag, shownIn)} at today’s silver price`],
     ].filter(([, val]) => val);
 
     root.innerHTML = `
