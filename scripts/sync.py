@@ -141,16 +141,29 @@ def save_photos(entry):
 # ---------------------------------------------------------------- numista
 
 class RateLimited(Exception):
-    """Numista said 429: stop asking for this run; the next run carries on."""
+    """Numista said 429, or our own monthly budget is spent: stop asking for this run."""
+
+
+# The free key allows 2,000 calls per calendar month. We count our own calls in the
+# cache and stop at MONTHLY_BUDGET, leaving headroom for testing by hand.
+MONTHLY_BUDGET = 1500
+quota = {"month": "", "calls": 0}   # loaded from / saved to data/numista.json by enrich()
 
 
 def numista(path, key, **params):
+    month = date.today().strftime("%Y-%m")
+    if quota["month"] != month:            # a new month: Numista's allowance has reset
+        quota.update(month=month, calls=0)
+    if quota["calls"] >= MONTHLY_BUDGET:
+        raise RateLimited()
+    quota["calls"] += 1
     url = f"{NUMISTA}{path}?{urllib.parse.urlencode({'lang': 'en', **params})}"
     time.sleep(0.25)  # be gentle: the free tier rate-limits bursts
     try:
         return request(url, headers={"Numista-API-Key": key})
     except urllib.error.HTTPError as err:
         if err.code == 429:
+            quota["calls"] = MONTHLY_BUDGET   # Numista says the allowance is gone: wait for next month
             raise RateLimited() from err
         raise
 
@@ -180,6 +193,7 @@ def denomination(text):
     Numista's spellings (paise/paisa, rupee/rupiya, cent/cents) compare equal."""
     t = text.lower().replace("½", "1/2 ").replace("¼", "1/4 ").replace("⁄", "/").replace("đ", "d")
     t = "".join(c for c in unicodedata.normalize("NFKD", t) if not unicodedata.combining(c))  # Đồng → dong
+    t = re.sub(r"(?<=\d)[\s\u00a0\u202f.,](?=\d{3}\b)", "", t)   # "20 000" / "20,000" → 20000
     t = re.sub(r"\bquarter\b", "1/4", re.sub(r"\bhalf\b", "1/2", t))
     t = t.replace("rupiya", "rupee").replace("piso", "peso").replace("dime", "10 cent").replace("florin", "2 shilling")
     # Skip "naye" and country adjectives: "2 Singapore Dollars", "50 Australian Dollars".
@@ -191,7 +205,27 @@ def denomination(text):
 
 REIGN_YEARS = {"rama ix": 2010, "rama x": 2020}  # extend when undated coins of other reigns are added
 
-STOP = {"birth", "anniversary", "centenary", "years", "year", "king", "emperor", "queen", "from", "with", "during", "issued", "reign", "the"}
+STOP = {"honour", "centenary", "mother", "birth", "anniversary", "centenary", "years", "year", "king", "emperor", "queen", "from", "with", "during", "issued", "reign", "the"}
+
+
+# Other ways a denomination is written in Numista's titles, used as extra search terms.
+SEARCH_ALIASES = {"rupiya": "rupee", "paisa": "paise", "hryvnia": "hryven", "2 shilling": "florin", "dime": "10 cents"}
+# Extra words that find the modern notes of a country among older private issues.
+NOTE_HINTS = {"united states": "Federal Reserve Note"}
+
+
+def spellings(den):
+    """'4 Anna' → ['4 Anna', '4 Annas']; '2 Rupiya' → ['2 Rupiya', '2 Rupiyas', '2 rupee']:
+    Numista's text search matches whole words, so singular and plural both need asking."""
+    out = [den, den[:-1] if den.endswith("s") else den + "s"]
+    # Large numbers are often written with a group separator: "10000 Dong" → "10 000 Dong", "10,000 Dong".
+    m = re.match(r"(\d{4,})(\s.*)", den)
+    if m:
+        grouped = f"{int(m.group(1)):,}"
+        out += [grouped.replace(",", " ") + m.group(2), grouped + m.group(2)]
+    low = den.lower()
+    out += [low.replace(a, b) for a, b in SEARCH_ALIASES.items() if a in low]
+    return list(dict.fromkeys(out))
 
 
 def match(entry, key, codes):
@@ -199,64 +233,82 @@ def match(entry, key, codes):
       status "exact"   — one type fits the country, denomination, years and subject
       status "closest" — several fit; the best-ranked one is used and the rest are
                          kept in "others" so the site can link them
-      status "none"    — nothing found at all
+      status "none"    — nothing that fits: the site shows an outline, never a wrong coin
     A Numista ID typed into Notion always overrides this."""
     category = "coin" if entry["kind"] == "coin" else "banknote"
     country = "india - british" if entry.get("era") == "British India" else entry["country"].lower()
     issuer = codes.get(country)
-    words = [w for w in re.findall(r"[a-z]{4,}", (entry.get("subject") or "").lower()) if w not in STOP]
-
-    # Most specific search first: the subject's words usually name the type outright
-    # ("5 rupees tagore"); then the denomination alone; then without the issuer filter.
-    # Numista can filter by year, which cuts hundreds of results to the few in issue then.
+    subject = (entry.get("subject") or "").lower()
+    # Search with the subject's proper names first ("Jawaharlal Nehru", not "in honour of"),
+    # falling back to any meaningful word.
+    proper = [w.lower() for w in re.findall(r"\b[A-Z][a-z]{3,}", entry.get("subject") or "") if w.lower() not in STOP]
+    words = proper or [w for w in re.findall(r"[a-z]{4,}", subject) if w not in STOP]
     ys = entry.get("years") or years(entry.get("minted"))
     # Undated coins naming a reign: search a year inside it ("Rama IX" → 2010).
     # (Numista's year filter only works for coins, not banknotes.)
-    reign = next((y for r, y in REIGN_YEARS.items() if r in (entry.get("subject") or "").lower()), None)
-    year = {"year": ys[0]} if ys else {"year": reign} if reign and category == "coin" else {}
-    named_q = f"{entry['denomination']} {' '.join(words[:2])}"
-    queries = ([(named_q, issuer, year)] if words and year else []) + ([(entry["denomination"], issuer, year)] if year else []) \
-        + ([(named_q, issuer, {})] if words else []) + [(entry["denomination"], issuer, {}), (entry["denomination"], None, {})]
+    reign = next((y for r, y in REIGN_YEARS.items() if r in subject), None)
+    year = {"year": ys[0]} if ys and category == "coin" else {"year": reign} if reign and category == "coin" else {}
+    hint = NOTE_HINTS.get(country, "") if category == "banknote" else ""
+    want = denomination(entry["denomination"])
+
+    # Most specific first; the first search that yields a fitting candidate wins.
+    queries = []
+    for den in spellings(entry["denomination"]):
+        named = f"{den} {' '.join(words[:2])}".strip()
+        if year:
+            queries += [(named, issuer, year), (den, issuer, year)]
+        queries += [(named, issuer, {}), (f"{den} {hint}".strip(), issuer, {})]
+    if words:
+        queries.append((" ".join(words[:2]), issuer, year))          # e.g. "florin" alone
+    queries.append((entry["denomination"], None, {}))                  # last resort: any issuer
+    queries = list(dict.fromkeys((q, i, tuple(y.items())) for q, i, y in queries))
+
+    def overlaps(t):
+        lo, hi = t.get("min_year") or 0, t.get("max_year") or 9999
+        return not ys or (lo <= max(ys) and hi >= min(ys))
+
     found = {}
     for q, iss, extra in queries:
-        params = {"q": q, "category": category, "count": 50, **({"issuer": iss} if iss else {}), **extra}
+        params = {"q": q, "category": category, "count": 50, **({"issuer": iss} if iss else {}), **dict(extra)}
         for t in numista("/types", key, **params).get("types", []):
             same_country = iss or country.split(" - ")[0] in t.get("issuer", {}).get("name", "").lower()
-            # Numista's search is loose: insist on the same denomination, number and unit.
-            same_value = denomination(t["title"]) == denomination(entry["denomination"])
-            if same_country and same_value and not re.search(r"pattern|token|proof|essai|fantasy|specimen", t["title"], re.I):
+            if (same_country and denomination(t["title"]) == want and overlaps(t)
+                    and not re.search(r"pattern|token|proof|essai|fantasy|specimen|restrike|piedfort|\((?:silver|gold)\b", t["title"], re.I)):
                 found.setdefault(t["id"], t)
         if found:
-            break   # the most specific search that found anything wins
+            break
 
-    # Undated pieces (most notes) were collected on travels: prefer types still issued after 1970.
-    if not ys and any((t.get("max_year") or 0) >= 1970 for t in found.values()):
+    # Undated notes were collected on travels: only types still issued after 1970
+    # (a modern US $1 must never show an 1850s private bank note). Coins are exempt:
+    # undated commemoratives can be older, and their subject already pins the type.
+    if not ys and category == "banknote":
         found = {i: t for i, t in found.items() if (t.get("max_year") or 0) >= 1970}
     # A commemorative in Notion should match a commemorative type, and an everyday coin an everyday one.
     wants_commemorative = entry.get("era") == "Commemorative" or bool(
-        re.search(r"centenary|anniversary|years of|independence|in honour", entry.get("subject") or "", re.I))
+        re.search(r"centenary|anniversary|years of|independence|in honour|grow more food", subject))
 
     def rank(t):
         lo, hi = t.get("min_year") or 0, t.get("max_year") or 9999
-        fits = 2 if ys and lo <= min(ys) and hi >= max(ys) else 1 if not ys or (lo <= max(ys) and hi >= min(ys)) else 0
+        fits = 2 if ys and lo <= min(ys) and hi >= max(ys) else 1
         named = len(set(words) & set(re.findall(r"[a-z]{4,}", t["title"].lower())))
         # Regnal numbers are too short to count as words but decide the type: "Rama IX" ≠ "Rama X".
-        for ruler in re.findall(r"\b(rama|george|edward|elizabeth)\s+([ivx]+)\b", (entry.get("subject") or "").lower()):
+        for ruler in re.findall(r"\b(rama|george|edward|elizabeth)\s+([ivx]+)\b", subject):
             named += 3 if re.search(rf"\b{ruler[0]}\s+{ruler[1]}\b", t["title"].lower()) else -3
+        # "Special" = commemorative or non-circulating (collector) issues; an everyday piece must not match one.
+        kind = (t.get("object_type") or {}).get("name", "").lower()
+        kind_fits = any(w in kind for w in ("commemorative", "non-circulating", "collector")) == wants_commemorative
         pictured = bool(t.get("obverse_thumbnail"))
-        kind_fits = ("commemorative" in (t.get("object_type") or {}).get("name", "").lower()) == wants_commemorative
-        recent = hi if not ys else 0                      # undated (most notes): the newest issue is the likeliest
+        # Undated: the newest issue is the likeliest, unless the piece is demonetised (then the older series).
+        recent = (-hi if entry.get("demonetised") else hi) if not ys else 0
         return (fits, named, kind_fits, pictured, recent, -(hi - lo))
 
     ranked = sorted(found.values(), key=rank, reverse=True)
-    # An undated piece whose only matches predate 1970 is almost certainly not one of them
-    # (e.g. a modern US note matching an 1850s private bank note): show nothing rather than mislead.
-    if not ys and ranked and (ranked[0].get("max_year") or 0) < 1970:
-        ranked = []
+    # A wrong ruler or the wrong kind (commemorative vs everyday) is a different coin: show nothing.
+    if ranked and (rank(ranked[0])[1] < 0 or not rank(ranked[0])[2]):
+        ranked = [t for t in ranked if rank(t)[1] >= 0 and rank(t)[2]]
     if not ranked:
         return {"id": None, "status": "none", "others": []}
     best = ranked[0]
-    # "exact" only when nothing else ranks as well on years and subject.
     # "exact" only when the years fit fully (if known) and nothing else ranks as well.
     exact = (not ys or rank(best)[0] == 2) and (len(ranked) == 1 or rank(ranked[1])[:3] < rank(best)[:3])
     others = [{"id": t["id"], "title": t["title"], "years": f"{t.get('min_year')}–{t.get('max_year')}"} for t in ranked[1:5]]
@@ -302,6 +354,7 @@ def enrich(entries, key):
     if cache.get("version") != CACHE_VERSION:
         # New matching rules or new fields: look everything up again (hand-set IDs come from Notion anyway).
         cache = {"version": CACHE_VERSION, "matches": {}, "types": {}, "issuers": cache.get("issuers", {})}
+    quota.update(cache.get("quota") or {})
     limited = False
     try:
         codes = cache.get("issuers") or {}
@@ -314,11 +367,17 @@ def enrich(entries, key):
         print(f"numista: stopped early ({type(err).__name__}); keeping what we have, the next run continues")
     finally:
         # Always save progress, even when stopped part-way.
+        cache["quota"] = dict(quota)
         CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1) + "\n")
     attach(entries, cache)
     found = [m for m in cache["matches"].values() if m.get("id")]
     print(f"numista: {len(found)}/{len(entries)} found "
           f"({sum(m['status'] in ('exact', 'manual') for m in found)} exact){' (stopped early)' if limited else ''}")
+
+
+def stale(m):
+    """A row Numista had nothing for is retried every 90 days: the catalogue keeps growing."""
+    return m.get("status") == "none" and (date.today() - date.fromisoformat(m.get("checked", "2000-01-01"))).days >= 90
 
 
 def lookup(entries, key, codes, cache, lookups_left):
@@ -327,7 +386,7 @@ def lookup(entries, key, codes, cache, lookups_left):
         m = cache["matches"].get(e["notion"])
         if e.get("numista_id"):                       # set by hand in Notion: always wins
             m = {"id": int(e.pop("numista_id")), "status": "manual", "others": []}
-        elif m is None and lookups_left > 0:          # first time we see this row
+        elif (m is None or stale(m)) and lookups_left > 0:   # new row, or "none" worth retrying
             lookups_left -= 1
             m = match(e, key, codes)
             m["name"] = f"{e['country']} · {e['denomination']} · {e.get('subject', '')}".strip(" ·")
