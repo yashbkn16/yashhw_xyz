@@ -1,4 +1,4 @@
-# yashhw.xyz
+# yashw.xyz
 
 My personal site: who I am, my CV, and my coin collection.
 
