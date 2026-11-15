@@ -1841,27 +1841,9 @@
    "checked": "2026-11-15"
   },
   "419d88f4-1a2e-8139-b0f3-c395a6abc9aa": {
-   "id": 210860,
-   "status": "closest",
-   "others": [
-    {
-     "id": 211922,
-     "title": "100 Rupees (Urdu text “Type B”)",
-     "years": "1986–2009"
-    },
-    {
-     "id": 232601,
-     "title": "100 Rupees",
-     "years": "1971–1978"
-    },
-    {
-     "id": 225893,
-     "title": "100 Rupees",
-     "years": "1957–1971"
-    }
-   ],
-   "name": "Pakistan · 100 Rupees · Muhammad Ali Jinnah, Badshahi Mosque",
-   "checked": "2026-11-15"
+   "id": null,
+   "status": "manual",
+   "others": []
   },
   "419d88f4-1a2e-813b-9a6d-caaea61c90a9": {
    "id": 74657,
@@ -1929,32 +1911,9 @@
    "checked": "2026-11-15"
   },
   "419d88f4-1a2e-817a-826f-d471caf58b87": {
-   "id": 480786,
-   "status": "closest",
-   "others": [
-    {
-     "id": 208204,
-     "title": "100 Taka",
-     "years": "2011–2023"
-    },
-    {
-     "id": 202757,
-     "title": "100 Taka",
-     "years": "2006–2010"
-    },
-    {
-     "id": 235198,
-     "title": "100 Taka",
-     "years": "2005–2005"
-    },
-    {
-     "id": 217300,
-     "title": "100 Taka",
-     "years": "2002–2004"
-    }
-   ],
-   "name": "Bangladesh · 100 Taka · Classic vintage series, Star Mosque (Tara Masjid)",
-   "checked": "2026-11-15"
+   "id": null,
+   "status": "manual",
+   "others": []
   },
   "419d88f4-1a2e-817e-aedd-d76b182d33e7": {
    "id": 10788,
@@ -2081,17 +2040,9 @@
    "checked": "2026-11-15"
   },
   "419d88f4-1a2e-81fd-bd40-eb6198570781": {
-   "id": 7009,
-   "status": "closest",
-   "others": [
-    {
-     "id": 5659,
-     "title": "50 Paise (25th Anniversary of Independence)",
-     "years": "1972–1972"
-    }
-   ],
-   "name": "India · 50 Paise · 25th Independence Day",
-   "checked": "2026-11-15"
+   "id": 5659,
+   "status": "manual",
+   "others": []
   },
   "418d88f4-1a2e-8109-bc84-f6f8cc39bbe1": {
    "id": 923,
@@ -2528,27 +2479,9 @@
    "checked": "2026-11-15"
   },
   "418d88f4-1a2e-8160-b0ed-c64163ff2826": {
-   "id": 15798,
-   "status": "closest",
-   "others": [
-    {
-     "id": 149568,
-     "title": "5 Rupees (First War of Independence) (Copper-nickel)",
-     "years": "2007–2007"
-    },
-    {
-     "id": 311196,
-     "title": "5 Rupees (75th Year of Independence)",
-     "years": "2021–2026"
-    },
-    {
-     "id": 32705,
-     "title": "5 Rupees (Shaheed Bhagat Singh)",
-     "years": "2007–2007"
-    }
-   ],
-   "name": "India · 5 Rupees · 75th year of independence",
-   "checked": "2026-11-15"
+   "id": 311196,
+   "status": "manual",
+   "others": []
   },
   "418d88f4-1a2e-8163-b697-e0ca7ae343f5": {
    "id": 3794,
@@ -8186,6 +8119,58 @@
      "credit": "sivavarma"
     }
    }
+  },
+  "5659": {
+   "id": 5659,
+   "url": "https://en.numista.com/5659",
+   "title": "50 Paise (25th Anniversary of Independence)",
+   "years": "1972–1972",
+   "composition": "Copper-nickel",
+   "weight": "5 g",
+   "size": "24 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Asoka lion pedestal, denomination below"
+   },
+   "reverse": {
+    "design": "Figures with Indian flag, parliament building in background"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2239-180.jpg",
+     "credit": "Joseph Kunnappally"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3131-180.jpg",
+     "credit": "Joseph Kunnappally"
+    }
+   }
+  },
+  "311196": {
+   "id": 311196,
+   "url": "https://en.numista.com/311196",
+   "title": "5 Rupees (75th Year of Independence)",
+   "years": "2021–2026",
+   "composition": "Nickel brass",
+   "weight": "6.74 g",
+   "size": "25 mm",
+   "shape": "Round",
+   "obverse": {
+    "design": "Ashoka Pillar Lion Capitol"
+   },
+   "reverse": {
+    "design": "Logo of Azadi Ka Amrit Mahotsav"
+   },
+   "photos": {
+    "front": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/62a7e7a2f230c9.39089252-180.jpg",
+     "credit": "Ponpandi Perumal"
+    },
+    "back": {
+     "thumb": "https://en.numista.com/catalogue/photos/inde/62a7e7a4094bc6.19275658-180.jpg",
+     "credit": "Ponpandi Perumal"
+    }
+   }
   }
  },
  "issuers": {
@@ -8230,7 +8215,7 @@
  },
  "quota": {
   "month": "2026-11",
-  "calls": 383,
+  "calls": 386,
   "key": "71fc8c58"
  },
  "issuers_checked": "2026-11",

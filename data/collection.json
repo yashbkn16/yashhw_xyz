@@ -616,59 +616,7 @@
   "count": 1,
   "subject": "Classic vintage series, Star Mosque (Tara Masjid)",
   "currency": "BDT",
-  "face_value": 100,
-  "numista": {
-   "id": 480786,
-   "url": "https://en.numista.com/480786",
-   "title": "100 Taka",
-   "years": "2025–2025",
-   "composition": "Paper",
-   "size": "140 mm",
-   "shape": "Rectangular",
-   "obverse": {
-    "design": "The picture of Sixty Dome Mosque, Bagerhat and the picture of national flower water lily with leaf and bud in light color printed in the background of the middle text."
-   },
-   "reverse": {
-    "design": "The picture of Sundarban, Bangladesh."
-   },
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/69a023cb57d414.89465666-180.jpg",
-     "credit": "hex7ech"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/bangladesh/69a023cd93d175.26284047-180.jpg",
-     "credit": "hex7ech"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 208204,
-     "title": "100 Taka",
-     "years": "2011–2023",
-     "url": "https://en.numista.com/catalogue/pieces208204.html"
-    },
-    {
-     "id": 202757,
-     "title": "100 Taka",
-     "years": "2006–2010",
-     "url": "https://en.numista.com/catalogue/pieces202757.html"
-    },
-    {
-     "id": 235198,
-     "title": "100 Taka",
-     "years": "2005–2005",
-     "url": "https://en.numista.com/catalogue/pieces235198.html"
-    },
-    {
-     "id": 217300,
-     "title": "100 Taka",
-     "years": "2002–2004",
-     "url": "https://en.numista.com/catalogue/pieces217300.html"
-    }
-   ]
-  }
+  "face_value": 100
  },
  {
   "id": "bhutan-1-ngultrum-015aef",
@@ -3129,39 +3077,32 @@
   "currency": "INR",
   "face_value": 0.5,
   "numista": {
-   "id": 7009,
-   "url": "https://en.numista.com/7009",
-   "title": "50 Paise (50th Year of Independence)",
-   "years": "1997–1997",
-   "composition": "Stainless steel",
-   "weight": "3.79 g",
-   "size": "22 mm",
+   "id": 5659,
+   "url": "https://en.numista.com/5659",
+   "title": "50 Paise (25th Anniversary of Independence)",
+   "years": "1972–1972",
+   "composition": "Copper-nickel",
+   "weight": "5 g",
+   "size": "24 mm",
    "shape": "Round",
    "obverse": {
     "design": "Asoka lion pedestal, denomination below"
    },
    "reverse": {
-    "design": "Gandhi with Staff, leading a line of people\r\n\r\nNOTE: Different mintmarks\r\n♦ (small dot/diamond) = Mumbai\r\n (no mintmark) = Calcutta\r\n* (five-pointed star) = Hyderabad\r\nM (letter \"M\") = Mumbai Proof Issues\r\n° (circular dot) = Noida"
+    "design": "Figures with Indian flag, parliament building in background"
    },
    "photos": {
     "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/2255-180.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/inde/2239-180.jpg",
      "credit": "Joseph Kunnappally"
     },
     "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/3141-180.jpg",
+     "thumb": "https://en.numista.com/catalogue/photos/inde/3131-180.jpg",
      "credit": "Joseph Kunnappally"
     }
    },
-   "match": "closest",
-   "others": [
-    {
-     "id": 5659,
-     "title": "50 Paise (25th Anniversary of Independence)",
-     "years": "1972–1972",
-     "url": "https://en.numista.com/catalogue/pieces5659.html"
-    }
-   ]
+   "match": "manual",
+   "others": []
   }
  },
  {
@@ -3905,52 +3846,32 @@
   "currency": "INR",
   "face_value": 5,
   "numista": {
-   "id": 15798,
-   "url": "https://en.numista.com/15798",
-   "title": "5 Rupees (First War of Independence; Stainless steel)",
-   "years": "2007–2007",
-   "composition": "Stainless steel",
-   "weight": "6 g",
-   "size": "23 mm",
+   "id": 311196,
+   "url": "https://en.numista.com/311196",
+   "title": "5 Rupees (75th Year of Independence)",
+   "years": "2021–2026",
+   "composition": "Nickel brass",
+   "weight": "6.74 g",
+   "size": "25 mm",
    "shape": "Round",
    "obverse": {
-    "design": "Asoka Lion capitol, denomination below"
+    "design": "Ashoka Pillar Lion Capitol"
    },
    "reverse": {
-    "design": "Heroes of the War of Independence, Rani of Jhansi, General Tatya Tope, Bahadur Shah Zafar II"
+    "design": "Logo of Azadi Ka Amrit Mahotsav"
    },
-   "comments": "Type2: It have three large heaps of sand instead of four. Secondly the mint mark is very large.",
    "photos": {
     "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/2505-180.jpg",
-     "credit": "Joseph Kunnappally"
+     "thumb": "https://en.numista.com/catalogue/photos/inde/62a7e7a2f230c9.39089252-180.jpg",
+     "credit": "Ponpandi Perumal"
     },
     "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/3235-180.jpg",
-     "credit": "Joseph Kunnappally"
+     "thumb": "https://en.numista.com/catalogue/photos/inde/62a7e7a4094bc6.19275658-180.jpg",
+     "credit": "Ponpandi Perumal"
     }
    },
-   "match": "closest",
-   "others": [
-    {
-     "id": 149568,
-     "title": "5 Rupees (First War of Independence) (Copper-nickel)",
-     "years": "2007–2007",
-     "url": "https://en.numista.com/catalogue/pieces149568.html"
-    },
-    {
-     "id": 311196,
-     "title": "5 Rupees (75th Year of Independence)",
-     "years": "2021–2026",
-     "url": "https://en.numista.com/catalogue/pieces311196.html"
-    },
-    {
-     "id": 32705,
-     "title": "5 Rupees (Shaheed Bhagat Singh)",
-     "years": "2007–2007",
-     "url": "https://en.numista.com/catalogue/pieces32705.html"
-    }
-   ]
+   "match": "manual",
+   "others": []
   }
  },
  {
@@ -6905,54 +6826,7 @@
   "subject": "Muhammad Ali Jinnah, Badshahi Mosque",
   "currency": "PKR",
   "face_value": 100,
-  "notes": "State Bank of Pakistan design first issued 24 December 1957; East Pakistan era (now Bangladesh).",
-  "numista": {
-   "id": 210860,
-   "url": "https://en.numista.com/210860",
-   "title": "100 Rupees",
-   "years": "2006–2026",
-   "composition": "Paper",
-   "size": "140 mm",
-   "shape": "Rectangular",
-   "obverse": {
-    "design": "Main color red, Picture of Mohammed Ali Jinnah"
-   },
-   "reverse": {
-    "design": "Picture of Quaid-e-Azam Residency in Ziarat"
-   },
-   "comments": "UV activity:\n\r\n\n\r\n\n\r\n© gyoschak",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/pakistan/63c4fea0cc5490.75101443-180.jpg",
-     "credit": "hex7ech"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/pakistan/63c4fea1e3e555.72825111-180.jpg",
-     "credit": "hex7ech"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 211922,
-     "title": "100 Rupees (Urdu text “Type B”)",
-     "years": "1986–2009",
-     "url": "https://en.numista.com/catalogue/pieces211922.html"
-    },
-    {
-     "id": 232601,
-     "title": "100 Rupees",
-     "years": "1971–1978",
-     "url": "https://en.numista.com/catalogue/pieces232601.html"
-    },
-    {
-     "id": 225893,
-     "title": "100 Rupees",
-     "years": "1957–1971",
-     "url": "https://en.numista.com/catalogue/pieces225893.html"
-    }
-   ]
-  }
+  "notes": "State Bank of Pakistan design first issued 24 December 1957; East Pakistan era (now Bangladesh)."
  },
  {
   "id": "philippines-1-piso-jose-rizal-b30046",
