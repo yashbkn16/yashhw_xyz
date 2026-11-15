@@ -180,7 +180,9 @@ img.face.catalogue { opacity: .85; }
   height: clamp(26rem, 72vh, 46rem);
   border: 1px solid rgb(244 241 234 / .25);
 }
-.stage svg { width: 100%; height: 100%; display: block; touch-action: none; user-select: none; }
+.stage svg { width: 100%; height: 100%; display: block; touch-action: pan-y; user-select: none; }
+/* On touch screens: swiping empty map space scrolls the page; pressing a node drags it. */
+.node { touch-action: none; }
 /* Phones: a taller stage gives the regions room to spread out vertically. */
 @media (max-width: 40rem) {
   .stage { height: 78vh; }
@@ -198,6 +200,7 @@ img.face.catalogue { opacity: .85; }
 .edge { stroke: var(--fg); stroke-opacity: .18; }
 .region { fill: var(--fg); opacity: .32; font: 500 12px var(--mono); text-anchor: middle; letter-spacing: .08em; text-transform: uppercase; pointer-events: none; }
 .node { cursor: grab; outline: none; }
+.node .hit { fill: transparent; stroke: none; }   /* tap area: invisible, but catches the finger */
 .node .mark { fill: var(--bg); stroke: var(--fg); transition: fill .15s; }
 .node.sub .mark { stroke-dasharray: 3 2; }
 .node text { fill: var(--fg); font: 11px var(--mono); pointer-events: none; }

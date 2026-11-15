@@ -22,13 +22,6 @@
    "others": [],
    "checked": "2026-11-15"
   },
-  "418d88f4-1a2e-819e-a92e-c0a0694c09bd": {
-   "name": "Australia · 2 Shilling · Florin",
-   "id": null,
-   "status": "none",
-   "others": [],
-   "checked": "2026-11-15"
-  },
   "418d88f4-1a2e-81c9-b88a-d0c8fe8a94bf": {
    "name": "Australia · 20 Cents · Platypus",
    "id": 1702,
@@ -208,13 +201,6 @@
    "others": [],
    "checked": "2026-11-15"
   },
-  "418d88f4-1a2e-817e-887f-e3c10fff1330": {
-   "name": "European Union · 5 Euro",
-   "id": null,
-   "status": "none",
-   "others": [],
-   "checked": "2026-11-15"
-  },
   "418d88f4-1a2e-81f9-822c-ff8e5c426152": {
    "name": "Georgia · 5 Tetri",
    "id": 3769,
@@ -248,24 +234,6 @@
    "id": 3792,
    "status": "exact",
    "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-8163-b697-e0ca7ae343f5": {
-   "name": "Georgia · 2 Lari",
-   "id": 69047,
-   "status": "closest",
-   "others": [
-    {
-     "id": 3794,
-     "title": "2 Lari",
-     "years": "2006–2006"
-    },
-    {
-     "id": 28877,
-     "title": "2 Lari (Tbilisi \"Dinamo\" - UEFA Cup Winner`s Cup Winner. 25th anniversary)",
-     "years": "2006–2006"
-    }
-   ],
    "checked": "2026-11-15"
   },
   "418d88f4-1a2e-81e3-bf17-e7c949dee698": {
@@ -344,13 +312,6 @@
    "others": [],
    "checked": "2026-11-15"
   },
-  "418d88f4-1a2e-8143-a28a-c7d92c0b72b1": {
-   "name": "India · 1/2 Anna · East India Company",
-   "id": 4068,
-   "status": "closest",
-   "others": [],
-   "checked": "2026-11-15"
-  },
   "418d88f4-1a2e-8120-a565-f1a7e9323656": {
    "name": "India · 5 Paisa",
    "id": 3990,
@@ -372,26 +333,6 @@
    "others": [],
    "checked": "2026-11-15"
   },
-  "418d88f4-1a2e-8101-9d73-e89d2cc56ac7": {
-   "name": "India · 4 Anna · George V King Emperor",
-   "id": null,
-   "status": "none",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-8117-81e2-e2db19d6edb9": {
-   "name": "India · 25 Paisa · One Horned Rhinoceros",
-   "id": 6325,
-   "status": "closest",
-   "others": [
-    {
-     "id": 7809,
-     "title": "25 Naye Paise",
-     "years": "1957–1963"
-    }
-   ],
-   "checked": "2026-11-15"
-  },
   "418d88f4-1a2e-8129-bda5-e4b66b3dfeac": {
    "name": "India · 25 Paisa",
    "id": 7809,
@@ -402,48 +343,6 @@
   "418d88f4-1a2e-81f9-aaf3-d69563fee73d": {
    "name": "India · Quarter Rupee · George VI King Emperor",
    "id": 6555,
-   "status": "exact",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-8112-9903-e5a8216b4d84": {
-   "name": "India · 50 Paisa · George VI King Emperor",
-   "id": 6559,
-   "status": "closest",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-8130-aa88-ee3c6e1c2142": {
-   "name": "India · 8 Anna · George V King Emperor",
-   "id": null,
-   "status": "none",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-814a-b181-d256d2d408b7": {
-   "name": "India · 50 Paisa · Grow more food",
-   "id": 6559,
-   "status": "closest",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-81c5-bcd0-ff346e0f99bc": {
-   "name": "India · 50 Paisa · Indira Gandhi (1917-1984)",
-   "id": 6559,
-   "status": "exact",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-81cc-986e-ef8fe3b73b06": {
-   "name": "India · 50 Paisa · in honour of Jawaharlal Nehru (1889-1964)",
-   "id": 6559,
-   "status": "exact",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-81ee-b17b-d81184076b7c": {
-   "name": "India · 50 Paisa · 50th year of independence of India (1947-1997)",
-   "id": 6559,
    "status": "exact",
    "others": [],
    "checked": "2026-11-15"
@@ -528,29 +427,6 @@
    "id": 66552,
    "status": "exact",
    "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-8160-b0ed-c64163ff2826": {
-   "name": "India · 5 Rupees · 75th year of independence",
-   "id": 15798,
-   "status": "closest",
-   "others": [
-    {
-     "id": 149568,
-     "title": "5 Rupees (First War of Independence) (Copper-nickel)",
-     "years": "2007–2007"
-    },
-    {
-     "id": 311196,
-     "title": "5 Rupees (75th Year of Independence)",
-     "years": "2021–2026"
-    },
-    {
-     "id": 32705,
-     "title": "5 Rupees (Shaheed Bhagat Singh)",
-     "years": "2007–2007"
-    }
-   ],
    "checked": "2026-11-15"
   },
   "418d88f4-1a2e-8180-b4bb-f830f0360345": {
@@ -765,13 +641,6 @@
    "others": [],
    "checked": "2026-11-15"
   },
-  "418d88f4-1a2e-81f0-a7ca-ce9df0119e85": {
-   "name": "India · 500 Rupees",
-   "id": 202296,
-   "status": "exact",
-   "others": [],
-   "checked": "2026-11-15"
-  },
   "418d88f4-1a2e-814a-92ed-d9ecbbb75bfb": {
    "name": "India · 1000 Rupees",
    "id": 202272,
@@ -812,13 +681,6 @@
    "name": "Indonesia · 1000 Rupiah · Angklung musical instrument",
    "id": 16213,
    "status": "exact",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-8156-951c-cde228b0e981": {
-   "name": "Indonesia · 20000 Rupiah",
-   "id": null,
-   "status": "none",
    "others": [],
    "checked": "2026-11-15"
   },
@@ -975,26 +837,6 @@
      "years": "1953–1957"
     }
    ],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-8137-9716-ee75304bb26c": {
-   "name": "Nepal · 1 Rupiya · Sagarmaya",
-   "id": 15577,
-   "status": "closest",
-   "others": [
-    {
-     "id": 26252,
-     "title": "1 Rupee - Birendra Bir Bikram",
-     "years": "1976–1979"
-    }
-   ],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-812e-8620-fa1595751365": {
-   "name": "Nepal · 2 Rupiya · Samarmaya",
-   "id": null,
-   "status": "none",
-   "others": [],
    "checked": "2026-11-15"
   },
   "418d88f4-1a2e-8195-b6db-df2705414024": {
@@ -1420,19 +1262,6 @@
    "others": [],
    "checked": "2026-11-15"
   },
-  "418d88f4-1a2e-8188-84ff-e1adf06a0f7a": {
-   "name": "Singapore · 50 Cents",
-   "id": 478485,
-   "status": "closest",
-   "others": [
-    {
-     "id": 1672,
-     "title": "50 Cents (ribbon downwards)",
-     "years": "1992–2013"
-    }
-   ],
-   "checked": "2026-11-15"
-  },
   "418d88f4-1a2e-81cc-bb2e-f6083fc59ec3": {
    "name": "Singapore · 1 Dollar",
    "id": 1665,
@@ -1705,90 +1534,6 @@
    ],
    "checked": "2026-11-15"
   },
-  "418d88f4-1a2e-81db-b9b3-e3a75a052f5b": {
-   "name": "Ukraine · 20 Hryvnia",
-   "id": 483856,
-   "status": "closest",
-   "others": [
-    {
-     "id": 357153,
-     "title": "20 Hryven (\"WE WILL NOT FORGET! WE WILL NOT FORGIVE!\")",
-     "years": "2023–2023"
-    },
-    {
-     "id": 202039,
-     "title": "20 Hryven",
-     "years": "2018–2023"
-    },
-    {
-     "id": 202248,
-     "title": "20 Hryven",
-     "years": "2003–2016"
-    },
-    {
-     "id": 202760,
-     "title": "20 Hryven",
-     "years": "1995–2000"
-    }
-   ],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-81ff-a30c-e42ef047e7d8": {
-   "name": "Ukraine · 50 Hryvnia",
-   "id": 402095,
-   "status": "closest",
-   "others": [
-    {
-     "id": 430430,
-     "title": "50 Hryven (Glory to Ukraine)",
-     "years": "2024–2024"
-    },
-    {
-     "id": 202035,
-     "title": "50 Hryven",
-     "years": "2019–2021"
-    },
-    {
-     "id": 202240,
-     "title": "50 Hryven",
-     "years": "2004–2014"
-    },
-    {
-     "id": 202756,
-     "title": "50 Hryven",
-     "years": "1996–1996"
-    }
-   ],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-8157-85df-f08e02f056d0": {
-   "name": "Ukraine · 100 Hryvnia",
-   "id": 587050,
-   "status": "closest",
-   "others": [
-    {
-     "id": 202020,
-     "title": "100 Hryven",
-     "years": "2014–2022"
-    },
-    {
-     "id": 202224,
-     "title": "100 Hryven",
-     "years": "2005–2014"
-    },
-    {
-     "id": 202752,
-     "title": "100 Hryven",
-     "years": "1996–1996"
-    },
-    {
-     "id": 203911,
-     "title": "100 Hryven",
-     "years": "1992–1992"
-    }
-   ],
-   "checked": "2026-11-15"
-  },
   "418d88f4-1a2e-810c-8652-deec6d1ba078": {
    "name": "United Arab Emirates · 25 Fils · Arabian Gazelle",
    "id": 68022,
@@ -1947,13 +1692,6 @@
    ],
    "checked": "2026-11-15"
   },
-  "418d88f4-1a2e-81c7-aec5-d4955b3ff829": {
-   "name": "United Kingdom · 5 Pounds",
-   "id": null,
-   "status": "none",
-   "others": [],
-   "checked": "2026-11-15"
-  },
   "418d88f4-1a2e-81ba-9ddd-f8f2a44c828b": {
    "name": "United States · 1 Cent · Abraham Lincoln",
    "id": 42,
@@ -1972,78 +1710,6 @@
    "name": "United States · 1 Dime · Franklin D Roosevelt",
    "id": 53,
    "status": "exact",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-819d-ad20-ecd9821b3c04": {
-   "name": "United States · 25 Cents",
-   "id": 439435,
-   "status": "closest",
-   "others": [
-    {
-     "id": 117309,
-     "title": "25 Cents",
-     "years": "1870–1870"
-    },
-    {
-     "id": 438880,
-     "title": "25 Cents - City of North Bend (North Bend, Oregon)",
-     "years": "1933–1933"
-    },
-    {
-     "id": 30701,
-     "title": "25 Cents \"Draped Bust Quarter\"",
-     "years": "1804–1807"
-    },
-    {
-     "id": 30781,
-     "title": "25 Cents \"Liberty Cap Quarter\" (without motto)",
-     "years": "1831–1838"
-    }
-   ],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-8109-bc84-f6f8cc39bbe1": {
-   "name": "United States · 1 Dollar",
-   "id": 41855,
-   "status": "closest",
-   "others": [
-    {
-     "id": 25436,
-     "title": "1 Dollar (Leif Ericson Millennium)",
-     "years": "2000–2000"
-    },
-    {
-     "id": 923,
-     "title": "1 Dollar \"Sacagawea Dollar\"",
-     "years": "2000–2008"
-    },
-    {
-     "id": 1493,
-     "title": "1 Dollar \"American Silver Eagle\" (Bullion Coin)",
-     "years": "1986–2021"
-    }
-   ],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-81a2-a395-f81767b5c0c0": {
-   "name": "United States · 1 Dollar",
-   "id": null,
-   "status": "none",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-818d-b893-d20dc039f11a": {
-   "name": "United States · 5 Dollars",
-   "id": null,
-   "status": "none",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-81db-9278-e55d11594841": {
-   "name": "United States · 10 Dollars",
-   "id": null,
-   "status": "none",
    "others": [],
    "checked": "2026-11-15"
   },
@@ -2125,20 +1791,6 @@
      "years": "1989–1989"
     }
    ],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-817b-bc09-cbfa760ce586": {
-   "name": "Vietnam · 10000 Dong",
-   "id": null,
-   "status": "none",
-   "others": [],
-   "checked": "2026-11-15"
-  },
-  "418d88f4-1a2e-81cc-8b6c-e6c503cce1b9": {
-   "name": "Vietnam · 20000 Dong",
-   "id": null,
-   "status": "none",
-   "others": [],
    "checked": "2026-11-15"
   }
  },
@@ -6343,5 +5995,9 @@
   "united kingdom": "royaume-uni",
   "united states": "etats-unis",
   "vietnam": "viet_nam"
+ },
+ "quota": {
+  "month": "2026-11",
+  "calls": 1500
  }
 }

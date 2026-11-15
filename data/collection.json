@@ -1026,54 +1026,7 @@
    2006
   ],
   "currency": "GEL",
-  "face_value": 2,
-  "numista": {
-   "id": 69047,
-   "url": "https://en.numista.com/69047",
-   "title": "2 Lari (Tbilisi \"Dinamo\" - UEFA Cup Winner`s Cup Winner. 25th anniversary)",
-   "years": "2006–2006",
-   "composition": "Nickel brass (Cu, 13.5-16.5% Ni, 18-22% Zn)",
-   "weight": "12.8 g",
-   "size": "31 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "The center of the coin features an image of the UEFA Cup Winners' Cup, with the legend in Georgian and English (\"საქართველო\", \"GEORGIA\") above it. Around the cup, at the edge of the coin there is a decorative semi-circular ornament with sharp ends. The lower right side features the year Dinamo…",
-    "engravers": [
-     "Victoria Kutateladze"
-    ]
-   },
-   "reverse": {
-    "design": "There are two football players in motion on the right and left sides. On the lower side, between the figures, there is the image of a ball, and below it the number “25” denoting the jubilee date, and the legends in Georgian and English \"წელი\" and \"YEARS.\" Almost the entire area of the coin is…",
-    "engravers": [
-     "Victoria Kutateladze"
-    ]
-   },
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/georgie/390-180.jpg",
-     "credit": null
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/georgie/391-180.jpg",
-     "credit": null
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 3794,
-     "title": "2 Lari",
-     "years": "2006–2006",
-     "url": "https://en.numista.com/catalogue/pieces3794.html"
-    },
-    {
-     "id": 28877,
-     "title": "2 Lari (Tbilisi \"Dinamo\" - UEFA Cup Winner`s Cup Winner. 25th anniversary)",
-     "years": "2006–2006",
-     "url": "https://en.numista.com/catalogue/pieces28877.html"
-    }
-   ]
-  }
+  "face_value": 2
  },
  {
   "id": "germany-5-euro-cents-dee698",
@@ -1584,36 +1537,7 @@
   "subject": "East India Company",
   "era": "British India",
   "currency": "INR",
-  "face_value": 0.03125,
-  "numista": {
-   "id": 4068,
-   "url": "https://en.numista.com/4068",
-   "title": "½ Anna",
-   "years": "1835–1845",
-   "composition": "Copper",
-   "weight": "12.35 g",
-   "size": "31 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Coat of arms of the East India Company: 2 lions, St George's cross on the crest and flags, motto on the ribbon means in Latin \"Auspicio Regis et Senatus Angliæ\""
-   },
-   "reverse": {
-    "design": "Value within wreath, legend EAST INDIA COMPANY on top half surrounds"
-   },
-   "comments": "- For identifying mint in 1835 coins, measure diameter\n\r\n Bombay mint - 29.5 - 30.5 mm\n\r\n Madras mint - 30.7 - 31.3 mm\n\n\r\n- KM 447.1 Plain Rim with plain edge, KM 447.2 Beaded Rim with reeded edge\n\n\r\n- The 1845 Half anna was minted at the Calcutta mint for many years with a fixed date. Coins minted before 1849 have a 'serif' on the crossbar of the numeral '4' in the date (click on image)",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde_britannique/2044-180.jpg",
-     "credit": "Joseph Kunnappally"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde_britannique/2045-180.jpg",
-     "credit": "Joseph Kunnappally"
-    }
-   },
-   "match": "closest",
-   "others": []
-  }
+  "face_value": 0.03125
  },
  {
   "id": "india-5-paisa-323656",
@@ -1785,43 +1709,7 @@
   "subject": "One Horned Rhinoceros",
   "era": "Circulation",
   "currency": "INR",
-  "face_value": 0.25,
-  "numista": {
-   "id": 6325,
-   "url": "https://en.numista.com/6325",
-   "title": "25 Paise",
-   "years": "1964–1968",
-   "composition": "Nickel",
-   "weight": "2.55 g",
-   "size": "19 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Asoka lion pedestal"
-   },
-   "reverse": {
-    "design": "Denomination, date below\r\n\"Rupyay ka Chautha bhaag\" (fourth of a rupee), \"Pachchis paisay\" (twenty five paise)in Devanagari"
-   },
-   "comments": "NOTE: Different National Emblem Types in KM#48.x mintages\nType 1: Side lions toothless with 2 to 3 fur rows, short squat D in INDIA.\nType 2: Asoka lion pedestal more imposing. Side lions with 3 or 4 fur rows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to distinguish this obverse (or the orientation!).",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/2202-180.jpg",
-     "credit": "Joseph Kunnappally"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/3118-180.jpg",
-     "credit": "Joseph Kunnappally"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 7809,
-     "title": "25 Naye Paise",
-     "years": "1957–1963",
-     "url": "https://en.numista.com/catalogue/pieces7809.html"
-    }
-   ]
-  }
+  "face_value": 0.25
  },
  {
   "id": "india-25-paisa-3dfeac",
@@ -1932,36 +1820,7 @@
   "subject": "George VI King Emperor",
   "era": "British India",
   "currency": "INR",
-  "face_value": 0.5,
-  "numista": {
-   "id": 6559,
-   "url": "https://en.numista.com/6559",
-   "title": "50 Paise",
-   "years": "1964–1971",
-   "composition": "Nickel",
-   "weight": "5 g",
-   "size": "24 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Asoka lion pedestal\r\n\r\nNOTE: Different National Emblem Types\r\nType 1: Side lions toothless with 2 to 3 fur rows, short squat D in INDIA.\r\nType 2: Asoka lion pedestal more imposing. Side lions\r\nwith 3 or 4 fur rows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to…"
-   },
-   "reverse": {
-    "design": "Denomination and date"
-   },
-   "comments": "see this thread",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/2226-180.jpg",
-     "credit": "Joseph Kunnappally"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/3129-180.jpg",
-     "credit": "Joseph Kunnappally"
-    }
-   },
-   "match": "closest",
-   "others": []
-  }
+  "face_value": 0.5
  },
  {
   "id": "india-8-anna-george-v-king-emperor-1c2142",
@@ -1993,36 +1852,7 @@
   "subject": "Grow more food",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.5,
-  "numista": {
-   "id": 6559,
-   "url": "https://en.numista.com/6559",
-   "title": "50 Paise",
-   "years": "1964–1971",
-   "composition": "Nickel",
-   "weight": "5 g",
-   "size": "24 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Asoka lion pedestal\r\n\r\nNOTE: Different National Emblem Types\r\nType 1: Side lions toothless with 2 to 3 fur rows, short squat D in INDIA.\r\nType 2: Asoka lion pedestal more imposing. Side lions\r\nwith 3 or 4 fur rows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to…"
-   },
-   "reverse": {
-    "design": "Denomination and date"
-   },
-   "comments": "see this thread",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/2226-180.jpg",
-     "credit": "Joseph Kunnappally"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/3129-180.jpg",
-     "credit": "Joseph Kunnappally"
-    }
-   },
-   "match": "closest",
-   "others": []
-  }
+  "face_value": 0.5
  },
  {
   "id": "india-50-paisa-indira-gandhi-1917-1984-0f99bc",
@@ -2035,36 +1865,7 @@
   "subject": "Indira Gandhi (1917-1984)",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.5,
-  "numista": {
-   "id": 6559,
-   "url": "https://en.numista.com/6559",
-   "title": "50 Paise",
-   "years": "1964–1971",
-   "composition": "Nickel",
-   "weight": "5 g",
-   "size": "24 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Asoka lion pedestal\r\n\r\nNOTE: Different National Emblem Types\r\nType 1: Side lions toothless with 2 to 3 fur rows, short squat D in INDIA.\r\nType 2: Asoka lion pedestal more imposing. Side lions\r\nwith 3 or 4 fur rows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to…"
-   },
-   "reverse": {
-    "design": "Denomination and date"
-   },
-   "comments": "see this thread",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/2226-180.jpg",
-     "credit": "Joseph Kunnappally"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/3129-180.jpg",
-     "credit": "Joseph Kunnappally"
-    }
-   },
-   "match": "exact",
-   "others": []
-  }
+  "face_value": 0.5
  },
  {
   "id": "india-50-paisa-in-honour-of-jawaharlal-b73b06",
@@ -2077,36 +1878,7 @@
   "subject": "in honour of Jawaharlal Nehru (1889-1964)",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.5,
-  "numista": {
-   "id": 6559,
-   "url": "https://en.numista.com/6559",
-   "title": "50 Paise",
-   "years": "1964–1971",
-   "composition": "Nickel",
-   "weight": "5 g",
-   "size": "24 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Asoka lion pedestal\r\n\r\nNOTE: Different National Emblem Types\r\nType 1: Side lions toothless with 2 to 3 fur rows, short squat D in INDIA.\r\nType 2: Asoka lion pedestal more imposing. Side lions\r\nwith 3 or 4 fur rows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to…"
-   },
-   "reverse": {
-    "design": "Denomination and date"
-   },
-   "comments": "see this thread",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/2226-180.jpg",
-     "credit": "Joseph Kunnappally"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/3129-180.jpg",
-     "credit": "Joseph Kunnappally"
-    }
-   },
-   "match": "exact",
-   "others": []
-  }
+  "face_value": 0.5
  },
  {
   "id": "india-50-paisa-50th-year-of-independenc-076b7c",
@@ -2119,36 +1891,7 @@
   "subject": "50th year of independence of India (1947-1997)",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 0.5,
-  "numista": {
-   "id": 6559,
-   "url": "https://en.numista.com/6559",
-   "title": "50 Paise",
-   "years": "1964–1971",
-   "composition": "Nickel",
-   "weight": "5 g",
-   "size": "24 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Asoka lion pedestal\r\n\r\nNOTE: Different National Emblem Types\r\nType 1: Side lions toothless with 2 to 3 fur rows, short squat D in INDIA.\r\nType 2: Asoka lion pedestal more imposing. Side lions\r\nwith 3 or 4 fur rows, more elegant D in INDIA. The shape of the D in INDIA is the easiest way to…"
-   },
-   "reverse": {
-    "design": "Denomination and date"
-   },
-   "comments": "see this thread",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/2226-180.jpg",
-     "credit": "Joseph Kunnappally"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/3129-180.jpg",
-     "credit": "Joseph Kunnappally"
-    }
-   },
-   "match": "exact",
-   "others": []
-  }
+  "face_value": 0.5
  },
  {
   "id": "india-1-rupee-george-vi-king-emperor-2ed84b",
@@ -2611,55 +2354,7 @@
   "subject": "75th year of independence",
   "era": "Commemorative",
   "currency": "INR",
-  "face_value": 5,
-  "numista": {
-   "id": 15798,
-   "url": "https://en.numista.com/15798",
-   "title": "5 Rupees (First War of Independence; Stainless steel)",
-   "years": "2007–2007",
-   "composition": "Stainless steel",
-   "weight": "6 g",
-   "size": "23 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Asoka Lion capitol, denomination below"
-   },
-   "reverse": {
-    "design": "Heroes of the War of Independence, Rani of Jhansi, General Tatya Tope, Bahadur Shah Zafar II"
-   },
-   "comments": "Type2: It have three large heaps of sand instead of four. Secondly the mint mark is very large.",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/2505-180.jpg",
-     "credit": "Joseph Kunnappally"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/3235-180.jpg",
-     "credit": "Joseph Kunnappally"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 149568,
-     "title": "5 Rupees (First War of Independence) (Copper-nickel)",
-     "years": "2007–2007",
-     "url": "https://en.numista.com/catalogue/pieces149568.html"
-    },
-    {
-     "id": 311196,
-     "title": "5 Rupees (75th Year of Independence)",
-     "years": "2021–2026",
-     "url": "https://en.numista.com/catalogue/pieces311196.html"
-    },
-    {
-     "id": 32705,
-     "title": "5 Rupees (Shaheed Bhagat Singh)",
-     "years": "2007–2007",
-     "url": "https://en.numista.com/catalogue/pieces32705.html"
-    }
-   ]
-  }
+  "face_value": 5
  },
  {
   "id": "india-5-rupees-150th-anniversary-of-all-360345",
@@ -3525,35 +3220,7 @@
   "count": 5,
   "currency": "INR",
   "face_value": 500,
-  "demonetised": true,
-  "numista": {
-   "id": 202296,
-   "url": "https://en.numista.com/202296",
-   "title": "500 Rupees",
-   "years": "2016–2026",
-   "composition": "Paper",
-   "size": "150 mm",
-   "shape": "Rectangular",
-   "obverse": {
-    "design": "Black and dull brown print on multicolour grey and tan underprint, Mahatma Gandhi in centre, Reserve Bank seal right next to the bottom of Gandhi, Ashoka emblem to the right, windowed security thread changes colour from green to blue when note is tilted."
-   },
-   "reverse": {
-    "design": "Black print on multishade grey/tan underprint.\r\nColoured Indian Flag on Red Fort, Delhi\r\nYear at upper left\r\nGandhi's glasses below the watermark area.\r\nFive Hundred Rupees – Multilingual Depiction on Currency Note\r\n (15 Indian Languages – excluding Hindi and English)\r\n•\tAssamese: পাঁচশ…"
-   },
-   "comments": "Plate letter, if present, appears behind serial numbers. Year is on reverse at upper left.UV activity:\n\n\n© gyoschak Security thread:Windowed into six sections on the obverse side, when seen under a backlight, the inscription of “RBI भारत” is repeated throughout.© Kiet Tran The security thread has a multicolour tone, the colours switch from green to blue when the note is tilted.© Kiet Tran The denomination “₹500” is printed in colour-shifting ink, changes colours from green to turquoise:© Kiet Tran",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/664f70cd7069f6.09167228-180.jpg",
-     "credit": "hex7ech"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/inde/664f70d0adea58.66780071-180.jpg",
-     "credit": "hex7ech"
-    }
-   },
-   "match": "exact",
-   "others": []
-  }
+  "demonetised": true
  },
  {
   "id": "india-1000-rupees-b75bfb",
@@ -4392,43 +4059,7 @@
   "date_on_coin": "VS 2059, VS 2066",
   "subject": "Sagarmaya",
   "currency": "NPR",
-  "face_value": 1,
-  "numista": {
-   "id": 15577,
-   "url": "https://en.numista.com/15577",
-   "title": "1 Rupee - Tribhuvana Bir Bikram (equal denticles)",
-   "years": "1953–1954",
-   "composition": "Copper-nickel",
-   "weight": "11.5 g",
-   "size": "28.7 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Bust of the king to right"
-   },
-   "reverse": {
-    "design": "Sunrise behind mountains and surrounded by 2 ears of corn"
-   },
-   "comments": "with equal denticles type at rim. Known as local/Nepal mint",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/nepal/1048-180.jpg",
-     "credit": "Sujit"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/nepal/1049-180.jpg",
-     "credit": "Sujit"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 26252,
-     "title": "1 Rupee - Birendra Bir Bikram",
-     "years": "1976–1979",
-     "url": "https://en.numista.com/catalogue/pieces26252.html"
-    }
-   ]
-  }
+  "face_value": 1
  },
  {
   "id": "nepal-2-rupiya-samarmaya-751365",
@@ -5769,49 +5400,7 @@
    2016
   ],
   "currency": "SGD",
-  "face_value": 0.5,
-  "numista": {
-   "id": 478485,
-   "url": "https://en.numista.com/478485",
-   "title": "50 Cents (Silver)",
-   "years": "1992–2005",
-   "composition": "Silver (.925)",
-   "weight": "8.56 g",
-   "size": "24.66 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Emblem with date underneath and 'Singapore' on four sides in English, Tamil, Chinese, and Malay.",
-    "engravers": [
-     "Christopher Ironside"
-    ]
-   },
-   "reverse": {
-    "design": "Denomination",
-    "engravers": [
-     "Christopher Ironside"
-    ]
-   },
-   "comments": "Reverse: Yellow allamanda flower (Binomial Name: Allamanda cathartica)",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/singapour/6a27ac42ef6363.51916360-180.jpg",
-     "credit": "fan1805"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/singapour/6a27ac434e7116.44923121-180.jpg",
-     "credit": "fan1805"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 1672,
-     "title": "50 Cents (ribbon downwards)",
-     "years": "1992–2013",
-     "url": "https://en.numista.com/catalogue/pieces1672.html"
-    }
-   ]
-  }
+  "face_value": 0.5
  },
  {
   "id": "singapore-1-dollar-c59ec3",
@@ -6779,60 +6368,7 @@
   "denomination": "20 Hryvnia",
   "count": 1,
   "currency": "UAH",
-  "face_value": 20,
-  "numista": {
-   "id": 483856,
-   "url": "https://en.numista.com/483856",
-   "title": "20 Hryven (Glory to Ukraine)",
-   "years": "2025–2025",
-   "composition": "Paper",
-   "size": "130 mm",
-   "shape": "Rectangular",
-   "obverse": {
-    "design": "Ivan Franko (1856 – 1916) was a prominent Ukrainian writer, critic, translator, opinion journalist, sociologist, ethnographer, historian and philosopher whose activities were guided by the idea of promoting the interests of Ukrainians and universal human values. A unique phenomenon, his works…"
-   },
-   "reverse": {
-    "design": "Lviv Opera House was built in 1900 to a design by the architect Zygmunt Gorgolewski."
-   },
-   "comments": "Issued on 21st August 2025, to commemorate Ukraine's 33rd Anniversary of Independence.",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/ukraine/68b83ac15fd626.29298908-180.jpg",
-     "credit": "https://banknotenews.com/?p=47756"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/ukraine/68b83ac1e5b795.05984479-180.jpg",
-     "credit": "https://banknotenews.com/?p=47756"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 357153,
-     "title": "20 Hryven (\"WE WILL NOT FORGET! WE WILL NOT FORGIVE!\")",
-     "years": "2023–2023",
-     "url": "https://en.numista.com/catalogue/pieces357153.html"
-    },
-    {
-     "id": 202039,
-     "title": "20 Hryven",
-     "years": "2018–2023",
-     "url": "https://en.numista.com/catalogue/pieces202039.html"
-    },
-    {
-     "id": 202248,
-     "title": "20 Hryven",
-     "years": "2003–2016",
-     "url": "https://en.numista.com/catalogue/pieces202248.html"
-    },
-    {
-     "id": 202760,
-     "title": "20 Hryven",
-     "years": "1995–2000",
-     "url": "https://en.numista.com/catalogue/pieces202760.html"
-    }
-   ]
-  }
+  "face_value": 20
  },
  {
   "id": "ukraine-50-hryvnia-47e7d8",
@@ -6843,60 +6379,7 @@
   "denomination": "50 Hryvnia",
   "count": 1,
   "currency": "UAH",
-  "face_value": 50,
-  "numista": {
-   "id": 402095,
-   "url": "https://en.numista.com/402095",
-   "title": "50 Hryven (\"Unity Saves the World\")",
-   "years": "2024–2024",
-   "composition": "Paper",
-   "size": "165 mm",
-   "shape": "Rectangular",
-   "obverse": {
-    "design": "On the obverse side of the commemorative banknote, in the central part, there is an artistic composition depicting a stylized outline of Ukraine, which is associated with the heart, to which vessels fit. The background image is the image of a girl in a military helmet, looking towards the West. In…"
-   },
-   "reverse": {
-    "design": "The main image of the reverse side of the commemorative banknote is a symbolic composition of clasped hands symbolizing cooperation, mutual assistance, trust and partnership against the background of a stylized trident, the symbol of the Ukrainian state. In the upper part of the commemorative…"
-   },
-   "comments": "The commemorative banknote \"Unity saves the World\" is dedicated to the indomitability of the Ukrainian people in the struggle for freedom and European values, the consolidation of Ukrainian society to protect territorial integrity, and the unification of the democratic world in the face of russian aggression. Commemorative 50-hryvnia banknote of 2024 issue with the signature of the Chairman of the National Bank of Ukraine Andriy Pyshnyi of the EU series with numbers 0000001–0300000; contains protection elements of the current nominal series of banknotes and additional optically variable…",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/ukraine/65df8a50b6b2b1.61743177-180.jpg",
-     "credit": "National Bank of Ukraine"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/ukraine/65df8a51ac40d0.61669871-180.jpg",
-     "credit": "National Bank of Ukraine"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 430430,
-     "title": "50 Hryven (Glory to Ukraine)",
-     "years": "2024–2024",
-     "url": "https://en.numista.com/catalogue/pieces430430.html"
-    },
-    {
-     "id": 202035,
-     "title": "50 Hryven",
-     "years": "2019–2021",
-     "url": "https://en.numista.com/catalogue/pieces202035.html"
-    },
-    {
-     "id": 202240,
-     "title": "50 Hryven",
-     "years": "2004–2014",
-     "url": "https://en.numista.com/catalogue/pieces202240.html"
-    },
-    {
-     "id": 202756,
-     "title": "50 Hryven",
-     "years": "1996–1996",
-     "url": "https://en.numista.com/catalogue/pieces202756.html"
-    }
-   ]
-  }
+  "face_value": 50
  },
  {
   "id": "ukraine-100-hryvnia-f056d0",
@@ -6907,58 +6390,7 @@
   "denomination": "100 Hryvnia",
   "count": 2,
   "currency": "UAH",
-  "face_value": 100,
-  "numista": {
-   "id": 587050,
-   "url": "https://en.numista.com/587050",
-   "title": "100 Hryven (Glory to Ukraine)",
-   "years": "2026–2026",
-   "size": "142 mm",
-   "shape": "Rectangular",
-   "obverse": {
-    "design": "Taras Shevchenko (1814-1861) was an outstanding Ukrainian poet, artist and thinker, the founder of the new Ukrainian literature. His collection of poetry \"Kobzar\" has been translated into many languages.\r\n\r\nBrown polymer security thread woven through the note with holographic effect when note is…"
-   },
-   "reverse": {
-    "design": "Taras Shevchenko National University of Kyiv. On 15 July 1834, the university inauguration took place. Taras Shevchenko worked as a teacher of drawing of the University school of painters, at the same time holding a post in the Archaeographic Commission of the University (an ad hoc commission for…"
-   },
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/ukraine/6a33e97a29cb68.69947305-180.jpg",
-     "credit": "National Bank of Ukraine"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/ukraine/6a33e97b2b56b2.47103521-180.jpg",
-     "credit": "National Bank of Ukraine"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 202020,
-     "title": "100 Hryven",
-     "years": "2014–2022",
-     "url": "https://en.numista.com/catalogue/pieces202020.html"
-    },
-    {
-     "id": 202224,
-     "title": "100 Hryven",
-     "years": "2005–2014",
-     "url": "https://en.numista.com/catalogue/pieces202224.html"
-    },
-    {
-     "id": 202752,
-     "title": "100 Hryven",
-     "years": "1996–1996",
-     "url": "https://en.numista.com/catalogue/pieces202752.html"
-    },
-    {
-     "id": 203911,
-     "title": "100 Hryven",
-     "years": "1992–1992",
-     "url": "https://en.numista.com/catalogue/pieces203911.html"
-    }
-   ]
-  }
+  "face_value": 100
  },
  {
   "id": "united-arab--25-fils-arabian-gazelle-1ba078",
@@ -7714,58 +7146,7 @@
    2000
   ],
   "currency": "USD",
-  "face_value": 0.25,
-  "numista": {
-   "id": 439435,
-   "url": "https://en.numista.com/439435",
-   "title": "25 Cents (American Silver)",
-   "years": "1837–1837",
-   "composition": "Nickel silver",
-   "shape": "Round",
-   "obverse": {
-    "design": "Eagle holding olive branch and arrows at centre"
-   },
-   "reverse": {
-    "design": "Denomination at centre, with legend above and date below"
-   },
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/etats-unis/67246b51bc0624.02274123-180.jpg",
-     "credit": "Heritage Auctions"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/etats-unis/67246b533c0126.47046705-180.jpg",
-     "credit": "Heritage Auctions"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 117309,
-     "title": "25 Cents",
-     "years": "1870–1870",
-     "url": "https://en.numista.com/catalogue/pieces117309.html"
-    },
-    {
-     "id": 438880,
-     "title": "25 Cents - City of North Bend (North Bend, Oregon)",
-     "years": "1933–1933",
-     "url": "https://en.numista.com/catalogue/pieces438880.html"
-    },
-    {
-     "id": 30701,
-     "title": "25 Cents \"Draped Bust Quarter\"",
-     "years": "1804–1807",
-     "url": "https://en.numista.com/catalogue/pieces30701.html"
-    },
-    {
-     "id": 30781,
-     "title": "25 Cents \"Liberty Cap Quarter\" (without motto)",
-     "years": "1831–1838",
-     "url": "https://en.numista.com/catalogue/pieces30781.html"
-    }
-   ]
-  }
+  "face_value": 0.25
  },
  {
   "id": "united-state-1-dollar-39bbe1",
@@ -7779,61 +7160,7 @@
    2000
   ],
   "currency": "USD",
-  "face_value": 1,
-  "numista": {
-   "id": 41855,
-   "url": "https://en.numista.com/41855",
-   "title": "1 Dollar (Library of Congress)",
-   "years": "2000–2000",
-   "composition": "Silver (.900)",
-   "weight": "26.73 g",
-   "size": "38.1 mm",
-   "shape": "Round",
-   "obverse": {
-    "design": "Two books, one is open with its spine resting on the other closed book. The torch of learning appears in the background.",
-    "engravers": [
-     "Thomas D. Rogers"
-    ]
-   },
-   "reverse": {
-    "design": "The dome of the Library of Congress Jefferson Building",
-    "engravers": [
-     "John M. Mercanti"
-    ]
-   },
-   "comments": "To celebrate the 200th anniversary of its founding, the 2000 Library of Congress Silver Dollar was issued by the United States Mint. The same commemorative coin program also included the issuance of a gold and platinum bimetallic coin, which today commands more interest than the silver dollar.\n\n\r\nThe Library of Congress Silver Dollars were produced at the Philadelphia Mint and carry the “P” mintmark on the reverse. The coins were sold individually in proof or uncirculated versions, available from April 24, 2000, to December 31, 2000. The maximum authorized mintage for the coins was 500,000…",
-   "photos": {
-    "front": {
-     "thumb": "https://en.numista.com/catalogue/photos/etats-unis/68712ef415aca4.57430855-180.jpg",
-     "credit": "JLHare"
-    },
-    "back": {
-     "thumb": "https://en.numista.com/catalogue/photos/etats-unis/68712ef4f36a16.72073374-180.jpg",
-     "credit": "JLHare"
-    }
-   },
-   "match": "closest",
-   "others": [
-    {
-     "id": 25436,
-     "title": "1 Dollar (Leif Ericson Millennium)",
-     "years": "2000–2000",
-     "url": "https://en.numista.com/catalogue/pieces25436.html"
-    },
-    {
-     "id": 923,
-     "title": "1 Dollar \"Sacagawea Dollar\"",
-     "years": "2000–2008",
-     "url": "https://en.numista.com/catalogue/pieces923.html"
-    },
-    {
-     "id": 1493,
-     "title": "1 Dollar \"American Silver Eagle\" (Bullion Coin)",
-     "years": "1986–2021",
-     "url": "https://en.numista.com/catalogue/pieces1493.html"
-    }
-   ]
-  }
+  "face_value": 1
  },
  {
   "id": "united-state-1-dollar-b5c0c0",
