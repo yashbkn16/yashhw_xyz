@@ -39,6 +39,11 @@ NOTION_VERSION = "2025-09-03"
 NUMISTA = "https://api.numista.com/v3"
 LOOKUPS_PER_RUN = 200  # new Numista lookups per run (each is 1–3 searches + 1 detail call)
 CACHE_VERSION = 3     # bump when facts() keeps new fields, so cached types are fetched again
+# Collector estimates: asked only with what the month has left after matching, kept for
+# half a year (they move slowly), and never more than this many calls in one run.
+PRICE_CALLS_PER_RUN = 120
+PRICE_RESERVE = 300    # calls kept back each month for new rows, which matter more than prices
+PRICES_KEPT_DAYS = 180
 
 
 # ---------------------------------------------------------------- http
@@ -273,7 +278,7 @@ def match(entry, key, codes):
         for t in numista("/types", key, **params).get("types", []):
             same_country = iss or country.split(" - ")[0] in t.get("issuer", {}).get("name", "").lower()
             if (same_country and denomination(t["title"]) == want and overlaps(t)
-                    and not re.search(r"pattern|token|proof|essai|fantasy|specimen|restrike|piedfort|\((?:silver|gold)\b", t["title"], re.I)):
+                    and not re.search(COLLECTOR, t["title"], re.I)):
                 found.setdefault(t["id"], t)
         if found:
             break
@@ -313,6 +318,42 @@ def match(entry, key, codes):
     exact = (not ys or rank(best)[0] == 2) and (len(ranked) == 1 or rank(ranked[1])[:3] < rank(best)[:3])
     others = [{"id": t["id"], "title": t["title"], "years": f"{t.get('min_year')}–{t.get('max_year')}"} for t in ranked[1:5]]
     return {"id": best["id"], "status": "exact" if exact else "closest", "others": others}
+
+
+COLLECTOR = r"pattern|token|proof|essai|fantasy|specimen|restrike|piedfort|bullion|\((?:silver|gold)\b"
+
+
+def collector_issue(t):
+    """True for a type that is a collector's strike, not a coin from someone's pocket:
+    a piedfort, proof or bullion piece, or one struck in fine silver or gold after 1970
+    (older silver coins circulated; modern ones in .900+ silver or gold did not).
+    Checked on the type's full facts as well as the search result, because a search
+    result's title can leave out the variety ("Silver Piedfort") that gives it away."""
+    if not t:
+        return False
+    if re.search(COLLECTOR, t.get("title") or "", re.I):
+        return True
+    fine = re.match(r"\s*(silver|gold|platinum)\s*\((?:0?)\.(\d+)\)", t.get("composition") or "", re.I)
+    first = int((re.match(r"\d{4}", t.get("years") or "") or [0])[0])
+    return bool(fine and float("0." + fine.group(2)) >= 0.9 and first >= 1970)
+
+
+def settle(m, key, cache):
+    """Fetch facts for the chosen type. If the facts show a collector's strike, fall back to
+    the next candidate that is not one, or to nothing (an outline beats a wrong coin)."""
+    if not m.get("id") or m.get("status") == "manual":
+        if m.get("id") and str(m["id"]) not in cache["types"]:
+            cache["types"][str(m["id"])] = facts(m["id"], key)
+        return m
+    others = m.get("others", [])
+    for i in [m["id"]] + [o["id"] for o in others]:
+        if str(i) not in cache["types"]:
+            cache["types"][str(i)] = facts(i, key)
+        if not collector_issue(cache["types"][str(i)]):
+            if i == m["id"]:
+                return m
+            return {**m, "id": i, "status": "closest", "others": [o for o in others if o["id"] != i]}
+    return {**m, "id": None, "status": "none", "others": []}
 
 
 def facts(type_id, key):
@@ -361,6 +402,7 @@ def enrich(entries, key):
         if not codes or any(e["country"].lower() not in codes for e in entries):
             codes = cache["issuers"] = issuer_codes(key, {e["country"] for e in entries})
         lookup(entries, key, codes, cache, lookups_left=LOOKUPS_PER_RUN)
+        prices(entries, key, cache)
     except (RateLimited, urllib.error.URLError, TimeoutError) as err:
         # Numista is optional: whatever went wrong, keep the cached facts and finish the sync.
         limited = True
@@ -384,6 +426,8 @@ def lookup(entries, key, codes, cache, lookups_left):
     """Match rows not seen before and fetch facts for new types, filling the cache as it goes."""
     for e in entries:
         m = cache["matches"].get(e["notion"])
+        if m and m.get("status") != "manual" and collector_issue(cache["types"].get(str(m.get("id")))):
+            m = None                                   # a collector's strike slipped through once: look again
         if e.get("numista_id"):                       # set by hand in Notion: always wins
             m = {"id": int(e.pop("numista_id")), "status": "manual", "others": []}
         elif (m is None or stale(m)) and lookups_left > 0:   # new row, or "none" worth retrying
@@ -393,9 +437,73 @@ def lookup(entries, key, codes, cache, lookups_left):
             m["checked"] = date.today().isoformat()
         if m is None:
             continue                                   # over this run's lookup budget; next run
-        if m.get("id") and str(m["id"]) not in cache["types"]:
-            cache["types"][str(m["id"])] = facts(m["id"], key)
+        m = settle(m, key, cache)
         cache["matches"][e["notion"]] = m              # recorded only once its facts are in
+
+
+# ---------------------------------------------------------------- collector estimates
+
+GRADES = ["g", "vg", "f", "vf", "xf", "au", "unc"]
+
+
+def prices(entries, key, cache):
+    """Numista's price estimates, in rupees, for the issues (years) actually held.
+    Only for sure matches (exact or set by hand): a "closest" type may be a different
+    variety with a different price. Undated pieces are skipped unless the type has a
+    single issue. Two calls per type at least (issues, then prices per held year)."""
+    store = cache.setdefault("prices", {})
+    budget = PRICE_CALLS_PER_RUN
+    for e in entries:
+        m = cache["matches"].get(e["notion"]) or {}
+        if m.get("status") not in ("exact", "manual"):
+            continue
+        tid, held = str(m["id"]), sorted(set(e.get("years") or []))
+        old = store.get(tid)
+        if old and (date.today() - date.fromisoformat(old["checked"])).days < PRICES_KEPT_DAYS \
+                and all(str(y) in old["years"] for y in held):
+            continue
+        if budget < 1 + max(1, len(held)) or quota["calls"] >= MONTHLY_BUDGET - PRICE_RESERVE:
+            break
+        budget -= 1
+        issues = numista(f"/types/{tid}/issues", key)
+        if not isinstance(issues, list):
+            issues = []
+        if held:
+            picked = {y: next((i for i in issues if i.get("gregorian_year") == y), None) for y in held}
+        else:
+            picked = {"any": issues[0]} if len(issues) == 1 else {}
+        years_found = {}
+        for y, issue in picked.items():
+            if not issue:
+                continue
+            budget -= 1
+            got = numista(f"/types/{tid}/issues/{issue['id']}/prices", key, currency="INR")
+            if got.get("currency") == "INR" and got.get("prices"):
+                years_found[str(y)] = {p["grade"]: round(p["price"], 2) for p in got["prices"] if p.get("grade") in GRADES}
+        store[tid] = {"checked": date.today().isoformat(), "years": years_found}
+
+
+def estimate(e, cache):
+    """What the pieces of one entry might fetch from a collector, in rupees: a low and a
+    high figure from the F and VF estimates (coins that have been spent are rarely better),
+    or the nearest grades Numista has. Per-year prices are averaged over the years held."""
+    m = cache["matches"].get(e["notion"]) or {}
+    found = (cache.get("prices", {}).get(str(m.get("id"))) or {}).get("years") or {}
+    if m.get("status") not in ("exact", "manual") or not found:
+        return None
+    lows, highs = [], []
+    for grades in found.values():
+        have = [g for g in GRADES if g in grades]
+        if not have:
+            continue
+        near = lambda want: min(have, key=lambda g: abs(GRADES.index(g) - GRADES.index(want)))
+        lo, hi = near("f"), near("vf")
+        lows.append(grades[lo]); highs.append(grades[hi])
+    if not lows:
+        return None
+    n = e["count"]
+    low, high = n * sum(lows) / len(lows), n * sum(highs) / len(highs)
+    return {"low": round(min(low, high), 2), "high": round(max(low, high), 2), "years": sorted(found)}
 
 
 def attach(entries, cache):
@@ -403,9 +511,12 @@ def attach(entries, cache):
     for e in entries:
         m = cache["matches"].get(e["notion"]) or {}
         t = cache["types"].get(str(m.get("id")))
-        if t:
+        if t and (m["status"] == "manual" or not collector_issue(t)):
             e["numista"] = {**t, "match": m["status"],
                             "others": [{**o, "url": f"https://en.numista.com/catalogue/pieces{o['id']}.html"} for o in m.get("others", [])]}
+            market = estimate(e, cache)
+            if market:
+                e["market"] = market
 
 
 # ---------------------------------------------------------------- main

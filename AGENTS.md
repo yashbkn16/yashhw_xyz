@@ -97,7 +97,13 @@ The **Coins & Notes** database in the owner's Notion workspace is the master cop
 - Data source ID (used by the sync): `418d88f4-1a2e-8173-a74a-000ba26fbcf3`
 - One row per **type** (e.g. "1 Baht · Rama IX"), with a **Count** of how many are held.
 - The old free-text page "Yash's little foreign exchange" is the previous version.
-  It is not read by anything. Leave it alone.
+  It is not read by anything. Leave it alone. **New pieces go in the database, not on that
+  page** (in Nov 2026 the owner added 34 there; they were copied into the database by hand).
+- Country and Currency are selects: a new country or currency must first be added as an
+  option to the data source (listing every existing option too, or the others are lost),
+  then the rows can use it.
+- Pieces with no modern equivalent (a Ceylon rix dollar, a pre-reform Saudi qirsh) have no
+  Currency and no Face value; they count as pieces but not towards the value.
 
 Columns, and how the sync uses each:
 
@@ -139,6 +145,7 @@ An array of entries; empty fields are omitted:
   "subject": "King Bhumibol Adulyadej (Rama IX)", "era": "",
   "currency": "THB", "face_value": 1, "demonetised": false,
   "notes": "", "photos": ["/images/coins/<id>-1.jpg"],
+  "market": { "low": 250, "high": 420, "years": ["1952"] },   // collector estimate, rupees, all pieces
   "numista": { "id": 1234, "url": "…", "composition": "…", "weight": "3.4 g", "size": "20 mm",
                "shape": "Round", "obverse": {"design": "…", "engravers": []}, "reverse": {…},
                "comments": "…", "photos": {"front": {"full": "…", "thumb": "…", "credit": "…"}, "back": {…}} }
@@ -171,6 +178,14 @@ the owner's words: *make no mistakes*. An outline beats a wrong photo.)
   code), `quota` (`month`, `calls`), `version`. `attach()` copies a type's facts onto each
   entry as `numista`, plus `match` (status) and `others` (other likely types, with URLs).
 - A row with a hand-set **Numista ID** in Notion always wins (`status: "manual"`).
+- **Collector strikes are never shown** (`collector_issue()`): piedfort, proof, bullion,
+  pattern, specimen, restrike, "(Silver)" titles, and any type in .900+ silver or gold first
+  struck after 1970 (older silver coins circulated; modern ones did not). It is checked on
+  the search result *and* on the type's full facts, because a search title can omit the
+  variety: in Nov 2026 the UK 5p and 10p got "Silver Piedfort" photos and the NZ $1 a 1 oz
+  silver bullion kiwi that way. `settle()` falls back to the next candidate in `others`,
+  else `none`; `attach()` never attaches a collector type (unless set by hand), and
+  `lookup()` re-matches such rows when quota allows.
 - Otherwise `match()` searches, most specific first, stopping at the first search that
   yields a fitting candidate. For every spelling of the denomination (`spellings()`:
   singular/plural, `SEARCH_ALIASES` such as rupiya→rupee, paisa→paise, hryvnia→hryven,
@@ -200,9 +215,18 @@ the owner's words: *make no mistakes*. An outline beats a wrong photo.)
   `CACHE_VERSION` casually**, and never run repeated full passes while testing (that is
   how the November 2026 quota was exhausted). Test matching offline with a fake
   `numista()` (see section 7).
-- State as of 15 Nov 2026: 137 of 175 types have a verified photo. 38 are queued (no
-  match in the cache) and will be looked up automatically from 1 Dec 2026 when the
-  quota resets. Two rows are doubtful in Notion itself and need the owner, not the
+- **Collector estimates** (`prices()`, `estimate()`): for sure matches only (`exact` or
+  `manual`), the sync asks `/types/{id}/issues`, picks the issues of the years held, and asks
+  `/types/{id}/issues/{issue}/prices?currency=INR`. Stored in the cache as `prices` (per type:
+  `checked`, `years` → grade → rupees), refreshed every 180 days. Spent only from what the
+  month has left after matching (`PRICE_RESERVE = 300` kept back) and at most
+  `PRICE_CALLS_PER_RUN = 120` calls a run, so they fill in over a few days. Each entry gets
+  `market` = count × the average F and VF estimates (spent coins are rarely better).
+  Undated pieces get one only if the type has a single issue.
+- State as of 15 Nov 2026: 209 types in Notion. 134 have a verified photo; 3 lost a wrong
+  collector-strike photo (above) and are re-matched in December. 75 rows wait for a
+  lookup (38 earlier, 34 added 15 Nov, those 3) from 1 Dec 2026 when the quota resets;
+  collector estimates follow in the days after. Two rows are doubtful in Notion itself and need the owner, not the
   matcher: India "8 Anna 1921" (8 annas George V were struck only 1919–1920; probably a
   ½ rupee 1921) and India "½ Anna 1939, East India Company" (the Company's coins end in
   the 1850s; a 1939 ½ anna is George VI).
@@ -223,13 +247,15 @@ Mac, Python lacks CA certificates; prefix with `SSL_CERT_FILE=/etc/ssl/cert.pem`
 
 **`coins.js`** loads the data and today's rates in parallel, then:
 - *Coins page*: summary line (coins · notes · countries · year span), the collection's
-  face value at live rates with a currency picker, controls, then the map or list.
+  face value at live rates with a currency picker, a line saying which day's rates these
+  are and how the total moved since the day before, a line "to a collector: …" summing
+  catalogue estimates and silver for the pieces that have them, controls, then the map or list.
   Controls: `[map] [list]` (map is the default), `[all] [coins] [notes]`,
   `[by country] [by decade]`.
 - *List*: one closed `<details>` per country or decade, ordered by size or time,
   each row summarising counts, years and value; tiles link to piece pages.
 - *Piece page*: denomination ×count, country · era · kind, front and back pictures,
-  subject, a facts list (year, held, face value, worth today), owner's notes, and a closed
+  subject, a facts list (year, held, face value, worth today, to a collector, silver), owner's notes, and a closed
   `[about this coin]` section that loads only when opened: Numista facts (from the data)
   plus a currency history paragraph fetched live from Wikipedia's REST summary API.
 - Pictures (`picture()`): own photo → Numista photo with credit → empty outline.
@@ -237,9 +263,19 @@ Mac, Python lacks CA certificates; prefix with `SSL_CERT_FILE=/etc/ssl/cert.pem`
 - The chosen currency is remembered in `localStorage` (`currency`).
 
 **`money.js`**
-- Rates are relative to INR. Primary: `open.er-api.com/v6/latest/INR`. Fallback:
-  `cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.json`.
-  Both keyless, CORS-enabled, daily. If both fail, values are simply hidden.
+- Rates are relative to INR, from the keyless daily currency API (fawazahmed0):
+  `latest.currency-api.pages.dev/v1/currencies/inr.json`, then its jsDelivr mirror, then
+  `open.er-api.com/v6/latest/INR`. It includes silver (`XAG`, troy oz per rupee) and an
+  archive by date (`<YYYY-MM-DD>.currency-api.pages.dev`), used for "since yesterday".
+  If every source fails, values are simply hidden.
+- **"Live" means daily.** All these sources publish once a day. Most of the face value is
+  in Asian currencies shown in rupees, so the total moves by a rupee or so a day; the page
+  says the date and the change so nobody thinks it is stuck. Minute-level rates need a paid
+  API and were rejected (decisions log).
+- `market()` converts the sync's rupee estimate; `silverGrams()`/`melt()` value the silver
+  from the catalogue composition ("Silver (.500)") and weight at today's silver price, sure
+  matches only ("nickel silver" has none); `collectorValue()` = the higher of the two.
+  Collector figures are estimates from Numista or the metal, never written from memory.
 - `worth(entry, rates, target)` = count × face_value ÷ rate(currency) × rate(target);
   null for demonetised or unknown.
 - `currencyArticle()` maps a piece to its Wikipedia article (special cases for anna,
