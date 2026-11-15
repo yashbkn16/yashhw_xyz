@@ -10,7 +10,20 @@ const SPLIT = 25;          // a country with more types than this opens into sub
 const CELL = 90;           // spatial grid: nodes only push against near neighbours
 const THRESHOLD = 4;       // px a press may wander and still count as a click
 const MAXV = 12;           // px per frame: the fastest anything may move
-const REGIONS = ['South Asia', 'Southeast Asia', 'East Asia', 'Oceania', 'Americas', 'Europe', 'Middle East', 'Africa'];
+// Where each region gathers, as a fraction of the stage: roughly its place on a world map,
+// so the layout explains itself (Americas west, Europe north, Asia east, Oceania south-east).
+const REGION_AT = {
+  'Americas': [0.10, 0.42], 'Europe': [0.34, 0.16], 'Africa': [0.30, 0.72], 'Middle East': [0.48, 0.42],
+  'South Asia': [0.62, 0.62], 'East Asia': [0.84, 0.18], 'Southeast Asia': [0.80, 0.52], 'Oceania': [0.86, 0.86],
+};
+// The same map, taller, for portrait screens (phones).
+const REGION_AT_TALL = {
+  'Europe': [0.30, 0.10], 'Americas': [0.14, 0.34], 'Middle East': [0.42, 0.34], 'Africa': [0.22, 0.60],
+  'East Asia': [0.80, 0.16], 'South Asia': [0.50, 0.62], 'Southeast Asia': [0.80, 0.50], 'Oceania': [0.76, 0.88],
+};
+const REGIONS = Object.keys(REGION_AT);
+// Long names take a lot of room on a phone; these short forms are universally read.
+const SHORT_NAMES = { 'United Arab Emirates': 'UAE', 'United Kingdom': 'UK', 'United States': 'USA', 'European Union': 'EU', 'New Zealand': 'NZ' };
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, span, picture }) {
@@ -48,7 +61,7 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     hubs = names.map((name, i) => {
       const list = groups.get(name);
       const h = node({ id: `hub:${name}`, kind: 'hub', name, items: list, i, r: (10 + Math.sqrt(pieces(list)) * 2.6) * scale() });
-      const a = anchor(h);
+      const a = regionAnchor(list[0].region);
       Object.assign(h, { x: a.x + (Math.random() - 0.5) * 60, y: a.y + (Math.random() - 0.5) * 60 });
 
       // Big countries open into sub-groups (era, or coins / notes) before their pieces.
@@ -64,10 +77,11 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
       return h;
     });
 
+    layoutHomes();   // also places each country at its home
     drawRegions();
     // One line on how to read the map, so the arrangement explains itself.
     root.querySelector('.map-key').textContent = by === 'country'
-      ? 'countries gather by region · a bigger circle means more pieces · ○ coin  ▭ note · tap a country to open it, drag anything'
+      ? 'laid out like a world map: countries gather by region · a bigger circle means more pieces · ○ coin  ▭ note · tap a country to open it, drag anything'
       : 'decades run left to right · a bigger circle means more pieces · ○ coin  ▭ note · tap a decade to open it, drag anything';
     draw();
     showPanel();
@@ -82,11 +96,77 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
 
   // ---------------------------------------------------------- layout
   function regionAnchor(name) {
-    const a = (REGIONS.indexOf(name) / REGIONS.length) * Math.PI * 2 - Math.PI / 2;
-    return { x: W / 2 + Math.cos(a) * W * 0.34, y: H / 2 + Math.sin(a) * H * 0.36 };
+    const [fx, fy] = (H > W * 1.2 ? REGION_AT_TALL : REGION_AT)[name] ?? [0.5, 0.5];   // unknown region: middle
+    return { x: W * fx, y: H * fy };
   }
+  // ---- Packed layout ("by country"): each region's countries sit in tidy rows under the
+  // region's name, around the region's place on the world map. Regions are pushed apart until
+  // none overlap; if they need more height than the stage has, the stage grows.
+  // Hubs spring to these homes, so dragging works and everything settles back cleanly.
+  let homes = new Map(), boxes = [], baseH = 0;
+  const CHAR = 6.6, GAP = 14, TITLE = 22;   // 11px mono label width per character; spacing; region-name row
+  function layoutHomes() {
+    homes = new Map(); boxes = [];
+    if (group !== 'country') return;
+    // Measure the stage at its natural (CSS) height, before any growing from a previous layout.
+    const stage = root.querySelector('.stage');
+    stage.style.height = '';
+    const box = svg.getBoundingClientRect();
+    if (box.width) { W = box.width; baseH = box.height; } else baseH = H;
+    const tall = baseH > W * 1.2;
+    const maxRow = Math.min(W - 8, Math.max(W * (tall ? 0.62 : 0.3), 140));
+    for (const r of REGIONS) {
+      const mine = hubs.filter((h) => h.items[0].region === r);   // biggest first
+      if (!mine.length) continue;
+      // Each country's cell is at least 44px wide so neighbouring tap areas never overlap.
+      const cells = mine.map((h) => ({ h, w: Math.max(2 * h.r, label(h).length * CHAR, 44) + GAP, ht: 2 * h.r + 26 }));
+      const rows = [[]];
+      for (const c of cells) {
+        const row = rows[rows.length - 1];
+        if (row.length && row.reduce((s, x) => s + x.w, 0) + c.w > maxRow) rows.push([c]); else row.push(c);
+      }
+      const [fx, fy] = (tall ? REGION_AT_TALL : REGION_AT)[r];
+      boxes.push({ r, rows, cx: W * fx, cy: baseH * fy, fx, fy,
+        w: Math.max(...rows.map((row) => row.reduce((s, x) => s + x.w, 0)), r.length * 8.4 + 12),
+        h: TITLE + rows.reduce((s, row) => s + Math.max(...row.map((x) => x.ht)), 0) });
+    }
+    // Push overlapping regions apart along the shorter overlap; keep them inside the sides and top.
+    for (let pass = 0; pass < 300; pass++) {
+      let moved = false;
+      for (const a of boxes) for (const b of boxes) {
+        if (a === b) continue;
+        const ox = (a.w + b.w) / 2 + 14 - Math.abs(a.cx - b.cx), oy = (a.h + b.h) / 2 + 10 - Math.abs(a.cy - b.cy);
+        if (ox <= 0 || oy <= 0) continue;
+        moved = true;
+        // Sideways while that can work; after 100 passes (regions pinned against the sides) go
+        // vertical, which always converges because the stage can grow downwards.
+        // Push in the direction of their places on the world map, so west stays west of east
+        // and north stays above south however much they have to move.
+        if (ox < oy && pass < 100) { const d = Math.sign(a.fx - b.fx) || Math.sign(a.cx - b.cx) || 1; a.cx += d * ox / 2; b.cx -= d * ox / 2; }
+        else { const d = Math.sign(a.fy - b.fy) || Math.sign(a.cy - b.cy) || 1; a.cy += d * oy / 2; b.cy -= d * oy / 2; }
+      }
+      for (const b of boxes) {
+        b.cx = Math.min(W - b.w / 2 - 4, Math.max(b.w / 2 + 4, b.cx));
+        b.cy = Math.max(b.h / 2 + 4, b.cy);
+      }
+      if (!moved) break;
+    }
+    const need = Math.ceil(Math.max(...boxes.map((b) => b.cy + b.h / 2)) + 8);
+    stage.style.height = need > baseH ? `${need}px` : '';   // grow only when the map needs it
+    for (const b of boxes) {
+      let y = b.cy - b.h / 2 + TITLE;   // rows of countries under the region's name
+      for (const row of b.rows) {
+        let x = b.cx - row.reduce((s, c) => s + c.w, 0) / 2;
+        for (const c of row) { homes.set(c.h.id, { x: x + c.w / 2, y: y + c.h.r + 2 }); x += c.w; }
+        y += Math.max(...row.map((c) => c.ht));
+      }
+    }
+    // Countries go straight to their places (no drifting across the map after a resize).
+    for (const h of hubs) if (drag?.node !== h && homes.has(h.id)) Object.assign(h, homes.get(h.id), { vx: 0, vy: 0 });
+  }
+
   function anchor(h) {
-    if (group === 'country') return regionAnchor(h.items[0].region);
+    if (group === 'country') return homes.get(h.id) ?? regionAnchor(h.items[0].region);
     return { x: W * (0.08 + 0.84 * (h.i / Math.max(1, hubCount - 1))), y: H / 2 };
   }
 
@@ -101,14 +181,17 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
   // ---------------------------------------------------------- physics
   // A hub's personal space: its circle, or half its label's width if that is wider
   // (11px mono ≈ 6.6px a character).
-  const room = (h) => Math.max(h.r, h.name.length * 3.3);
+  const label = (h) => (W < 520 && SHORT_NAMES[h.name]) || h.name;   // what is written under a hub
+  const room = (h) => Math.max(h.r, label(h).length * 3.3);
+  const reach = (s) => Math.max(s.r, s.name.length * 3.3, 22);   // a sub-group's half-width incl. its name
+  const TAP = 20;   // a coin's tap radius: 40px targets
 
   // Springs pull nodes to their parent (hubs to their anchor), nearby pairs
   // push apart, velocity is damped. The loop sleeps once nothing moves.
   function step() {
     const vis = visible();
     for (const h of hubs) {
-      const a = anchor(h), k = 0.02;
+      const a = anchor(h), k = group === 'country' ? 0.08 : 0.02;
       h.vx += (a.x - h.x) * k; h.vy += (a.y - h.y) * k;
     }
     for (const n of vis) {
@@ -128,9 +211,18 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
         for (const m of grid.get(`${cx + i},${cy + j}`) ?? []) {
           if (m === n) continue;
           const dx = n.x - m.x, dy = n.y - m.y, d = Math.max(Math.hypot(dx, dy), 1);
+          if (group === 'country' && n.kind === 'hub' && m.kind === 'hub') continue;   // packed: homes never overlap
+          // An open country's contents only keep clear of each other and their own country,
+          // so they settle quickly instead of jostling with the neighbours.
+          if (n.kind !== 'hub' && m.kind === 'hub' && m !== topOf(n)) continue;
+          if (n.kind === 'hub' && m.kind !== 'hub' && n !== topOf(m)) continue;
           const min = n.kind === 'hub' && m.kind === 'hub'
-            ? room(n) + room(m) + 12   // hubs keep their names apart, not just their circles
-            : n.r + m.r + 4;
+            ? room(n) + room(m) + 12   // decades: keep their names apart, not just their circles
+            : n.kind === 'sub' && m.kind === 'sub'
+              ? reach(n) + reach(m) + 6  // sub-groups: their names and tap areas never overlap
+              : n.kind === 'type' && m.kind === 'type'
+                ? 2 * TAP + 2            // coins: 40px tap areas never overlap
+                : n.r + m.r + 4;
           if (d < CELL) {
             const f = Math.min(40 / (d * d) + (d < min ? (min - d) * 0.1 : 0), 3); // capped: no flinging
             n.vx += (dx / d) * f; n.vy += (dy / d) * f;
@@ -138,25 +230,37 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
         }
       }
     }
-    let fastest = 0;
+    let moved = 0;   // the largest on-screen movement this frame
     for (const n of vis) {
       if (drag?.node === n) { n.vx = n.vy = 0; continue; }
       n.vx = Math.max(-MAXV, Math.min(MAXV, n.vx * 0.8));
       n.vy = Math.max(-MAXV, Math.min(MAXV, n.vy * 0.8));
       const edge = n.kind === 'hub' ? room(n) : 16;   // keep hub names fully inside the frame
-      n.x = Math.min(W - edge, Math.max(edge, n.x + n.vx));
-      n.y = Math.min(H - n.r - 16, Math.max(n.r + 4, n.y + n.vy));
-      fastest = Math.max(fastest, Math.hypot(n.vx, n.vy));
+      // Cooling fades out free movement; countries in the packed layout go straight home.
+      const k = group === 'country' && n.kind === 'hub' ? 1 : alpha;
+      const x0 = n.x, y0 = n.y, x = n.x + n.vx * k, y = n.y + n.vy * k;
+      n.x = Math.min(W - edge, Math.max(edge, x));
+      n.y = Math.min(H - n.r - 16, Math.max(n.r + 4, y));
+      if (n.x !== x) n.vx = 0;   // walls absorb: a node pressed against the edge comes to rest
+      if (n.y !== y) n.vy = 0;
+      moved = Math.max(moved, Math.hypot(n.x - x0, n.y - y0));   // what actually moved on screen
     }
-    return fastest;
+    return moved;
   }
+  // Cooling: after any change, movement fades out over ~2 s and the loop stops, even if
+  // forces never quite balance (nodes pressed against a wall, a crowded country).
+  // Dragging keeps it hot; every change reheats it.
+  let alpha = 1;
   function tick() {
-    const fastest = step();
+    const moved = step();
     render();
-    frame = drag || fastest > 0.05 ? requestAnimationFrame(tick) : 0;
+    if (!drag) alpha *= 0.97;   // ~2 s to come to rest
+    // Stop as soon as nothing visibly moves (under 0.05px a frame); dragging keeps it running.
+    frame = drag || moved > 0.05 ? requestAnimationFrame(tick) : 0;
   }
   function wake() {
-    if (reduce) { for (let i = 0; i < 500 && step() > 0.05; i++); render(); return; }
+    alpha = 1;
+    if (reduce) { for (let i = 0; i < 500 && alpha > 0.02; i++) { step(); alpha *= 0.97; } render(); return; }
     frame ||= requestAnimationFrame(tick);
   }
 
@@ -180,18 +284,22 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     }
     for (const [r, t] of regionEls) t.textContent = r;
   }
+  // Each region's name heads its group (the top row of its box from layoutHomes()).
   function placeRegions() {
-    for (const [r, t] of regionEls) {
-      const mine = hubs.filter((h) => h.items[0].region === r);
-      const x = mine.reduce((s, h) => s + h.x, 0) / mine.length;
-      const top = Math.min(...mine.map((h) => h.y - h.r));
-      t.setAttribute('x', Math.min(W - 60, Math.max(60, x)).toFixed(1));
-      t.setAttribute('y', Math.max(14, top - 10).toFixed(1));
+    for (const b of boxes) {
+      const t = regionEls.get(b.r);
+      t?.setAttribute('x', b.cx.toFixed(1));
+      t?.setAttribute('y', (b.cy - b.h / 2 + 13).toFixed(1));
     }
   }
 
   function makeEl(n) {
     const g = el('g', { class: `node ${n.kind}`, tabindex: 0, role: 'button' });
+    // An invisible tap area over the circle and its name, never under 44px: the gap between
+    // them must not be dead space, and fingers need room.
+    const half = Math.max(22, Math.max(n.r, (n.kind === 'hub' ? label(n) : n.name || '').length * 3.3));
+    if (n.kind === 'type') el('circle', { class: 'hit', r: Math.max(TAP, n.r + 2) }, g);
+    else el('rect', { class: 'hit', x: -half, y: -Math.max(n.r, 14), width: half * 2, height: Math.max(n.r, 14) + n.r + 20 }, g);
     if (n.kind === 'type') {
       const e = n.e;
       if (e.kind === 'coin') el('circle', { class: 'mark', r: n.r }, g);
@@ -203,10 +311,13 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     } else {
       el('circle', { class: 'mark', r: n.r }, g);
       el('text', { class: 'count' }, g).textContent = pieces(n.items);
-      el('text', { class: 'label', y: n.r + 13 }, g).textContent = n.name;
+      el('text', { class: 'label', y: n.r + 13 }, g).textContent = n.kind === 'hub' ? label(n) : n.name;
       g.setAttribute('aria-label', `${n.name}, ${plural(pieces(n.items), 'piece')}`);
     }
     g.addEventListener('pointerdown', (ev) => press(ev, n));
+    // A touch that starts on a node belongs to the map (drag or tap), not to page scrolling.
+    // (CSS touch-action is unreliable on SVG elements, so this is done in script.)
+    g.addEventListener('touchstart', (ev) => ev.preventDefault(), { passive: false });
     g.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); choose(n); } });
     n.el = g;
     n.edge = n.kind === 'hub' ? null : el('line', { class: 'edge' });
@@ -218,11 +329,23 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
       const s = shown(n);
       if (s && !n.el.isConnected) {
         gNodes.appendChild(n.el); n.edge && gEdges.appendChild(n.edge);
-        if (n.parent) { n.x = n.parent.x + (Math.random() - 0.5) * 8; n.y = n.parent.y + (Math.random() - 0.5) * 8; } // burst out of the parent
+        if (n.parent) {
+          // Burst out of the parent, leaning towards the middle of the map where there is room.
+          const dx = W / 2 - n.parent.x, dy = H / 2 - n.parent.y, d = Math.hypot(dx, dy) || 1;
+          n.x = n.parent.x + (dx / d) * 12 + (Math.random() - 0.5) * 8;
+          n.y = n.parent.y + (dy / d) * 12 + (Math.random() - 0.5) * 8;
+        }
       }
       if (!s && n.el.isConnected) { n.el.remove(); n.edge?.remove(); }
     }
     for (const n of [...subs, ...hubs]) if (n.el.isConnected) gNodes.appendChild(n.el); // groups on top
+    // An open country and its contents sit above everything else, so they can always be tapped.
+    for (const id of open) {
+      const h = nodes.get(id);
+      if (h?.kind !== 'hub' || !h.el?.isConnected) continue;
+      const inside = [...nodes.values()].filter((n) => n !== h && n.el?.isConnected && topOf(n) === h);
+      for (const n of [...inside.filter((n) => n.kind === 'type'), ...inside.filter((n) => n.kind === 'sub'), h]) gNodes.appendChild(n.el);
+    }
     render();
   }
 
@@ -250,7 +373,7 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
   }
   function press(ev, n) {
     if (ev.button !== 0) return;
-    ev.currentTarget.setPointerCapture(ev.pointerId);
+    try { ev.currentTarget.setPointerCapture(ev.pointerId); } catch {}   // keeps the drag even if the finger leaves the node
     drag = { node: n, id: ev.pointerId, sx: ev.clientX, sy: ev.clientY, moved: false };
     wake();
   }
@@ -271,6 +394,16 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
     wake();
   });
   let pressed = false;
+  // The browser or OS took the gesture over (a system swipe, a call): end the drag cleanly,
+  // without treating it as a tap, so nothing is left frozen mid-air.
+  const cancel = (ev) => {
+    if (!drag || drag.id !== ev.pointerId) return;
+    drag = null;
+    svg.classList.remove('dragging');
+    wake();
+  };
+  svg.addEventListener('pointercancel', cancel);
+  svg.addEventListener('lostpointercapture', cancel);
   svg.addEventListener('click', (ev) => {
     if (pressed) { pressed = false; return; }
     if (ev.target === svg && selected) { selected = null; showPanel(); render(); }  // empty space clears
@@ -316,11 +449,21 @@ export function mountMap(root, { pieceUrl, total, esc, plural, pieces, decade, s
   }
 
   // The SVG's coordinate space always matches its size on screen.
+  // The SVG's coordinate space always matches its size on screen. A new width (rotating a
+  // phone, resizing a window) re-packs the layout; a new height alone is the stage growing
+  // to fit the layout (set by layoutHomes), which needs no re-pack.
+  let lastW = W;   // show() has already laid out at this width
   new ResizeObserver(([entry]) => {
     const { width, height } = entry.contentRect;
     if (!width || !height) return;
     W = width; H = height;
     svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    if (width !== lastW) {
+      lastW = width;
+      // Next frame: re-packing may resize the stage, which must not happen inside this callback.
+      requestAnimationFrame(() => { layoutHomes(); drawRegions(); wake(); });
+      return;
+    }
     drawRegions(); wake();
   }).observe(svg);
 

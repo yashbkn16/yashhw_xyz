@@ -82,6 +82,9 @@ scripts/sync.py         Notion (+ Numista) → data/; standard library only
 .github/workflows/sync.yml  runs the sync daily at 00:30 UTC (06:00 IST) and on demand
 style.css               all styles; colours and fonts are the four variables at the top
 site.js                 scramble effect (classic script, loaded on every page)
+404.html                shown by GitHub Pages for any address that doesn't exist (absolute links)
+og.png, og-coins.png    link-preview images (1200×630); source: scripts/og-card.html
+scripts/og-card.html    renders the preview images (see "Link previews" below)
 favicon.svg, CNAME, README.md, AGENTS.md
 ```
 
@@ -161,39 +164,48 @@ Steps:
 5. Write `data/collection.json`, sorted by country, kind, face value.
 
 **Numista enrichment** (goal: a photo for every type; "the closest type" is acceptable,
-the owner's words: *show any one and then link others*)
+the owner's words: *show any one and then link others*; but **never a different coin**,
+the owner's words: *make no mistakes*. An outline beats a wrong photo.)
 - Cache in `data/numista.json`: `matches` (per Notion row id: `id`, `status`, `others`,
   `name`, `checked`), `types` (facts per Numista type), `issuers` (country → issuer
-  code), `version`. `attach()` copies a type's facts onto each entry as `numista`, plus
-  `match` (status) and `others` (other likely types, with catalogue URLs).
+  code), `quota` (`month`, `calls`), `version`. `attach()` copies a type's facts onto each
+  entry as `numista`, plus `match` (status) and `others` (other likely types, with URLs).
 - A row with a hand-set **Numista ID** in Notion always wins (`status: "manual"`).
-- Otherwise `match()` searches once per new row, most specific first, and stops at the
-  first search that finds anything:
-  1. denomination + two subject words, with the held year (`year=` filter), in the country's issuer
-  2. denomination with the year · 3. denomination + subject words · 4. denomination · 5. without the issuer
-  Undated coins naming a reign use a year inside it (`REIGN_YEARS`: Rama IX → 2010,
-  Rama X → 2020; extend it for other reigns). Numista's `year` filter does **not** work
-  for banknotes.
-- Every candidate must have the **same denomination**: `denomination()` reduces both
-  sides to (number, 4-letter unit stem, cents?) — handling ½/¼/quarter/half, paisa/paise,
-  rupiya/rupee, piso/peso, dime → 10 cents, florin → 2 shilling, accents (Đồng), and
-  country adjectives ("2 Singapore Dollars"). Patterns, tokens, proofs, specimens are dropped.
-- Ranking: years fit (all held years inside the type) > words shared with the Subject
-  (regnal numbers count strongly: "Rama IX" ≠ "Rama X") > commemorative-vs-circulation
-  agrees with the row > has a photo > newest (for undated) > narrowest year span.
-  Undated rows only consider types issued after 1970 when any exist; an undated row whose
-  best match predates 1970 gets **no** match (a modern US $1 note must not show an 1850s
-  private bank note).
-- `status`: `exact` (years fit and nothing else ranks as well), `closest` (the best of
-  several; the site says so and links up to four `others`), `none`.
-- Quality as of Nov 2026: 154 of 175 types have a photo; the rest show the outline.
-  To fix one, put the right id in **Numista ID** in Notion.
-- Rate limits: the free key returns HTTP 429 after a few hundred calls in a burst.
-  Each call sleeps 0.25 s; on 429 the sync stops looking up for that run, **saves the cache
-  so far**, and the next run continues (`LOOKUPS_PER_RUN = 200`). Never delete
-  `data/numista.json` casually: rebuilding it costs ~3 calls per type. If you must change
-  matching rules, bump `CACHE_VERSION` (clears matches and types) and expect the full
-  re-lookup to take more than one run.
+- Otherwise `match()` searches, most specific first, stopping at the first search that
+  yields a fitting candidate. For every spelling of the denomination (`spellings()`:
+  singular/plural, `SEARCH_ALIASES` such as rupiya→rupee, paisa→paise, hryvnia→hryven,
+  2 shilling→florin, and grouped thousands "10 000"): denomination + the subject's proper
+  names with the held year, denomination with the year, then without the year (adding
+  `NOTE_HINTS`, e.g. "Federal Reserve Note" for US notes); then the subject's names alone;
+  last, the denomination with no issuer filter. Numista's `year` filter works for coins
+  only. Undated coins naming a reign search a year inside it (`REIGN_YEARS`).
+- A candidate must: be the same country (issuer code), have the **same denomination**
+  (`denomination()` → number, 4-letter unit stem, cents?; handles ½/¼, accents, country
+  adjectives like "2 Singapore Dollars", digit grouping), **overlap the held years**, and
+  not be a pattern, token, proof, specimen, restrike, piedfort or "(Silver)/(Gold)" issue.
+- Ranking: years fit fully > subject words in the title (regnal numbers ±3: "Rama IX" ≠
+  "Rama X", "George V" ≠ "George VI") > special-vs-everyday agrees (commemorative,
+  non-circulating or collector issues only for rows that are commemorative) > has a photo >
+  newest for undated (oldest if demonetised) > narrowest years. If the best candidate has
+  the wrong ruler or the wrong kind, those are dropped; if nothing is left, `none`.
+  Undated **banknotes** only consider types issued after 1970.
+- `status`: `exact` (years fit and nothing else ranks as well), `closest` (best of several;
+  the site says so and links up to four `others` with their years), `none` (outline).
+  `none` rows are retried every 90 days (`stale()`): the catalogue keeps growing.
+- **Quota.** The free key allows 2,000 calls per calendar month. The sync counts its own
+  calls in `quota` and stops at `MONTHLY_BUDGET = 1500`, leaving headroom; a 429 marks
+  the month spent. Any Numista error (429, network, timeout) only stops the lookups:
+  the sync still finishes with the cached facts. Each call sleeps 0.25 s. A full
+  re-lookup of 175 types costs ~1,000+ calls: **never delete `data/numista.json` or bump
+  `CACHE_VERSION` casually**, and never run repeated full passes while testing (that is
+  how the November 2026 quota was exhausted). Test matching offline with a fake
+  `numista()` (see section 7).
+- State as of 15 Nov 2026: 137 of 175 types have a verified photo. 38 are queued (no
+  match in the cache) and will be looked up automatically from 1 Dec 2026 when the
+  quota resets. Two rows are doubtful in Notion itself and need the owner, not the
+  matcher: India "8 Anna 1921" (8 annas George V were struck only 1919–1920; probably a
+  ½ rupee 1921) and India "½ Anna 1939, East India Company" (the Company's coins end in
+  the 1850s; a 1939 ½ anna is George VI).
 - Photos from Numista are **linked, not copied**, and always shown with the
   contributor's credit. Own photos from Notion always take precedence.
   Only Numista's 180 px thumbnails can be used: the full-size files answer 403 and
@@ -237,23 +249,33 @@ Mac, Python lacks CA certificates; prefix with `SSL_CERT_FILE=/etc/ssl/cert.pem`
 - A one-line key above the map explains the arrangement ("countries gather by region ·
   a bigger circle means more pieces · ○ coin ▭ note · …"). The owner wants visitors to
   understand why the map is laid out as it is; keep the key and the region names.
-- Levels: region anchors (fixed around the stage; each region's name is drawn just
-  above its group of countries and follows it, `placeRegions()`) → country hubs (sized by pieces) →
-  for countries with more than `SPLIT = 25` types, sub-groups by `era` or coins/notes
-  (dashed rings) → type nodes (circle = coin, rectangle = note, sized by count, number
-  inside from 3 up). Under "by decade", hubs are decades laid left to right.
-- Starts quiet: only hubs. Click a hub to open it, again to close. Click a type for a
-  panel with its picture, summary and `[open →]` link.
-- Physics: springs to parent/anchor (k 0.02), short-range repulsion through a spatial
-  grid (`CELL = 90`) capped at 3 per step, speed capped at `MAXV = 12` px/frame,
-  damping 0.8; the loop sleeps when nothing moves faster than 0.05 px/frame.
-  Hubs keep apart by their label width (`room()`), and stay fully inside the frame.
-  Nodes scale with the screen (`scale()`: 0.6 on phones up to 1 on laptops).
-  The caps matter: without them, pieces bursting from one point fling to the corners.
-- Touch: the `click` that follows a tap is swallowed (`pressed`), otherwise Android
-  Chrome retargets it to the SVG after the redraw and clears the selection.
-- Drag uses pointer capture; under 4 px of movement a press counts as a click.
-- Keyboard: every node is focusable and opens with Enter or Space.
+- **Layout "by country" is a packed world map**, not free physics (free physics could not
+  keep 33 labelled countries tidy on a phone). `REGION_AT` (landscape) and
+  `REGION_AT_TALL` (portrait) give each region its place on a world map: Americas west,
+  Europe north, Middle East centre, Africa south-west, Asia east, Oceania south-east.
+  `layoutHomes()` packs each region's countries in rows under the region's name
+  (cells ≥ 44 px wide so tap areas never overlap), pushes regions apart until none
+  overlap (sideways first, then vertically, always in world-map order), and grows the
+  stage downwards if it needs more height. Countries sit exactly at their homes; a dragged
+  country springs back. Re-packs when the width changes (rotation, resize).
+- On screens narrower than 520 px long names shorten (`SHORT_NAMES`: UAE, UK, USA, EU, NZ).
+- Under "by decade", hubs are decades laid left to right and use free physics.
+- Opening a country: its sub-groups (countries with more than `SPLIT = 25` types: by `era`
+  or coins/notes, dashed rings) or types burst out towards the middle of the map, avoid
+  only each other and their own country, and are drawn on top of everything.
+  Spacing: coins 40 px apart (tap areas), sub-groups by their name width.
+- Physics: springs to parent/home, capped short-range repulsion through a spatial grid
+  (`CELL = 90`), speed cap `MAXV = 12`, damping 0.8, walls absorb. **Cooling** (`alpha`,
+  ×0.97 a frame, reheated by any change or drag) makes free movement fade out in ~2 s;
+  the loop stops when nothing moves more than 0.05 px a frame. Without cooling, nodes
+  pinned against a wall crept forever and the loop never stopped.
+- **Touch.** Every node has an invisible tap area (`.hit`) over its circle and name, at
+  least 44 px. A touch that starts on a node is claimed in script (`touchstart`
+  `preventDefault`, because CSS `touch-action` is unreliable on SVG); a swipe on empty map
+  space scrolls the page (`touch-action: pan-y` on the SVG), which matters because on
+  phones the map is taller than the screen. `pointercancel`/`lostpointercapture` end a
+  drag cleanly. The `click` that follows a tap is swallowed (Android retargeting).
+- A one-line key above the map explains the arrangement; keep it and the region names.
 
 Scaling plan when the collection grows: up to ~300 types nothing changes; past ~500,
 remove `[open all]`-style behaviour and keep only one country simulated; past ~2,000,
@@ -276,6 +298,17 @@ split big countries by decade, show piece labels on hover only, and draw on one 
   the `iPhone SE`, `iPhone 15`, `Pixel 7` and `Desktop Chrome` device profiles, with
   `reduced_motion` both on and off. Check: no horizontal overflow, no console errors,
   scramble frames on load, map hub tap opens the country, list rows open, screenshots.
+- **Map**: on iPhone SE, iPhone 15 Pro Max, Pixel 7, iPad Mini and desktop, check that no
+  two country/region bounding boxes overlap (tap areas included) and none fall outside
+  the stage; that tapping a country opens it, India opens into sub-groups, a coin shows
+  its panel, the map comes to rest within ~3 s (sample node transforms twice, 1 s apart),
+  and the decade and list views work.
+- **Touch**: Playwright's mouse drag is not a finger. Use Chromium's CDP
+  `Input.dispatchTouchEvent` on the Pixel 7 profile: a finger drag on a country must move
+  it and let it spring home; a swipe on empty map space must scroll the page.
+- **Numista matching**: test offline with a fake `sync.numista` that filters a small
+  hand-made catalogue by query words, issuer and year, like the API does. Include the
+  cases that once went wrong (see the matching rules above).
 - **Photos**: count them, don't just look for errors. Open every list group, scroll so lazy
   images load, and compare `img.face` with `naturalWidth > 0` against the number of
   entries that have `photos` or `numista.photos`; also open a sample of piece pages.
@@ -297,6 +330,19 @@ split big countries by decade, show piece labels on hover only, and draw on one 
 - *Replace the resume*: overwrite `yash-jain-resume.pdf`. Warn the owner if the new PDF
   contains a phone number or other private details, since it is public.
 - *Change colours or fonts*: only the variables at the top of `style.css`, and only when asked.
+
+## 7b. Link previews and 404
+
+- Every page has Open Graph and Twitter tags (title, description, image, size, alt). The
+  home and CV use `/og.png`; the coins pages `/og-coins.png`. The coin template has no
+  canonical/og:url (each coin is a query-string variant of one page).
+- Descriptions avoid counts (they go stale as the collection grows).
+- To change the images: edit `scripts/og-card.html` and render it at 1200×630 with a
+  headless browser (`?kind=site` → og.png, `?kind=coins` → og-coins.png), waiting for
+  `document.fonts.ready`. Keep the two-colour style. Social sites cache previews; after
+  changing an image, re-scrape via each site's debugger (e.g. LinkedIn Post Inspector).
+- `404.html` is served by GitHub Pages for unknown addresses; it uses absolute links and
+  `noindex`. A local `python3 -m http.server` does not use it.
 
 ## 8. Domain and hosting
 
