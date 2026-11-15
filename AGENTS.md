@@ -40,7 +40,10 @@ meant to be visible to anyone who views source.
 **Motion** (both modelled on cguti.xyz, both off under `prefers-reduced-motion`)
 - *Scramble* (`site.js`): links in `nav` and `.links`, every `button`, and anything with
   `data-scramble` shuffle through characters A–} (char codes 65–125, brackets included,
-  spaces held) once on page load and on every hover, 50 frames × 30 ms. Body text never
+  spaces held) the first time each comes into view (IntersectionObserver, so links
+  below the fold on phones scramble when scrolled to) and on every hover or tap,
+  50 frames × 30 ms. With the OS "Reduce Motion" / "Remove animations" setting on,
+  it is deliberately off; this is the usual reason it seems missing on a phone. Body text never
   scrambles. The name on the **CV** page must **not** scramble; on the home page it does.
 - *Entrance* (`style.css`, "Page entrance"): everything below the nav drops 15 px and fades
   in, 0.5 s after a 0.25 s delay, easing `cubic-bezier(.33,1,.68,1)`.
@@ -168,6 +171,9 @@ Steps:
 - At most `LOOKUPS_PER_RUN = 40` new searches per run (free-quota safety).
 - Photos from Numista are **linked, not copied**, and always shown with the
   contributor's credit. Own photos from Notion always take precedence.
+  Only Numista's 180 px thumbnails can be used: the full-size files answer 403 and
+  send `Cross-Origin-Resource-Policy: same-origin`, so browsers block them on this site.
+  A picture that fails to load falls back to the outline (`onerror` in `coins.js`).
 - Bump `CACHE_VERSION` whenever `facts()` starts keeping new fields; matches are kept,
   type details are refetched.
 
@@ -205,14 +211,21 @@ Mac, Python lacks CA certificates; prefix with `SSL_CERT_FILE=/etc/ssl/cert.pem`
   Australian pre-decimal, pfennig, euro notes).
 
 **`map.js`** (loaded with dynamic `import()` the first time the map is shown)
-- Levels: region anchors (fixed around the stage) → country hubs (sized by pieces) →
+- Levels: region anchors (fixed around the stage, not labelled; the panel names the
+  region) → country hubs (sized by pieces) →
   for countries with more than `SPLIT = 25` types, sub-groups by `era` or coins/notes
   (dashed rings) → type nodes (circle = coin, rectangle = note, sized by count, number
   inside from 3 up). Under "by decade", hubs are decades laid left to right.
 - Starts quiet: only hubs. Click a hub to open it, again to close. Click a type for a
   panel with its picture, summary and `[open →]` link.
-- Physics: springs to parent/anchor, short-range repulsion through a spatial grid
-  (`CELL = 90`), damping 0.8; the loop sleeps when nothing moves faster than 0.05 px/frame.
+- Physics: springs to parent/anchor (k 0.02), short-range repulsion through a spatial
+  grid (`CELL = 90`) capped at 3 per step, speed capped at `MAXV = 12` px/frame,
+  damping 0.8; the loop sleeps when nothing moves faster than 0.05 px/frame.
+  Hubs keep apart by their label width (`room()`), and stay fully inside the frame.
+  Nodes scale with the screen (`scale()`: 0.6 on phones up to 1 on laptops).
+  The caps matter: without them, pieces bursting from one point fling to the corners.
+- Touch: the `click` that follows a tap is swallowed (`pressed`), otherwise Android
+  Chrome retargets it to the SVG after the redraw and clears the selection.
 - Drag uses pointer capture; under 4 px of movement a press counts as a click.
 - Keyboard: every node is focusable and opens with Enter or Space.
 
@@ -231,6 +244,12 @@ split big countries by decade, show piece labels on hover only, and draw on one 
   module, strip `import` lines and `export` keywords, wrap in `(async function(){ … })`,
   and pass the text to `new Function(...)`.
 - Logic can be exercised the same way with stubbed `document`, `fetch` and data.
+- Real browsers: install Playwright into a throwaway virtualenv outside the repo
+  (`python3 -m venv …; pip install playwright; PLAYWRIGHT_BROWSERS_PATH=… playwright
+  install chromium webkit`, with `SSL_CERT_FILE=/etc/ssl/cert.pem` on this Mac) and test
+  the `iPhone SE`, `iPhone 15`, `Pixel 7` and `Desktop Chrome` device profiles, with
+  `reduced_motion` both on and off. Check: no horizontal overflow, no console errors,
+  scramble frames on load, map hub tap opens the country, list rows open, screenshots.
 - Always say in your report what you could not verify in a real browser.
 
 **Git**

@@ -220,7 +220,8 @@ def photos(t):
     out = {}
     for name, side in (("front", t.get("obverse") or {}), ("back", t.get("reverse") or {})):
         if side.get("picture"):
-            out[name] = {"full": side["picture"], "thumb": side.get("thumbnail") or side["picture"],
+            # Only the thumbnail can be shown on another site; the original answers 403.
+            out[name] = {"thumb": side.get("thumbnail") or side["picture"],
                          "credit": side.get("picture_copyright")}
     return out
 
