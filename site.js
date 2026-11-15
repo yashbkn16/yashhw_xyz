@@ -4,7 +4,10 @@
 // This is the only script on the home and CV pages.
 
 const TARGETS = 'nav a, .links a, button, [data-scramble]';
-const FRAMES = 50; // 50 frames × 30ms = 1.5s, whatever the length
+// 50 frames × 30 ms = 1.5 s, whatever the length. With the OS "Reduce Motion" setting
+// on (common on iPhones), it still runs, just briefly: letters change in place and
+// nothing moves, so it is a flicker, not motion. The slide-in entrance does stop.
+const FRAMES = matchMedia('(prefers-reduced-motion: reduce)').matches ? 12 : 50;
 
 // Random printable character from "A" (65) to "}" (125): letters plus [ \ ] ^ _ ` { | }
 const randomChar = () => String.fromCharCode(65 + Math.floor(Math.random() * 61));
@@ -25,15 +28,12 @@ function scramble(el) {
 // Each one scrambles the first time it comes into view (as the page opens for
 // anything on screen, while the content drops in; see "Page entrance" in
 // style.css), then again on every hover, or tap on a phone.
-// Skipped entirely for people who asked their OS for less motion.
-if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  const firstSight = new IntersectionObserver((entries) => {
-    for (const { target, isIntersecting } of entries) {
-      if (isIntersecting) { scramble(target); firstSight.unobserve(target); }
-    }
-  });
-  document.querySelectorAll(TARGETS).forEach((el) => {
-    firstSight.observe(el);
-    el.addEventListener('mouseenter', () => scramble(el));
-  });
-}
+const firstSight = new IntersectionObserver((entries) => {
+  for (const { target, isIntersecting } of entries) {
+    if (isIntersecting) { scramble(target); firstSight.unobserve(target); }
+  }
+});
+document.querySelectorAll(TARGETS).forEach((el) => {
+  firstSight.observe(el);
+  el.addEventListener('mouseenter', () => scramble(el));
+});
