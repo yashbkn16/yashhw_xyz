@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Instructions for any AI agent maintaining **yashhw.xyz**, the personal site of Yash Jain.
+Instructions for any AI agent maintaining **yashw.xyz**, the personal site of Yash Jain.
 The owner does not read the code. You are the maintainer. Read this file fully before
 changing anything, and keep it current: if you change how something works, update the
 matching section here in the same commit.
@@ -251,7 +251,7 @@ split big countries by decade, show piece labels on hover only, and draw on one 
 
 ## 8. Domain and hosting
 
-- `CNAME` contains the domain (`yashhw.xyz`). Registrar: Namecheap.
+- `CNAME` contains the domain (`yashw.xyz`, registered Nov 2026; the old `yashhw.xyz` lapsed). Registrar: Namecheap.
 - DNS for GitHub Pages: four `A` records on `@` → `185.199.108.153`, `185.199.109.153`,
   `185.199.110.153`, `185.199.111.153`; `CNAME` on `www` → `yashbkn16.github.io.`
 - If the domain lapses and is renewed, the registrar may have replaced these with a
