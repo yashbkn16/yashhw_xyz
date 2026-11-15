@@ -16,6 +16,7 @@ Runs daily from .github/workflows/sync.yml, or by hand:
 Standard library only; nothing to install.
 """
 
+import hashlib
 import html
 import unicodedata
 import json
@@ -396,11 +397,20 @@ def enrich(entries, key):
         # New matching rules or new fields: look everything up again (hand-set IDs come from Notion anyway).
         cache = {"version": CACHE_VERSION, "matches": {}, "types": {}, "issuers": cache.get("issuers", {})}
     quota.update(cache.get("quota") or {})
+    # The allowance belongs to the key. A new key (a new Numista account) starts at zero.
+    # Only a short one-way fingerprint is stored, never the key itself.
+    print_ = hashlib.sha256(key.encode()).hexdigest()[:8]
+    if quota.get("key") != print_:
+        quota.update(key=print_, calls=0)
     limited = False
     try:
         codes = cache.get("issuers") or {}
-        if not codes or any(e["country"].lower() not in codes for e in entries):
-            codes = cache["issuers"] = issuer_codes(key, {e["country"] for e in entries})
+        month = date.today().strftime("%Y-%m")
+        # Ask for Numista's country list when a country is new to us, but at most once a
+        # month: some names (e.g. "European Union") have no issuer code and never will.
+        if any(e["country"].lower() not in codes for e in entries) and cache.get("issuers_checked") != month:
+            codes.update(issuer_codes(key, {e["country"] for e in entries}))
+            cache["issuers"], cache["issuers_checked"] = codes, month
         lookup(entries, key, codes, cache, lookups_left=LOOKUPS_PER_RUN)
         prices(entries, key, cache)
     except (RateLimited, urllib.error.URLError, TimeoutError) as err:
@@ -460,7 +470,7 @@ def prices(entries, key, cache):
         tid, held = str(m["id"]), sorted(set(e.get("years") or []))
         old = store.get(tid)
         if old and (date.today() - date.fromisoformat(old["checked"])).days < PRICES_KEPT_DAYS \
-                and all(str(y) in old["years"] for y in held):
+                and all(str(y) in old.get("asked", old["years"]) for y in held):   # asked = even if Numista had no price
             continue
         if budget < 1 + max(1, len(held)) or quota["calls"] >= MONTHLY_BUDGET - PRICE_RESERVE:
             break
@@ -480,7 +490,7 @@ def prices(entries, key, cache):
             got = numista(f"/types/{tid}/issues/{issue['id']}/prices", key, currency="INR")
             if got.get("currency") == "INR" and got.get("prices"):
                 years_found[str(y)] = {p["grade"]: round(p["price"], 2) for p in got["prices"] if p.get("grade") in GRADES}
-        store[tid] = {"checked": date.today().isoformat(), "years": years_found}
+        store[tid] = {"checked": date.today().isoformat(), "asked": [str(y) for y in held], "years": years_found}
 
 
 def estimate(e, cache):
