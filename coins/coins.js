@@ -181,7 +181,13 @@ function credit(e) {
   const shown = [0, 1].map((n) => picture(e, n)).filter((p) => p?.numista);
   if (!shown.length) return '';
   const names = [...new Set(shown.map((p) => p.credit))].join(', ');
-  return `<p class="mono dim credit">photos: ${esc(names)} via <a href="${esc(e.numista.url)}">Numista</a></p>`;
+  const n = e.numista;
+  // When several catalogue types could be this one, say so and link the others.
+  const closest = n.match === 'closest'
+    ? `<br>closest catalogue type: <a href="${esc(n.url)}">${esc(n.title)}</a> (${esc(n.years ?? '')})${n.others?.length
+        ? `; could also be ${n.others.map((o) => `<a href="${esc(o.url)}">${esc(o.title)}</a> (${esc(o.years)})`).join(', ')}` : ''}`
+    : '';
+  return `<p class="mono dim credit">photos: ${esc(names)} via <a href="${esc(n.url)}">Numista</a>${closest}</p>`;
 }
 
 // "About this coin": the catalogue entry from Numista (saved by the sync),

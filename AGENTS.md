@@ -158,24 +158,45 @@ Steps:
 4. If `NUMISTA_KEY` is set, enrich with catalogue facts (below).
 5. Write `data/collection.json`, sorted by country, kind, face value.
 
-**Numista enrichment**
-- Cache in `data/numista.json`: `matches` (per Notion row: id, status, candidates),
-  `types` (facts per Numista type), `issuers` (country → Numista issuer code), `version`.
-- A row with a hand-set **Numista ID** always uses it.
-- Otherwise a new row is searched once: by denomination, filtered to the country's
-  issuer code (British India for `Era = British India`), excluding patterns/tokens/proofs,
-  requiring every held year to fall inside the type's years, then preferring titles that
-  share words with the Subject. Accepted only when exactly one candidate remains.
-- Uncertain rows get `status: "ambiguous"` and up to five `candidates` ("id: title (years)").
-  To resolve one, pick the right id and write it into the row's **Numista ID** in Notion.
-- At most `LOOKUPS_PER_RUN = 40` new searches per run (free-quota safety).
+**Numista enrichment** (goal: a photo for every type; "the closest type" is acceptable,
+the owner's words: *show any one and then link others*)
+- Cache in `data/numista.json`: `matches` (per Notion row id: `id`, `status`, `others`,
+  `name`, `checked`), `types` (facts per Numista type), `issuers` (country → issuer
+  code), `version`. `attach()` copies a type's facts onto each entry as `numista`, plus
+  `match` (status) and `others` (other likely types, with catalogue URLs).
+- A row with a hand-set **Numista ID** in Notion always wins (`status: "manual"`).
+- Otherwise `match()` searches once per new row, most specific first, and stops at the
+  first search that finds anything:
+  1. denomination + two subject words, with the held year (`year=` filter), in the country's issuer
+  2. denomination with the year · 3. denomination + subject words · 4. denomination · 5. without the issuer
+  Undated coins naming a reign use a year inside it (`REIGN_YEARS`: Rama IX → 2010,
+  Rama X → 2020; extend it for other reigns). Numista's `year` filter does **not** work
+  for banknotes.
+- Every candidate must have the **same denomination**: `denomination()` reduces both
+  sides to (number, 4-letter unit stem, cents?) — handling ½/¼/quarter/half, paisa/paise,
+  rupiya/rupee, piso/peso, dime → 10 cents, florin → 2 shilling, accents (Đồng), and
+  country adjectives ("2 Singapore Dollars"). Patterns, tokens, proofs, specimens are dropped.
+- Ranking: years fit (all held years inside the type) > words shared with the Subject
+  (regnal numbers count strongly: "Rama IX" ≠ "Rama X") > commemorative-vs-circulation
+  agrees with the row > has a photo > newest (for undated) > narrowest year span.
+  Undated rows only consider types issued after 1970 when any exist; an undated row whose
+  best match predates 1970 gets **no** match (a modern US $1 note must not show an 1850s
+  private bank note).
+- `status`: `exact` (years fit and nothing else ranks as well), `closest` (the best of
+  several; the site says so and links up to four `others`), `none`.
+- Quality as of Nov 2026: 154 of 175 types have a photo; the rest show the outline.
+  To fix one, put the right id in **Numista ID** in Notion.
+- Rate limits: the free key returns HTTP 429 after a few hundred calls in a burst.
+  Each call sleeps 0.25 s; on 429 the sync stops looking up for that run, **saves the cache
+  so far**, and the next run continues (`LOOKUPS_PER_RUN = 200`). Never delete
+  `data/numista.json` casually: rebuilding it costs ~3 calls per type. If you must change
+  matching rules, bump `CACHE_VERSION` (clears matches and types) and expect the full
+  re-lookup to take more than one run.
 - Photos from Numista are **linked, not copied**, and always shown with the
   contributor's credit. Own photos from Notion always take precedence.
   Only Numista's 180 px thumbnails can be used: the full-size files answer 403 and
   send `Cross-Origin-Resource-Policy: same-origin`, so browsers block them on this site.
   A picture that fails to load falls back to the outline (`onerror` in `coins.js`).
-- Bump `CACHE_VERSION` whenever `facts()` starts keeping new fields; matches are kept,
-  type details are refetched.
 
 **Secrets** (GitHub → Settings → Secrets and variables → Actions):
 `NOTION_TOKEN` (read-only Notion integration `yashhw-sync`, connected to the database)
@@ -250,6 +271,10 @@ split big countries by decade, show piece labels on hover only, and draw on one 
   the `iPhone SE`, `iPhone 15`, `Pixel 7` and `Desktop Chrome` device profiles, with
   `reduced_motion` both on and off. Check: no horizontal overflow, no console errors,
   scramble frames on load, map hub tap opens the country, list rows open, screenshots.
+- **Photos**: count them, don't just look for errors. Open every list group, scroll so lazy
+  images load, and compare `img.face` with `naturalWidth > 0` against the number of
+  entries that have `photos` or `numista.photos`; also open a sample of piece pages.
+  A test that only checks for console errors will miss missing photos (this happened).
 - Always say in your report what you could not verify in a real browser.
 
 **Git**
